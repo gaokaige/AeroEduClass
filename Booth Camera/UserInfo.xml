@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<INFO>
+<ip>192.168.5.3<ip2>192.168.5.3</ip2>
+<DEVICENAME>Booth Camera</DEVICENAME>
+<nTotalChannel>1</nTotalChannel>
+<username>admin</username>
+<port>34567</port>
+<pwd>admin</pwd>
+<byChanNum>1</byChanNum>
+<lID>0</lID>
+<bSerialID>0</bSerialID>
+<szSerIP/>
+<nSerPort>0</nSerPort>
+<szSerialInfo/>
+</ip>
+<path>D:\实物展台录制文件\</path>
+</INFO>
+<!--注意:该文件为GB2312编码-->

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://service.meeting.acenter.iactive.com.cn" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://service.meeting.acenter.iactive.com.cn" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>iactiveMeetingService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://service.meeting.acenter.iactive.com.cn">
+      <xs:element name="setMeetingRole">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" type="xs:int" />
+            <xs:element minOccurs="0" name="args1" type="xs:long" />
+            <xs:element minOccurs="0" name="args2" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args3" type="xs:int" />
+            <xs:element minOccurs="0" name="args4" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args5" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="setMeetingRoleResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="setDevicePerm">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args2" type="xs:int" />
+            <xs:element minOccurs="0" name="args3" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args4" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args5" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="setDevicePermResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="roomPermOperate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args2" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="roomPermOperateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="roomOperate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args2" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="roomOperateResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="iactiveMeetingList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args2" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="iactiveMeetingListResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAuthGuidWithTime">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args1" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args2" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAuthGuidWithTimeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAuthGuid">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="args0" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="args1" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAuthGuidResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="roomOperateRequest">
+    <wsdl:part name="parameters" element="ns:roomOperate" />
+  </wsdl:message>
+  <wsdl:message name="roomOperateResponse">
+    <wsdl:part name="parameters" element="ns:roomOperateResponse" />
+  </wsdl:message>
+  <wsdl:message name="setDevicePermRequest">
+    <wsdl:part name="parameters" element="ns:setDevicePerm" />
+  </wsdl:message>
+  <wsdl:message name="setDevicePermResponse">
+    <wsdl:part name="parameters" element="ns:setDevicePermResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAuthGuidRequest">
+    <wsdl:part name="parameters" element="ns:getAuthGuid" />
+  </wsdl:message>
+  <wsdl:message name="getAuthGuidResponse">
+    <wsdl:part name="parameters" element="ns:getAuthGuidResponse" />
+  </wsdl:message>
+  <wsdl:message name="iactiveMeetingListRequest">
+    <wsdl:part name="parameters" element="ns:iactiveMeetingList" />
+  </wsdl:message>
+  <wsdl:message name="iactiveMeetingListResponse">
+    <wsdl:part name="parameters" element="ns:iactiveMeetingListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAuthGuidWithTimeRequest">
+    <wsdl:part name="parameters" element="ns:getAuthGuidWithTime" />
+  </wsdl:message>
+  <wsdl:message name="getAuthGuidWithTimeResponse">
+    <wsdl:part name="parameters" element="ns:getAuthGuidWithTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="roomPermOperateRequest">
+    <wsdl:part name="parameters" element="ns:roomPermOperate" />
+  </wsdl:message>
+  <wsdl:message name="roomPermOperateResponse">
+    <wsdl:part name="parameters" element="ns:roomPermOperateResponse" />
+  </wsdl:message>
+  <wsdl:message name="setMeetingRoleRequest">
+    <wsdl:part name="parameters" element="ns:setMeetingRole" />
+  </wsdl:message>
+  <wsdl:message name="setMeetingRoleResponse">
+    <wsdl:part name="parameters" element="ns:setMeetingRoleResponse" />
+  </wsdl:message>
+  <wsdl:portType name="iactiveMeetingServicePortType">
+    <wsdl:operation name="roomOperate">
+      <wsdl:input wsaw:Action="urn:roomOperate" message="ns:roomOperateRequest" />
+      <wsdl:output wsaw:Action="urn:roomOperateResponse" message="ns:roomOperateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="setDevicePerm">
+      <wsdl:input wsaw:Action="urn:setDevicePerm" message="ns:setDevicePermRequest" />
+      <wsdl:output wsaw:Action="urn:setDevicePermResponse" message="ns:setDevicePermResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAuthGuid">
+      <wsdl:input wsaw:Action="urn:getAuthGuid" message="ns:getAuthGuidRequest" />
+      <wsdl:output wsaw:Action="urn:getAuthGuidResponse" message="ns:getAuthGuidResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="iactiveMeetingList">
+      <wsdl:input wsaw:Action="urn:iactiveMeetingList" message="ns:iactiveMeetingListRequest" />
+      <wsdl:output wsaw:Action="urn:iactiveMeetingListResponse" message="ns:iactiveMeetingListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAuthGuidWithTime">
+      <wsdl:input wsaw:Action="urn:getAuthGuidWithTime" message="ns:getAuthGuidWithTimeRequest" />
+      <wsdl:output wsaw:Action="urn:getAuthGuidWithTimeResponse" message="ns:getAuthGuidWithTimeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="roomPermOperate">
+      <wsdl:input wsaw:Action="urn:roomPermOperate" message="ns:roomPermOperateRequest" />
+      <wsdl:output wsaw:Action="urn:roomPermOperateResponse" message="ns:roomPermOperateResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="setMeetingRole">
+      <wsdl:input wsaw:Action="urn:setMeetingRole" message="ns:setMeetingRoleRequest" />
+      <wsdl:output wsaw:Action="urn:setMeetingRoleResponse" message="ns:setMeetingRoleResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="iactiveMeetingServiceSoap11Binding" type="ns:iactiveMeetingServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="roomOperate">
+      <soap:operation soapAction="urn:roomOperate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setDevicePerm">
+      <soap:operation soapAction="urn:setDevicePerm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="iactiveMeetingList">
+      <soap:operation soapAction="urn:iactiveMeetingList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAuthGuid">
+      <soap:operation soapAction="urn:getAuthGuid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAuthGuidWithTime">
+      <soap:operation soapAction="urn:getAuthGuidWithTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setMeetingRole">
+      <soap:operation soapAction="urn:setMeetingRole" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="roomPermOperate">
+      <soap:operation soapAction="urn:roomPermOperate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="iactiveMeetingServiceSoap12Binding" type="ns:iactiveMeetingServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="roomOperate">
+      <soap12:operation soapAction="urn:roomOperate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setDevicePerm">
+      <soap12:operation soapAction="urn:setDevicePerm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="iactiveMeetingList">
+      <soap12:operation soapAction="urn:iactiveMeetingList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAuthGuid">
+      <soap12:operation soapAction="urn:getAuthGuid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAuthGuidWithTime">
+      <soap12:operation soapAction="urn:getAuthGuidWithTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setMeetingRole">
+      <soap12:operation soapAction="urn:setMeetingRole" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="roomPermOperate">
+      <soap12:operation soapAction="urn:roomPermOperate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="iactiveMeetingServiceHttpBinding" type="ns:iactiveMeetingServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="roomOperate">
+      <http:operation location="roomOperate" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setDevicePerm">
+      <http:operation location="setDevicePerm" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="iactiveMeetingList">
+      <http:operation location="iactiveMeetingList" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAuthGuid">
+      <http:operation location="getAuthGuid" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAuthGuidWithTime">
+      <http:operation location="getAuthGuidWithTime" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setMeetingRole">
+      <http:operation location="setMeetingRole" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="roomPermOperate">
+      <http:operation location="roomPermOperate" />
+      <wsdl:input>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="iactiveMeetingService">
+    <wsdl:port name="iactiveMeetingServiceHttpSoap11Endpoint" binding="ns:iactiveMeetingServiceSoap11Binding">
+      <soap:address location="http://www.aero-edu.com:8081/services/iactiveMeetingService.iactiveMeetingServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="iactiveMeetingServiceHttpSoap12Endpoint" binding="ns:iactiveMeetingServiceSoap12Binding">
+      <soap12:address location="http://www.aero-edu.com:8081/services/iactiveMeetingService.iactiveMeetingServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="iactiveMeetingServiceHttpEndpoint" binding="ns:iactiveMeetingServiceHttpBinding">
+      <http:address location="http://www.aero-edu.com:8081/services/iactiveMeetingService.iactiveMeetingServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

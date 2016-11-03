@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <projectPath>D:\录播录制文件</projectPath>
+  <teacherRtspSource>
+    <rtspFormat>rtsp://192.168.5.4/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp?real_stream</rtspFormat>
+    <videoInput>1</videoInput>
+    <audioInput>0</audioInput>
+  </teacherRtspSource>
+  <studentRtspSource>
+    <rtspFormat>rtsp://192.168.5.5/user=admin_password=tlJwpbo6_channel=1_stream=0.sdp?real_stream</rtspFormat>
+    <videoInput>1</videoInput>
+    <audioInput>0</audioInput>
+  </studentRtspSource>
+  <screenSource>
+    <videoInput>1</videoInput>
+    <audioInput>1</audioInput>
+  </screenSource>
+  <screenFrameRate>300</screenFrameRate>
+</config>

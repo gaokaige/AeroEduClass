@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <projectPath>D:\实物展台录制文件</projectPath>
+  <rtspSource>
+    <rtspFormat>rtsp://192.168.5.3:8557/Onvif/Streaming/2?videoCodecType=H.264</rtspFormat>
+  </rtspSource>
+  <!--批注保存的时间间隔-->
+  <SaveCommentInterval>3</SaveCommentInterval>
+  <!--允许保存批注的最大数量-->
+  <MaxCommentImageCount>10</MaxCommentImageCount>
+  <!--学科-->
+  <Subjects>语文|数学|英语|品德与生活|科学|音乐|美术|信息技术|综合实践</Subjects>
+</config>

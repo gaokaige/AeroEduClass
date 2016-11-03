@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!--登录页地址-->
+  <LoginPageUrl>http://localhost:8089/login.html</LoginPageUrl>
+  <!--首页地址-->
+  <HomePageUrl>http://localhost:8089/html/ajax/index.html#page/index</HomePageUrl>
+  <PostServer>http://localhost:8089/JsonServler</PostServer>
+  <!--名博优课-->
+  <MingboUClass>D:\航天优课智慧教学系统v4.0.2.13740\Teacher.exe</MingboUClass>
+  <!--录播应用程序路径-->
+  <RecordPlayPath>Record Player\Record Player.exe</RecordPlayPath>
+  <!--实物展台应用程序路径-->
+  <BoothCameraPath>Booth Camera\Booth Camera.exe</BoothCameraPath>
+  <!--同频互动网址-->
+  <ActivePath>http://localhost:8089/html/ajax/index.html#page/getWdMeetingList</ActivePath>
+  <!--电子白板应用程序路径-->
+  <AeroBoardPath>C:\Program Files (x86)\航天云白板软件\DonviewBoard.exe</AeroBoardPath>
+  <!--直播页面地址-->
+  <LiveServer>http://localhost:8089/html/ajax/index.html#page/videoStartCourse</LiveServer>
+  <!--归属查询服务器-->
+  <AscriptionServer>http://139.129.223.76/CloudPlatform/findClassInfoByMac.do?macAddress=</AscriptionServer>
+  <!--本地查询文件，当网络获取不到归属时使用-->
+  <AscriptionFilePath>D:\AeroEduPlatform\AeroEduPlatform.exe.config</AscriptionFilePath>
+  <!--是否在主界面上显示名博优课，true显示，false不显示-->
+  <UseUKe>false</UseUKe>
+</config>
