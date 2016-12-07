@@ -113,6 +113,16 @@ namespace AeroEduClass.NoGui
             set { _useUKe = value; }
         }
 
+        string _attitudePath;
+        /// <summary>
+        /// 航天云态度表达软件的路径
+        /// </summary>
+        public string AttitudePath
+        {
+            get { return _attitudePath; }
+            set { _attitudePath = value; }
+        }
+
         public Config()
         {
             XmlDocument xd = new XmlDocument();
@@ -123,6 +133,7 @@ namespace AeroEduClass.NoGui
             _boothCameraPath = xd.SelectSingleNode("/config/BoothCameraPath").InnerText;
             _activePath = xd.SelectSingleNode("/config/ActivePath").InnerText;
             _aeroBoardPath = xd.SelectSingleNode("/config/AeroBoardPath").InnerText;
+            _attitudePath = xd.SelectSingleNode("/config/AttitudePath").InnerText;
             _liveServer = xd.SelectSingleNode("/config/LiveServer").InnerText;
             _ascriptionServer = xd.SelectSingleNode("/config/AscriptionServer").InnerText;
             _ascriptionFilePath = xd.SelectSingleNode("/config/AscriptionFilePath").InnerText;

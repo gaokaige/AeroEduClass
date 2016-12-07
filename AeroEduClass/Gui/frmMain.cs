@@ -41,7 +41,7 @@ namespace AeroEduClass.Gui
                 Dock = DockStyle.Fill,
             };
 #else
-            browser = new ChromiumWebBrowser("http://192.168.0.108:8080/ROOT/login.html")
+            browser = new ChromiumWebBrowser("http://192.168.0.112:8080/ROOT/login.html")
             {
                 Dock = DockStyle.Fill,
             };
@@ -194,6 +194,10 @@ namespace AeroEduClass.Gui
             // jsonMsg中含有名博的token，需要获取
             mingBoToken = GetMingBoToken(jsonMsg);
             ALog.ToDB("登录");
+            // 启动态度表达软件
+            string teacherID = GetTeacherID(jsonMsg);
+            string args = AeroEduLib.GetSystemInfo.GetLoaclMac() + " " + teacherID;
+            AppButtonClick(config.AttitudePath, PathType.相对路径, args);
         }
 
         private string GetMingBoToken(string jsonMsg)
@@ -209,6 +213,21 @@ namespace AeroEduClass.Gui
             catch (Exception exc) { ALog.ToDB("名博秘钥获取错误:" + exc.Message); }
             return token;
         }
+
+        private string GetTeacherID(string jsonMsg)
+        {
+            string token = string.Empty;
+            try
+            {
+                JObject jo = (JObject)JsonConvert.DeserializeObject(jsonMsg);
+                JToken jtAction;
+                if (jo.TryGetValue("userID", out jtAction))
+                    token = jtAction.ToString();
+            }
+            catch (Exception exc) { ALog.ToDB("教师ID获取错误:" + exc.Message); }
+            return token;
+        }
+
         /// <summary>
         /// 关闭程序
         /// </summary>
@@ -332,7 +351,7 @@ namespace AeroEduClass.Gui
                     p.StartInfo.Arguments = args;//传递的参数 
                 p.Start();//启动  
                 ALog.ToDB(string.Format("启动应用程序[{0}]", appPath));
-                this.WindowState = FormWindowState.Minimized;
+                //this.WindowState = FormWindowState.Minimized;
             }
             catch (Exception exc) { MessageBox.Show(exc.Message); }
         }

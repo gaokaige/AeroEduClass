@@ -15,6 +15,7 @@
   <ActivePath>http://localhost:8089/html/ajax/index.html#page/getWdMeetingList</ActivePath>
   <!--电子白板应用程序路径-->
   <AeroBoardPath>C:\Program Files (x86)\航天云白板软件\DonviewBoard.exe</AeroBoardPath>
+  <AttitudePath>Attitude\航天云态度表达.exe</AttitudePath>
   <!--直播页面地址-->
   <LiveServer>http://localhost:8089/html/ajax/index.html#page/videoStartCourse</LiveServer>
   <!--归属查询服务器-->
