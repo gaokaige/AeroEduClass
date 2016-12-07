@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStudent));
             this.btnClose = new DMSkin.Controls.DMButtonClose();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,11 +38,11 @@
             this.lbRealTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.btnMin = new DMSkin.Controls.DMButtonMin();
-            this.realTimeCharPie1 = new 航天云态度表达.UserControls.RealTimeCharPie();
             this.btnReset = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnStart = new System.Windows.Forms.Button();
+            this.realTimeCharPie1 = new 航天云态度表达.UserControls.RealTimeCharPie();
             this.SuspendLayout();
             // 
             // btnClose
@@ -121,13 +122,6 @@
             this.btnMin.TabIndex = 14;
             this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
-            // realTimeCharPie1
-            // 
-            this.realTimeCharPie1.Location = new System.Drawing.Point(320, 96);
-            this.realTimeCharPie1.Name = "realTimeCharPie1";
-            this.realTimeCharPie1.Size = new System.Drawing.Size(245, 262);
-            this.realTimeCharPie1.TabIndex = 13;
-            // 
             // btnReset
             // 
             this.btnReset.BackgroundImage = global::航天云态度表达.Properties.Resources.删除;
@@ -174,6 +168,13 @@
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
+            // realTimeCharPie1
+            // 
+            this.realTimeCharPie1.Location = new System.Drawing.Point(320, 96);
+            this.realTimeCharPie1.Name = "realTimeCharPie1";
+            this.realTimeCharPie1.Size = new System.Drawing.Size(245, 262);
+            this.realTimeCharPie1.TabIndex = 13;
+            // 
             // FrmStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -193,8 +194,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmStudent";
-            this.ShowIcon = false;
             this.Text = "生评生";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmStudent_FormClosing);
             this.Load += new System.EventHandler(this.FrmStudent_Load);

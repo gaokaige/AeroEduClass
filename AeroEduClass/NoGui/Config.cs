@@ -122,7 +122,15 @@ namespace AeroEduClass.NoGui
             get { return _attitudePath; }
             set { _attitudePath = value; }
         }
-
+        bool _useAttitude;
+        /// <summary>
+        /// 是否启用航天云态度表达软件
+        /// </summary>
+        public bool UseAttitude
+        {
+            get { return _useAttitude; }
+            set { _useAttitude = value; }
+        }
         public Config()
         {
             XmlDocument xd = new XmlDocument();
@@ -141,7 +149,9 @@ namespace AeroEduClass.NoGui
             _postServer = xd.SelectSingleNode("/config/PostServer").InnerText;
             bool uke = false;
             bool.TryParse(xd.SelectSingleNode("/config/UseUKe").InnerText, out uke);
-            _useUKe = uke;
+            bool uAtt = false;
+            bool.TryParse(xd.SelectSingleNode("/config/UseAttitude").InnerText, out uAtt);
+            _useAttitude = uAtt;
         }
     }
 }

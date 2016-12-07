@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTeacher));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -36,8 +37,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.dmButtonClose1 = new DMSkin.Controls.DMButtonClose();
-            this.realTimeChartLine1 = new 航天云态度表达.UserControls.RealTimeChartLine();
             this.dmButtonMin1 = new DMSkin.Controls.DMButtonMin();
+            this.realTimeChartLine1 = new 航天云态度表达.UserControls.RealTimeChartLine();
             this.SuspendLayout();
             // 
             // label1
@@ -105,6 +106,14 @@
             this.dmButtonClose1.TabIndex = 14;
             this.dmButtonClose1.Click += new System.EventHandler(this.dmButtonClose1_Click);
             // 
+            // dmButtonMin1
+            // 
+            this.dmButtonMin1.BackColor = System.Drawing.Color.Transparent;
+            this.dmButtonMin1.Location = new System.Drawing.Point(728, 572);
+            this.dmButtonMin1.Name = "dmButtonMin1";
+            this.dmButtonMin1.Size = new System.Drawing.Size(30, 27);
+            this.dmButtonMin1.TabIndex = 15;
+            // 
             // realTimeChartLine1
             // 
             this.realTimeChartLine1.BackColor = System.Drawing.Color.Transparent;
@@ -113,14 +122,6 @@
             this.realTimeChartLine1.Name = "realTimeChartLine1";
             this.realTimeChartLine1.Size = new System.Drawing.Size(722, 422);
             this.realTimeChartLine1.TabIndex = 0;
-            // 
-            // dmButtonMin1
-            // 
-            this.dmButtonMin1.BackColor = System.Drawing.Color.Transparent;
-            this.dmButtonMin1.Location = new System.Drawing.Point(728, 572);
-            this.dmButtonMin1.Name = "dmButtonMin1";
-            this.dmButtonMin1.Size = new System.Drawing.Size(30, 27);
-            this.dmButtonMin1.TabIndex = 15;
             // 
             // FrmTeacher
             // 
@@ -136,8 +137,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.realTimeChartLine1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmTeacher";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "生评师";
             this.Load += new System.EventHandler(this.FrmTeacher_Load);

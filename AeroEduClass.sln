@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Record Player", "lubo2012\R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AeroEduClass", "AeroEduClass\AeroEduClass.csproj", "{1D3DC8D4-9B9C-43FF-8A41-06BC3E2BCCC3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53F5210D-9158-472A-9BF6-C05BB92F039F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{53F5210D-9158-472A-9BF6-C05BB92F039F}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.txt = Readme.txt
 	EndProjectSection

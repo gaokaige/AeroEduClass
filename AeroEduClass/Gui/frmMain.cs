@@ -100,7 +100,7 @@ namespace AeroEduClass.Gui
             browser.LoadingStateChanged += browser_LoadingStateChanged;
         }
 
-        void aeroRequestHandler_OnStartMeeting(string jsonMsg)
+        private void aeroRequestHandler_OnStartMeeting(string jsonMsg)
         {
             Process p = Process.Start("iexplore", jsonMsg);
             System.Threading.Thread.Sleep(3000);
@@ -109,7 +109,7 @@ namespace AeroEduClass.Gui
             ALog.ToDB("进入教室:" + jsonMsg);
         }
 
-        void aeroRequestHandler_OnOpenFile(string filePath)
+        private void aeroRequestHandler_OnOpenFile(string filePath)
         {
             FileOpen(filePath);
             ALog.ToDB("打开资源:" + filePath);
@@ -130,7 +130,7 @@ namespace AeroEduClass.Gui
             catch (Exception exc) { MessageBox.Show(exc.Message); }
         }
 
-        void browser_LoadingStateChanged(object sender, CefSharp.LoadingStateChangedEventArgs e)
+        private void browser_LoadingStateChanged(object sender, CefSharp.LoadingStateChangedEventArgs e)
         {
             SetCanGoBack(e.CanGoBack);
             SetCanGoForward(e.CanGoForward);
@@ -158,7 +158,7 @@ namespace AeroEduClass.Gui
             this.InvokeOnUiThreadIfRequired(() => forwardButton.Enabled = canGoForward);
         }
 
-        void browser_AddressChanged(object sender, CefSharp.AddressChangedEventArgs e)
+        private void browser_AddressChanged(object sender, CefSharp.AddressChangedEventArgs e)
         {
             currentUrl = e.Address;
         }
@@ -181,6 +181,8 @@ namespace AeroEduClass.Gui
             this.InvokeOnUiThreadIfRequired(() => plButtonList.Enabled = false);
             browser.Load(string.Format("javascript:bridge.callBack('{0}')", jsonMsg));
             ALog.ToDB("登出");
+            if (config.UseAttitude)
+                ExitAttitude();
         }
         string mingBoToken = string.Empty;
         /// <summary>
@@ -195,9 +197,12 @@ namespace AeroEduClass.Gui
             mingBoToken = GetMingBoToken(jsonMsg);
             ALog.ToDB("登录");
             // 启动态度表达软件
-            string teacherID = GetTeacherID(jsonMsg);
-            string args = AeroEduLib.GetSystemInfo.GetLoaclMac() + " " + teacherID;
-            AppButtonClick(config.AttitudePath, PathType.相对路径, args);
+            if (config.UseAttitude)
+            {
+                string teacherID = GetTeacherID(jsonMsg);
+                string args = AeroEduLib.GetSystemInfo.GetLoaclMac() + " " + teacherID;
+                AppButtonClick(config.AttitudePath, PathType.相对路径, args);
+            }
         }
 
         private string GetMingBoToken(string jsonMsg)
@@ -213,7 +218,11 @@ namespace AeroEduClass.Gui
             catch (Exception exc) { ALog.ToDB("名博秘钥获取错误:" + exc.Message); }
             return token;
         }
-
+        /// <summary>
+        /// 登录后后去教师ID
+        /// </summary>
+        /// <param name="jsonMsg"></param>
+        /// <returns></returns>
         private string GetTeacherID(string jsonMsg)
         {
             string token = string.Empty;
@@ -227,7 +236,6 @@ namespace AeroEduClass.Gui
             catch (Exception exc) { ALog.ToDB("教师ID获取错误:" + exc.Message); }
             return token;
         }
-
         /// <summary>
         /// 关闭程序
         /// </summary>
@@ -235,8 +243,26 @@ namespace AeroEduClass.Gui
         /// <param name="e"></param>
         private void dmButtonClose1_Click(object sender, System.EventArgs e)
         {
+            // 退出态度表达软件
+            if (config.UseAttitude)
+                ExitAttitude();
+            // 退出课联网
             ALog.ToDB("退出课联网主程序");
             Application.Exit();
+        }
+        /// <summary>
+        /// 退出态度表达软件
+        /// </summary>
+        private void ExitAttitude()
+        {
+            Process[] ps = Process.GetProcesses();
+            foreach (Process item in ps)
+            {
+                if (item.ProcessName == "航天云态度表达")
+                {
+                    item.Kill();
+                }
+            }
         }
         /// <summary>
         /// 最小化

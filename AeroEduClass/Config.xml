@@ -15,11 +15,14 @@
   <ActivePath>http://localhost:8089/html/ajax/index.html#page/getWdMeetingList</ActivePath>
   <!--电子白板应用程序路径-->
   <AeroBoardPath>C:\Program Files (x86)\航天云白板软件\DonviewBoard.exe</AeroBoardPath>
+  <!--是否启用态度表达软件 true/false-->
+  <UseAttitude>true</UseAttitude>
+  <!--航天云态度表达软件路径-->
   <AttitudePath>Attitude\航天云态度表达.exe</AttitudePath>
   <!--直播页面地址-->
   <LiveServer>http://localhost:8089/html/ajax/index.html#page/videoStartCourse</LiveServer>
   <!--归属查询服务器-->
-  <AscriptionServer>http://139.129.223.76/CloudPlatform/findClassInfoByMac.do?macAddress=</AscriptionServer>
+  <AscriptionServer>http://aero-educloud.com/CloudPlatform/findClassInfoByMac.do?macAddress=</AscriptionServer>
   <!--本地查询文件，当网络获取不到归属时使用-->
   <AscriptionFilePath>D:\AeroEduPlatform\AeroEduPlatform.exe.config</AscriptionFilePath>
   <!--是否在主界面上显示名博优课，true显示，false不显示-->

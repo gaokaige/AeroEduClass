@@ -28,18 +28,5 @@
 		</TaggedOutputs> -->
 	</ItemGroup>
 	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2013Limited\InstallShield.targets"/>
-	<ItemGroup>
-		<ProjectReference Include="..\AeroEduClass\AeroEduClass.csproj">
-			<Name>AeroEduClass</Name>
-			<Project>{1D3DC8D4-9B9C-43FF-8A41-06BC3E2BCCC3}</Project>
-		</ProjectReference>
-		<ProjectReference Include="..\Booth Camera\Booth Camera.csproj">
-			<Name>Booth Camera</Name>
-			<Project>{06971FC7-465D-41B8-AAAE-5DFBE68A4BD4}</Project>
-		</ProjectReference>
-		<ProjectReference Include="..\lubo2012\Record Player.csproj">
-			<Name>Record Player</Name>
-			<Project>{CA0B2CD0-AE60-4B99-A75B-25B1F5ABA9A4}</Project>
-		</ProjectReference>
-	</ItemGroup>
+	<ItemGroup/>
 </Project>

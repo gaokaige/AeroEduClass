@@ -107,14 +107,15 @@ namespace 航天云态度表达.Gui
         /// </summary>
         private void plSign_Click(object sender, EventArgs e)
         {
-            frmTea.DrawFlag();
+            if (IsTeacherEvaluate)
+                frmTea.DrawFlag();
         }
         /// <summary>
         /// 查看实时统计
         /// </summary>
         private void plReadTime_Click(object sender, EventArgs e)
         {
-            if (frmFloat != null)
+            if (IsTeacherEvaluate && frmFloat != null)
                 frmTea.Show();
         }
     }
