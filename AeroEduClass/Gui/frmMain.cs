@@ -28,6 +28,8 @@ namespace AeroEduClass.Gui
             ALog.ToDB("启动主程序");
             InitializeComponent();
             btnMingBo.Visible = config.UseUKe;
+            btnYcgk.Visible = config.UseYCGK;
+            btnLive.Visible = config.UseYCBK;
             //设置cache目录到当前bin/debug目录
             var celSet = new CefSettings();
 
@@ -437,6 +439,11 @@ namespace AeroEduClass.Gui
                 MessageBox.Show(exc.Message);
                 ALog.ToDB(string.Format("apppath:{0}####param:{1}", appPath, appParams));
             }
+        }
+
+        private void plIcon_DoubleClick(object sender, EventArgs e)
+        {
+
         }
     }
 }

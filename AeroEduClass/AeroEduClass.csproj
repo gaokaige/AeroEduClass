@@ -97,6 +97,12 @@
     <Compile Include="Gui\frmReg.Designer.cs">
       <DependentUpon>frmReg.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gui\frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gui\frmSetting.Designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
     <Compile Include="NoGui\AeroMenuHandler.cs" />
     <Compile Include="NoGui\AeroRequestHandler.cs" />
     <Compile Include="NoGui\ALog.cs" />
@@ -115,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gui\frmReg.resx">
       <DependentUpon>frmReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gui\frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -114,6 +114,7 @@
             this.plIcon.Name = "plIcon";
             this.plIcon.Size = new System.Drawing.Size(122, 46);
             this.plIcon.TabIndex = 1;
+            this.plIcon.DoubleClick += new System.EventHandler(this.plIcon_DoubleClick);
             // 
             // plTools
             // 

@@ -1,4 +1,6 @@
-﻿using System.Xml;
+﻿using System;
+using System.Windows.Forms;
+using System.Xml;
 
 namespace AeroEduClass.NoGui
 {
@@ -131,27 +133,91 @@ namespace AeroEduClass.NoGui
             get { return _useAttitude; }
             set { _useAttitude = value; }
         }
+
+        bool _useCCLive;
+        /// <summary>
+        /// 是否启用CCLive课程直播
+        /// </summary>
+        public bool UseCCLive
+        {
+            get { return _useCCLive; }
+            set { _useCCLive = value; }
+        }
+        string _cCLiveServer;
+        /// <summary>
+        /// CCLive课程直播服务地址
+        /// </summary>
+        public string CCLiveServer
+        {
+            get { return _cCLiveServer; }
+            set { _cCLiveServer = value; }
+        }
+        bool useYCGK;
+        /// <summary>
+        /// 是否启用远程观课
+        /// </summary>
+        public bool UseYCGK
+        {
+            get { return useYCGK; }
+            set { useYCGK = value; }
+        }
+        bool useYCBK;
+        /// <summary>
+        /// 是否启用远程播课
+        /// </summary>
+        public bool UseYCBK
+        {
+            get { return useYCBK; }
+            set { useYCBK = value; }
+        }
         public Config()
         {
+            try
+            {
+                XmlDocument xd = new XmlDocument();
+                xd.Load(System.AppDomain.CurrentDomain.BaseDirectory + "Config.xml");
+                _loginPageUrl = xd.SelectSingleNode("/config/LoginPageUrl").InnerText;
+                _homePageUrl = xd.SelectSingleNode("/config/HomePageUrl").InnerText;
+                _recordPlayPath = xd.SelectSingleNode("/config/RecordPlayPath").InnerText;
+                _boothCameraPath = xd.SelectSingleNode("/config/BoothCameraPath").InnerText;
+                _activePath = xd.SelectSingleNode("/config/ActivePath").InnerText;
+                _aeroBoardPath = xd.SelectSingleNode("/config/AeroBoardPath").InnerText;
+                _attitudePath = xd.SelectSingleNode("/config/AttitudePath").InnerText;
+                _liveServer = xd.SelectSingleNode("/config/LiveServer").InnerText;
+                _ascriptionServer = xd.SelectSingleNode("/config/AscriptionServer").InnerText;
+                _ascriptionFilePath = xd.SelectSingleNode("/config/AscriptionFilePath").InnerText;
+                _mingBoUClass = xd.SelectSingleNode("/config/MingboUClass").InnerText;
+                _postServer = xd.SelectSingleNode("/config/PostServer").InnerText;
+                bool uke = false;
+                bool.TryParse(xd.SelectSingleNode("/config/UseUKe").InnerText, out uke);
+                bool uAtt = false;
+                bool.TryParse(xd.SelectSingleNode("/config/UseAttitude").InnerText, out uAtt);
+                _useAttitude = uAtt;
+                bool uCCLive = false;
+                bool.TryParse(xd.SelectSingleNode("/config/UseCCLive").InnerText, out uCCLive);
+                _cCLiveServer = xd.SelectSingleNode("/config/CCLiveServer").InnerText;
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show("配置文件错误，请检查");
+                throw exc;
+            }
+        }
+
+        public static void Setting(string key ,string value)
+        {
+            string file = System.AppDomain.CurrentDomain.BaseDirectory + "Config.xml";
             XmlDocument xd = new XmlDocument();
-            xd.Load(System.AppDomain.CurrentDomain.BaseDirectory + "Config.xml");
-            _loginPageUrl = xd.SelectSingleNode("/config/LoginPageUrl").InnerText;
-            _homePageUrl = xd.SelectSingleNode("/config/HomePageUrl").InnerText;
-            _recordPlayPath = xd.SelectSingleNode("/config/RecordPlayPath").InnerText;
-            _boothCameraPath = xd.SelectSingleNode("/config/BoothCameraPath").InnerText;
-            _activePath = xd.SelectSingleNode("/config/ActivePath").InnerText;
-            _aeroBoardPath = xd.SelectSingleNode("/config/AeroBoardPath").InnerText;
-            _attitudePath = xd.SelectSingleNode("/config/AttitudePath").InnerText;
-            _liveServer = xd.SelectSingleNode("/config/LiveServer").InnerText;
-            _ascriptionServer = xd.SelectSingleNode("/config/AscriptionServer").InnerText;
-            _ascriptionFilePath = xd.SelectSingleNode("/config/AscriptionFilePath").InnerText;
-            _mingBoUClass = xd.SelectSingleNode("/config/MingboUClass").InnerText;
-            _postServer = xd.SelectSingleNode("/config/PostServer").InnerText;
-            bool uke = false;
-            bool.TryParse(xd.SelectSingleNode("/config/UseUKe").InnerText, out uke);
-            bool uAtt = false;
-            bool.TryParse(xd.SelectSingleNode("/config/UseAttitude").InnerText, out uAtt);
-            _useAttitude = uAtt;
+            try
+            {
+                xd.Load(file);
+                xd.SelectSingleNode("/config/" + key).InnerText = value;
+                xd.Save(file);
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show("设置错误：" + exc.Message);
+            }
         }
     }
 }
