@@ -149,11 +149,11 @@ namespace 航天云态度表达.Lib
                     break;
                 case "B":
                 case "2":
-                    aData.ObjectCount++;
+                    aData.PuzzleCount++;
                     break;
                 case "C":
                 case "3":
-                    aData.PuzzleCount++;
+                    aData.ObjectCount++;
                     break;
                 case "D":
                 case "4":

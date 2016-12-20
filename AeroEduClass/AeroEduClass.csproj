@@ -108,6 +108,7 @@
     <Compile Include="NoGui\ALog.cs" />
     <Compile Include="NoGui\AscriptionLib.cs" />
     <Compile Include="NoGui\Config.cs" />
+    <Compile Include="NoGui\DownloadHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\Aero\Reference.cs">

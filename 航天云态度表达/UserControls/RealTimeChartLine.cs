@@ -8,40 +8,22 @@ using 航天云态度表达.Properties;
 
 namespace 航天云态度表达.UserControls
 {
-    /// <summary>
-    /// Summary description for RealTimeSample.
-    /// </summary>
     public class RealTimeChartLine : System.Windows.Forms.UserControl
     {
-        #region Fields
         const int LineWidth = 5;
-        // Chart data adding thread
-        //private Thread addDataRunner;
-
-        // Thread Add Data delegate
+        
         public delegate void RefreshChartDelegate();
         public RefreshChartDelegate RefreshChartDel;
-
-        // Chart control
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-
-        // Form fields
         private DateTime minValue, maxValue;
         private Random rand = new Random();
         Pen pen;
-        #endregion // Fields
-
-        #region Construction and Disposing
+        bool showValueLael = false;
 
         public RealTimeChartLine()
         {
-            //
-            // Required for Windows Form Designer support
-            //
             InitializeComponent();
-            //
-            // TODO: Add any constructor code after InitializeComponent call
-            //
+            
             chart1.BorderSkin.SkinStyle = BorderSkinStyle.None;
 
             pen = new Pen(Color.Red, 1);
@@ -50,26 +32,6 @@ namespace 航天云态度表达.UserControls
 
             Start();
         }
-
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        //protected override void Dispose(bool disposing)
-        //{
-        //    if (disposing)
-        //    {
-        //        if (components != null)
-        //        {
-        //            components.Dispose();
-        //        }
-        //    }
-        //    base.Dispose(disposing);
-        //}
-
-        #endregion // Construction and Disposing
-
-        #region Form user event handlers
-
         /// <summary>
         /// Page load event handler.
         /// </summary>
@@ -79,42 +41,39 @@ namespace 航天云态度表达.UserControls
         {
             //Start();
         }
-
         /// <summary>
-        /// Start real time data simulator.
+        /// 
         /// </summary>
-        /// <param name="sender">Event sender.</param>
-        /// <param name="e">Event arguments.</param>
-        //private void startTrending_Click(object sender, System.EventArgs e)
         public void Start()
         {
-            // Predefine the viewing area of the chart
             minValue = DateTime.Now;
             maxValue = minValue.AddSeconds(30);
 
             chart1.ChartAreas[0].AxisX.Minimum = minValue.ToOADate();
             chart1.ChartAreas[0].AxisX.Maximum = maxValue.ToOADate();
 
-            // Reset number of series in the chart.
             chart1.Series.Clear();
 
             Series seriesPraise = new Series("点赞");
+            seriesPraise.IsValueShownAsLabel = showValueLael;
             SetChartStyle(seriesPraise, Color.Purple);
             chart1.Series.Add(seriesPraise);
 
             Series objectSeries = new Series("反对");
+            objectSeries.IsValueShownAsLabel = showValueLael;
             SetChartStyle(objectSeries, Color.Gray);
             chart1.Series.Add(objectSeries);
 
             Series puzzleSeries = new Series("困惑");
+            puzzleSeries.IsValueShownAsLabel = showValueLael;
             SetChartStyle(puzzleSeries, Color.DarkGreen);
             chart1.Series.Add(puzzleSeries);
 
             Series boringSeries = new Series("无聊");
+            boringSeries.IsValueShownAsLabel = showValueLael;
             SetChartStyle(boringSeries, Color.Orange);
             chart1.Series.Add(boringSeries);
         }
-
         /// <summary>
         /// Set style and color of the Series 
         /// </summary>
@@ -128,7 +87,6 @@ namespace 航天云态度表达.UserControls
             series.ShadowOffset = 0;
             series.XValueType = ChartValueType.DateTime;
         }
-
         /// <summary>
         /// Stop real time data simulator.
         /// </summary>
@@ -138,16 +96,8 @@ namespace 航天云态度表达.UserControls
         {
             
         }
-
-        #endregion
-
-        #region Add new data thread
-
         /// <summary>
-        /// The AddNewPoint function is called for each series in the chart when
-        /// new points need to be added.  The new point will be placed at specified
-        /// X axis (Date/Time) position with a Y value in a range +/- 1 from the previous
-        /// data point's Y value, and not smaller than zero.
+        /// Add Data
         /// </summary>
         /// <param name="timeStamp"></param>
         /// <param name="ptSeries"></param>
@@ -156,17 +106,15 @@ namespace 航天云态度表达.UserControls
             chart1.ResetAutoValues();
 
             DateTime timeStamp = DateTime.Now;
-            // Add new data point to its series.
+
             chart1.Series["点赞"].Points.AddXY(timeStamp.ToOADate(), data.PraiseCount);
             chart1.Series["反对"].Points.AddXY(timeStamp.ToOADate(), data.ObjectCount);
             chart1.Series["无聊"].Points.AddXY(timeStamp.ToOADate(), data.BoringCount);
             chart1.Series["困惑"].Points.AddXY(timeStamp.ToOADate(), data.PuzzleCount);
 
-            // remove all points from the source series older than 20 seconds.
             double removeBefore = timeStamp.AddSeconds((double)(20) * (-1)).ToOADate();
 
             chart1.ChartAreas[0].AxisX.Minimum = chart1.Series["点赞"].Points[0].XValue;
-            //chart1.ChartAreas[0].AxisX.Maximum = DateTime.FromOADate(chart1.Series["点赞"].Points[0].XValue).AddSeconds(30).ToOADate();
             chart1.ChartAreas[0].AxisX.Maximum = DateTime.Now.AddSeconds(30).ToOADate();
             chart1.ChartAreas[0].AxisY.Maximum = (double)data.Max() + 10D;
 
@@ -183,29 +131,18 @@ namespace 航天云态度表达.UserControls
         private void chart1_PostPaint(object sender, ChartPaintEventArgs e)
         {
             PointF point1, point2;
-            // Painting series object
             if (e.ChartElement is System.Windows.Forms.DataVisualization.Charting.Series)
             {
-                // Add custom painting only to the series with name "Sereis2"
                 Series series = (Series)e.ChartElement;
                 if (series.Name == "点赞")
                 {
-                    // Find data point with maximum Y value
-                    //DataPoint dataPoint = series.Points.FindMaxByValue();
                     foreach (DataPoint dataPoint in flags)
                     {
-                        // Load bitmap from file 
-                        //System.Drawing.Image bitmap = Resources.标记;//Bitmap.FromFile(fileNameString);
-
-                        // Set Red color as transparent
                         ImageAttributes attrib = new ImageAttributes();
                         attrib.SetColorKey(Color.Red, Color.Red, ColorAdjustType.Default);
 
-                        // Calculates marker position depending on the data point X and Y values
                         RectangleF imagePosition = RectangleF.Empty;
 
-                        //imagePosition.X = (float)e.ChartGraphics.GetPositionFromAxis(
-                        //    "Default", AxisName.X, dataPoint.XValue);
                         imagePosition.X = (float)e.ChartGraphics.GetPositionFromAxis(
                             "Default", AxisName.X, dataPoint.XValue);
                         imagePosition.Y = (float)e.ChartGraphics.GetPositionFromAxis(
@@ -221,22 +158,16 @@ namespace 航天云态度表达.UserControls
                         imagePosition.Y -= Resources.标记.Height;
                         imagePosition.X -= Resources.标记.Width / 2;
 
-                        // Draw image
                         e.ChartGraphics.Graphics.DrawImage(Resources.标记,
                             Rectangle.Round(imagePosition),
                             0, 0, Resources.标记.Width, Resources.标记.Height,
                             GraphicsUnit.Pixel,
                             attrib);
-                        // Draw Line
                         e.ChartGraphics.Graphics.DrawLine(pen, point1, point2);
-                        // Dispose image object
-                        //bitmap.Dispose();
                     }
                 }
             }
         }
-
-        #endregion
 
         #region Windows Form Designer generated code
         /// <summary>

@@ -36,7 +36,7 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dmButtonClose1 = new DMSkin.Controls.DMButtonClose();
+            this.btnClose = new DMSkin.Controls.DMButtonClose();
             this.SuspendLayout();
             // 
             // cbxTDBD
@@ -115,22 +115,23 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "请在需要启用的应用前打勾：";
             // 
-            // dmButtonClose1
+            // btnClose
             // 
-            this.dmButtonClose1.BackColor = System.Drawing.Color.Transparent;
-            this.dmButtonClose1.Location = new System.Drawing.Point(444, 1);
-            this.dmButtonClose1.MaximumSize = new System.Drawing.Size(30, 27);
-            this.dmButtonClose1.MinimumSize = new System.Drawing.Size(30, 27);
-            this.dmButtonClose1.Name = "dmButtonClose1";
-            this.dmButtonClose1.Size = new System.Drawing.Size(30, 27);
-            this.dmButtonClose1.TabIndex = 8;
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Location = new System.Drawing.Point(444, 1);
+            this.btnClose.MaximumSize = new System.Drawing.Size(30, 27);
+            this.btnClose.MinimumSize = new System.Drawing.Size(30, 27);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(30, 27);
+            this.btnClose.TabIndex = 8;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmSetting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(477, 239);
-            this.Controls.Add(this.dmButtonClose1);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSave);
@@ -162,6 +163,6 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private DMSkin.Controls.DMButtonClose dmButtonClose1;
+        private DMSkin.Controls.DMButtonClose btnClose;
     }
 }

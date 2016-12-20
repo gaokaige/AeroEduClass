@@ -28,9 +28,9 @@
   <!--是否在主界面上显示名博优课，true显示，false不显示-->
   <UseUKe>false</UseUKe>
   <!--是否在主界面上显示CCLive的直播课程，true显示，false不显示-->
-  <UseCCLive></UseCCLive>
+  <UseCCLive>false</UseCCLive>
   <!--CCLive直播课程的服务器地址-->
-  <CCLiveServer>http://xxxxxxxxxxxxxxxxxxxxxx</CCLiveServer>
+  <CCLiveServer></CCLiveServer>
   <!--是否在主界面上显示远程观课，true显示，false不显示-->
   <UseYCGK>true</UseYCGK>
   <!--是否在主界面上显示远程播课，true显示，false不显示-->

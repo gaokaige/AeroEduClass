@@ -15,12 +15,12 @@ namespace AeroEduClass.NoGui
         const string openFlag = "FileOpen";
         const string openIactive = "OpenActive";
         // 委托 + 事件
-        public delegate void ActionHandler(string jsonMsg);
-        public event ActionHandler OnLogin;
-        public event ActionHandler OnLogout;
-        public event ActionHandler OnOffline;
-        public event ActionHandler OnOpenFile;
-        public event ActionHandler OnStartMeeting;
+        public delegate void ActionEventHandler(string jsonMsg);
+        public event ActionEventHandler OnLogin;
+        public event ActionEventHandler OnLogout;
+        public event ActionEventHandler OnOffline;
+        public event ActionEventHandler OnOpenFile;
+        public event ActionEventHandler OnStartMeeting;
 
         bool IRequestHandler.OnBeforeBrowse(IWebBrowser browserControl, IBrowser browser, IFrame frame, IRequest request, bool isRedirect)
         {

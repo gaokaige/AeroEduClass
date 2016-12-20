@@ -33,8 +33,8 @@
             this.plMain = new System.Windows.Forms.Panel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.plBottom = new System.Windows.Forms.Panel();
-            this.plButtonList = new System.Windows.Forms.Panel();
             this.plIcon = new System.Windows.Forms.Panel();
+            this.plButtonList = new System.Windows.Forms.Panel();
             this.plTools = new System.Windows.Forms.Panel();
             this.backButton = new System.Windows.Forms.Button();
             this.refreshButton = new System.Windows.Forms.Button();
@@ -47,6 +47,7 @@
             this.btnActive = new System.Windows.Forms.Button();
             this.btnYcgk = new System.Windows.Forms.Button();
             this.btnLive = new System.Windows.Forms.Button();
+            this.btnCCLive = new System.Windows.Forms.Button();
             this.plClose = new System.Windows.Forms.Panel();
             this.dmButtonMin1 = new DMSkin.Controls.DMButtonMin();
             this.dmButtonClose1 = new DMSkin.Controls.DMButtonClose();
@@ -76,6 +77,7 @@
             this.plBottom.BackColor = System.Drawing.Color.White;
             this.plBottom.BackgroundImage = global::AeroEduClass.Properties.Resources.c;
             this.plBottom.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.plBottom.Controls.Add(this.plIcon);
             this.plBottom.Controls.Add(this.plButtonList);
             this.plBottom.Controls.Add(this.plClose);
             this.plBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -87,25 +89,6 @@
             this.plBottom.MouseDown += new System.Windows.Forms.MouseEventHandler(this.plBottom_MouseDown);
             this.plBottom.MouseMove += new System.Windows.Forms.MouseEventHandler(this.plBottom_MouseMove);
             // 
-            // plButtonList
-            // 
-            this.plButtonList.BackColor = System.Drawing.Color.Transparent;
-            this.plButtonList.Controls.Add(this.plIcon);
-            this.plButtonList.Controls.Add(this.plTools);
-            this.plButtonList.Controls.Add(this.btnHome);
-            this.plButtonList.Controls.Add(this.btnMingBo);
-            this.plButtonList.Controls.Add(this.btnWhiteboard);
-            this.plButtonList.Controls.Add(this.btnBooth);
-            this.plButtonList.Controls.Add(this.btnRecord);
-            this.plButtonList.Controls.Add(this.btnActive);
-            this.plButtonList.Controls.Add(this.btnYcgk);
-            this.plButtonList.Controls.Add(this.btnLive);
-            this.plButtonList.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.plButtonList.Location = new System.Drawing.Point(0, 0);
-            this.plButtonList.Name = "plButtonList";
-            this.plButtonList.Size = new System.Drawing.Size(958, 46);
-            this.plButtonList.TabIndex = 0;
-            // 
             // plIcon
             // 
             this.plIcon.BackgroundImage = global::AeroEduClass.Properties.Resources.a;
@@ -116,13 +99,32 @@
             this.plIcon.TabIndex = 1;
             this.plIcon.DoubleClick += new System.EventHandler(this.plIcon_DoubleClick);
             // 
+            // plButtonList
+            // 
+            this.plButtonList.BackColor = System.Drawing.Color.Transparent;
+            this.plButtonList.Controls.Add(this.plTools);
+            this.plButtonList.Controls.Add(this.btnHome);
+            this.plButtonList.Controls.Add(this.btnMingBo);
+            this.plButtonList.Controls.Add(this.btnWhiteboard);
+            this.plButtonList.Controls.Add(this.btnBooth);
+            this.plButtonList.Controls.Add(this.btnRecord);
+            this.plButtonList.Controls.Add(this.btnActive);
+            this.plButtonList.Controls.Add(this.btnYcgk);
+            this.plButtonList.Controls.Add(this.btnLive);
+            this.plButtonList.Controls.Add(this.btnCCLive);
+            this.plButtonList.Dock = System.Windows.Forms.DockStyle.Right;
+            this.plButtonList.Location = new System.Drawing.Point(25, 0);
+            this.plButtonList.Name = "plButtonList";
+            this.plButtonList.Size = new System.Drawing.Size(933, 46);
+            this.plButtonList.TabIndex = 0;
+            // 
             // plTools
             // 
             this.plTools.Controls.Add(this.backButton);
             this.plTools.Controls.Add(this.refreshButton);
             this.plTools.Controls.Add(this.forwardButton);
             this.plTools.Dock = System.Windows.Forms.DockStyle.Right;
-            this.plTools.Location = new System.Drawing.Point(113, 0);
+            this.plTools.Location = new System.Drawing.Point(3, 0);
             this.plTools.Name = "plTools";
             this.plTools.Size = new System.Drawing.Size(165, 46);
             this.plTools.TabIndex = 0;
@@ -191,7 +193,7 @@
             this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnHome.Location = new System.Drawing.Point(278, 0);
+            this.btnHome.Location = new System.Drawing.Point(168, 0);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(85, 46);
             this.btnHome.TabIndex = 99;
@@ -210,7 +212,7 @@
             this.btnMingBo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnMingBo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMingBo.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnMingBo.Location = new System.Drawing.Point(363, 0);
+            this.btnMingBo.Location = new System.Drawing.Point(253, 0);
             this.btnMingBo.Name = "btnMingBo";
             this.btnMingBo.Size = new System.Drawing.Size(85, 46);
             this.btnMingBo.TabIndex = 100;
@@ -229,7 +231,7 @@
             this.btnWhiteboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnWhiteboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWhiteboard.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnWhiteboard.Location = new System.Drawing.Point(448, 0);
+            this.btnWhiteboard.Location = new System.Drawing.Point(338, 0);
             this.btnWhiteboard.Name = "btnWhiteboard";
             this.btnWhiteboard.Size = new System.Drawing.Size(85, 46);
             this.btnWhiteboard.TabIndex = 15;
@@ -247,7 +249,7 @@
             this.btnBooth.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnBooth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBooth.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnBooth.Location = new System.Drawing.Point(533, 0);
+            this.btnBooth.Location = new System.Drawing.Point(423, 0);
             this.btnBooth.Name = "btnBooth";
             this.btnBooth.Size = new System.Drawing.Size(85, 46);
             this.btnBooth.TabIndex = 16;
@@ -265,7 +267,7 @@
             this.btnRecord.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnRecord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRecord.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnRecord.Location = new System.Drawing.Point(618, 0);
+            this.btnRecord.Location = new System.Drawing.Point(508, 0);
             this.btnRecord.Name = "btnRecord";
             this.btnRecord.Size = new System.Drawing.Size(85, 46);
             this.btnRecord.TabIndex = 17;
@@ -283,7 +285,7 @@
             this.btnActive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnActive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActive.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnActive.Location = new System.Drawing.Point(703, 0);
+            this.btnActive.Location = new System.Drawing.Point(593, 0);
             this.btnActive.Name = "btnActive";
             this.btnActive.Size = new System.Drawing.Size(85, 46);
             this.btnActive.TabIndex = 14;
@@ -302,7 +304,7 @@
             this.btnYcgk.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnYcgk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnYcgk.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnYcgk.Location = new System.Drawing.Point(788, 0);
+            this.btnYcgk.Location = new System.Drawing.Point(678, 0);
             this.btnYcgk.Name = "btnYcgk";
             this.btnYcgk.Size = new System.Drawing.Size(85, 46);
             this.btnYcgk.TabIndex = 20;
@@ -321,7 +323,7 @@
             this.btnLive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnLive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLive.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnLive.Location = new System.Drawing.Point(873, 0);
+            this.btnLive.Location = new System.Drawing.Point(763, 0);
             this.btnLive.Name = "btnLive";
             this.btnLive.Size = new System.Drawing.Size(85, 46);
             this.btnLive.TabIndex = 19;
@@ -329,6 +331,25 @@
             this.btnLive.Text = "远程播课";
             this.btnLive.UseVisualStyleBackColor = false;
             this.btnLive.Click += new System.EventHandler(this.btnLive_Click);
+            // 
+            // btnCCLive
+            // 
+            this.btnCCLive.BackColor = System.Drawing.Color.Transparent;
+            this.btnCCLive.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnCCLive.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCCLive.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(0)))), ((int)(((byte)(15)))));
+            this.btnCCLive.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(0)))), ((int)(((byte)(15)))));
+            this.btnCCLive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnCCLive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCCLive.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnCCLive.Location = new System.Drawing.Point(848, 0);
+            this.btnCCLive.Name = "btnCCLive";
+            this.btnCCLive.Size = new System.Drawing.Size(85, 46);
+            this.btnCCLive.TabIndex = 101;
+            this.btnCCLive.Tag = "CCLive";
+            this.btnCCLive.Text = "直播课程";
+            this.btnCCLive.UseVisualStyleBackColor = false;
+            this.btnCCLive.Click += new System.EventHandler(this.btnCCLive_Click);
             // 
             // plClose
             // 
@@ -406,6 +427,7 @@
         private System.Windows.Forms.Button btnYcgk;
         private System.Windows.Forms.Button btnMingBo;
         private System.Windows.Forms.Panel plTools;
+        private System.Windows.Forms.Button btnCCLive;
     }
 }
 

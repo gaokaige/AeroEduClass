@@ -14,15 +14,19 @@ namespace AeroEduClass.Gui
 {
     public partial class frmMain : Form
     {
+        #region Field
         /// <summary>
         /// 启动钥匙
         /// </summary>
         private const string key = "AeroEduClass";
         private ChromiumWebBrowser browser;
+        /// <summary>
+        /// 获取配置，非常重要
+        /// </summary>
         private static Config config = new Config();
         private string currentUrl;
         private Ascription ap;
-
+        #endregion
         public frmMain()
         {
             ALog.ToDB("启动主程序");
@@ -30,20 +34,20 @@ namespace AeroEduClass.Gui
             btnMingBo.Visible = config.UseUKe;
             btnYcgk.Visible = config.UseYCGK;
             btnLive.Visible = config.UseYCBK;
+            btnCCLive.Visible = config.UseCCLive;
             //设置cache目录到当前bin/debug目录
             var celSet = new CefSettings();
 
             celSet.CachePath = System.IO.Directory.GetCurrentDirectory() + @"\cache";
             //celSet.CefCommandLineArgs.Add("ppapi-flash-path", config.FlashPluginPath);// 安装flashplayer_ppapi可以解决flash播放问题
             Cef.Initialize(celSet);
-
 #if !DEBUG
             browser = new ChromiumWebBrowser(config.LoginPageUrl)
             {
                 Dock = DockStyle.Fill,
             };
 #else
-            browser = new ChromiumWebBrowser("http://192.168.0.112:8080/ROOT/login.html")
+            browser = new ChromiumWebBrowser("http://im.qq.com/download/")
             {
                 Dock = DockStyle.Fill,
             };
@@ -91,6 +95,8 @@ namespace AeroEduClass.Gui
         {
             AeroRequestHandler aeroRequestHandler = new AeroRequestHandler();
             browser.RequestHandler = aeroRequestHandler;
+            browser.DownloadHandler = new DownloadHandler();
+
             aeroRequestHandler.OnLogin += aeroRequestHandler_OnLogin;
             aeroRequestHandler.OnLogout += aeroRequestHandler_OnLogout;
             aeroRequestHandler.OnOffline += aeroRequestHandler_OnOffline;
@@ -443,7 +449,20 @@ namespace AeroEduClass.Gui
 
         private void plIcon_DoubleClick(object sender, EventArgs e)
         {
+            frmSetting settingForm = new frmSetting();
+            settingForm.ShowDialog();
+        }
 
+        private void btnCCLive_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Process.Start("chrome.exe", config.CCLiveServer);
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
         }
     }
 }

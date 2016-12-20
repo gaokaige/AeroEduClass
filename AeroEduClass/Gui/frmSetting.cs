@@ -17,6 +17,10 @@ namespace AeroEduClass.Gui
             InitializeComponent();
             Config config = new Config();
             tbxCCLiveServer.Text = config.CCLiveServer;
+            cbxYCGK.Checked = config.UseYCGK;
+            cbxYCBK.Checked = config.UseYCBK;
+            cbxTDBD.Checked = config.UseAttitude;
+            cbxCCLive.Checked = config.UseCCLive;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -27,12 +31,18 @@ namespace AeroEduClass.Gui
             bool YCBK = cbxYCBK.Checked;//远程播课
             bool TDBD = cbxTDBD.Checked;//态度表达
             Config.Setting("UseCCLive", CCLive.ToString());
-            if(CCLive)
-                Config.Setting("CCLiveServer", CCLiveServer);
+            Config.Setting("CCLiveServer", CCLiveServer);
             Config.Setting("UseYCGK", YCGK.ToString());
             Config.Setting("UseYCBK", YCBK.ToString());
             Config.Setting("UseAttitude", TDBD.ToString());
+            this.Close();
             MessageBox.Show("配置保存成功，请重新启动课联网客户端。");
+            
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

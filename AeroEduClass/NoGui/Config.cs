@@ -114,7 +114,6 @@ namespace AeroEduClass.NoGui
             get { return _useUKe; }
             set { _useUKe = value; }
         }
-
         string _attitudePath;
         /// <summary>
         /// 航天云态度表达软件的路径
@@ -133,7 +132,6 @@ namespace AeroEduClass.NoGui
             get { return _useAttitude; }
             set { _useAttitude = value; }
         }
-
         bool _useCCLive;
         /// <summary>
         /// 是否启用CCLive课程直播
@@ -152,24 +150,25 @@ namespace AeroEduClass.NoGui
             get { return _cCLiveServer; }
             set { _cCLiveServer = value; }
         }
-        bool useYCGK;
+        bool _useYCGK;
         /// <summary>
         /// 是否启用远程观课
         /// </summary>
         public bool UseYCGK
         {
-            get { return useYCGK; }
-            set { useYCGK = value; }
+            get { return _useYCGK; }
+            set { _useYCGK = value; }
         }
-        bool useYCBK;
+        bool _useYCBK;
         /// <summary>
         /// 是否启用远程播课
         /// </summary>
         public bool UseYCBK
         {
-            get { return useYCBK; }
-            set { useYCBK = value; }
+            get { return _useYCBK; }
+            set { _useYCBK = value; }
         }
+
         public Config()
         {
             try
@@ -188,14 +187,13 @@ namespace AeroEduClass.NoGui
                 _ascriptionFilePath = xd.SelectSingleNode("/config/AscriptionFilePath").InnerText;
                 _mingBoUClass = xd.SelectSingleNode("/config/MingboUClass").InnerText;
                 _postServer = xd.SelectSingleNode("/config/PostServer").InnerText;
-                bool uke = false;
-                bool.TryParse(xd.SelectSingleNode("/config/UseUKe").InnerText, out uke);
-                bool uAtt = false;
-                bool.TryParse(xd.SelectSingleNode("/config/UseAttitude").InnerText, out uAtt);
-                _useAttitude = uAtt;
-                bool uCCLive = false;
-                bool.TryParse(xd.SelectSingleNode("/config/UseCCLive").InnerText, out uCCLive);
                 _cCLiveServer = xd.SelectSingleNode("/config/CCLiveServer").InnerText;
+
+                bool.TryParse(xd.SelectSingleNode("/config/UseUKe").InnerText, out _useUKe);
+                bool.TryParse(xd.SelectSingleNode("/config/UseAttitude").InnerText, out _useAttitude);
+                bool.TryParse(xd.SelectSingleNode("/config/UseCCLive").InnerText, out _useCCLive);
+                bool.TryParse(xd.SelectSingleNode("/config/UseYCGK").InnerText, out _useYCGK);
+                bool.TryParse(xd.SelectSingleNode("/config/UseYCBK").InnerText, out _useYCBK);
             }
             catch (Exception exc)
             {
@@ -204,7 +202,7 @@ namespace AeroEduClass.NoGui
             }
         }
 
-        public static void Setting(string key ,string value)
+        public static void Setting(string key, string value)
         {
             string file = System.AppDomain.CurrentDomain.BaseDirectory + "Config.xml";
             XmlDocument xd = new XmlDocument();
