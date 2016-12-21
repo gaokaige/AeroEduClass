@@ -269,6 +269,7 @@ namespace AeroEduClass.Gui
                 if (item.ProcessName == "航天云态度表达")
                 {
                     item.Kill();
+                    ALog.ToDB("退出航天云态度表达");
                 }
             }
         }
