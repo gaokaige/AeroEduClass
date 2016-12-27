@@ -40,6 +40,16 @@ namespace 航天云态度表达.Gui
                 MessageBox.Show("正在进行学生评价");
                 return;
             }
+
+            if (frmTea.pause)
+            {
+                if (!IsTeacherEvaluate)
+                {
+                    MessageBox.Show("正在进行学生答题，不能使用该功能");
+                    return;
+                }
+            }
+
             IsTeacherEvaluate = !IsTeacherEvaluate;
             if (IsTeacherEvaluate)
             {
@@ -77,6 +87,12 @@ namespace 航天云态度表达.Gui
                 MessageBox.Show("正在进行教师评价");
                 return;
             }
+            if (frmStu.pause)
+            {
+                MessageBox.Show("正在进行学生答题，不能使用该功能");
+                return;
+            }
+
             IsStudentEvaluate = !IsStudentEvaluate;
             if (IsStudentEvaluate)
             {

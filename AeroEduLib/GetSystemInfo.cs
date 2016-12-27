@@ -19,7 +19,7 @@ namespace AeroEduLib
             {
                 mac = mac.Replace(":", "");
                 license = System.Web.Security.FormsAuthentication.HashPasswordForStoringInConfigFile(mac + "aero-edu.com", "MD5");
-            }   
+            }
             return license;
         }
         /// <summary>
@@ -34,26 +34,41 @@ namespace AeroEduLib
             return license;
         }
         /// <summary>
-        /// 获取Ethernet或Wireless的mac地址
+        /// 获取名称为“本地连接”（win7）或“以太网”（win10）的网卡的mac地址
         /// </summary>
         /// <returns></returns>
         public static string GetLoaclMac()
         {
             string mac = string.Empty;
             NetworkInterface[] netWorks = NetworkInterface.GetAllNetworkInterfaces();
-            List<string> macList = new List<string>();
+            Dictionary<string, string> macList = new Dictionary<string, string>();
+
             foreach (NetworkInterface netWork in netWorks)
             {
                 if (netWork.NetworkInterfaceType == NetworkInterfaceType.Ethernet)
                 {
-                    macList.Add(netWork.GetPhysicalAddress().ToString());
+                    macList.Add(netWork.Name, netWork.GetPhysicalAddress().ToString());
                 }
             }
-            if(macList.Count>0)
+
+            if (macList.Count == 1)
             {
-                macList.Sort();
-                mac = macList[0];
+                foreach (KeyValuePair<string, string> item in macList)
+                {
+                    mac = item.Value;
+                }
             }
+            else if (macList.Count > 1)
+            {
+                foreach (KeyValuePair<string, string> item in macList)
+                {
+                    if (item.Key == "本地连接" || item.Key == "以太网")
+                    {
+                        mac = item.Value;
+                    }
+                }
+            }
+
             return mac;
         }
         /// <summary>

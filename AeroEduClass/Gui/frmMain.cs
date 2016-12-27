@@ -19,6 +19,11 @@ namespace AeroEduClass.Gui
         /// 启动钥匙
         /// </summary>
         private const string key = "AeroEduClass";
+        /// <summary>
+        /// 当学生启动答题功能，会生成一个标识文件，态度表达检测到该文件存在，运行暂停
+        /// 当学生停止答题功能，会删除该标识文件，态度表达继续
+        /// </summary>
+        private string path = System.AppDomain.CurrentDomain.BaseDirectory + "Attitude\\Status\\pause.dat";
         private ChromiumWebBrowser browser;
         /// <summary>
         /// 获取配置，非常重要
@@ -31,6 +36,7 @@ namespace AeroEduClass.Gui
         {
             ALog.ToDB("启动主程序");
             InitializeComponent();
+            aeroRequestHandler_OnEndQA(string.Empty);
             btnMingBo.Visible = config.UseUKe;
             btnYcgk.Visible = config.UseYCGK;
             btnLive.Visible = config.UseYCBK;
@@ -94,9 +100,6 @@ namespace AeroEduClass.Gui
         private void frmMain_Load(object sender, EventArgs e)
         {
             AeroRequestHandler aeroRequestHandler = new AeroRequestHandler();
-            browser.RequestHandler = aeroRequestHandler;
-            browser.DownloadHandler = new DownloadHandler();
-
             aeroRequestHandler.OnLogin += aeroRequestHandler_OnLogin;
             aeroRequestHandler.OnLogout += aeroRequestHandler_OnLogout;
             aeroRequestHandler.OnOffline += aeroRequestHandler_OnOffline;
@@ -104,6 +107,9 @@ namespace AeroEduClass.Gui
             aeroRequestHandler.OnStartMeeting += aeroRequestHandler_OnStartMeeting;
             aeroRequestHandler.OnStartQA += aeroRequestHandler_OnStartQA;
             aeroRequestHandler.OnEndQA += aeroRequestHandler_OnEndQA;
+
+            browser.RequestHandler = aeroRequestHandler;
+            browser.DownloadHandler = new DownloadHandler();
             browser.MenuHandler = new AeroMenuHandler();
             browser.AddressChanged += browser_AddressChanged;
             browser.LoadingStateChanged += browser_LoadingStateChanged;
@@ -112,12 +118,15 @@ namespace AeroEduClass.Gui
         void aeroRequestHandler_OnEndQA(string jsonMsg)
         {
             // 结束答题，恢复态度表达
+            System.IO.File.Delete(path);
+            browser.Load(string.Format("javascript:bridge.callBack('{0}')", jsonMsg));
         }
 
         void aeroRequestHandler_OnStartQA(string jsonMsg)
         {
             // 开始答题，暂停态度表达
-
+            System.IO.File.Create(path);
+            browser.Load(string.Format("javascript:bridge.callBack('{0}')", jsonMsg));
         }
 
         void CreateOrDeleteFlagFile()

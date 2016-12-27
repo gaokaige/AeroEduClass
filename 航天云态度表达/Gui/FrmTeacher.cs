@@ -3,7 +3,6 @@ using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 using 航天云态度表达.Lib;
-using 航天云态度表达.UserControls;
 
 namespace 航天云态度表达.Gui
 {
@@ -14,15 +13,32 @@ namespace 航天云态度表达.Gui
         DateTime startTime, realTime;
         FrmMenu frmMenu;
         MainLib mainLib;
+        RunStatus runStatus;
+        public bool pause;
         public FrmTeacher(FrmMenu _frmMenu)
         {
             InitializeComponent();
             frmMenu = _frmMenu;
             mainLib = new MainLib();
+            runStatus = new RunStatus();
+            runStatus.OnPause += runStatus_OnPause;
+            runStatus.OnResume += runStatus_OnResume;
+            runStatus.StartListen();
+
             aData = new AttitudeData();
             rData = new ReportData();
             rData.ClassID = Program.CLASSID;
             rData.OnlineTeacharID = Program.ONLINETEACHERID;
+        }
+
+        private void runStatus_OnResume()
+        {
+            pause = false;
+        }
+
+        private void runStatus_OnPause()
+        {
+            pause = true;
         }
 
         private void FrmTeacher_Load(object sender, EventArgs e)
@@ -37,6 +53,9 @@ namespace 航天云态度表达.Gui
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (pause)
+                return;
+
             realTime = DateTime.Now;
             label5.Text = Convert.ToDateTime("00:00:00").AddSeconds((realTime - startTime).TotalSeconds).ToString("HH:mm:ss");
             mainLib.ReadData(ref rData, ref aData);
@@ -50,6 +69,12 @@ namespace 航天云态度表达.Gui
 
         public void Start()
         {
+            if (pause)
+            {
+                MessageBox.Show("正在进行学生答题，不能使用该功能");
+                return;
+            }
+
             mainLib.Reset();
 
             rData.ClearKeyPress();

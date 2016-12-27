@@ -33,11 +33,13 @@ namespace AeroEduClass.Gui
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnGetMac_Click(object sender, EventArgs e)
         {
             string mac = GetSystemInfo.GetLoaclMac();
             if (!string.IsNullOrEmpty(mac))
                 textBox1.Text = mac;
+            else
+                MessageBox.Show("请将网络连接名称改为“本地连接”（win7）或“以太网”（win10）");
         }
 
         private void button1_Click(object sender, EventArgs e)

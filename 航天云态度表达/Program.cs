@@ -12,6 +12,7 @@ namespace 航天云态度表达
         public static string ONLINETEACHERID { get; set; }
         public static bool ISLOG = false;
         public static string StudentInterface, StudentDataServer, TeachaerDataServer, Frmfloat_X, Frmfloat_Y;
+        public static bool usedAlone = false;
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
@@ -20,13 +21,14 @@ namespace 航天云态度表达
         {
             try
             {
-                if (ConfigurationLib.GetSetting("Log").ToLower().Equals("true"))
+                if (ConfigurationLib.GetSetting("log").ToLower().Equals("true"))
                     ISLOG = true;
                 StudentInterface = ConfigurationLib.GetSetting("studentinterface");
                 StudentDataServer = ConfigurationLib.GetSetting("stuuploaddataserver");
                 TeachaerDataServer = ConfigurationLib.GetSetting("teauploadserver");
                 Frmfloat_X = ConfigurationLib.GetSetting("frmfloat_x");
                 Frmfloat_Y = ConfigurationLib.GetSetting("frmfloat_y");
+                bool.TryParse(ConfigurationLib.GetSetting("usedalone"), out usedAlone);
             }
             catch { MessageBox.Show("配置文件参数错误"); }
 

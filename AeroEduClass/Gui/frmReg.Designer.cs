@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnGetMac = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tbxLicense = new System.Windows.Forms.TextBox();
@@ -36,15 +36,15 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button2
+            // btnGetMac
             // 
-            this.button2.Location = new System.Drawing.Point(181, 67);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(48, 23);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "获取";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnGetMac.Location = new System.Drawing.Point(181, 67);
+            this.btnGetMac.Name = "btnGetMac";
+            this.btnGetMac.Size = new System.Drawing.Size(48, 23);
+            this.btnGetMac.TabIndex = 11;
+            this.btnGetMac.Text = "获取";
+            this.btnGetMac.UseVisualStyleBackColor = true;
+            this.btnGetMac.Click += new System.EventHandler(this.btnGetMac_Click);
             // 
             // button1
             // 
@@ -95,7 +95,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(296, 101);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnGetMac);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.tbxLicense);
@@ -114,7 +114,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnGetMac;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox tbxLicense;

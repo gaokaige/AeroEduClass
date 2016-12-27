@@ -16,20 +16,36 @@ namespace 航天云态度表达.Gui
         FrmMenu frmMenu;
         Student stu;
         MainLib mainLib;
+        RunStatus runStatus;
+        public bool pause;
         public FrmStudent(FrmMenu _frmMenu)
         {
             InitializeComponent();
-            mainLib = new MainLib(); 
+            mainLib = new MainLib();
+            runStatus = new RunStatus();
+            runStatus.OnPause += runStatus_OnPause;
+            runStatus.OnResume += runStatus_OnResume;
+            runStatus.StartListen();
             aData = new AttitudeData();
             rData = new ReportData();
             rData.ClassID = Program.CLASSID;
             rData.OnlineTeacharID = Program.ONLINETEACHERID;
-            
+
             frmMenu = _frmMenu;
             mainLib.Reset();
 
             mainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
             mainLib.AddButtonStyle(btnReset, Resources.删除, Resources.删除, Resources.关闭_选中);
+        }
+
+        void runStatus_OnResume()
+        {
+            pause = false;
+        }
+
+        void runStatus_OnPause()
+        {
+            pause = true;
         }
 
         private void FrmStudent_Load(object sender, EventArgs e)
@@ -54,6 +70,8 @@ namespace 航天云态度表达.Gui
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (pause)
+                return;
             if (start)
             {
                 realTime = DateTime.Now;
@@ -94,6 +112,11 @@ namespace 航天云态度表达.Gui
 
         public void Start()
         {
+            if (pause)
+            {
+                MessageBox.Show("正在进行学生答题，不能使用该功能");
+                return;
+            }
             btnStart.BackgroundImage = Resources.结束评价;
             mainLib.AddButtonStyle(btnStart, Resources.结束_默认, Resources.结束_默认, Resources.结束_按下);
 
@@ -127,7 +150,7 @@ namespace 航天云态度表达.Gui
             rData.EndTime = mainLib.GetTimeStamp();
             rData.Duration = (DateTime.Now - startTime).TotalMinutes.ToString();
 
-           
+
             Thread th = new Thread(new ThreadStart(Upload));
             th.IsBackground = true;
             th.Start();
