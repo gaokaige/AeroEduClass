@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppInterface.cs" />
+    <Compile Include="DosCommand.cs" />
     <Compile Include="FtpHelper.cs" />
     <Compile Include="GetSystemInfo.cs" />
     <Compile Include="Log.cs" />

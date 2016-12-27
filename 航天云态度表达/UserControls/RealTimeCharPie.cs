@@ -37,7 +37,8 @@ namespace 航天云态度表达.UserControls
             seriesPraise.ChartType = SeriesChartType.Pie;
             // 添加了个小样式，居然不是枚举类型；
             seriesPraise["PieDrawingStyle"] = "SoftEdge";//Default 、SoftEdge、Concave三选一
-            seriesPraise.IsValueShownAsLabel = true;
+            seriesPraise.IsValueShownAsLabel = true;// 显示数据
+            seriesPraise.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             chart1.Series.Add(seriesPraise);
         }
 

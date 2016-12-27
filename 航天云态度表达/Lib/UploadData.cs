@@ -6,6 +6,7 @@ namespace 航天云态度表达.Lib
 {
     public class UploadData
     {
+        static MainLib mainLib = new MainLib();
         /// <summary>
         /// 每次上传学生按键信息的最大条数
         /// </summary>
@@ -76,7 +77,7 @@ namespace 航天云态度表达.Lib
             while (cursor < rData.KeyPressInfos.Count)
             {
                 json = ConvertToJson(rData, cursor, BATCHCOUNT, jtype);
-                MainLib.HttpPostData(url, json);
+                mainLib.HttpPostData(url, json);
                 cursor += BATCHCOUNT;
             }
         }

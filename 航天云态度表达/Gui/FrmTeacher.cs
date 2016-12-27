@@ -13,14 +13,13 @@ namespace 航天云态度表达.Gui
         ReportData rData;
         DateTime startTime, realTime;
         FrmMenu frmMenu;
-
+        MainLib mainLib;
         public FrmTeacher(FrmMenu _frmMenu)
         {
             InitializeComponent();
             frmMenu = _frmMenu;
-
+            mainLib = new MainLib();
             aData = new AttitudeData();
-
             rData = new ReportData();
             rData.ClassID = Program.CLASSID;
             rData.OnlineTeacharID = Program.ONLINETEACHERID;
@@ -40,7 +39,7 @@ namespace 航天云态度表达.Gui
         {
             realTime = DateTime.Now;
             label5.Text = Convert.ToDateTime("00:00:00").AddSeconds((realTime - startTime).TotalSeconds).ToString("HH:mm:ss");
-            MainLib.ReadData(ref rData, ref aData);
+            mainLib.ReadData(ref rData, ref aData);
             realTimeChartLine1.AddData(aData);
         }
 
@@ -51,10 +50,10 @@ namespace 航天云态度表达.Gui
 
         public void Start()
         {
-            MainLib.Reset();
+            mainLib.Reset();
 
             rData.ClearKeyPress();
-            rData.StartTime = MainLib.GetTimeStamp();
+            rData.StartTime = mainLib.GetTimeStamp();
             rData.Date = DateTime.Now.ToString("yyyy-MM-dd");
 
             startTime = DateTime.Now;
@@ -68,8 +67,8 @@ namespace 航天云态度表达.Gui
         {
             timer1.Stop();
             realTimeChartLine1.Stop();
-            
-            rData.EndTime = MainLib.GetTimeStamp();
+
+            rData.EndTime = mainLib.GetTimeStamp();
             rData.Duration = (DateTime.Now - startTime).TotalMinutes.ToString();
             // 使用前台线程上报评价数据明细；
             Thread thr = new Thread(new ThreadStart(SendDataToPlatform));

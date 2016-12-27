@@ -14,19 +14,29 @@ namespace 航天云态度表达.Lib
     public class MainLib
     {
         #region 定义
-        static string responesUrl = "http://192.168.5.2:50002/Getresult";
-        static string resetUrl = "http://192.168.5.2:50002/start";
+        string responesUrl = "http://192.168.5.2:50002/Getresult";
+        string resetUrl = "http://192.168.5.2:50002/start";
         //static string postAll = "type=all";
-        static Regex regexID = new Regex(@"(?<=^{)\d+");// 匹配学生id
-        static Regex regexContent = new Regex(@"(?<={)\d+,\d+");// 匹配学生按键内容和时间
-        static MatchCollection mc1, mc2;
-        static Dictionary<string, string> timestamp = new Dictionary<string, string>();
+        Regex regexStuID = new Regex(@"(?<=^{)\d+");// 匹配学生id
+        Regex regexPressInfo = new Regex(@"(?<={)\d+,\d+");// 匹配学生按键内容和时间
+        MatchCollection mcStuID, mcPressInfo;
+        /// <summary>
+        /// <答题器ID, 时间戳> 
+        /// 记录上一次该学生按键的时间戳，再次读取时从下一个时间戳开始
+        /// </summary>
+        Dictionary<string, string> timestampDic = new Dictionary<string, string>();
+
+        public Dictionary<string, string> TimestampDic
+        {
+            get { return timestampDic; }
+            set { timestampDic = value; }
+        }
         const string ERROR = "[ERROR]";
         #endregion
         /// <summary>
         /// POST请求与获取结果
         /// </summary>
-        public static string HttpPostData(string Url, string postDataStr)
+        public string HttpPostData(string Url, string postDataStr)
         {
             string retString = string.Empty;
             HttpWebRequest request;
@@ -74,7 +84,7 @@ namespace 航天云态度表达.Lib
         /// </summary>
         /// <param name="aData"></param>
         /// <returns></returns>
-        public static void ReadData(ref ReportData rData, ref AttitudeData aData)
+        public void ReadData(ref ReportData rData, ref AttitudeData aData)
         {
             try
             {
@@ -82,7 +92,7 @@ namespace 航天云态度表达.Lib
 
                 if (!string.IsNullOrEmpty(html) && !html.Equals(ERROR))
                 {
-                    AddData(html, timestamp, rData, aData);
+                    AddData(html, timestampDic, rData, aData);
                 }
             }
             catch (Exception exc)
@@ -91,73 +101,72 @@ namespace 航天云态度表达.Lib
             }
         }
         /// <summary>
-        /// 读取新的数据汇总
+        /// 从答题器服务器读取数据并汇总
         /// </summary>
-        /// <param name="html"></param>
-        /// <param name="dic"></param>
-        /// <param name="aData"></param>
-        public static void AddData(string html, Dictionary<string, string> dic, ReportData rData, AttitudeData aData)
+        /// <param name="html">接收答题器结果的返回数据</param>
+        /// <param name="timestampDic">学生ID与按键时间戳</param>
+        /// <param name="rData">上报数据</param>
+        /// <param name="aData">态度数据</param>
+        public void AddData(string html, Dictionary<string, string> timestampDic, ReportData rData, AttitudeData aData)
         {
             string[] arr = html.Split(';');
-            foreach (var item in arr)
+            foreach (var item in arr)//item格式：{55,{1,1482374174}{2,1482374179}}
             {
-                mc1 = regexID.Matches(item);
-                mc2 = regexContent.Matches(item);
+                mcStuID = regexStuID.Matches(item);//55
+                mcPressInfo = regexPressInfo.Matches(item);//{1,1482374174}{2,1482374179}
                 KeyPressInfo keyPress = new KeyPressInfo();
-                keyPress.ID = mc1[0].ToString();
-                foreach (var value in mc2)
+                keyPress.ID = mcStuID[0].ToString();//55
+                foreach (var pressInfo in mcPressInfo)//{1,1482374174}
                 {
-                    string[] temp = value.ToString().Split(',');
-                    if (dic.ContainsKey(keyPress.ID))
+                    // press[0]:按键内容，press[1]:时间戳
+                    string[] press = pressInfo.ToString().Split(',');
+                    keyPress.Key = press[0];
+                    keyPress.Time = press[1];
+                    if (timestampDic.ContainsKey(keyPress.ID))//学生和时间戳的集合里是否有该学生
                     {
                         //  比较时间戳
-                        if (Convert.ToInt32(dic[keyPress.ID]) >= Convert.ToInt32(temp[1]))
+                        if (Convert.ToInt32(timestampDic[keyPress.ID]) >= Convert.ToInt32(press[1]))
                         {
                             continue;
                         }
                         else
                         {
-                            keyPress.Key = temp[0];
-                            keyPress.Time = temp[1];
-                            rData.AddKeyPress(keyPress);
-                            ConvertKeyToAttitude(temp[0], aData);
+                            ConvertKeyToAttitude(keyPress, aData, rData);
+                            timestampDic[keyPress.ID] = keyPress.Time;
                         }
                     }
-                }
-                // 下次从该时间戳后面读取
-                if (!dic.ContainsKey(keyPress.ID))
-                {
-                    dic.Add(keyPress.ID, keyPress.Time);
-                }
-                else
-                {
-                    if (Convert.ToInt32(dic[keyPress.ID]) < Convert.ToInt32(keyPress.Time))
-                        dic[keyPress.ID] = keyPress.Time;
+                    else
+                    {
+                        timestampDic.Add(keyPress.ID, keyPress.Time);
+                        keyPress.Key = press[0];
+                        keyPress.Time = press[1];
+                        ConvertKeyToAttitude(keyPress, aData, rData);
+                    }
                 }
             }
         }
         /// <summary>
         /// 累加按键表示的态度
         /// </summary>
-        private static void ConvertKeyToAttitude(string key, AttitudeData aData)
+        private void ConvertKeyToAttitude(KeyPressInfo keyPress, AttitudeData aData, ReportData rData)
         {
-            switch (key)
+            switch (keyPress.Key)
             {
-                case "A":
                 case "1":
                     aData.PraiseCount++;
+                    rData.AddKeyPress(keyPress);
                     break;
-                case "B":
                 case "2":
                     aData.PuzzleCount++;
+                    rData.AddKeyPress(keyPress);
                     break;
-                case "C":
                 case "3":
                     aData.ObjectCount++;
+                    rData.AddKeyPress(keyPress);
                     break;
-                case "D":
                 case "4":
                     aData.BoringCount++;
+                    rData.AddKeyPress(keyPress);
                     break;
             }
         }
@@ -165,13 +174,13 @@ namespace 航天云态度表达.Lib
         /// 获取最后一个按答题器的学生信息
         /// </summary>
         /// <returns></returns>
-        internal static Student GetStudent()
+        internal Student GetStudent()
         {
             string html = HttpPostData(responesUrl, null);
             if (!string.IsNullOrEmpty(html) && !html.Equals(ERROR))
             {
                 string[] ss = html.Split(';');
-                MatchCollection mc = regexID.Matches(ss[ss.Length - 1]);
+                MatchCollection mc = regexStuID.Matches(ss[ss.Length - 1]);
                 string deviceID = mc[mc.Count - 1].ToString();
                 return GetStudentInfo(deviceID);
             }
@@ -183,7 +192,7 @@ namespace 航天云态度表达.Lib
         /// </summary>
         /// <param name="deviceID"></param>
         /// <returns></returns>
-        private static Student GetStudentInfo(string deviceID)
+        private Student GetStudentInfo(string deviceID)
         {
             Student stu = new Student();
             string postStr = "{\"answernum\":\"" + deviceID + "\"}";
@@ -218,7 +227,7 @@ namespace 航天云态度表达.Lib
         /// 重置答题器结果（清零）
         /// </summary>
         /// <returns></returns>
-        public static bool Reset()
+        public bool Reset()
         {
             bool result = false;
             string html = HttpPostData(resetUrl, string.Empty);
@@ -232,7 +241,7 @@ namespace 航天云态度表达.Lib
         /// </summary>
         /// <param name="timeStamp"></param>
         /// <returns></returns>
-        public static DateTime TimeStampConvertDateTime(string timeStamp)
+        public DateTime TimeStampConvertDateTime(string timeStamp)
         {
             DateTime dateTimeStart = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1));
             long lTime = long.Parse(timeStamp + "0000000");
@@ -244,7 +253,7 @@ namespace 航天云态度表达.Lib
         /// 获取一个时间戳
         /// </summary>
         /// <returns></returns>
-        public static string GetTimeStamp()
+        public string GetTimeStamp()
         {
             TimeSpan ts = DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0);
             return Convert.ToInt64(ts.TotalSeconds).ToString();
@@ -257,7 +266,7 @@ namespace 航天云态度表达.Lib
         /// <param name="imageStatic">正常</param>
         /// <param name="imageHover">悬停</param>
         /// <param name="imageActive">激活</param>
-        public static void AddButtonStyle(Button btn, Image imageStatic, Image imageHover, Image imageActive)
+        public void AddButtonStyle(Button btn, Image imageStatic, Image imageHover, Image imageActive)
         {
             btn.MouseEnter += delegate(object sender, EventArgs e)
             {

@@ -14,6 +14,8 @@ namespace AeroEduClass.NoGui
         const string offlineFlag = "Offline";
         const string openFlag = "FileOpen";
         const string openIactive = "OpenActive";
+        const string startQAFlag = "StartQA";
+        const string endQAFlag = "EndQA";
         // 委托 + 事件
         public delegate void ActionEventHandler(string jsonMsg);
         public event ActionEventHandler OnLogin;
@@ -21,11 +23,12 @@ namespace AeroEduClass.NoGui
         public event ActionEventHandler OnOffline;
         public event ActionEventHandler OnOpenFile;
         public event ActionEventHandler OnStartMeeting;
-
+        public event ActionEventHandler OnStartQA;
+        public event ActionEventHandler OnEndQA;
         bool IRequestHandler.OnBeforeBrowse(IWebBrowser browserControl, IBrowser browser, IFrame frame, IRequest request, bool isRedirect)
         {
             string action = string.Empty;
-            JObject jo = null; JToken jtAction ,jtFilePath,jUrl;
+            JObject jo = null; JToken jtAction, jtFilePath, jUrl;
 
             if (request.Url.IndexOf(token) == 0)
             {
@@ -36,38 +39,67 @@ namespace AeroEduClass.NoGui
                     if (jo.TryGetValue("serverName", out jtAction))
                         action = jtAction.ToString();
                 }
-
-                if (action == loginFlag)
+                switch (action)
                 {
-                    OnLogin(jsonStr);
-                    return true;
+                    case loginFlag:
+                        OnLogin(jsonStr);
+                        return true;
+                    case logoutFlag:
+                        OnLogout(jsonStr);
+                        return true;
+                    case offlineFlag:
+                        OnOffline(jsonStr);
+                        return true;
+                    case openFlag:
+                        if (jo.TryGetValue("filePath", out jtFilePath))
+                        {
+                            string filePaht = System.Web.HttpUtility.UrlDecode(jtFilePath.ToString());
+                            OnOpenFile(filePaht);
+                        }
+                        return true;
+                    case openIactive:
+                        jo = (JObject)JsonConvert.DeserializeObject(jsonStr);
+                        if (jo.TryGetValue("Url", out jUrl))
+                            OnStartMeeting(jUrl.ToString());
+                        return true;
+                    case startQAFlag:
+                        OnStartQA(jsonStr);
+                        return true;
+                    case endQAFlag:
+                        OnEndQA(jsonStr);
+                        return true;
                 }
-                else if (action == logoutFlag)
-                {
-                    OnLogout(jsonStr);
-                    return true;
-                }
-                else if (action == offlineFlag)
-                {
-                    OnOffline(jsonStr);
-                    return true;
-                }
-                else if (action == openFlag)
-                {
-                    if (jo.TryGetValue("filePath", out jtFilePath))
-                    {
-                        string filePaht = System.Web.HttpUtility.UrlDecode(jtFilePath.ToString());
-                        OnOpenFile(filePaht);
-                    }
-                    return true;
-                }
-                else if (action == openIactive)
-                {
-                    jo = (JObject)JsonConvert.DeserializeObject(jsonStr);
-                    if (jo.TryGetValue("Url", out jUrl))
-                        OnStartMeeting(jUrl.ToString());
-                    return true;
-                }
+                //if (action == loginFlag)
+                //{
+                //    OnLogin(jsonStr);
+                //    return true;
+                //}
+                //else if (action == logoutFlag)
+                //{
+                //    OnLogout(jsonStr);
+                //    return true;
+                //}
+                //else if (action == offlineFlag)
+                //{
+                //    OnOffline(jsonStr);
+                //    return true;
+                //}
+                //else if (action == openFlag)
+                //{
+                //    if (jo.TryGetValue("filePath", out jtFilePath))
+                //    {
+                //        string filePaht = System.Web.HttpUtility.UrlDecode(jtFilePath.ToString());
+                //        OnOpenFile(filePaht);
+                //    }
+                //    return true;
+                //}
+                //else if (action == openIactive)
+                //{
+                //    jo = (JObject)JsonConvert.DeserializeObject(jsonStr);
+                //    if (jo.TryGetValue("Url", out jUrl))
+                //        OnStartMeeting(jUrl.ToString());
+                //    return true;
+                //}
             }
             return false;
         }

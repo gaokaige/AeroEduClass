@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Config>
+  <Version>1.0.0</Version>
+  <App>
+    <Name>AeroEduClass</Name>
+    <Version>1.0.1</Version>
+    <Md5>1qaz@WSX</Md5>
+    <Url>http://192.168.30.195:81/data/version/AeroEduClass.rar</Url>
+  </App>
+  <App>
+    <Name>Record Player</Name>
+    <Version>1.0.1</Version>
+    <Md5>1qaz@WSX</Md5>
+    <Url>http://192.168.30.195:81/data/version/Record Player.rar</Url>
+  </App>
+  <App>
+    <Name>Booth Camera</Name>
+    <Version>1.0.1</Version>
+    <Md5>1qaz@WSX</Md5>
+    <Url>http://192.168.30.195:81/data/version/Booth Camera.rar</Url>
+  </App>
+  <App>
+    <Name>War</Name>
+    <Version>1.0.1</Version>
+    <Md5>1qaz@WSX</Md5>
+    <Url>http://192.168.30.195:81/data/version/War.rar</Url>
+  </App>
+  <App>
+    <Name>Cloud</Name>
+    <Version>1.0.1</Version>
+    <Md5>1qaz@WSX</Md5>
+    <Url>http://192.168.30.195:81/data/version/Cloud.rar</Url>
+  </App>
+  <App>
+    <Name>AeroEduPlatform</Name>
+    <Version>1.0.1</Version>
+    <Md5>1qaz@WSX</Md5>
+    <Url>http://192.168.30.195:81/data/version/AeroEduPlatform.rar</Url>
+  </App>
+</Config>

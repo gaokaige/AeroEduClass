@@ -15,28 +15,27 @@ namespace 航天云态度表达.Gui
         Boolean start = false;
         FrmMenu frmMenu;
         Student stu;
-
+        MainLib mainLib;
         public FrmStudent(FrmMenu _frmMenu)
         {
             InitializeComponent();
-           
+            mainLib = new MainLib(); 
             aData = new AttitudeData();
-
             rData = new ReportData();
             rData.ClassID = Program.CLASSID;
             rData.OnlineTeacharID = Program.ONLINETEACHERID;
             
             frmMenu = _frmMenu;
-            MainLib.Reset();
+            mainLib.Reset();
 
-            MainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
-            MainLib.AddButtonStyle(btnReset, Resources.删除, Resources.删除, Resources.关闭_选中);
+            mainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
+            mainLib.AddButtonStyle(btnReset, Resources.删除, Resources.删除, Resources.关闭_选中);
         }
 
         private void FrmStudent_Load(object sender, EventArgs e)
         {
-            aData = new AttitudeData(1, 1, 1, 1);
-            realTimeCharPie1.AddData(aData);// 添加一个为0的点
+            //aData = new AttitudeData(1, 1, 1, 1);
+            //realTimeCharPie1.AddData(aData);// 添加一个为0的点
             timer1.Interval = 1000;
             timer1.Start();
         }
@@ -60,8 +59,8 @@ namespace 航天云态度表达.Gui
                 realTime = DateTime.Now;
                 lbRealTime.Text = Convert.ToDateTime("00:00:00")
                     .AddSeconds((realTime - startTime).TotalSeconds).ToString("HH:mm:ss");
-                MainLib.AddButtonStyle(btnStart, Resources.结束_默认, Resources.结束_默认, Resources.结束_按下);
-                MainLib.ReadData(ref rData, ref aData);
+                mainLib.AddButtonStyle(btnStart, Resources.结束_默认, Resources.结束_默认, Resources.结束_按下);
+                mainLib.ReadData(ref rData, ref aData);
                 realTimeCharPie1.AddData(aData);
             }
             else
@@ -70,18 +69,18 @@ namespace 航天云态度表达.Gui
                 {
                     btnStart.BackgroundImage = Resources.开始_不可选;
                     btnStart.Enabled = false;
+                    stu = mainLib.GetStudent();
+                    if (!string.IsNullOrEmpty(stu.Name))
+                    {
+                        lbStuName.Text = stu.Name;
+                        lbStuNumber.Text = stu.Number;
+                    }
                 }
                 else
                 {
                     btnStart.BackgroundImage = Resources.开始按钮;
-                    MainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
+                    mainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
                     btnStart.Enabled = true;
-                }
-                stu = MainLib.GetStudent();
-                if (!string.IsNullOrEmpty(stu.Name))
-                {
-                    lbStuName.Text = stu.Name;
-                    lbStuNumber.Text = stu.Number;
                 }
             }
         }
@@ -90,23 +89,27 @@ namespace 航天云态度表达.Gui
         {
             lbStuNumber.Text = string.Empty;
             lbStuName.Text = string.Empty;
-            MainLib.Reset();
+            mainLib.Reset();
         }
 
         public void Start()
         {
             btnStart.BackgroundImage = Resources.结束评价;
-            MainLib.AddButtonStyle(btnStart, Resources.结束_默认, Resources.结束_默认, Resources.结束_按下);
+            mainLib.AddButtonStyle(btnStart, Resources.结束_默认, Resources.结束_默认, Resources.结束_按下);
 
-            this.realTimeCharPie1.Start();
-            aData = new AttitudeData(1, 1, 1, 1);
+            rData.ClearKeyPress();
+            realTimeCharPie1.Start();
+            // 仅仅是为了能看到饼图
+            aData = new AttitudeData(0, 0, 0, 0);
             realTimeCharPie1.AddData(aData);// 添加一个为0的点
 
             startTime = DateTime.Now;
             start = true;
-            MainLib.Reset();
+            mainLib.Reset();
+            mainLib.TimestampDic.Clear();
+
             rData.TargetStudentID = stu.Id;
-            rData.StartTime = MainLib.GetTimeStamp();
+            rData.StartTime = mainLib.GetTimeStamp();
             rData.Date = DateTime.Now.ToString("yyyy-MM-dd");
 
             realTimeCharPie1.Rotate = true;
@@ -116,12 +119,12 @@ namespace 航天云态度表达.Gui
         public void Stop()
         {
             btnStart.BackgroundImage = Resources.开始按钮;
-            MainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
+            mainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
 
             realTimeCharPie1.Rotate = start = false;
             btnReset.Enabled = true;
 
-            rData.EndTime = MainLib.GetTimeStamp();
+            rData.EndTime = mainLib.GetTimeStamp();
             rData.Duration = (DateTime.Now - startTime).TotalMinutes.ToString();
 
            
@@ -133,6 +136,7 @@ namespace 航天云态度表达.Gui
         private void Upload()
         {
             UploadData.SendTargetStudentData(rData);
+            rData.ClearKeyPress();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -176,7 +180,7 @@ namespace 航天云态度表达.Gui
             {
                 btnStart.BackgroundImage = Resources.开始按钮;
                 btnStart.Enabled = true;
-                MainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
+                mainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
             }
             else
             {

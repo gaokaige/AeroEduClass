@@ -47,7 +47,7 @@ namespace AeroEduClass.Gui
                 Dock = DockStyle.Fill,
             };
 #else
-            browser = new ChromiumWebBrowser("http://im.qq.com/download/")
+            browser = new ChromiumWebBrowser("http://192.168.0.107:8080/aeroteacher/teaLogin.do")
             {
                 Dock = DockStyle.Fill,
             };
@@ -101,11 +101,28 @@ namespace AeroEduClass.Gui
             aeroRequestHandler.OnLogout += aeroRequestHandler_OnLogout;
             aeroRequestHandler.OnOffline += aeroRequestHandler_OnOffline;
             aeroRequestHandler.OnOpenFile += aeroRequestHandler_OnOpenFile;
-
             aeroRequestHandler.OnStartMeeting += aeroRequestHandler_OnStartMeeting;
+            aeroRequestHandler.OnStartQA += aeroRequestHandler_OnStartQA;
+            aeroRequestHandler.OnEndQA += aeroRequestHandler_OnEndQA;
             browser.MenuHandler = new AeroMenuHandler();
             browser.AddressChanged += browser_AddressChanged;
             browser.LoadingStateChanged += browser_LoadingStateChanged;
+        }
+
+        void aeroRequestHandler_OnEndQA(string jsonMsg)
+        {
+            // 结束答题，恢复态度表达
+        }
+
+        void aeroRequestHandler_OnStartQA(string jsonMsg)
+        {
+            // 开始答题，暂停态度表达
+
+        }
+
+        void CreateOrDeleteFlagFile()
+        { 
+            
         }
 
         private void aeroRequestHandler_OnStartMeeting(string jsonMsg)
@@ -251,11 +268,7 @@ namespace AeroEduClass.Gui
         /// <param name="e"></param>
         private void dmButtonClose1_Click(object sender, System.EventArgs e)
         {
-            // 退出态度表达软件
-            if (config.UseAttitude)
-                ExitAttitude();
-            // 退出课联网
-            ALog.ToDB("退出课联网主程序");
+            //System.Environment.Exit(0);
             Application.Exit();
         }
         /// <summary>
@@ -268,7 +281,7 @@ namespace AeroEduClass.Gui
             {
                 if (item.ProcessName == "航天云态度表达")
                 {
-                    item.Kill();
+                    AeroEduLib.DosCommand.RunCmd("taskkill /f /pid " + item.Id);
                     ALog.ToDB("退出航天云态度表达");
                 }
             }
@@ -464,6 +477,15 @@ namespace AeroEduClass.Gui
             {
                 MessageBox.Show(exc.Message);
             }
+        }
+
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // 退出态度表达软件
+            if (config.UseAttitude)
+                ExitAttitude();
+            // 退出课联网
+            ALog.ToDB("退出课联网主程序");
         }
     }
 }
