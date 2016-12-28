@@ -36,7 +36,8 @@ namespace AeroEduClass.Gui
         {
             ALog.ToDB("启动主程序");
             InitializeComponent();
-            aeroRequestHandler_OnEndQA(string.Empty);
+            if (System.IO.File.Exists(path))
+                System.IO.File.Delete(path);
             btnMingBo.Visible = config.UseUKe;
             btnYcgk.Visible = config.UseYCGK;
             btnLive.Visible = config.UseYCBK;
@@ -118,7 +119,8 @@ namespace AeroEduClass.Gui
         void aeroRequestHandler_OnEndQA(string jsonMsg)
         {
             // 结束答题，恢复态度表达
-            System.IO.File.Delete(path);
+            if(System.IO.File.Exists(path))
+                System.IO.File.Delete(path);
             browser.Load(string.Format("javascript:bridge.callBack('{0}')", jsonMsg));
         }
 

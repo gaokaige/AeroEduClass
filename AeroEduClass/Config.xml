@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <config>
   <!--提供课联网web的服务器地址和端口，[U3]=127.0.0.1:8089,[U4]=192.168.5.122:8080-->
-  <WebServerIp>192.168.5.2:8080</WebServerIp>
+  <WebServerIp>192.168.5.122:8080</WebServerIp>
   <!--登录页地址-->
   <LoginPageUrl>/login.html</LoginPageUrl>
   <!--首页地址-->
