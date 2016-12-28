@@ -6,6 +6,17 @@ namespace AeroEduClass.NoGui
 {
     public class Config
     {
+        #region Field
+        
+        string _webServerIp;
+        /// <summary>
+        /// 提供课联网web的服务器地址和端口，[U3]=127.0.0.1:8089,[U4]=192.168.5.122:8080
+        /// </summary>
+        public string WebServerIp
+        {
+            get { return _webServerIp; }
+            set { _webServerIp = value; }
+        }
         string _loginPageUrl;
         /// <summary>
         /// 登录页面地址
@@ -169,24 +180,28 @@ namespace AeroEduClass.NoGui
             set { _useYCBK = value; }
         }
 
+        #endregion
         public Config()
         {
             try
             {
                 XmlDocument xd = new XmlDocument();
                 xd.Load(System.AppDomain.CurrentDomain.BaseDirectory + "Config.xml");
-                _loginPageUrl = xd.SelectSingleNode("/config/LoginPageUrl").InnerText;
-                _homePageUrl = xd.SelectSingleNode("/config/HomePageUrl").InnerText;
+
+                _webServerIp = xd.SelectSingleNode("/config/WebServerIp").InnerText;
+                _loginPageUrl = "http://" + _webServerIp + xd.SelectSingleNode("/config/LoginPageUrl").InnerText;
+                _homePageUrl = "http://" + _webServerIp + xd.SelectSingleNode("/config/HomePageUrl").InnerText;
+                _postServer = "http://" + _webServerIp + xd.SelectSingleNode("/config/PostServer").InnerText;
+                _activePath = "http://" + _webServerIp + xd.SelectSingleNode("/config/ActivePath").InnerText;
+                _liveServer = "http://" + _webServerIp + xd.SelectSingleNode("/config/LiveServer").InnerText;
+
+                _ascriptionServer = xd.SelectSingleNode("/config/AscriptionServer").InnerText;
+                _mingBoUClass = xd.SelectSingleNode("/config/MingboUClass").InnerText;
                 _recordPlayPath = xd.SelectSingleNode("/config/RecordPlayPath").InnerText;
                 _boothCameraPath = xd.SelectSingleNode("/config/BoothCameraPath").InnerText;
-                _activePath = xd.SelectSingleNode("/config/ActivePath").InnerText;
-                _aeroBoardPath = xd.SelectSingleNode("/config/AeroBoardPath").InnerText;
                 _attitudePath = xd.SelectSingleNode("/config/AttitudePath").InnerText;
-                _liveServer = xd.SelectSingleNode("/config/LiveServer").InnerText;
-                _ascriptionServer = xd.SelectSingleNode("/config/AscriptionServer").InnerText;
+                _aeroBoardPath = xd.SelectSingleNode("/config/AeroBoardPath").InnerText;
                 _ascriptionFilePath = xd.SelectSingleNode("/config/AscriptionFilePath").InnerText;
-                _mingBoUClass = xd.SelectSingleNode("/config/MingboUClass").InnerText;
-                _postServer = xd.SelectSingleNode("/config/PostServer").InnerText;
                 _cCLiveServer = xd.SelectSingleNode("/config/CCLiveServer").InnerText;
 
                 bool.TryParse(xd.SelectSingleNode("/config/UseUKe").InnerText, out _useUKe);

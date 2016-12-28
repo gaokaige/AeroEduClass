@@ -28,7 +28,7 @@ namespace AeroEduClass.Gui
         /// <summary>
         /// 获取配置，非常重要
         /// </summary>
-        private static Config config = new Config();
+        private static Config config = Program._config;
         private string currentUrl;
         private Ascription ap;
         #endregion

@@ -1,4 +1,5 @@
 ﻿using AeroEduClass.Gui;
+using AeroEduClass.NoGui;
 using AeroEduLib;
 using System;
 using System.Windows.Forms;
@@ -7,12 +8,15 @@ namespace AeroEduClass
 {
     static class Program
     {
+        public static Config _config;
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
         [STAThread]
         static void Main()
         {
+            _config = new Config();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 

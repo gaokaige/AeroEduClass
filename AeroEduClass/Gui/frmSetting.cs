@@ -15,7 +15,7 @@ namespace AeroEduClass.Gui
         public frmSetting()
         {
             InitializeComponent();
-            Config config = new Config();
+            Config config = Program._config;
             tbxCCLiveServer.Text = config.CCLiveServer;
             cbxYCGK.Checked = config.UseYCGK;
             cbxYCBK.Checked = config.UseYCBK;

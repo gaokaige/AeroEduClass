@@ -1,38 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <config>
+  <!--提供课联网web的服务器地址和端口，[U3]=127.0.0.1:8089,[U4]=192.168.5.122:8080-->
+  <WebServerIp>192.168.5.2:8080</WebServerIp>
   <!--登录页地址-->
-  <LoginPageUrl>http://localhost:8089/login.html</LoginPageUrl>
+  <LoginPageUrl>/login.html</LoginPageUrl>
   <!--首页地址-->
-  <HomePageUrl>http://localhost:8089/html/ajax/index.html#page/index</HomePageUrl>
-  <PostServer>http://localhost:8089/JsonServler</PostServer>
+  <HomePageUrl>/html/ajax/index.html#page/index</HomePageUrl>
+  <!--同频互动列表的服务地址-->
+  <PostServer>/JsonServler</PostServer>
+  <!--同频互动网址-->
+  <ActivePath>/html/ajax/index.html#page/getWdMeetingList</ActivePath>
+  <!--直播页面地址-->
+  <LiveServer>/html/ajax/index.html#page/videoStartCourse</LiveServer>
+  <!--设备归属查询服务器-->
+  <AscriptionServer>http://aero-educloud.com/CloudPlatform/findClassInfoByMac.do?macAddress=</AscriptionServer>
   <!--名博优课-->
   <MingboUClass>D:\航天优课智慧教学系统v4.0.2.13740\Teacher.exe</MingboUClass>
-  <!--录播应用程序路径-->
+  <!--录播应用程序相对路径-->
   <RecordPlayPath>Record Player\Record Player.exe</RecordPlayPath>
-  <!--实物展台应用程序路径-->
+  <!--实物展台应用程序相对路径-->
   <BoothCameraPath>Booth Camera\Booth Camera.exe</BoothCameraPath>
-  <!--同频互动网址-->
-  <ActivePath>http://localhost:8089/html/ajax/index.html#page/getWdMeetingList</ActivePath>
-  <!--电子白板应用程序路径-->
-  <AeroBoardPath>C:\Program Files (x86)\航天云白板软件\DonviewBoard.exe</AeroBoardPath>
-  <!--是否启用态度表达软件 true/false-->
-  <UseAttitude>true</UseAttitude>
-  <!--航天云态度表达软件路径-->
+  <!--航天云态度表达软件相对路径-->
   <AttitudePath>Attitude\航天云态度表达.exe</AttitudePath>
-  <!--直播页面地址-->
-  <LiveServer>http://localhost:8089/html/ajax/index.html#page/videoStartCourse</LiveServer>
-  <!--归属查询服务器-->
-  <AscriptionServer>http://aero-educloud.com/CloudPlatform/findClassInfoByMac.do?macAddress=</AscriptionServer>
+  <!--电子白板应用程序绝对路径-->
+  <AeroBoardPath>C:\Program Files (x86)\航天云白板软件\DonviewBoard.exe</AeroBoardPath>
   <!--本地查询文件，当网络获取不到归属时使用-->
   <AscriptionFilePath>D:\AeroEduPlatform\AeroEduPlatform.exe.config</AscriptionFilePath>
+  <!--CCLive直播课程的服务器地址，请从界面上配置，禁止修改此处-->
+  <CCLiveServer></CCLiveServer>
   <!--是否在主界面上显示名博优课，true显示，false不显示-->
   <UseUKe>false</UseUKe>
   <!--是否在主界面上显示CCLive的直播课程，true显示，false不显示-->
   <UseCCLive>false</UseCCLive>
-  <!--CCLive直播课程的服务器地址-->
-  <CCLiveServer></CCLiveServer>
   <!--是否在主界面上显示远程观课，true显示，false不显示-->
   <UseYCGK>true</UseYCGK>
   <!--是否在主界面上显示远程播课，true显示，false不显示-->
   <UseYCBK>true</UseYCBK>
+  <!--是否启用态度表达软件 true/false-->
+  <UseAttitude>true</UseAttitude>
 </config>

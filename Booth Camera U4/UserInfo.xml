@@ -1,0 +1,24 @@
+<INFO>
+  <ip>
+    192.168.5.3<ip2>192.168.5.3</ip2>
+    <DEVICENAME>Test1</DEVICENAME>
+    <nTotalChannel>1</nTotalChannel>
+    <username>admin</username>
+    <port>34567</port>
+    <pwd>admin</pwd>
+    <byChanNum>1</byChanNum>
+    <lID>0</lID>
+    <bSerialID>0</bSerialID>
+    <szSerIP/>
+    <nSerPort>0</nSerPort>
+    <szSerialInfo/>
+    <LoginType>0</LoginType>
+  </ip>
+  <path>c:\booth</path>
+
+  <SERVER>
+    <ADDR>192.168.5.122</ADDR>
+    <CMDPORT>10001</CMDPORT>
+    <PICPORT>10003</PICPORT>
+  </SERVER>
+</INFO>
