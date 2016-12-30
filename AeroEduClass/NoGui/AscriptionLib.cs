@@ -22,31 +22,63 @@ namespace AeroEduClass.NoGui
         }
         internal Ascription GetAscription()
         {
-            // 取本机mac地址
-            string mac = GetSystemInfo.GetLoaclMac();
-            // 先从云端获取
-            Ascription asc = GetAscriptionFromServer(mac);
-            if (asc == null)
+            Ascription asc = null;
+            if (TypeDefinition._DeviceType == DeviceType.U3)
             {
-                // 如果云端未获取到从本地获取
-                // 此处不适用U4机型，会走错误处理
-                XmlDocument xd = new XmlDocument();
-                asc = new Ascription();
-                try
+                // 取本机mac地址
+                string mac = GetSystemInfo.GetLoaclMac();
+                // 先从云端获取
+                asc = GetAscriptionFromServer(mac);
+                if (asc == null)
                 {
-                    xd.Load(config.AscriptionFilePath);
+                    // 如果云端未获取到从本地获取
+                    // 此处不适用U4机型，会走错误处理
+                    XmlDocument xd = new XmlDocument();
+                    asc = new Ascription();
+                    try
+                    {
+                        xd.Load(config.AscriptionFilePath);
 
-                    asc.Province = ReadAeroEduPlatformValue(xd, "provinceName");
-                    asc.City = ReadAeroEduPlatformValue(xd, "cityName");
-                    asc.District = ReadAeroEduPlatformValue(xd, "districtName");
-                    asc.School = ReadAeroEduPlatformValue(xd, "schoolName");
-                    asc.ClassNo = ReadAeroEduPlatformValue(xd, "ClassName");
-                    asc.IactiveUsername = "";
-                    asc.IactivePwd = "";
+                        asc.Province = ReadAeroEduPlatformValue(xd, "provinceName");
+                        asc.City = ReadAeroEduPlatformValue(xd, "cityName");
+                        asc.District = ReadAeroEduPlatformValue(xd, "districtName");
+                        asc.School = ReadAeroEduPlatformValue(xd, "schoolName");
+                        asc.ClassNo = ReadAeroEduPlatformValue(xd, "ClassName");
+                        asc.IactiveUsername = "";
+                        asc.IactivePwd = "";
+                    }
+                    catch (Exception exc) { ALog.ToDB(exc.Message); }
                 }
-                catch (Exception exc) { ALog.ToDB(exc.Message); }
+            }
+            else if (TypeDefinition._DeviceType == DeviceType.U4)
+            {
+                // 取u4 mac地址
+                string mac = GetU4MacAddress("http://192.168.5.122/getmac.php");
+                // 先从云端获取
+                asc = GetAscriptionFromServer(mac);
             }
             return asc;
+        }
+
+        string GetU4MacAddress(string machtml)
+        {
+            string mac = string.Empty;
+            try
+            {
+                HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(machtml);
+                webRequest.Timeout = 3000;
+                webRequest.Method = "GET";
+                HttpWebResponse webResponse = (HttpWebResponse)webRequest.GetResponse();
+                StreamReader sr = new StreamReader(webResponse.GetResponseStream(), Encoding.GetEncoding("utf-8"));
+                mac = sr.ReadToEnd();
+                //string mac = "000C29D4FD23";
+                mac = mac.Replace(":", "");
+                mac = mac.Replace("-", "");
+                mac = mac.Replace("\n", "");
+                mac = mac.Trim();
+            }
+            catch { }
+            return mac;
         }
 
         string ReadAeroEduPlatformValue(XmlDocument xd, string key)

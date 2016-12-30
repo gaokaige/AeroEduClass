@@ -2,7 +2,7 @@
 
 namespace AeroEduClass.NoGui
 {
-    public class DownloadHandler : IDownloadHandler
+    public class AeroDownloadHandler : IDownloadHandler
     {
         public void OnBeforeDownload(IBrowser browser, DownloadItem downloadItem, IBeforeDownloadCallback callback)
         {

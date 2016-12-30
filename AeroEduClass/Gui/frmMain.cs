@@ -8,6 +8,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace AeroEduClass.Gui
@@ -19,11 +20,12 @@ namespace AeroEduClass.Gui
         /// 启动钥匙
         /// </summary>
         private const string key = "AeroEduClass";
+        private string path;
         /// <summary>
         /// 当学生启动答题功能，会生成一个标识文件，态度表达检测到该文件存在，运行暂停
         /// 当学生停止答题功能，会删除该标识文件，态度表达继续
         /// </summary>
-        private string path = System.AppDomain.CurrentDomain.BaseDirectory + "Attitude\\Status\\pause.dat";
+        private string flagFileName;
         private ChromiumWebBrowser browser;
         /// <summary>
         /// 获取配置，非常重要
@@ -34,10 +36,33 @@ namespace AeroEduClass.Gui
         #endregion
         public frmMain()
         {
-            ALog.ToDB("启动主程序");
             InitializeComponent();
-            if (System.IO.File.Exists(path))
-                System.IO.File.Delete(path);
+
+            // 根据分辨率设置主界面大小
+            System.Drawing.Rectangle rect = Screen.PrimaryScreen.Bounds;
+            if (rect.Width != 1024)
+            {
+                this.WindowState = FormWindowState.Normal;
+                this.StartPosition = FormStartPosition.CenterScreen;
+                this.Width = 1024;
+                this.Height = 768;
+            }
+            ALog.ToDB("启动主程序");
+            path = System.AppDomain.CurrentDomain.BaseDirectory + "Attitude\\Status\\";
+            flagFileName = path + "pause.dat";
+            Log.ToFile(flagFileName);
+            //try
+            //{
+                if(!Directory.Exists(path))
+                    Directory.CreateDirectory(path);
+                if (System.IO.File.Exists(flagFileName))
+                    System.IO.File.Delete(flagFileName);
+            //}
+            //catch(Exception exc)
+            //{
+            //    Log.ToDB("态度表达标识文件操作错误:"+exc.Message);
+            //}
+
             btnMingBo.Visible = config.UseUKe;
             btnYcgk.Visible = config.UseYCGK;
             btnLive.Visible = config.UseYCBK;
@@ -110,30 +135,47 @@ namespace AeroEduClass.Gui
             aeroRequestHandler.OnEndQA += aeroRequestHandler_OnEndQA;
 
             browser.RequestHandler = aeroRequestHandler;
-            browser.DownloadHandler = new DownloadHandler();
+            browser.DownloadHandler = new AeroDownloadHandler();
             browser.MenuHandler = new AeroMenuHandler();
             browser.AddressChanged += browser_AddressChanged;
             browser.LoadingStateChanged += browser_LoadingStateChanged;
-        }
 
+        }
+        /// <summary>
+        /// 结束答题
+        /// </summary>
+        /// <param name="jsonMsg"></param>
         void aeroRequestHandler_OnEndQA(string jsonMsg)
         {
             // 结束答题，恢复态度表达
-            if(System.IO.File.Exists(path))
-                System.IO.File.Delete(path);
+            try
+            {
+                if (File.Exists(flagFileName))
+                {
+                    File.Delete(flagFileName);
+                    Log.ToFile("删除标识文件");
+                }
+            }
+            catch (Exception exc)
+            {
+                Log.ToFile("删除标识文件错误" + exc.Message);
+            }
             browser.Load(string.Format("javascript:bridge.callBack('{0}')", jsonMsg));
         }
-
+        /// <summary>
+        /// 开始答题
+        /// </summary>
+        /// <param name="jsonMsg"></param>
         void aeroRequestHandler_OnStartQA(string jsonMsg)
         {
             // 开始答题，暂停态度表达
-            System.IO.File.Create(path);
+            if(!File.Exists(flagFileName))
+            {
+                File.Create(flagFileName).Dispose();
+                //CreateFile(flagFileName);
+                Log.ToFile("创建标识文件");
+            }
             browser.Load(string.Format("javascript:bridge.callBack('{0}')", jsonMsg));
-        }
-
-        void CreateOrDeleteFlagFile()
-        { 
-            
         }
 
         private void aeroRequestHandler_OnStartMeeting(string jsonMsg)
@@ -453,7 +495,22 @@ namespace AeroEduClass.Gui
                 this.Left = Control.MousePosition.X - mousePoint.X;
             }
         }
+        private void plButtonList_MouseDown(object sender, MouseEventArgs e)
+        {
+            base.OnMouseDown(e);
+            this.mousePoint.X = e.X;
+            this.mousePoint.Y = e.Y;
+        }
 
+        private void plButtonList_MouseMove(object sender, MouseEventArgs e)
+        {
+            base.OnMouseMove(e);
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Top = Control.MousePosition.Y - mousePoint.Y - this.Height + this.plBottom.Height;
+                this.Left = Control.MousePosition.X - mousePoint.X;
+            }
+        }
         private void CreateVideoShare()
         {
             if (ap == null)
@@ -497,6 +554,17 @@ namespace AeroEduClass.Gui
                 ExitAttitude();
             // 退出课联网
             ALog.ToDB("退出课联网主程序");
+        }
+        /// <summary>
+        /// 不使用File.Create 因为不能立刻释放句柄
+        /// 也可以适用File.Create(file).Dispose;
+        /// </summary>
+        /// <param name="file"></param>
+        void CreateFile(string file)
+        {
+            using (FileStream fs = new System.IO.FileStream(file, System.IO.FileMode.CreateNew))
+            { 
+            }
         }
     }
 }

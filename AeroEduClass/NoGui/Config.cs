@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AeroEduLib;
+using System;
 using System.Windows.Forms;
 using System.Xml;
 
@@ -188,7 +189,11 @@ namespace AeroEduClass.NoGui
                 XmlDocument xd = new XmlDocument();
                 xd.Load(System.AppDomain.CurrentDomain.BaseDirectory + "Config.xml");
 
-                _webServerIp = xd.SelectSingleNode("/config/WebServerIp").InnerText;
+                if (TypeDefinition._DeviceType == DeviceType.U3)
+                    _webServerIp = "127.0.0.1:8089";
+                else if (TypeDefinition._DeviceType == DeviceType.U4)
+                    _webServerIp = "192.168.5.122:8080";
+
                 _loginPageUrl = "http://" + _webServerIp + xd.SelectSingleNode("/config/LoginPageUrl").InnerText;
                 _homePageUrl = "http://" + _webServerIp + xd.SelectSingleNode("/config/HomePageUrl").InnerText;
                 _postServer = "http://" + _webServerIp + xd.SelectSingleNode("/config/PostServer").InnerText;

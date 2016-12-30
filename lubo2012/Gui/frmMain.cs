@@ -341,6 +341,7 @@ namespace lubo2012
             if (screenVideoFileInfo.Exists)
             {
                 resource.File = screenVideoFileInfo;
+                resource.Apptype = AppType.Â¼²¥;
                 AppInterface.CreateNewResource(resource);
             }
 
@@ -348,6 +349,7 @@ namespace lubo2012
             if (teaVideoFileInfo.Exists)
             {
                 resource.File = teaVideoFileInfo;
+                resource.Apptype = AppType.Â¼²¥;
                 AppInterface.CreateNewResource(resource);
             }
 
@@ -355,10 +357,12 @@ namespace lubo2012
             if (stuVideoFileInfo.Exists)
             {
                 resource.File = stuVideoFileInfo;
+                resource.Apptype = AppType.Â¼²¥;
                 AppInterface.CreateNewResource(resource);
             }
 
             resource.File = new FileInfo(palyPage);
+            resource.Apptype = AppType.Â¼²¥;
             AppInterface.CreateNewResource(resource);
 
             RLog.ToDB("Í£Ö¹Â¼Ïñ,Éú³ÉÐÂ×ÊÔ´£º" + packName);

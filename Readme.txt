@@ -1,3 +1,6 @@
+**重要**重要**重要**说三遍===========>打包U3、U4安装程序时
+修改AeroEduLib/TypeDefinition.cs/_DeviceType 的值;
+
 本项目是北京航天云教育课联网平台源码:
 AeroEduClassProject				
 	--AeroEduClass					课联网平台项目 必须x86编译,使用Cefsharp版本47.0.3

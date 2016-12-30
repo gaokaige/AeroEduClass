@@ -33,14 +33,6 @@ namespace AeroEduLib
                 if (fs != null)
                     fs.Close();
             }
-
-            // 倒序日志
-            /*
-            string strFilePath = string.Format("log/log_{0}.txt", DateTime.Now.Date.ToString("yyyyMMdd"));
-            string strOldText = File.ReadAllText(strFilePath, System.Text.Encoding.Default);
-            File.WriteAllText(strFilePath, "'" + DateTime.Now.ToString() + "'\t'" + str + "\r\n", System.Text.Encoding.Default);
-            File.AppendAllText(strFilePath, strOldText, System.Text.Encoding.Default);
-            */
         }
 
         public static void ToDB(string content)

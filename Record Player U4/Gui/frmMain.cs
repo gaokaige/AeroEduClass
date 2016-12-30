@@ -213,17 +213,16 @@ namespace lubo2012
                 resource.FileType = "MP4";
 
                 resource.FilePath = path + "/screen.mp4";
-                AppInterface.CreateNewResource(resource);
+                AppInterface.CreateNewResourceU4(resource);
 
                 resource.FilePath = path + "/000.mp4";
-                AppInterface.CreateNewResource(resource);
-
+                AppInterface.CreateNewResourceU4(resource);
 
                 resource.FilePath = path + "/001.mp4";
-                AppInterface.CreateNewResource(resource);
+                AppInterface.CreateNewResourceU4(resource);
 
                 resource.FilePath = path + "/content.htm";
-                AppInterface.CreateNewResource(resource);
+                AppInterface.CreateNewResourceU4(resource);
 
                 RLog.ToDB("停止录像,生成新资源：" + path);
             }

@@ -117,6 +117,8 @@
             this.plButtonList.Name = "plButtonList";
             this.plButtonList.Size = new System.Drawing.Size(933, 46);
             this.plButtonList.TabIndex = 0;
+            this.plButtonList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.plButtonList_MouseDown);
+            this.plButtonList.MouseMove += new System.Windows.Forms.MouseEventHandler(this.plButtonList_MouseMove);
             // 
             // plTools
             // 

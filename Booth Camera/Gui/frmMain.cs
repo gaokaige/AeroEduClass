@@ -141,6 +141,7 @@ namespace AeroEduClass
             m_csAVFrm.stopRecordMp4(rtspRecorderId);
 
             resource.File = new FileInfo(fileName);
+            resource.Apptype = AppType.实物展台;
             AppInterface.CreateNewResource(resource);
         }
         // 录制
@@ -214,6 +215,7 @@ namespace AeroEduClass
                 resource = new Resource();
                 try
                 {
+                    resource.Apptype = AppType.实物展台;
                     resource.File = new FileInfo(picPath);
                     AppInterface.CreateNewResource(resource);
                 }
@@ -381,6 +383,7 @@ namespace AeroEduClass
                 btnSaveComment.Enabled = false;
 
                 resource = new Resource();
+                resource.Apptype = AppType.实物展台;
                 resource.File = new FileInfo(imgPath);
                 AppInterface.CreateNewResource(resource);
             }

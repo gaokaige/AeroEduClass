@@ -173,7 +173,7 @@ namespace Booth_Camera
             resource.FileType = "MP4";
             resource.FilePath = path;
             resource.CreateTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-            AppInterface.CreateNewResource(resource);
+            AppInterface.CreateNewResourceU4(resource);
         }
 
         // 截图
@@ -419,7 +419,7 @@ namespace Booth_Camera
                     resource.Apptype = AppType.实物展台;
                     resource.FileType = "PNG";
                     resource.FilePath = serverWebUri + "/picture/" + dirName + "/" + imgName;
-                    AppInterface.CreateNewResource(resource);
+                    AppInterface.CreateNewResourceU4(resource);
                 }
                 catch
                 {

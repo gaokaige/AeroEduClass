@@ -4,27 +4,30 @@ using System.Xml;
 namespace AeroEduLib
 {
     /// <summary>
-    /// 接口地址
-    /// U3:http://127.0.0.1:8089/assetsPost.json
-    /// U4:http://192.168.5.122:8080/assetsPost.json
-    /// 注意编译不同版本时候修改配置
+    /// 接口地址,注意编译U3/U4不同版本时候修改配置
     /// </summary>
     public class TypeDefinition
     {
+        public static DeviceType _DeviceType = DeviceType.U4;
         /// <summary>
         /// 联网WEB接收客户端传递消息的地址
         /// </summary>
         public static string LocalServer
         {
-            get { return GetWebServerIp(); }
+            get { return ServerAddress(); }
         }
 
-        private static string GetWebServerIp()
+        private static string ServerAddress()
         {
-            XmlDocument xd = new XmlDocument();
-            xd.Load(System.AppDomain.CurrentDomain.BaseDirectory + "Config.xml");
-            return "http://" + xd.SelectSingleNode("/config/WebServerIp").InnerText + "/assetsPost.json";
+            string ServerAddress = string.Empty;
+            if (_DeviceType == DeviceType.U3)
+                ServerAddress = "http://127.0.0.1:8089/assetsPost.json";
+            else if (_DeviceType == DeviceType.U4)
+                ServerAddress = "http://192.168.5.122:8080/assetsPost.json";
+            return ServerAddress;
         }
+
+        //public const string LocalServer = "http://127.0.0.1:8089/assetsPost.json";//U3
     }
     /// <summary>
     /// 文件类型定义
@@ -88,5 +91,11 @@ namespace AeroEduLib
         public string FilePath;
         public string CreateTime;
         public Resource() { CreateTime = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"); }
+    }
+
+    public enum DeviceType
+    {
+        U3,
+        U4
     }
 }
