@@ -51,53 +51,57 @@ namespace AeroEduClass.Gui
             path = System.AppDomain.CurrentDomain.BaseDirectory + "Attitude\\Status\\";
             flagFileName = path + "pause.dat";
             Log.ToFile(flagFileName);
-            //try
-            //{
-                if(!Directory.Exists(path))
+            try
+            {
+                if (!Directory.Exists(path))
                     Directory.CreateDirectory(path);
                 if (System.IO.File.Exists(flagFileName))
                     System.IO.File.Delete(flagFileName);
-            //}
-            //catch(Exception exc)
-            //{
-            //    Log.ToDB("态度表达标识文件操作错误:"+exc.Message);
-            //}
+            }
+            catch (Exception exc)
+            {
+                Log.ToFile("态度表达标识文件操作错误:" + exc.Message);
+            }
 
             btnMingBo.Visible = config.UseUKe;
             btnYcgk.Visible = config.UseYCGK;
             btnLive.Visible = config.UseYCBK;
             btnCCLive.Visible = config.UseCCLive;
+
+            if (CefSharpSettings.ShutdownOnExit)
+            {
+                Application.ApplicationExit += OnApplicationExit;
+            }
             //设置cache目录到当前bin/debug目录
             var celSet = new CefSettings();
 
             celSet.CachePath = System.IO.Directory.GetCurrentDirectory() + @"\cache";
             //celSet.CefCommandLineArgs.Add("ppapi-flash-path", config.FlashPluginPath);// 安装flashplayer_ppapi可以解决flash播放问题
             Cef.Initialize(celSet);
-#if !DEBUG
             browser = new ChromiumWebBrowser(config.LoginPageUrl)
             {
                 Dock = DockStyle.Fill,
             };
-#else
-            browser = new ChromiumWebBrowser("http://192.168.0.107:8080/aeroteacher/teaLogin.do")
-            {
-                Dock = DockStyle.Fill,
-            };
-#endif
+
             plMain.Controls.Add(browser);
             plButtonList.Enabled = false;
             // 获取归属对象
             AeroEduClass.NoGui.AscriptionLib al = new NoGui.AscriptionLib();
             ap = al.GetAscription();// 可能是null
             // 获取activeclass可参与的教室列表
-            System.Threading.Thread thr = new System.Threading.Thread(new System.Threading.ThreadStart(ToPosgresql));
+            System.Threading.Thread thr = new System.Threading.Thread(new System.Threading.ThreadStart(SaveMac));
             thr.IsBackground = false;
             thr.Start();
         }
+
+        private void OnApplicationExit(object sender, EventArgs e)
+        {
+            Cef.Shutdown();
+        }
         /// <summary>
-        /// 本机mac写入xml
+        /// MAC、同频互动列表等信息入库
         /// </summary>
-        private void ToPosgresql()
+        private void SaveMac()
         {
             try
             {
@@ -107,15 +111,15 @@ namespace AeroEduClass.Gui
                 string roomList = client.iactiveMeetingList(ap.IactiveUsername, ap.IactiveUsername, ap.IactivePwd);
                 string mac = AeroEduLib.GetSystemInfo.GetLoaclMac();
                 JObject jo = new JObject();
-                JObject joSon1 = new JObject();
-                JObject joSon2 = new JObject();
-                JObject joSon3 = new JObject();
-                joSon1.Add("macAddres", mac);
-                joSon2.Add("liveInfo", roomList);
-                joSon3.Add("username", ap.IactiveUsername);
-                jo.Add("addMacInfo", joSon1);
-                jo.Add("addIactiveLiveInfo", joSon2);
-                jo.Add("username", joSon3);
+                JObject joSonMac = new JObject();
+                JObject joSonLive = new JObject();
+                JObject joSonUser = new JObject();
+                joSonMac.Add("macAddres", mac);
+                joSonLive.Add("liveInfo", roomList);
+                joSonUser.Add("username", ap.IactiveUsername);
+                jo.Add("addMacInfo", joSonMac);
+                jo.Add("addIactiveLiveInfo", joSonLive);
+                jo.Add("username", joSonUser);
                 //post 数据到 课联网，课联网存到posgresql
                 byte[] postData = System.Text.Encoding.UTF8.GetBytes(jo.ToString());
                 AppInterface.PostData(config.PostServer, postData);
@@ -133,8 +137,8 @@ namespace AeroEduClass.Gui
             aeroRequestHandler.OnStartMeeting += aeroRequestHandler_OnStartMeeting;
             aeroRequestHandler.OnStartQA += aeroRequestHandler_OnStartQA;
             aeroRequestHandler.OnEndQA += aeroRequestHandler_OnEndQA;
-
             browser.RequestHandler = aeroRequestHandler;
+            
             browser.DownloadHandler = new AeroDownloadHandler();
             browser.MenuHandler = new AeroMenuHandler();
             browser.AddressChanged += browser_AddressChanged;
@@ -171,8 +175,8 @@ namespace AeroEduClass.Gui
             // 开始答题，暂停态度表达
             if(!File.Exists(flagFileName))
             {
+                // 要释放对象，否则删除文件报错
                 File.Create(flagFileName).Dispose();
-                //CreateFile(flagFileName);
                 Log.ToFile("创建标识文件");
             }
             browser.Load(string.Format("javascript:bridge.callBack('{0}')", jsonMsg));
@@ -293,7 +297,7 @@ namespace AeroEduClass.Gui
                 if (jo.TryGetValue("token", out jtAction))
                     token = jtAction.ToString();
             }
-            catch (Exception exc) { ALog.ToDB("名博秘钥获取错误:" + exc.Message); }
+            catch (Exception exc) { Log.ToFile("名博秘钥获取错误:" + exc.Message); }
             return token;
         }
         /// <summary>
@@ -378,6 +382,8 @@ namespace AeroEduClass.Gui
             string param = null;
             if (!string.IsNullOrEmpty(mingBoToken))
                 param = "\"" + "UClass.URL://token$" + mingBoToken + "\"";
+            else
+                Log.ToFile("名博优课TOKEN为空");
             AppButtonClick(config.MingBoUClass, PathType.绝对路径, param);
         }
         /// <summary>
@@ -554,17 +560,6 @@ namespace AeroEduClass.Gui
                 ExitAttitude();
             // 退出课联网
             ALog.ToDB("退出课联网主程序");
-        }
-        /// <summary>
-        /// 不使用File.Create 因为不能立刻释放句柄
-        /// 也可以适用File.Create(file).Dispose;
-        /// </summary>
-        /// <param name="file"></param>
-        void CreateFile(string file)
-        {
-            using (FileStream fs = new System.IO.FileStream(file, System.IO.FileMode.CreateNew))
-            { 
-            }
         }
     }
 }

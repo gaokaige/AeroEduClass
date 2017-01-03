@@ -32,7 +32,6 @@ namespace AeroEduClass.NoGui
                 if (asc == null)
                 {
                     // 如果云端未获取到从本地获取
-                    // 此处不适用U4机型，会走错误处理
                     XmlDocument xd = new XmlDocument();
                     asc = new Ascription();
                     try

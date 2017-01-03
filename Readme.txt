@@ -1,13 +1,13 @@
 **重要**重要**重要**说三遍===========>打包U3、U4安装程序时
-修改AeroEduLib/TypeDefinition.cs/_DeviceType 的值;
+修改AeroEduLib/TypeDefinition.cs/_DeviceType 的值
 
 本项目是北京航天云教育课联网平台源码:
 AeroEduClassProject				
 	--AeroEduClass					课联网平台项目 必须x86编译,使用Cefsharp版本47.0.3
 	--航天云态度表达					航天云态度表达软件(课联网登录后启动)
 AeroEduPlatformProject
-	--AeroEduPlatform
-	--AeroEduPlatformLib
+	--AeroEduPlatform				硬件信息实时上报服务
+	--AeroEduPlatformLib			硬件信息实时上报类库
 	--OpenHardwareMonitor			硬件信息获取工具，2.0编译
 	--OpenHardwareMonitorLib		硬件信息获取工具类库，2.0编译
 	--ConsoleAEP
