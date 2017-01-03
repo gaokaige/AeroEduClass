@@ -77,7 +77,7 @@ namespace AeroEduClass.Gui
 
             celSet.CachePath = System.IO.Directory.GetCurrentDirectory() + @"\cache";
             //celSet.CefCommandLineArgs.Add("ppapi-flash-path", config.FlashPluginPath);// 安装flashplayer_ppapi可以解决flash播放问题
-            Cef.Initialize(celSet);
+            Cef.Initialize(celSet, true, false);
             browser = new ChromiumWebBrowser(config.LoginPageUrl)
             {
                 Dock = DockStyle.Fill,

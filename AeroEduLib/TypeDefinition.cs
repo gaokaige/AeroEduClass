@@ -21,7 +21,11 @@ namespace AeroEduLib
         {
             string ServerAddress = string.Empty;
             if (_DeviceType == DeviceType.U3)
+#if !DEBUG
                 ServerAddress = "http://127.0.0.1:8089/assetsPost.json";
+#else
+                ServerAddress = "http://192.168.0.112:8080/assetsPost.json";
+#endif
             else if (_DeviceType == DeviceType.U4)
                 ServerAddress = "http://192.168.5.122:8080/assetsPost.json";
             return ServerAddress;
