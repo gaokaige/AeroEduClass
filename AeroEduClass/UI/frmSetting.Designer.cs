@@ -1,4 +1,4 @@
-﻿namespace AeroEduClass.Gui
+﻿namespace AeroEduClass.UI
 {
     partial class frmSetting
     {
@@ -37,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnClose = new DMSkin.Controls.DMButtonClose();
+            this.lbVer1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cbxTDBD
@@ -126,11 +127,21 @@
             this.btnClose.TabIndex = 8;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // lbVer1
+            // 
+            this.lbVer1.AutoSize = true;
+            this.lbVer1.Location = new System.Drawing.Point(4, 4);
+            this.lbVer1.Name = "lbVer1";
+            this.lbVer1.Size = new System.Drawing.Size(29, 12);
+            this.lbVer1.TabIndex = 9;
+            this.lbVer1.Text = "ver1";
+            // 
             // frmSetting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(477, 239);
+            this.ClientSize = new System.Drawing.Size(477, 230);
+            this.Controls.Add(this.lbVer1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -164,5 +175,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private DMSkin.Controls.DMButtonClose btnClose;
+        private System.Windows.Forms.Label lbVer1;
     }
 }

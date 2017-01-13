@@ -1,10 +1,10 @@
-﻿using AeroEduClass.Gui;
+﻿using AeroEduClass.UI;
 using CefSharp;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 
-namespace AeroEduClass.NoGui
+namespace AeroEduClass.Lib
 {
     public class AeroRequestHandler : IRequestHandler
     {
@@ -16,8 +16,11 @@ namespace AeroEduClass.NoGui
         const string openIactive = "OpenActive";
         const string startQAFlag = "StartQA";
         const string endQAFlag = "EndQA";
+        const string downloadPageFlag = "DownloadPage";
+        const string downloadFlag = "Download";
         // 委托 + 事件
         public delegate void ActionEventHandler(string jsonMsg);
+        public event ActionEventHandler OnLocationChanged;
         public event ActionEventHandler OnLogin;
         public event ActionEventHandler OnLogout;
         public event ActionEventHandler OnOffline;
@@ -25,8 +28,13 @@ namespace AeroEduClass.NoGui
         public event ActionEventHandler OnStartMeeting;
         public event ActionEventHandler OnStartQA;
         public event ActionEventHandler OnEndQA;
+        public event ActionEventHandler OnDownloadPage;
+        public event ActionEventHandler OnDownload;
         bool IRequestHandler.OnBeforeBrowse(IWebBrowser browserControl, IBrowser browser, IFrame frame, IRequest request, bool isRedirect)
         {
+            OnLocationChanged(request.Url);
+            if (request.Url == "")
+                OnDownloadPage("");
             string action = string.Empty;
             JObject jo = null; JToken jtAction, jtFilePath, jUrl;
 
@@ -68,38 +76,14 @@ namespace AeroEduClass.NoGui
                     case endQAFlag:
                         OnEndQA(jsonStr);
                         return true;
+                    case downloadFlag:
+                        OnDownloadPage(jsonStr);
+                        return true;
+                    case downloadPageFlag:
+                        if (jo.TryGetValue("Url", out jUrl))
+                            OnDownloadPage(jUrl.ToString());
+                        return true;
                 }
-                //if (action == loginFlag)
-                //{
-                //    OnLogin(jsonStr);
-                //    return true;
-                //}
-                //else if (action == logoutFlag)
-                //{
-                //    OnLogout(jsonStr);
-                //    return true;
-                //}
-                //else if (action == offlineFlag)
-                //{
-                //    OnOffline(jsonStr);
-                //    return true;
-                //}
-                //else if (action == openFlag)
-                //{
-                //    if (jo.TryGetValue("filePath", out jtFilePath))
-                //    {
-                //        string filePaht = System.Web.HttpUtility.UrlDecode(jtFilePath.ToString());
-                //        OnOpenFile(filePaht);
-                //    }
-                //    return true;
-                //}
-                //else if (action == openIactive)
-                //{
-                //    jo = (JObject)JsonConvert.DeserializeObject(jsonStr);
-                //    if (jo.TryGetValue("Url", out jUrl))
-                //        OnStartMeeting(jUrl.ToString());
-                //    return true;
-                //}
             }
             return false;
         }

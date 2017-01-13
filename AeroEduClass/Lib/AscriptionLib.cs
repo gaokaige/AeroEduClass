@@ -7,7 +7,7 @@ using System.Net;
 using System.Text;
 using System.Xml;
 
-namespace AeroEduClass.NoGui
+namespace AeroEduClass.Lib
 {
     public class AscriptionLib
     {

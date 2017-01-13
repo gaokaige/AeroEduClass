@@ -17,8 +17,8 @@ U3
 U4
 	--Booth Camera U4				U4实物展台项目 必须x86编译
 	--Record Player U4				U4录播项目 必须x86编译
-AeroEduClassSetupU3					U3课联网平台项目安装包
-AeroEduClassSetupU4					U4课联网平台项目安装包,编译时候会报2次“Serial Number Missing”点确定即可
+AeroEduClassSetupU3					U3课联网平台项目安装包,编译时候会报2次“Serial Number Missing”点确定即可(如果删掉网动的安装包就正常)
+AeroEduClassSetupU4					U4课联网平台项目安装包,编译时候会报2次“Serial Number Missing”点确定即可(如果删掉网动的安装包就正常)
 Update
 	--UpgradePackageBuild					版本更新打包程序
 	--AeroEduRegSoft						版本更新程序，需要管理员启动

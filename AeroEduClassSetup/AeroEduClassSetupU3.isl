@@ -339,31 +339,74 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>AeroEduClass.exe</td><td>{AAEB147B-E43F-4CC2-8441-7E5C88A829C0}</td><td>INSTALLDIR</td><td>2</td><td/><td>aeroeduclass.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>AeroEduLib.dll</td><td>{8A5678E4-66F7-4851-BF39-15DBF5F54437}</td><td>INSTALLDIR</td><td>2</td><td/><td>aeroedulib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>AeroEduLib.dll1</td><td>{CC6D583A-ADC0-472A-8C0D-6C830C1744AB}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>aeroedulib.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>AeroEduLib.dll2</td><td>{A0EDC3AC-80C8-4292-A805-396DF240D9C2}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>aeroedulib.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Booth_Camera.exe</td><td>{56E1FBDD-3EE3-43DB-ABC1-F3145AFA37E3}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>booth_camera.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CefSharp.BrowserSubprocess.Core.dll</td><td>{8D178EE4-4BCC-4BDC-8AF7-3933E0B0E4CD}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.browsersubprocess.c</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CefSharp.BrowserSubprocess.exe</td><td>{3B92B27E-355B-477E-B180-E0E703FC4560}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.browsersubprocess.e</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CefSharp.Core.dll</td><td>{A4BC4769-66CF-4303-9479-4CE66714E68E}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.core.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CefSharp.WinForms.dll</td><td>{6423F982-AA7A-4A3E-B4F3-95EDD11D4ACD}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.winforms.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>CefSharp.dll</td><td>{617334BA-E284-463A-B1C9-8BA744C63C67}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Component.exe</td><td>{5FB017B1-CE6E-4DED-8B0F-6BC0AD8D2333}</td><td>ATTITUDE</td><td>2</td><td/><td>File.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>D3Dcompiler_47.dll</td><td>{05F5A71A-816E-4A1D-BD77-D55D56F2BA88}</td><td>_4BIT</td><td>2</td><td/><td>d3dcompiler_47.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DMSkin.dll</td><td>{D1704BA2-56FB-49F3-B43C-704509685361}</td><td>INSTALLDIR</td><td>2</td><td/><td>dmskin.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DMSkin.dll1</td><td>{8923E898-9944-4C39-A2A0-0A199568BA48}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>dmskin.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DMSkin.dll2</td><td>{1C45DB11-51A1-43F1-9901-1469D6E88FA1}</td><td>ATTITUDE</td><td>2</td><td/><td>dmskin.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DevComponents.DotNetBar2.dll</td><td>{E509D8A6-11B8-4D99-8BBC-DF32C7B446B0}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>devcomponents.dotnetbar2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DevComponents.DotNetBar2.dll1</td><td>{69894DC4-4361-4910-B700-A6D70D2A8394}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>devcomponents.dotnetbar2.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DevComponents.Instrumentation.dll</td><td>{9CD92A10-3540-4513-BA52-A96D054816E7}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>devcomponents.instrumentatio</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DllDeinterlace.dll</td><td>{C214091F-E81F-4AC7-A7DD-0A2F478B6F6F}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>dlldeinterlace.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DllDeinterlace.dll1</td><td>{BDC3CDE5-6447-47B3-BA6F-EC2B497F9C2C}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>dlldeinterlace.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>H264Play.dll</td><td>{24824080-E36B-4A41-80AC-B4B78AD6B62C}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>h264play.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>H264Play.dll1</td><td>{057DA0E4-C672-4D50-9ED4-FC3E6C6DF1D0}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>h264play.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ACPlayer.exe</td><td>{72BF5062-B121-40EF-9C6C-C349903AC929}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>acplayer.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ActiveAuto.exe</td><td>{8CA37D36-13F5-48F4-95DE-FE32E2C3CE1A}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>activeauto.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ActiveLoader.exe</td><td>{F0CDB16E-BDCD-4A01-B9B6-1C054AFFB249}</td><td>IACTIVE</td><td>2</td><td/><td>activeloader.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ActiveLoader.exe1</td><td>{302BBD50-B1E0-44DD-8844-13461E428B60}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>activeloader.exe1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ActiveMeeting.exe</td><td>{7A087745-68C4-4194-94B1-A3ED55F76FCF}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>activemeeting.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AeroEduClass.exe</td><td>{4A8BBD7A-D95F-4AA2-868C-FBB156D169A8}</td><td>INSTALLDIR</td><td>2</td><td/><td>aeroeduclass.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AeroEduLib.dll</td><td>{A563E1E8-EC7B-4757-83F0-ACAE0C73DF44}</td><td>INSTALLDIR</td><td>2</td><td/><td>aeroedulib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AeroEduLib.dll1</td><td>{A28A4AFF-EF12-4FCA-BE00-5286E7C6C1B8}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>aeroedulib.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>AeroEduLib.dll2</td><td>{9CCC46C4-D9F9-4D73-9CB4-0E961B865D97}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>aeroedulib.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>BWClientDll.dll</td><td>{59686DE5-8069-4566-9F78-73104081F75D}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>bwclientdll.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Booth_Camera.exe</td><td>{70CC4758-A956-494E-962C-02C1FB6D1097}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>booth_camera.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>BugReport.exe</td><td>{CDE924FD-5DA3-487D-BC65-735F45A87091}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>bugreport.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CEXTH.dll</td><td>{ED1043AB-D7EB-4592-B1B3-D9394F8780AB}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>cexth.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CPTH.dll</td><td>{50099171-D8B8-42F1-9E98-FA1F72649495}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>cpth.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CWTH.dll</td><td>{B4A2AD27-E357-4F09-B36B-2C4D7DC444DD}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>cwth.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CefSharp.BrowserSubprocess.Core.dll</td><td>{5D5C93BC-1453-4FF5-B2B4-5558265359A6}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.browsersubprocess.c</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CefSharp.BrowserSubprocess.exe</td><td>{F356C5BA-903A-4AA3-97AC-7940E4A28332}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.browsersubprocess.e</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CefSharp.Core.dll</td><td>{F4F4F39D-3BA1-4409-969F-785F8534D989}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.core.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CefSharp.WinForms.dll</td><td>{617BE7B8-9B78-4B1F-AFA7-2B4D4EA13CE1}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.winforms.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CefSharp.dll</td><td>{DABB3778-0FEB-471C-B634-6411178B7809}</td><td>INSTALLDIR</td><td>2</td><td/><td>cefsharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ColorSpace.dll</td><td>{F4806320-04C2-455B-9970-88BAF0058C8C}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>colorspace.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Component.exe</td><td>{381DC84B-D61B-4E09-AC64-E8F04F0FC251}</td><td>ATTITUDE</td><td>2</td><td/><td>File.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Copier.exe</td><td>{E161BD0A-3962-4338-9B4C-FA3A60236A5D}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>copier.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>CourseManager.exe</td><td>{BEB2CFE7-5726-4FE3-BC68-BD0D414C136B}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>coursemanager.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>D3Dcompiler_47.dll</td><td>{753ED831-60F6-46DB-93FD-FAE6570F2458}</td><td>_4BIT</td><td>2</td><td/><td>d3dcompiler_47.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DBSClient.exe</td><td>{04F3B400-420E-451F-8B55-540B14B07002}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>dbsclient.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DMSkin.dll</td><td>{C4750F28-08D5-4650-83B8-A3247D4447BB}</td><td>INSTALLDIR</td><td>2</td><td/><td>dmskin.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DMSkin.dll1</td><td>{AEC923A4-C5DF-49BB-AC34-E06D0FF85157}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>dmskin.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DMSkin.dll2</td><td>{EA766DCE-8156-4633-B12B-6B002DE48C47}</td><td>ATTITUDE</td><td>2</td><td/><td>dmskin.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DevComponents.DotNetBar2.dll</td><td>{242D18D5-AC75-49F2-8D01-8D6E319A3882}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>devcomponents.dotnetbar2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DevComponents.DotNetBar2.dll1</td><td>{19E9D9A9-65AF-4276-B6CF-DED28552DB3C}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>devcomponents.dotnetbar2.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DevComponents.Instrumentation.dll</td><td>{73C4A8D6-55A2-406F-90D5-B388D07363DE}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>devcomponents.instrumentatio</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DirectShowSource.dll</td><td>{BE3D7B7D-DD6D-4AEC-9162-A43C551484F0}</td><td>AVISYNTH_PLUGIN</td><td>2</td><td/><td>directshowsource.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DirectShowSource.dll1</td><td>{D4EE2038-3F86-4A4C-9892-60251EDD00BB}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>directshowsource.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DllDeinterlace.dll</td><td>{2AEA6C4E-7BAE-4F5B-8E0D-6212EBC438E4}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>dlldeinterlace.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DllDeinterlace.dll1</td><td>{7AF0F6F5-E22B-42D2-8817-E5C0F21126E3}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>dlldeinterlace.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>FileCom.dll</td><td>{6A459C8D-6E4E-438D-816D-1AE33DCC8053}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>filecom.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>G7xDll.dll</td><td>{9515F65C-6ECD-43B4-AB11-BF26894466CF}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>g7xdll.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>H264Play.dll</td><td>{FB45088E-A019-42CC-BFDB-B0A155D24E19}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>h264play.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>H264Play.dll1</td><td>{876CD648-EC24-46C1-B57E-760A6EEA29EC}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>h264play.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>HookSys.dll</td><td>{9B4A8D5D-BF8C-4D99-A92A-ED92D33A7572}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>hooksys.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAAudioLib.dll</td><td>{33529CA3-F192-4759-AD9D-BC3A504C2097}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iaaudiolib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IACSmy.dll</td><td>{2F4B20A6-9AA4-4BBB-95B8-1E299BE1B4C6}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iacsmy.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IACUsage.dll</td><td>{5941A44E-1C9B-4A78-936E-FF9BF5CCC1CF}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iacusage.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IACap.dll</td><td>{9F0A4EF6-7046-43B5-B13F-DF897F29D021}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iacap.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAExpat.dll</td><td>{6889448F-9092-4817-A9ED-ADE848559A0F}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iaexpat.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAEysp.dll</td><td>{50E3E5E9-A16C-4B63-942D-EC95285B2DB4}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iaeysp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAJ2K.dll</td><td>{4A8753B0-B3C7-4640-BCF5-D349AEBDAE2B}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iaj2k.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAJCmp.dll</td><td>{2E2CEB06-A829-4DB7-BBF2-0A6C48B522D6}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iajcmp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IALA.dll</td><td>{2895BDAF-22FD-494C-A57C-3D8C972A2CAE}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iala.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IALCmp.dll</td><td>{78EAC356-4107-42D0-ADA5-258D98126736}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>ialcmp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IALmn.dll</td><td>{8181ADC1-CAEE-4F2F-A2B5-0E59FEEAA2A6}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>ialmn.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAMediaAVS.dll</td><td>{385E1FF7-17CF-4A43-8D75-EC424675C815}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iamediaavs.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAMiscEx.dll</td><td>{65355A90-C5D4-44C4-BFCD-EDE9AF125759}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iamiscex.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IANet.dll</td><td>{6587B11C-0B98-4C8C-9065-F2716EA33768}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>ianet.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IANet3.dll</td><td>{33F8C6BA-6D7B-4926-9FF2-8CA4310B065A}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>ianet3.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAPOL.dll</td><td>{ADAF2BB6-C832-4F10-B888-83B10EEE9F30}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iapol.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IARGB256.dll</td><td>{611B8C60-2703-4C21-B961-9DC1808DDB70}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iargb256.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAUNIDRV.DLL</td><td>{F788BAE5-808E-4061-BB34-0FF2F04378C4}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>iaunidrv.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAUNIDRVUI.DLL</td><td>{277A8ABA-A162-4EA3-AA0B-A3A9116858D2}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>iaunidrvui.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAUNIDRV_64.DLL</td><td>{70D5B8E3-E61F-4866-935D-369E38E8D80E}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>iaunidrv_64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IAunidrvui_64.dll</td><td>{E0E889F2-7661-43D4-A2CB-D863E109A18A}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>iaunidrvui_64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>IDE_ID.vxd</td><td>{1D8FD421-F52C-4BE5-926A-693300B02A26}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>ide_id.vxd</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{881C8369-C985-46A3-B8E4-AA5207BA38B3}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{5BB2AC0A-857F-4103-93B3-09AC69598CB3}</td><td>RECORD_PLAYER</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT10</td><td>{4E943384-509B-4CF0-9E92-70B0CF14EAA2}</td><td>PLATFORMS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT100</td><td>{982D5FE5-92CB-421A-96E3-7874C0DC3F58}</td><td>XPSKINRES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT101</td><td>{FDC18FA2-523C-4DEC-8069-2C4E3DEA3425}</td><td>XPSTYLE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT11</td><td>{2D6F254C-996B-4173-98A4-539FC1D14A2D}</td><td>SQLDRIVERS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT12</td><td>{84B89E74-1DFC-47E3-A294-300BB9D33129}</td><td>TRANSLATIONS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT13</td><td>{6D0FC069-3031-425E-9EC4-AF099D82A880}</td><td>DATA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -411,148 +454,233 @@
 		<row><td>ISX_DEFAULTCOMPONENT51</td><td>{FEF49CB1-84A8-4DD2-A8BA-390F5A265D5E}</td><td>OBS_PLUGINS1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT52</td><td>{0CB012D1-B0E6-4834-B3EA-8C385687B606}</td><td>_4BIT1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT53</td><td>{134FFF56-C5C4-406A-9A9B-E4977647B03F}</td><td>ATTITUDE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT54</td><td>{3175A583-F2B0-4C6B-B6B5-02ED975D15BC}</td><td>OBS_STUDIO1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT55</td><td>{52AB7D88-5E96-4122-A544-84B46D6F5D28}</td><td>BASIC</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT56</td><td>{DE172933-BC49-4903-B83F-4F2544D4078A}</td><td>PROFILES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT57</td><td>{3649C3D5-B024-4F36-81C2-3E932B06993D}</td><td>CHARACTERS_ONLY</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT58</td><td>{9B5A8940-D9F0-4CBD-9479-A637F9DF8B83}</td><td>DIRECTORY3</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT59</td><td>{34AF9473-28F4-4423-9689-4FD542E0A44A}</td><td>SCENES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT6</td><td>{998A7571-0C13-4A73-83F1-F18796044D02}</td><td>BIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT60</td><td>{7FF1268D-4A6D-4063-AF53-7C809F580574}</td><td>CRASHES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT61</td><td>{AF187B54-6F96-4DE6-A3C0-A9C71A43F539}</td><td>LOGS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT62</td><td>{B5363100-5EB8-4F1B-A6DB-9FC567E33911}</td><td>PLUGIN_CONFIG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT63</td><td>{700BEFE0-54AB-4A1E-AB7F-1CFA36A3CA8C}</td><td>OBS_BROWSER</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT64</td><td>{6543E4C1-B9C5-4A57-A41E-ADED7B44BE0B}</td><td>RTMP_SERVICES1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT65</td><td>{C74299FE-FA96-4D3E-949C-B5D57E8D4086}</td><td>TEXT_FREETYPE21</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT66</td><td>{D4964418-6D38-4A47-8666-DC9F4935AE87}</td><td>WIN_CAPTURE1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT67</td><td>{0607B7DC-6862-4721-B40A-B0C24AA139B1}</td><td>PROFILER_DATA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT68</td><td>{2CF3DCD7-84EC-4B77-ACF6-1C119AB8D9F8}</td><td>COMMON_FILES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT69</td><td>{936BCB84-63C0-4690-9A8B-B8A307C932D8}</td><td>IACTIVE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td>{EB757BC0-3C62-4978-9E4B-2710D88B7F9A}</td><td>_4BIT</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT70</td><td>{DBDEEB5E-6685-4549-99FA-597FC670E2E8}</td><td>IACTIVE1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT71</td><td>{BD2B2EC5-D9BB-49B8-B31E-008E8E4B6ADC}</td><td>ACTIVECENTER</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT72</td><td>{073129DF-8425-4395-BD5E-F0C51650AD36}</td><td>ACTIVEMEETING</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT73</td><td>{1E21C7EC-BA53-44C4-ABFF-A6265550F430}</td><td>AVISYNTH_PLUGIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT74</td><td>{95BABA0E-D99C-4E39-9950-317D39497F78}</td><td>CONIFIGDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT75</td><td>{6959E19B-AC14-4119-A08D-D0CD7EA9C39D}</td><td>COURSEWARE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT76</td><td>{65B1541E-912F-44DC-AD02-5C91BE10ADA3}</td><td>LANGUAGE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT77</td><td>{14F87D5A-1738-408C-945B-95F8F7312049}</td><td>LOG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT78</td><td>{424C85B7-AD4F-45F8-8FD1-8EA7C404C533}</td><td>MTSKIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT79</td><td>{5B4CFFEF-5B92-48D2-A5FE-1AB83668BE15}</td><td>MTNORMAL</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{5ABC1357-719C-4D2C-B555-C68AA891EE3B}</td><td>ICONENGINES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT80</td><td>{D84B9DF4-7741-4595-8B9D-E23E438ECFFB}</td><td>SCROLLSKIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT81</td><td>{FB3CEF1C-A6AE-4113-BE76-D839F27136B5}</td><td>SKIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT82</td><td>{61640928-0FA1-48E0-AAC3-98E784A6A121}</td><td>NORMAL</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT83</td><td>{C46CE88E-AE88-4EF3-AE75-46D561F140E3}</td><td>SCROLLSKIN1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT84</td><td>{9CA00C63-05C3-4C06-BA5A-0C1283443BF7}</td><td>SKIN1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT85</td><td>{32F2B521-A0C8-4E67-A09C-6B9540A583B6}</td><td>PANCONFIG</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT86</td><td>{9DD01E59-F2D6-4672-87FC-47E7D43ADD80}</td><td>PLAYSKIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT87</td><td>{CC3CF87F-55D5-40D8-9C52-81A8490C72BF}</td><td>NORMAL1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT88</td><td>{E3B412A1-BC1D-4A4B-A1FC-29BFC2470B86}</td><td>RCVFILE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT89</td><td>{BD014054-390C-4039-B0DE-603521D84551}</td><td>SOUND</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td>{CC1136D8-95A9-4D48-975A-544689A4EE62}</td><td>IMAGEFORMATS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>NetSdk.dll</td><td>{79B4CB12-A2B6-4B85-BB10-233C88C7E3E8}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>netsdk.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT90</td><td>{1EED0207-EA37-4AB5-B968-B5B72C3CC013}</td><td>TEMPDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT91</td><td>{64610159-E563-4C78-893B-4C1774004415}</td><td>_</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT92</td><td>{7582CBFB-C1AA-4B04-B9CE-3510F8C2809D}</td><td>TEMP</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT93</td><td>{16E14BF4-737E-4655-A2F6-FC199B0967D2}</td><td>_7</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT94</td><td>{A2CA9CB1-4FD3-4D7A-9014-A36F2EE3E5D1}</td><td>TEMP1</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT95</td><td>{958BADB5-2415-4F5A-A962-E7E8AD4B26D5}</td><td>_3</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT96</td><td>{063BBD69-C02C-4644-B6DB-6825951FBD1F}</td><td>TEMP2</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT97</td><td>{061F19A1-391E-4E92-84F1-3ADC0AE2D318}</td><td>_6</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT98</td><td>{9779CD2F-FA6B-4DB0-A29C-76AD3742AE39}</td><td>TEMP3</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT99</td><td>{97047C53-09EF-42CA-B932-F67255551FBA}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>InstallVPrinter.exe</td><td>{774AF4EF-B706-4CB5-9DC2-AAA4B477D3F7}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>installvprinter.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Mono.Security.dll</td><td>{C6898278-4DE9-49F5-817C-D44E40283BC3}</td><td>INSTALLDIR</td><td>2</td><td/><td>mono.security.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NetSdk.dll</td><td>{0F4EEA79-E29C-4774-93F7-61397805D646}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>netsdk.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NetSdk.dll1</td><td>{12CC728A-949D-4BCD-996E-42DF2D3630C2}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>netsdk.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>NewComponent1</td><td>{C76F1E47-42B0-4A4F-A961-C7CDEBDF4015}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>NewComponent2</td><td>{23C51DBF-0276-4962-A606-3FBFD995FC7A}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>NewComponent3</td><td>{C6F87BFF-94BF-4039-9F11-20B1FC218F18}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>NewComponent4</td><td>{45CD5F04-325B-4CF3-875B-D9C0B2E1EE1B}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>NewComponent5</td><td>{758CB6F6-6DBB-41DA-BBA1-9B349DD0D650}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>NewComponent6</td><td>{B9250073-DE87-4652-9B2C-A72B47FA3DFE}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Newtonsoft.Json.dll</td><td>{58DC6E05-2C08-4573-9DD6-E02D12E56E6F}</td><td>INSTALLDIR</td><td>2</td><td/><td>newtonsoft.json.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Newtonsoft.Json.dll1</td><td>{03E80E6A-C006-4210-B412-CDDC13743B97}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>newtonsoft.json.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Newtonsoft.Json.dll2</td><td>{C3D02F49-FAEE-496A-BB69-109D66B286DD}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>newtonsoft.json.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Newtonsoft.Json.dll3</td><td>{7FC1531E-6FAA-4FB4-8630-DC518543D451}</td><td>ATTITUDE</td><td>2</td><td/><td>newtonsoft.json.dll3</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Qt5Core.dll</td><td>{A0846664-5AD6-4181-BBF7-C76F8B60D27E}</td><td>_4BIT</td><td>2</td><td/><td>qt5core.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Qt5Gui.dll</td><td>{98170B21-41C1-4D09-829C-66A24D65ECB7}</td><td>_4BIT</td><td>2</td><td/><td>qt5gui.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Qt5Sql.dll</td><td>{9B853D92-1DB4-49DF-8E91-A3E8299C7D4B}</td><td>_4BIT</td><td>2</td><td/><td>qt5sql.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Qt5Svg.dll</td><td>{0BCA3824-7D56-4399-BD49-D38E06939F75}</td><td>_4BIT</td><td>2</td><td/><td>qt5svg.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Qt5Widgets.dll</td><td>{9FB5DAD5-A5B6-42BB-8468-4B8B244AEFF0}</td><td>_4BIT</td><td>2</td><td/><td>qt5widgets.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Record_Player.exe</td><td>{83A78F1A-4BDC-4D4B-B82F-CD1AA77A1E84}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>record_player.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SDL2.dll</td><td>{1177A5C0-DC3F-4532-B966-88573B07ED5D}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>sdl2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SDL2.dll1</td><td>{1DC7EFD7-2B97-4875-A82D-88AB75394FA2}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>sdl2.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>StreamReader.dll</td><td>{ACF61801-C69B-4D05-8FB2-42270F74AD01}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>streamreader.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>StreamReader.dll1</td><td>{2338816D-C90F-4CEF-8DCE-D1C048185008}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>streamreader.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avcodec_57.dll</td><td>{668164D7-CD30-4F11-915D-665D43E90C21}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avcodec_57.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avcodec_57.dll1</td><td>{0D19E5AE-A402-49F9-8117-0885B877A6D0}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avcodec_57.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avcodec_57.dll2</td><td>{F2D0AC23-5C8A-4EA0-B2BB-7A633FC8C389}</td><td>_4BIT</td><td>2</td><td/><td>avcodec_57.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avdevice_57.dll</td><td>{9EDEFC52-7F27-4403-AB38-2B3149EE22BC}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avdevice_57.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avdevice_57.dll1</td><td>{2808B64A-8FD6-48DD-A7D0-4867EDEADF24}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avdevice_57.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avdevice_57.dll2</td><td>{6E15A472-3591-44C9-88C0-5D24EB89CB93}</td><td>_4BIT</td><td>2</td><td/><td>avdevice_57.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avfilter_6.dll</td><td>{708DE63A-5CB4-4590-8F9F-FB09A96BF7EC}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avfilter_6.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avfilter_6.dll1</td><td>{53C1EF2D-1A17-4613-AB1F-4AAF5F4404A4}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avfilter_6.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avfilter_6.dll2</td><td>{D9CC4477-76A1-4B70-B892-2A5FAD3A5878}</td><td>_4BIT</td><td>2</td><td/><td>avfilter_6.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avformat_57.dll</td><td>{0413438E-9FD7-4EAF-BF2C-0BF2B03AFD74}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avformat_57.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avformat_57.dll1</td><td>{1A922F29-E697-4BEB-9924-947EC6F6B936}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avformat_57.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avformat_57.dll2</td><td>{EC774626-FCE5-4C3C-91D6-C22FDF5D2029}</td><td>_4BIT</td><td>2</td><td/><td>avformat_57.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avutil_55.dll</td><td>{8F3F48CB-8C17-4286-8E14-F6E131D9A306}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avutil_55.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avutil_55.dll1</td><td>{B3510E33-131A-4B84-A8D7-B6A77508E0E3}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avutil_55.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>avutil_55.dll2</td><td>{A2ACD5C6-9794-43B4-BB21-64EA5BC59735}</td><td>_4BIT</td><td>2</td><td/><td>avutil_55.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>booth.dll</td><td>{1C0C36AA-6374-44BE-83CC-332FCBEC0BF1}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>booth.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>coreaudio_encoder.dll</td><td>{7B7065F1-EADF-43D1-AF75-F6C61C0E3E81}</td><td>_4BIT1</td><td>2</td><td/><td>coreaudio_encoder.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>cs_framework.dll</td><td>{81069909-EFD3-4716-BC4B-BC2EDCC85291}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>cs_framework.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>cs_framework.dll1</td><td>{FFAFFBF9-E315-48E6-BD4F-C734A6090775}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>cs_framework.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>cs_logic.dll</td><td>{5A9B34C3-4470-4C95-AF3E-C696A74A28D5}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>cs_logic.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>cs_logic.dll1</td><td>{B1D5BA0A-4EBB-4D77-9329-149C4255982E}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>cs_logic.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>cs_xc.dll</td><td>{8E4011BF-6A5A-4203-B6D7-9BE819BB053F}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>cs_xc.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>cs_xc.dll1</td><td>{ECE1514B-8033-497E-8E0F-F012FA26114C}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>cs_xc.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>d3dcompiler_43.dll</td><td>{2AF384DE-723E-4DF3-BA92-66E35C417172}</td><td>INSTALLDIR</td><td>2</td><td/><td>d3dcompiler_43.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>d3dcompiler_47.dll</td><td>{DE6D6E9B-88F2-439A-872E-66884C94FB77}</td><td>INSTALLDIR</td><td>2</td><td/><td>d3dcompiler_47.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>d_framework.dll</td><td>{2666CC81-E621-43F5-A224-F209F86FAACF}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>d_framework.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>d_framework.dll1</td><td>{5086B749-8418-431F-B8BC-3EBC6A25ACCB}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>d_framework.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ffmpeg_mux64.exe</td><td>{35E56E4C-3835-4C43-B8C4-568A940BB420}</td><td>OBS_FFMPEG</td><td>2</td><td/><td>ffmpeg_mux64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>get_graphics_offsets64.exe</td><td>{99E27649-9378-49A7-B2F7-F9B31FBA1950}</td><td>WIN_CAPTURE</td><td>2</td><td/><td>get_graphics_offsets64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>graphics_hook64.dll</td><td>{1445AA34-931C-4442-969B-3B2597A1297C}</td><td>WIN_CAPTURE</td><td>2</td><td/><td>graphics_hook64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>hi_h264dec_v.dll</td><td>{25AF0219-FB3B-46A1-A658-E11653395AD3}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>hi_h264dec_v.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>hi_h264dec_v.dll1</td><td>{BC68B002-0482-4CEB-9BF8-BDE7506AEAC2}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>hi_h264dec_v.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>icudt54.dll</td><td>{C939CECA-222C-4026-A259-EF10C8C37576}</td><td>_4BIT</td><td>2</td><td/><td>icudt54.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>icuin54.dll</td><td>{9B5B7BBE-97A1-4953-AFB8-9B03228E90C6}</td><td>_4BIT</td><td>2</td><td/><td>icuin54.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>icuuc54.dll</td><td>{ED7F4766-6AF0-4550-91FA-CCF3B8BDB359}</td><td>_4BIT</td><td>2</td><td/><td>icuuc54.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>image_source.dll</td><td>{6F55610B-7B0F-494F-8E50-AD1F2DE7510B}</td><td>_4BIT1</td><td>2</td><td/><td>image_source.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>inject_helper64.exe</td><td>{8543D79F-5268-4159-9FE0-AFB47B059D4B}</td><td>WIN_CAPTURE</td><td>2</td><td/><td>inject_helper64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libEGL.dll</td><td>{3AB9AB17-4D06-4EE9-B00D-742264A7B824}</td><td>INSTALLDIR</td><td>2</td><td/><td>libegl.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libEGL.dll1</td><td>{6F0FF2CD-D229-4729-A857-94C156ED9548}</td><td>_4BIT</td><td>2</td><td/><td>libegl.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libGLESv2.dll</td><td>{858AC971-D694-4A22-8FB3-8C8F25B36F7E}</td><td>INSTALLDIR</td><td>2</td><td/><td>libglesv2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libGLESv2.dll1</td><td>{F868856B-1E7C-4EC3-8C0A-44A08A80A316}</td><td>_4BIT</td><td>2</td><td/><td>libglesv2.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libcef.dll</td><td>{C71F9096-8310-49B2-B90A-D41C191CC4F4}</td><td>INSTALLDIR</td><td>2</td><td/><td>libcef.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libcurl.dll</td><td>{0E22A266-E178-441F-B746-7A3118404C88}</td><td>_4BIT</td><td>2</td><td/><td>libcurl.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libeay32.dll</td><td>{BDE597A1-C9E2-4556-BEE9-54932600C595}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>libeay32.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libeay32.dll1</td><td>{CE949B95-8671-47A3-BF93-BDB644BF24FF}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>libeay32.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libobs_d3d11.dll</td><td>{6E6D29BD-2A88-4A0F-875C-3C985F5EC724}</td><td>_4BIT</td><td>2</td><td/><td>libobs_d3d11.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libobs_opengl.dll</td><td>{519CB7BE-0628-4960-ADE9-99B32FDDE53A}</td><td>_4BIT</td><td>2</td><td/><td>libobs_opengl.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libogg_0.dll</td><td>{7C06F6E1-3F50-48C6-8201-418DA527D517}</td><td>_4BIT</td><td>2</td><td/><td>libogg_0.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libopus_0.dll</td><td>{29C78759-FA2E-4CCA-94BA-7CF731CB42A5}</td><td>_4BIT</td><td>2</td><td/><td>libopus_0.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libportaudio_2.dll.dll</td><td>{34E55E57-1D89-4B05-82FC-B28F162D9C6D}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>libportaudio_2.dll.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libportaudio_2.dll.dll1</td><td>{560334CC-763F-45B5-839A-4DBC295085B5}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>libportaudio_2.dll.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libvorbis_0.dll</td><td>{5784BD62-2CEC-4C0E-8CE8-9B41E4EA889D}</td><td>_4BIT</td><td>2</td><td/><td>libvorbis_0.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libvorbisenc_2.dll</td><td>{2DB462EE-75E3-4C49-BC35-3D4C47D40786}</td><td>_4BIT</td><td>2</td><td/><td>libvorbisenc_2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libvorbisfile_3.dll</td><td>{1F2D6561-441F-4D65-820D-9D2936E7A306}</td><td>_4BIT</td><td>2</td><td/><td>libvorbisfile_3.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libx264_146.dll</td><td>{83584197-24DE-4921-90EA-172C3CFB6C6A}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>libx264_146.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libx264_146.dll1</td><td>{E02DD3D0-1D68-428D-8D6E-56BEF89047EA}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>libx264_146.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>libx264_148.dll</td><td>{A4D68F92-C9A1-4AD3-B356-FD4D069F222A}</td><td>_4BIT</td><td>2</td><td/><td>libx264_148.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_captureAudioDevice.dll</td><td>{F479B2AA-0236-4963-AA00-4DE55ADF3F93}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_captureaudiodevice.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_captureAudioDevice.dll1</td><td>{2429B18D-1170-4563-94E8-78A74DC72988}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_captureaudiodevice.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_captureDesk.dll</td><td>{BD07729C-7C6D-4093-B70F-9B47569130EF}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_capturedesk.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_captureDesk.dll1</td><td>{C36C0984-456A-4E57-94AA-43A6683297EC}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_capturedesk.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_recorder.dll</td><td>{16721548-C7B6-411D-BE7F-7D6599FB22BE}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_recorder.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_recorder.dll1</td><td>{40803745-E259-40AE-B875-F145B4CD9E3A}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_recorder.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_rtsp.dll</td><td>{CC8E8CEB-4D57-40B6-9ED7-D2D097046A2F}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_rtsp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_rtsp.dll1</td><td>{BFA9AE68-F81F-4A97-823F-CC71E5622328}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_rtsp.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_transferDesk.dll</td><td>{65B221F5-015D-49FA-A279-560379FEBCA3}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_transferdesk.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>m_transferDesk.dll1</td><td>{0F0E410C-152E-41ED-B910-1E7DE01F4043}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_transferdesk.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>obs.dll</td><td>{5260B0CD-E0B3-4A75-8032-6279A70DD3B0}</td><td>_4BIT</td><td>2</td><td/><td>obs.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>obs64.exe</td><td>{519CB7D0-6CCE-487F-8DAE-6E92191D80BB}</td><td>_4BIT</td><td>2</td><td/><td>obs64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>obs_ffmpeg.dll</td><td>{62079A77-8E4E-4A6A-B94F-CDAD30C2003E}</td><td>_4BIT1</td><td>2</td><td/><td>obs_ffmpeg.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>obs_filters.dll</td><td>{AE9EA166-7298-49BD-A91F-9C3333E96F15}</td><td>_4BIT1</td><td>2</td><td/><td>obs_filters.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>obs_outputs.dll</td><td>{C54DD6B1-2B9C-450F-9355-AEA91EE02433}</td><td>_4BIT1</td><td>2</td><td/><td>obs_outputs.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>obs_qsv11.dll</td><td>{6DC1CF06-3D78-4F77-B1B3-6B9FC026C450}</td><td>_4BIT1</td><td>2</td><td/><td>obs_qsv11.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>obs_transitions.dll</td><td>{66C6A0C2-72A7-4CF8-8D7B-81F767D6FA13}</td><td>_4BIT1</td><td>2</td><td/><td>obs_transitions.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>obs_x264.dll</td><td>{18903184-08BB-41F7-8B89-AD1DFF221CE1}</td><td>_4BIT1</td><td>2</td><td/><td>obs_x264.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>obsglad.dll</td><td>{733C210A-F198-479A-95FC-D9C20DAAEF8B}</td><td>_4BIT</td><td>2</td><td/><td>obsglad.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>opencv_core248.dll</td><td>{C86F4319-0DE1-4ED9-8DFA-58CF982225CF}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>opencv_core248.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>opencv_highgui248.dll</td><td>{0C91477D-3B52-466B-AF9E-A436283E308B}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>opencv_highgui248.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>opengl32sw.dll</td><td>{76845283-6454-46E1-AE41-53589EE84C0A}</td><td>_4BIT</td><td>2</td><td/><td>opengl32sw.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>postproc_54.dll</td><td>{D9976D9A-4680-455B-AFEC-8400AA334CB9}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>postproc_54.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>postproc_54.dll1</td><td>{FADFED5B-1A72-41AB-B47B-45BECA0ACB21}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>postproc_54.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qdds.dll</td><td>{22E84260-7CF6-4BEF-BE2F-26E417746526}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qdds.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qgif.dll</td><td>{A414B79F-50AE-4EAF-A736-AAB3FC72493E}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qgif.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qicns.dll</td><td>{C9E7C9DF-FDB8-4BBE-8E8A-AB22173D1E81}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qicns.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qico.dll</td><td>{10659B9C-9BEE-4F61-9741-76DE8C08DA44}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qico.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qjp2.dll</td><td>{058AF292-6B2C-468A-9267-6027070C3E2B}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qjp2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qjpeg.dll</td><td>{7D65A2B4-4D42-4256-B630-EBB685A78B82}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qjpeg.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qmng.dll</td><td>{2FB94341-97FC-4BDB-8B24-36D2A0E5E9CE}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qmng.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qsqlite.dll</td><td>{D6982E27-5230-48F2-8395-65EFE6A1C83F}</td><td>SQLDRIVERS</td><td>2</td><td/><td>qsqlite.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qsqlmysql.dll</td><td>{53198CE0-3776-4863-B1A4-3A2E04F9028C}</td><td>SQLDRIVERS</td><td>2</td><td/><td>qsqlmysql.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qsqlodbc.dll</td><td>{EB70EBF0-5F00-41CC-AA22-118A276AABF2}</td><td>SQLDRIVERS</td><td>2</td><td/><td>qsqlodbc.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qsqlpsql.dll</td><td>{63F018D1-345D-4287-BCDE-6BF8BFF77B77}</td><td>SQLDRIVERS</td><td>2</td><td/><td>qsqlpsql.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qsvg.dll</td><td>{6A92E160-2B54-4A87-87C0-1F085DA811EF}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qsvg.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qsvgicon.dll</td><td>{34734396-19B9-4E6C-9F5B-DF32C4253C2B}</td><td>ICONENGINES</td><td>2</td><td/><td>qsvgicon.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qtga.dll</td><td>{4F23A8E6-81CA-48DB-ABE2-84F776D85090}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qtga.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qtiff.dll</td><td>{2EEED73B-404E-406E-848B-69BBA6B183FE}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qtiff.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qwbmp.dll</td><td>{260E2589-2AEE-4386-B2C7-C500A542B78A}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qwbmp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qwebp.dll</td><td>{865FA3F7-B1C4-4C4D-91E2-36986EF08350}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qwebp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>qwindows.dll</td><td>{0D13DED6-DFF4-41FF-87C4-3EA2BDA87F47}</td><td>PLATFORMS</td><td>2</td><td/><td>qwindows.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>rtmp_services.dll</td><td>{21B6ABD6-AD62-473A-81E0-F9DD48ABFD57}</td><td>_4BIT1</td><td>2</td><td/><td>rtmp_services.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ssleay32.dll</td><td>{FD2A1AA0-EFBA-4F23-A7C7-A14ECEF535B0}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>ssleay32.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ssleay32.dll1</td><td>{43921EB3-8A3F-483A-9F90-9870C181A88D}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>ssleay32.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>swresample_2.dll</td><td>{093B737F-A470-4123-92E8-21FC77AFBCAF}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>swresample_2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>swresample_2.dll1</td><td>{8E4B74F7-8FCC-4E0D-A642-77AD320FF07D}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>swresample_2.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>swresample_2.dll2</td><td>{DD91A123-606E-4907-866C-BC6EF9186432}</td><td>_4BIT</td><td>2</td><td/><td>swresample_2.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>swscale_4.dll</td><td>{F6EC5920-D8EA-4834-A1A4-76A774CA6B9A}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>swscale_4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>swscale_4.dll1</td><td>{87711D48-9945-4A52-BB5C-3A0A25C9AB83}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>swscale_4.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>swscale_4.dll2</td><td>{45E3EA78-C57F-48E3-8D88-5893BDEA1600}</td><td>_4BIT</td><td>2</td><td/><td>swscale_4.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>text_freetype2.dll</td><td>{EBB694FD-B47D-47CD-9B44-EFB394DC61DE}</td><td>_4BIT1</td><td>2</td><td/><td>text_freetype2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>w32_pthreads.dll</td><td>{D062F14B-F269-4981-8AEA-F04A733E29AF}</td><td>_4BIT</td><td>2</td><td/><td>w32_pthreads.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>widevinecdmadapter.dll</td><td>{0B5C5052-84BE-4225-810B-A60A87AA248D}</td><td>INSTALLDIR</td><td>2</td><td/><td>widevinecdmadapter.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>win_capture.dll</td><td>{63A45FB4-B759-4DAB-AFF6-E93DA33FF858}</td><td>_4BIT1</td><td>2</td><td/><td>win_capture.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>win_decklink.dll</td><td>{8E9AAAF3-CB5A-4FD0-981A-D2321D3335E6}</td><td>_4BIT1</td><td>2</td><td/><td>win_decklink.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>win_dshow.dll</td><td>{6B0F75CF-5BB6-4698-A5E9-35F775A9028A}</td><td>_4BIT1</td><td>2</td><td/><td>win_dshow.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>win_mf.dll</td><td>{2AFC8061-69F1-471C-BD2B-C4AB009B17D6}</td><td>_4BIT1</td><td>2</td><td/><td>win_mf.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>win_wasapi.dll</td><td>{5A275C4C-98ED-4778-9304-FB755DEF7713}</td><td>_4BIT1</td><td>2</td><td/><td>win_wasapi.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>zlib.dll</td><td>{4E32782F-DCC6-42BA-81B2-DB96A66C8150}</td><td>_4BIT</td><td>2</td><td/><td>zlib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NewComponent7</td><td>{20D612B0-C2D7-4C5E-9C97-794B587954C6}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>NewComponent8</td><td>{50B0CE07-E436-4467-BB0A-874BB799ADA2}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Newtonsoft.Json.dll</td><td>{EB6A762B-BD62-4E2B-B615-3074864A3320}</td><td>INSTALLDIR</td><td>2</td><td/><td>newtonsoft.json.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Newtonsoft.Json.dll1</td><td>{5DF023AA-D737-457E-AED6-DADFB8592C85}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>newtonsoft.json.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Newtonsoft.Json.dll2</td><td>{31E101D0-BE3B-4627-8DD5-7A652B105792}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>newtonsoft.json.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Newtonsoft.Json.dll3</td><td>{474682A4-4A61-4244-8F21-7CC465315E3E}</td><td>ATTITUDE</td><td>2</td><td/><td>newtonsoft.json.dll3</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Npgsql.dll</td><td>{5D5F3B48-87D2-497C-925C-AF7F241404B9}</td><td>INSTALLDIR</td><td>2</td><td/><td>npgsql.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Qt5Core.dll</td><td>{D93A151B-97DC-42A9-9F16-DDF309868BA9}</td><td>_4BIT</td><td>2</td><td/><td>qt5core.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Qt5Gui.dll</td><td>{F2900E45-7EE7-4545-B6DD-0E89026A716B}</td><td>_4BIT</td><td>2</td><td/><td>qt5gui.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Qt5Sql.dll</td><td>{16F05217-C885-4B9C-8643-4F18D10E3AFA}</td><td>_4BIT</td><td>2</td><td/><td>qt5sql.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Qt5Svg.dll</td><td>{146C76E5-18B8-4E17-A2C6-15AC8DFE751D}</td><td>_4BIT</td><td>2</td><td/><td>qt5svg.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Qt5Widgets.dll</td><td>{3AF3B5E1-5AFF-4F54-9E79-C35632C70E83}</td><td>_4BIT</td><td>2</td><td/><td>qt5widgets.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Record_Player.exe</td><td>{FFFE58EB-C656-4697-8239-15C2E56D0F5E}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>record_player.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Rockey.dll</td><td>{F1797C67-1F13-4C2C-9EED-EDAF6374DCB3}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>rockey.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>RockeyVisaP.dll</td><td>{FE158B41-9D03-4A34-9F0C-A2FDDEEE14BB}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>rockeyvisap.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SDL2.dll</td><td>{EC055F9D-077F-4E80-82CE-6FE30E76E64A}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>sdl2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SDL2.dll1</td><td>{D1F424B3-A1D4-46A7-80FE-6DA31500090E}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>sdl2.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>StreamReader.dll</td><td>{9FD3339F-3855-4765-9416-09EA396550CA}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>streamreader.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>StreamReader.dll1</td><td>{127E80C4-1315-4742-89D6-5F328883EB3E}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>streamreader.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>StreamReader.dll2</td><td>{844DC534-AF22-453C-973A-25A142126F20}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>streamreader.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Sysset.exe</td><td>{FB198746-7C62-413D-8CD6-D6D4497696CD}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>sysset.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>UNIDRV.HLP</td><td>{6955481D-D1DB-4475-AD4A-DB6B1E7A229B}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>unidrv.hlp</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>UNIDRV_64.HLP</td><td>{E19590CE-E319-44D8-858C-19824BF6D080}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>unidrv_64.hlp</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>UNIRES.DLL</td><td>{9B23ADDA-0289-4E10-BBAF-8A1A6616E622}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>unires.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>UNIRES_64.DLL</td><td>{D12A9724-10C2-444F-AE24-6EA5F91CC5B1}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>unires_64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Z264Core.dll</td><td>{40B54689-9948-4A20-82DB-873F6C6C3531}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>z264core.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Z264Dec.dll</td><td>{18B735D5-E0D5-441A-ACBA-A6487F8112C1}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>z264dec.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>_64dec.dll</td><td>{A1BEF312-D7FE-4F1D-983B-600388E51BDB}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>_64dec.dll</td><td>20</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>_64dec16.ax</td><td>{58DF9292-E8E5-4742-B850-AD4854915533}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>_64dec16.ax</td><td>20</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avcodec_57.dll</td><td>{8016A991-30DC-4B77-82E5-E4F7701F38FD}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avcodec_57.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avcodec_57.dll1</td><td>{FFB30157-3F49-4BE1-A2BE-995B010D5CE1}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avcodec_57.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avcodec_57.dll2</td><td>{3580080A-2883-48AF-B4F5-827CC9828F62}</td><td>_4BIT</td><td>2</td><td/><td>avcodec_57.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avdevice_57.dll</td><td>{E606E9F0-C4BF-4C27-85E7-52B7C8CA983C}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avdevice_57.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avdevice_57.dll1</td><td>{BC28B4D7-E984-446A-8F8A-639A65068776}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avdevice_57.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avdevice_57.dll2</td><td>{7EBD5FC5-3A42-462F-9533-E5B8F32582D0}</td><td>_4BIT</td><td>2</td><td/><td>avdevice_57.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avfilter_6.dll</td><td>{D5340483-4FD9-4573-8CDB-4B127A877B10}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avfilter_6.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avfilter_6.dll1</td><td>{FC1B9EAE-D502-4B96-9336-274C2D2775F4}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avfilter_6.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avfilter_6.dll2</td><td>{46C439CE-3C4E-4634-9323-FCACD920D2A9}</td><td>_4BIT</td><td>2</td><td/><td>avfilter_6.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avformat_57.dll</td><td>{35350EE5-25EA-41EC-96B3-3F7B3ED6D6EE}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avformat_57.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avformat_57.dll1</td><td>{A4AF8237-0122-4FA9-85C3-988085C605ED}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avformat_57.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avformat_57.dll2</td><td>{785A69A1-CEF5-4036-8B40-0CF681669615}</td><td>_4BIT</td><td>2</td><td/><td>avformat_57.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avisynth.dll</td><td>{9F5A6190-3B2D-4D22-ADD2-97E3EC1C97B3}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>avisynth.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avutil_55.dll</td><td>{ECAD1BB2-9771-4A5E-8CDE-A69345D3C250}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>avutil_55.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avutil_55.dll1</td><td>{AA80403D-DE20-477C-AEAB-666A1A3B4F06}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>avutil_55.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>avutil_55.dll2</td><td>{1865A7D2-DCE8-430D-BB62-670A0B2B3D6F}</td><td>_4BIT</td><td>2</td><td/><td>avutil_55.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>booth.dll</td><td>{1B6F7F54-B94D-4CA3-A639-CFE460DB5DF6}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>booth.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>coreaudio_encoder.dll</td><td>{81F048B0-969B-4ACF-9FA4-153CE772186F}</td><td>_4BIT1</td><td>2</td><td/><td>coreaudio_encoder.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>cs_framework.dll</td><td>{AEB6A2C6-CAE4-4D86-A626-CDF51B6FBB50}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>cs_framework.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>cs_framework.dll1</td><td>{1385B1D8-112D-4472-81E5-9B1FA52998D9}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>cs_framework.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>cs_logic.dll</td><td>{9508E66A-BCC1-4E3D-A90E-54EC6D65A0FC}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>cs_logic.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>cs_logic.dll1</td><td>{B3FB9980-B97C-42FD-BBE0-3A857B4F7A68}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>cs_logic.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>cs_xc.dll</td><td>{93E9BB37-6B4F-4E7F-9008-DF0790461CA1}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>cs_xc.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>cs_xc.dll1</td><td>{20E26AFE-C18D-4F0A-93B8-703D6150602D}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>cs_xc.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>d3dcompiler_43.dll</td><td>{FBBF39E3-20D8-490B-8E68-5142EB5595F4}</td><td>INSTALLDIR</td><td>2</td><td/><td>d3dcompiler_43.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>d3dcompiler_47.dll</td><td>{94591271-3D02-40B9-B48E-98C8CBEAE406}</td><td>INSTALLDIR</td><td>2</td><td/><td>d3dcompiler_47.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>d_framework.dll</td><td>{CD1F3920-27C2-4B23-8CC8-23E0EF3DFBBA}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>d_framework.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>d_framework.dll1</td><td>{B5FFF674-54AA-489C-9F0D-6202E2C5CD7C}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>d_framework.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>devil.dll</td><td>{B1A690E3-B2AB-439C-BAE2-0A779F9DDDF2}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>devil.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ffmpeg_mux64.exe</td><td>{06A6DF7E-1734-441B-BFFB-BF07CE6818D1}</td><td>OBS_FFMPEG</td><td>2</td><td/><td>ffmpeg_mux64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>get_graphics_offsets64.exe</td><td>{7EE412B6-0044-416B-9547-4463BA8CB025}</td><td>WIN_CAPTURE</td><td>2</td><td/><td>get_graphics_offsets64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>graphics_hook64.dll</td><td>{DA7EEC69-FA6D-436F-9748-466015FD349C}</td><td>WIN_CAPTURE</td><td>2</td><td/><td>graphics_hook64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>hi_h264dec_v.dll</td><td>{DA541593-B611-4F8D-ABD3-7A4062BD006E}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>hi_h264dec_v.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>hi_h264dec_v.dll1</td><td>{E8695610-E367-43AB-A89D-2A1257A77D91}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>hi_h264dec_v.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>iA264Dec.dll</td><td>{3D6CAEF8-7E3D-4747-ABB9-377DA340E646}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>ia264dec.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>iAAVSEnv.dll</td><td>{A257576D-A1F6-4229-8ADB-C97CBB077DA2}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iaavsenv.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>iAAudioAgent.exe</td><td>{56B0A202-C231-46D4-9507-EE0E3367B77F}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iaaudioagent.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>iAAudioDMOCap.dll</td><td>{98DEF6FE-FA4C-4252-92CC-D1BF8A53F1C0}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iaaudiodmocap.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>iADxCap.dll</td><td>{DF0A82CD-5B4E-4F1E-96DA-7D6AEE33F64E}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iadxcap.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>iADxSnd.dll</td><td>{ED7F0AFC-78E9-4A22-AFF8-24EAF1675740}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iadxsnd.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>iAVideoLib.dll</td><td>{A8A7842D-D8F2-4EE7-8B55-52BC2D414D88}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iavideolib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>iAYUVEff.dll</td><td>{D3E715E7-C0FC-4415-806E-05C856D5BF70}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iayuveff.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>iacodec.dll</td><td>{78ACD788-86FF-4BF6-9A30-7A055194CFFD}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>iacodec.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>icudt54.dll</td><td>{8375CC4D-9713-4773-88B2-1D8E79F845AC}</td><td>_4BIT</td><td>2</td><td/><td>icudt54.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>icuin54.dll</td><td>{C4B5702F-2D89-4AB4-924F-6C46739E257E}</td><td>_4BIT</td><td>2</td><td/><td>icuin54.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>icuuc54.dll</td><td>{92B2089E-C67F-432D-AF14-B8FACAAF7883}</td><td>_4BIT</td><td>2</td><td/><td>icuuc54.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>image_source.dll</td><td>{57E5BA2D-A8CE-43D4-A50A-53E1BE84E06C}</td><td>_4BIT1</td><td>2</td><td/><td>image_source.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>inject_helper64.exe</td><td>{CAA851FA-02C0-410D-AF8F-B0609EEEA342}</td><td>WIN_CAPTURE</td><td>2</td><td/><td>inject_helper64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>lame_enc.dll</td><td>{7E33AE9D-0AD8-4CFF-9BA6-5DC4E952ABD3}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>lame_enc.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libEGL.dll</td><td>{984AD7BF-6A7E-4DC3-AAA3-E007D5EA7A7A}</td><td>INSTALLDIR</td><td>2</td><td/><td>libegl.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libEGL.dll1</td><td>{9A87D447-32D5-44DF-AB66-19C0658E1751}</td><td>_4BIT</td><td>2</td><td/><td>libegl.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libGLESv2.dll</td><td>{DFCB66DF-B511-4FD0-9975-D1FB6804EE7B}</td><td>INSTALLDIR</td><td>2</td><td/><td>libglesv2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libGLESv2.dll1</td><td>{9B9AC117-2209-4B58-9189-F306E942D513}</td><td>_4BIT</td><td>2</td><td/><td>libglesv2.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libavcodec.dll</td><td>{464CFDAD-D7C0-49D9-B684-57477B260486}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>libavcodec.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libcef.dll</td><td>{252D0D2A-372A-414C-B2D7-54D8FC1B4432}</td><td>INSTALLDIR</td><td>2</td><td/><td>libcef.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libcurl.dll</td><td>{1357ABD8-D06B-46BC-84F5-0B480CB397BE}</td><td>_4BIT</td><td>2</td><td/><td>libcurl.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libeay32.dll</td><td>{6C1B79C6-7686-4466-B0E8-890898A7AFFE}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>libeay32.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libeay32.dll1</td><td>{D37BFC07-3F22-41E8-8922-13A70FD0FBD5}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>libeay32.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libobs_d3d11.dll</td><td>{504CCE35-B539-4669-BE47-26DC1476585C}</td><td>_4BIT</td><td>2</td><td/><td>libobs_d3d11.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libobs_opengl.dll</td><td>{A1FA2DB9-F5EF-4BED-B694-897ECB3B83B4}</td><td>_4BIT</td><td>2</td><td/><td>libobs_opengl.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libogg_0.dll</td><td>{BF9D4D15-2367-4AE9-8AE3-AAEF2EB075BC}</td><td>_4BIT</td><td>2</td><td/><td>libogg_0.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libopus_0.dll</td><td>{2508785B-C30C-4CC0-8955-0D7166093FB2}</td><td>_4BIT</td><td>2</td><td/><td>libopus_0.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libportaudio_2.dll.dll</td><td>{61CFCD6B-4D90-4E6C-B058-161C47F448B1}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>libportaudio_2.dll.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libportaudio_2.dll.dll1</td><td>{4CEC7083-EA35-4FD2-8FF8-3D1FFA9BDEA3}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>libportaudio_2.dll.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libvorbis_0.dll</td><td>{4D0DA227-339B-4741-AF2E-63EB86B0ABB1}</td><td>_4BIT</td><td>2</td><td/><td>libvorbis_0.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libvorbisenc_2.dll</td><td>{0A0326D6-3FF4-428B-BE70-297ABE2814AA}</td><td>_4BIT</td><td>2</td><td/><td>libvorbisenc_2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libvorbisfile_3.dll</td><td>{56967F10-8283-44C4-9A2C-7C0D3C67D5CC}</td><td>_4BIT</td><td>2</td><td/><td>libvorbisfile_3.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libx264_146.dll</td><td>{1EA70E43-8610-4211-B67D-DC24D92ADE4D}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>libx264_146.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libx264_146.dll1</td><td>{1C744A92-99E0-4683-B6C9-6AEBD3D68C16}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>libx264_146.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>libx264_148.dll</td><td>{E442ECA9-C13C-4606-ABF5-782F8D213AAF}</td><td>_4BIT</td><td>2</td><td/><td>libx264_148.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_captureAudioDevice.dll</td><td>{AA04A6E1-29CD-4516-9761-2719463C18D6}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_captureaudiodevice.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_captureAudioDevice.dll1</td><td>{3B3D064A-B17F-472D-ABB9-CF8B287E6EF8}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_captureaudiodevice.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_captureDesk.dll</td><td>{1E4DADAC-1269-4CFE-B7B9-C4419CDA258B}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_capturedesk.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_captureDesk.dll1</td><td>{740F7A29-98F7-4E79-9824-A2057F5558B8}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_capturedesk.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_recorder.dll</td><td>{C1CFAD74-DB75-4734-93ED-C8F3A50DF4D1}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_recorder.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_recorder.dll1</td><td>{57900F40-05C8-4C8A-BF67-6851F96CEFCF}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_recorder.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_rtsp.dll</td><td>{19C68D4E-0101-420A-8B4A-8579E7A1DE97}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_rtsp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_rtsp.dll1</td><td>{4A1A573C-88B4-43B6-A587-87CC4327727D}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_rtsp.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_transferDesk.dll</td><td>{6CEAC3A8-E320-473A-B4B9-7A6F29E7B404}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>m_transferdesk.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>m_transferDesk.dll1</td><td>{58B7A5A1-68B1-44CD-A0F0-68E12D1C62FF}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>m_transferdesk.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>obs.dll</td><td>{04B852D4-C37A-4CCE-95E8-CCFE98259A27}</td><td>_4BIT</td><td>2</td><td/><td>obs.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>obs64.exe</td><td>{47D72BE3-4FB4-4D61-9C78-415BC92C750C}</td><td>_4BIT</td><td>2</td><td/><td>obs64.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>obs_ffmpeg.dll</td><td>{57B1D6D5-C24A-4A35-9EDB-7B56F647F335}</td><td>_4BIT1</td><td>2</td><td/><td>obs_ffmpeg.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>obs_filters.dll</td><td>{FEEDB10E-0793-4F00-A99E-F183BDD2AD56}</td><td>_4BIT1</td><td>2</td><td/><td>obs_filters.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>obs_outputs.dll</td><td>{CC27E135-420D-4821-9772-65EEEBD86BA4}</td><td>_4BIT1</td><td>2</td><td/><td>obs_outputs.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>obs_qsv11.dll</td><td>{2CDFBF9D-F55E-4931-AB63-BE8DCED0EE55}</td><td>_4BIT1</td><td>2</td><td/><td>obs_qsv11.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>obs_transitions.dll</td><td>{C001FEB7-63E5-4716-AD74-407F54AC2A0D}</td><td>_4BIT1</td><td>2</td><td/><td>obs_transitions.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>obs_x264.dll</td><td>{C8D00D62-695D-44FA-B971-440B65C9015A}</td><td>_4BIT1</td><td>2</td><td/><td>obs_x264.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>obsglad.dll</td><td>{74877A55-9E04-422E-ACBB-A3B4F9C3CD40}</td><td>_4BIT</td><td>2</td><td/><td>obsglad.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>oemuni.dll</td><td>{F4F1298B-148E-4752-9248-255B13635709}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>oemuni.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>oemuni_64.dll</td><td>{9AC20B28-82B2-46C8-996D-C362D099CFC9}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>oemuni_64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>opencv_core248.dll</td><td>{0C508CF6-AEDB-4D55-AAF5-D169032B7AD9}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>opencv_core248.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>opencv_highgui248.dll</td><td>{EF5F2398-9EFF-4760-9082-FA32490436C7}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>opencv_highgui248.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>opengl32sw.dll</td><td>{D31C9FF6-8125-4CBE-A18B-8335C34B1747}</td><td>_4BIT</td><td>2</td><td/><td>opengl32sw.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>postproc_54.dll</td><td>{F0126E41-2A4D-46CC-9DF3-F3B6292865D8}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>postproc_54.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>postproc_54.dll1</td><td>{A63A872F-46F3-44B3-BCDB-D5D2C5CF5071}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>postproc_54.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>pptt.dll</td><td>{2B522B0C-A481-49CB-B554-A0659805958C}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>pptt.dll</td><td>20</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qdds.dll</td><td>{C4B64CFA-17BE-47E4-BA3B-F7F691089BB2}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qdds.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qgif.dll</td><td>{51C22FB4-53C4-4755-84A2-55690BD13E7C}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qgif.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qicns.dll</td><td>{55FEBE81-1BE9-41D7-9A76-32A2B356EDD8}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qicns.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qico.dll</td><td>{483A274F-8E93-472E-AC69-B2EB0F35F7FE}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qico.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qjp2.dll</td><td>{358A16FD-DA80-4B43-9772-A95B030D4174}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qjp2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qjpeg.dll</td><td>{2A2BC839-F6AA-41CC-A0EE-A010F13BF640}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qjpeg.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qmng.dll</td><td>{929CAB7A-FF7D-43A9-B294-B3599E312E64}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qmng.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qsqlite.dll</td><td>{18A18976-7353-43C5-BB5E-925E68EB9DB2}</td><td>SQLDRIVERS</td><td>2</td><td/><td>qsqlite.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qsqlmysql.dll</td><td>{D521DADE-8001-4185-AABB-B2A827555A97}</td><td>SQLDRIVERS</td><td>2</td><td/><td>qsqlmysql.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qsqlodbc.dll</td><td>{167ED228-2C27-4BE9-A1A4-58C025AEC1D6}</td><td>SQLDRIVERS</td><td>2</td><td/><td>qsqlodbc.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qsqlpsql.dll</td><td>{8CC2BF98-7439-42A9-98CD-3E146DAC86BF}</td><td>SQLDRIVERS</td><td>2</td><td/><td>qsqlpsql.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qsvg.dll</td><td>{BC90432A-50A7-490E-A8FD-EC5AE494ADEA}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qsvg.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qsvgicon.dll</td><td>{570D3F84-31B3-4696-BFD8-CEBD1DC0EC90}</td><td>ICONENGINES</td><td>2</td><td/><td>qsvgicon.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qtga.dll</td><td>{EF7A7AA7-32E3-49E7-AF59-58D33A10E7AB}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qtga.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qtiff.dll</td><td>{CAA900DE-AD2F-418B-8D0C-0AE459ADB764}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qtiff.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qwbmp.dll</td><td>{5158E725-FA88-4363-BC24-62C1DC1CCCD3}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qwbmp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qwebp.dll</td><td>{5DD32DAE-7602-417F-8E4C-6ED28FE83E3B}</td><td>IMAGEFORMATS</td><td>2</td><td/><td>qwebp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>qwindows.dll</td><td>{BD8BB576-5EF1-422C-9306-65FF8521DC33}</td><td>PLATFORMS</td><td>2</td><td/><td>qwindows.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>rtmp_services.dll</td><td>{F4AB5C68-08EA-473F-964A-BD776FB92566}</td><td>_4BIT1</td><td>2</td><td/><td>rtmp_services.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ssleay32.dll</td><td>{205C2A29-0392-48FA-BCC2-799F6E6DC1CC}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>ssleay32.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ssleay32.dll1</td><td>{5D3FB8A8-C2BB-40A2-B45C-473A366FB398}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>ssleay32.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>swresample_2.dll</td><td>{387506AD-A1BC-44C4-92CE-D02F6EEEDCD8}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>swresample_2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>swresample_2.dll1</td><td>{CA45606E-B33F-44E9-9ED3-9A8BDE8D7687}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>swresample_2.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>swresample_2.dll2</td><td>{0F3AA701-909F-44E8-902B-5E4DF0C7B75B}</td><td>_4BIT</td><td>2</td><td/><td>swresample_2.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>swscale_4.dll</td><td>{6B8949BD-D0D0-4DB5-82B2-5B2AEAB785CB}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>swscale_4.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>swscale_4.dll1</td><td>{C79A435A-1ED2-40F2-9B84-789EB767EF94}</td><td>RECORD_PLAYER</td><td>2</td><td/><td>swscale_4.dll1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>swscale_4.dll2</td><td>{5310E1A7-AF1D-4E8C-BA9A-5C26B852FC84}</td><td>_4BIT</td><td>2</td><td/><td>swscale_4.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>taskkill.exe</td><td>{DD38CF45-6FFD-4DB5-844D-662D27FD02A9}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>taskkill.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>text_freetype2.dll</td><td>{8605C5E3-FC5A-4105-9466-56368C34342A}</td><td>_4BIT1</td><td>2</td><td/><td>text_freetype2.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>unins000.exe</td><td>{7EC44C59-A773-4278-9B0B-E1FCE38C3BEA}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>unins000.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>vprproc.dll</td><td>{60C1FB31-D004-4201-ADBA-BF1165A38839}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>vprproc.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>vprproc_64.dll</td><td>{3AF247B0-7EF8-420F-B738-03C21D484B31}</td><td>VIRTUALPRINTER</td><td>2</td><td/><td>vprproc_64.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>w32_pthreads.dll</td><td>{DB633A59-E7CE-4435-A4E8-5BF273273267}</td><td>_4BIT</td><td>2</td><td/><td>w32_pthreads.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>widevinecdmadapter.dll</td><td>{F7359EA0-7ED5-4235-AD83-B1EE15847092}</td><td>INSTALLDIR</td><td>2</td><td/><td>widevinecdmadapter.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>win_capture.dll</td><td>{41AB0E1B-B80F-4996-A0CF-4743FD1E7E82}</td><td>_4BIT1</td><td>2</td><td/><td>win_capture.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>win_decklink.dll</td><td>{574F22DD-3849-4F79-ACB3-9AC15D861431}</td><td>_4BIT1</td><td>2</td><td/><td>win_decklink.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>win_dshow.dll</td><td>{E9FEDEE2-E897-4BB0-A21B-D16F514473F0}</td><td>_4BIT1</td><td>2</td><td/><td>win_dshow.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>win_mf.dll</td><td>{F7360BE6-B12A-44D8-B583-6863D43FE0F7}</td><td>_4BIT1</td><td>2</td><td/><td>win_mf.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>win_wasapi.dll</td><td>{5048DD7F-7118-4C5B-BDFD-8F9F13BFC832}</td><td>_4BIT1</td><td>2</td><td/><td>win_wasapi.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>wordtt.dll</td><td>{7058CC53-FE8A-4727-B7CB-A55D2C0DD4DC}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>wordtt.dll</td><td>20</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>zlib.dll</td><td>{1EFEE41D-B0E6-4091-97ED-F8A7271B9E6A}</td><td>_4BIT</td><td>2</td><td/><td>zlib.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1262,8 +1390,16 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>ACTIVECENTER</td><td>ISX_DEFAULTCOMPONENT71</td></row>
+		<row><td>AVISYNTH_PLUGIN</td><td>ISX_DEFAULTCOMPONENT73</td></row>
+		<row><td>BASIC</td><td>ISX_DEFAULTCOMPONENT55</td></row>
 		<row><td>BIN</td><td>ISX_DEFAULTCOMPONENT6</td></row>
+		<row><td>COMMON_FILES</td><td>ISX_DEFAULTCOMPONENT68</td></row>
+		<row><td>CONIFIGDIR</td><td>ISX_DEFAULTCOMPONENT74</td></row>
 		<row><td>COREAUDIO_ENCODER</td><td>ISX_DEFAULTCOMPONENT16</td></row>
+		<row><td>COURSEWARE</td><td>ISX_DEFAULTCOMPONENT75</td></row>
+		<row><td>CRASHES</td><td>ISX_DEFAULTCOMPONENT60</td></row>
+		<row><td>IACTIVE1</td><td>ISX_DEFAULTCOMPONENT70</td></row>
 		<row><td>ICONENGINES</td><td>ISX_DEFAULTCOMPONENT8</td></row>
 		<row><td>IMAGEFORMATS</td><td>ISX_DEFAULTCOMPONENT9</td></row>
 		<row><td>IMAGE_SOURCE</td><td>ISX_DEFAULTCOMPONENT18</td></row>
@@ -1274,6 +1410,8 @@
 		<row><td>INSTALLDIR</td><td>NewComponent4</td></row>
 		<row><td>INSTALLDIR</td><td>NewComponent5</td></row>
 		<row><td>INSTALLDIR</td><td>NewComponent6</td></row>
+		<row><td>INSTALLDIR</td><td>NewComponent7</td></row>
+		<row><td>INSTALLDIR</td><td>NewComponent8</td></row>
 		<row><td>OBS_FFMPEG</td><td>ISX_DEFAULTCOMPONENT20</td></row>
 		<row><td>OBS_OUTPUTS</td><td>ISX_DEFAULTCOMPONENT24</td></row>
 		<row><td>OBS_PLUGINS</td><td>ISX_DEFAULTCOMPONENT15</td></row>
@@ -1281,13 +1419,26 @@
 		<row><td>OBS_QSV11</td><td>ISX_DEFAULTCOMPONENT26</td></row>
 		<row><td>OBS_X264</td><td>ISX_DEFAULTCOMPONENT30</td></row>
 		<row><td>PLATFORMS</td><td>ISX_DEFAULTCOMPONENT10</td></row>
+		<row><td>PLAYSKIN</td><td>ISX_DEFAULTCOMPONENT86</td></row>
+		<row><td>PLUGIN_CONFIG</td><td>ISX_DEFAULTCOMPONENT62</td></row>
+		<row><td>PROFILES</td><td>ISX_DEFAULTCOMPONENT56</td></row>
+		<row><td>RCVFILE</td><td>ISX_DEFAULTCOMPONENT88</td></row>
 		<row><td>SQLDRIVERS</td><td>ISX_DEFAULTCOMPONENT11</td></row>
+		<row><td>TEMP</td><td>ISX_DEFAULTCOMPONENT92</td></row>
+		<row><td>TEMP1</td><td>ISX_DEFAULTCOMPONENT94</td></row>
+		<row><td>TEMP2</td><td>ISX_DEFAULTCOMPONENT96</td></row>
+		<row><td>TEMP3</td><td>ISX_DEFAULTCOMPONENT98</td></row>
 		<row><td>WIN_CAPTURE</td><td>ISX_DEFAULTCOMPONENT36</td></row>
 		<row><td>WIN_DECKLINK</td><td>ISX_DEFAULTCOMPONENT38</td></row>
 		<row><td>WIN_DSHOW</td><td>ISX_DEFAULTCOMPONENT40</td></row>
 		<row><td>WIN_MF</td><td>ISX_DEFAULTCOMPONENT42</td></row>
 		<row><td>WIN_WASAPI</td><td>ISX_DEFAULTCOMPONENT44</td></row>
+		<row><td>XPSKINRES</td><td>ISX_DEFAULTCOMPONENT100</td></row>
+		<row><td>_</td><td>ISX_DEFAULTCOMPONENT91</td></row>
+		<row><td>_3</td><td>ISX_DEFAULTCOMPONENT95</td></row>
 		<row><td>_4BIT1</td><td>ISX_DEFAULTCOMPONENT52</td></row>
+		<row><td>_6</td><td>ISX_DEFAULTCOMPONENT97</td></row>
+		<row><td>_7</td><td>ISX_DEFAULTCOMPONENT93</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1366,14 +1517,23 @@
 		<col def="S255">ISDescription</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S255">ISFolderName</col>
+		<row><td>ACTIVECENTER</td><td>IACTIVE1</td><td>ACTIVE~1|ActiveCenter</td><td/><td>0</td><td/></row>
+		<row><td>ACTIVEMEETING</td><td>ACTIVECENTER</td><td>ACTIVE~1|ActiveMeeting</td><td/><td>0</td><td/></row>
 		<row><td>AERO_EDU</td><td>ProgramFilesFolder</td><td>aero-edu</td><td/><td>0</td><td/></row>
 		<row><td>ALLUSERSPROFILE</td><td>TARGETDIR</td><td>.:ALLUSE~1|All Users</td><td/><td>0</td><td/></row>
 		<row><td>ATTITUDE</td><td>INSTALLDIR</td><td>Attitude</td><td/><td>0</td><td/></row>
+		<row><td>AVISYNTH_PLUGIN</td><td>ACTIVEMEETING</td><td>AVISYN~1|avisynth-plugin</td><td/><td>0</td><td/></row>
 		<row><td>AdminToolsFolder</td><td>TARGETDIR</td><td>.:Admint~1|AdminTools</td><td/><td>0</td><td/></row>
 		<row><td>AppDataFolder</td><td>TARGETDIR</td><td>.:APPLIC~1|Application Data</td><td/><td>0</td><td/></row>
+		<row><td>BASIC</td><td>OBS_STUDIO1</td><td>basic</td><td/><td>0</td><td/></row>
 		<row><td>BIN</td><td>OBSBIN</td><td>bin</td><td/><td>0</td><td/></row>
 		<row><td>BOOTH_CAMERA</td><td>INSTALLDIR</td><td>BOOTHC~1|Booth Camera</td><td/><td>0</td><td/></row>
+		<row><td>CHARACTERS_ONLY</td><td>PROFILES</td><td>CHARAC~1|characters_only</td><td/><td>0</td><td/></row>
+		<row><td>COMMON_FILES</td><td>ProgramFilesFolder</td><td>COMMON~1|Common Files</td><td/><td>0</td><td/></row>
+		<row><td>CONIFIGDIR</td><td>ACTIVEMEETING</td><td>CONIFI~1|ConifigDir</td><td/><td>0</td><td/></row>
 		<row><td>COREAUDIO_ENCODER</td><td>OBS_PLUGINS</td><td>COREAU~1|coreaudio-encoder</td><td/><td>0</td><td/></row>
+		<row><td>COURSEWARE</td><td>ACTIVEMEETING</td><td>COURSE~1|Courseware</td><td/><td>0</td><td/></row>
+		<row><td>CRASHES</td><td>OBS_STUDIO1</td><td>crashes</td><td/><td>0</td><td/></row>
 		<row><td>CommonAppDataFolder</td><td>TARGETDIR</td><td>.:Common~1|CommonAppData</td><td/><td>0</td><td/></row>
 		<row><td>CommonFiles64Folder</td><td>TARGETDIR</td><td>.:Common64</td><td/><td>0</td><td/></row>
 		<row><td>CommonFilesFolder</td><td>TARGETDIR</td><td>.:Common</td><td/><td>0</td><td/></row>
@@ -1383,10 +1543,13 @@
 		<row><td>DIRECTORY</td><td>ProgramFilesFolder</td><td>北京航天云教~1|北京航天云教育科技有限公司</td><td/><td>0</td><td/></row>
 		<row><td>DIRECTORY1</td><td>DIRECTORY</td><td>航天云课联网</td><td/><td>0</td><td/></row>
 		<row><td>DIRECTORY2</td><td>AERO_EDU</td><td>航天云课联网</td><td/><td>0</td><td/></row>
+		<row><td>DIRECTORY3</td><td>PROFILES</td><td>未命名</td><td/><td>0</td><td/></row>
 		<row><td>DesktopFolder</td><td>TARGETDIR</td><td>.:Desktop</td><td/><td>3</td><td/></row>
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
+		<row><td>IACTIVE</td><td>COMMON_FILES</td><td>iActive</td><td/><td>0</td><td/></row>
+		<row><td>IACTIVE1</td><td>ProgramFilesFolder</td><td>iActive</td><td/><td>0</td><td/></row>
 		<row><td>ICONENGINES</td><td>_4BIT</td><td>ICONEN~1|iconengines</td><td/><td>0</td><td/></row>
 		<row><td>IMAGEFORMATS</td><td>_4BIT</td><td>IMAGEF~1|imageformats</td><td/><td>0</td><td/></row>
 		<row><td>IMAGE_SOURCE</td><td>OBS_PLUGINS</td><td>IMAGE-~1|image-source</td><td/><td>0</td><td/></row>
@@ -1395,6 +1558,7 @@
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>ISYourDataBaseDir</td><td>INSTALLDIR</td><td>Database</td><td/><td>0</td><td/></row>
+		<row><td>LANGUAGE</td><td>ACTIVEMEETING</td><td>Language</td><td/><td>0</td><td/></row>
 		<row><td>LIBOBS</td><td>DATA</td><td>libobs</td><td/><td>0</td><td/></row>
 		<row><td>LICENSE</td><td>OBS_STUDIO</td><td>license</td><td/><td>0</td><td/></row>
 		<row><td>LOCALE</td><td>COREAUDIO_ENCODER</td><td>locale</td><td/><td>0</td><td/></row>
@@ -1413,11 +1577,18 @@
 		<row><td>LOCALE7</td><td>OBS_X264</td><td>locale</td><td/><td>0</td><td/></row>
 		<row><td>LOCALE8</td><td>RTMP_SERVICES</td><td>locale</td><td/><td>0</td><td/></row>
 		<row><td>LOCALE9</td><td>TEXT_FREETYPE2</td><td>locale</td><td/><td>0</td><td/></row>
+		<row><td>LOG</td><td>ACTIVEMEETING</td><td>Log</td><td/><td>0</td><td/></row>
+		<row><td>LOGS</td><td>OBS_STUDIO1</td><td>logs</td><td/><td>0</td><td/></row>
 		<row><td>LocalAppDataFolder</td><td>TARGETDIR</td><td>.:LocalA~1|LocalAppData</td><td/><td>0</td><td/></row>
+		<row><td>MTNORMAL</td><td>MTSKIN</td><td>MtNormal</td><td/><td>0</td><td/></row>
+		<row><td>MTSKIN</td><td>ACTIVEMEETING</td><td>Mtskin</td><td/><td>0</td><td/></row>
 		<row><td>MY_PRODUCT_NAME</td><td>DIRECTORY</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
+		<row><td>NORMAL</td><td>MTSKIN</td><td>Normal</td><td/><td>0</td><td/></row>
+		<row><td>NORMAL1</td><td>PLAYSKIN</td><td>Normal</td><td/><td>0</td><td/></row>
 		<row><td>NetHoodFolder</td><td>TARGETDIR</td><td>.:NetHood</td><td/><td>0</td><td/></row>
 		<row><td>OBSBIN</td><td>INSTALLDIR</td><td>obsbin</td><td/><td>0</td><td/></row>
+		<row><td>OBS_BROWSER</td><td>PLUGIN_CONFIG</td><td>OBS-BR~1|obs-browser</td><td/><td>0</td><td/></row>
 		<row><td>OBS_FFMPEG</td><td>OBS_PLUGINS</td><td>OBS-FF~1|obs-ffmpeg</td><td/><td>0</td><td/></row>
 		<row><td>OBS_FILTERS</td><td>OBS_PLUGINS</td><td>OBS-FI~1|obs-filters</td><td/><td>0</td><td/></row>
 		<row><td>OBS_OUTPUTS</td><td>OBS_PLUGINS</td><td>OBS-OU~1|obs-outputs</td><td/><td>0</td><td/></row>
@@ -1425,18 +1596,32 @@
 		<row><td>OBS_PLUGINS1</td><td>OBSBIN</td><td>OBS-PL~1|obs-plugins</td><td/><td>0</td><td/></row>
 		<row><td>OBS_QSV11</td><td>OBS_PLUGINS</td><td>OBS-QS~1|obs-qsv11</td><td/><td>0</td><td/></row>
 		<row><td>OBS_STUDIO</td><td>DATA</td><td>OBS-ST~1|obs-studio</td><td/><td>0</td><td/></row>
+		<row><td>OBS_STUDIO1</td><td>AppDataFolder</td><td>OBS-ST~1|obs-studio</td><td/><td>0</td><td/></row>
 		<row><td>OBS_TRANSITIONS</td><td>OBS_PLUGINS</td><td>OBS-TR~1|obs-transitions</td><td/><td>0</td><td/></row>
 		<row><td>OBS_X264</td><td>OBS_PLUGINS</td><td>obs-x264</td><td/><td>0</td><td/></row>
+		<row><td>PANCONFIG</td><td>ACTIVEMEETING</td><td>PANCON~1|PanConfig</td><td/><td>0</td><td/></row>
 		<row><td>PLATFORMS</td><td>_4BIT</td><td>PLATFO~1|platforms</td><td/><td>0</td><td/></row>
+		<row><td>PLAYSKIN</td><td>ACTIVEMEETING</td><td>PlaySkin</td><td/><td>0</td><td/></row>
+		<row><td>PLUGIN_CONFIG</td><td>OBS_STUDIO1</td><td>PLUGIN~1|plugin_config</td><td/><td>0</td><td/></row>
+		<row><td>PROFILER_DATA</td><td>OBS_STUDIO1</td><td>PROFIL~1|profiler_data</td><td/><td>0</td><td/></row>
+		<row><td>PROFILES</td><td>BASIC</td><td>profiles</td><td/><td>0</td><td/></row>
 		<row><td>PersonalFolder</td><td>TARGETDIR</td><td>.:Personal</td><td/><td>0</td><td/></row>
 		<row><td>PrimaryVolumePath</td><td>TARGETDIR</td><td>.:Primar~1|PrimaryVolumePath</td><td/><td>0</td><td/></row>
 		<row><td>PrintHoodFolder</td><td>TARGETDIR</td><td>.:PRINTH~1|PrintHood</td><td/><td>0</td><td/></row>
 		<row><td>ProgramFiles64Folder</td><td>TARGETDIR</td><td>.:Prog64~1|Program Files 64</td><td/><td>0</td><td/></row>
 		<row><td>ProgramFilesFolder</td><td>TARGETDIR</td><td>.:PROGRA~1|program files</td><td/><td>0</td><td/></row>
 		<row><td>ProgramMenuFolder</td><td>TARGETDIR</td><td>.:Programs</td><td/><td>3</td><td/></row>
+		<row><td>RCVFILE</td><td>ACTIVEMEETING</td><td>RcvFile</td><td/><td>0</td><td/></row>
 		<row><td>RECORD_PLAYER</td><td>INSTALLDIR</td><td>RECORD~1|Record Player</td><td/><td>0</td><td/></row>
 		<row><td>RTMP_SERVICES</td><td>OBS_PLUGINS</td><td>RTMP-S~1|rtmp-services</td><td/><td>0</td><td/></row>
+		<row><td>RTMP_SERVICES1</td><td>PLUGIN_CONFIG</td><td>RTMP-S~1|rtmp-services</td><td/><td>0</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
+		<row><td>SCENES</td><td>BASIC</td><td>scenes</td><td/><td>0</td><td/></row>
+		<row><td>SCROLLSKIN</td><td>MTNORMAL</td><td>SCROLL~1|scrollskin</td><td/><td>0</td><td/></row>
+		<row><td>SCROLLSKIN1</td><td>NORMAL</td><td>SCROLL~1|scrollskin</td><td/><td>0</td><td/></row>
+		<row><td>SKIN</td><td>MTNORMAL</td><td>Skin</td><td/><td>0</td><td/></row>
+		<row><td>SKIN1</td><td>NORMAL</td><td>Skin</td><td/><td>0</td><td/></row>
+		<row><td>SOUND</td><td>ACTIVEMEETING</td><td>sound</td><td/><td>0</td><td/></row>
 		<row><td>SQLDRIVERS</td><td>_4BIT</td><td>SQLDRI~1|sqldrivers</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
 		<row><td>StartMenuFolder</td><td>TARGETDIR</td><td>.:STARTM~1|Start Menu</td><td/><td>3</td><td/></row>
@@ -1445,22 +1630,36 @@
 		<row><td>System64Folder</td><td>TARGETDIR</td><td>.:System64</td><td/><td>0</td><td/></row>
 		<row><td>SystemFolder</td><td>TARGETDIR</td><td>.:System32</td><td/><td>0</td><td/></row>
 		<row><td>TARGETDIR</td><td/><td>SourceDir</td><td/><td>0</td><td/></row>
+		<row><td>TEMP</td><td>_</td><td>temp</td><td/><td>0</td><td/></row>
+		<row><td>TEMP1</td><td>_7</td><td>temp</td><td/><td>0</td><td/></row>
+		<row><td>TEMP2</td><td>_3</td><td>temp</td><td/><td>0</td><td/></row>
+		<row><td>TEMP3</td><td>_6</td><td>temp</td><td/><td>0</td><td/></row>
+		<row><td>TEMPDIR</td><td>ACTIVEMEETING</td><td>TempDir</td><td/><td>0</td><td/></row>
 		<row><td>TEMPLATE</td><td>RECORD_PLAYER</td><td>Template</td><td/><td>0</td><td/></row>
 		<row><td>TEXT_FREETYPE2</td><td>OBS_PLUGINS</td><td>TEXT-F~1|text-freetype2</td><td/><td>0</td><td/></row>
+		<row><td>TEXT_FREETYPE21</td><td>PLUGIN_CONFIG</td><td>TEXT-F~1|text-freetype2</td><td/><td>0</td><td/></row>
 		<row><td>THEMES</td><td>OBS_STUDIO</td><td>themes</td><td/><td>0</td><td/></row>
 		<row><td>TRANSLATIONS</td><td>_4BIT</td><td>TRANSL~1|translations</td><td/><td>0</td><td/></row>
 		<row><td>TempFolder</td><td>TARGETDIR</td><td>.:Temp</td><td/><td>0</td><td/></row>
 		<row><td>TemplateFolder</td><td>TARGETDIR</td><td>.:ShellNew</td><td/><td>0</td><td/></row>
 		<row><td>USERPROFILE</td><td>TARGETDIR</td><td>.:USERPR~1|UserProfile</td><td/><td>0</td><td/></row>
+		<row><td>VIRTUALPRINTER</td><td>ACTIVEMEETING</td><td>VIRTUA~1|VirtualPrinter</td><td/><td>0</td><td/></row>
 		<row><td>WIN_CAPTURE</td><td>OBS_PLUGINS</td><td>WIN-CA~1|win-capture</td><td/><td>0</td><td/></row>
+		<row><td>WIN_CAPTURE1</td><td>PLUGIN_CONFIG</td><td>WIN-CA~1|win-capture</td><td/><td>0</td><td/></row>
 		<row><td>WIN_DECKLINK</td><td>OBS_PLUGINS</td><td>WIN-DE~1|win-decklink</td><td/><td>0</td><td/></row>
 		<row><td>WIN_DSHOW</td><td>OBS_PLUGINS</td><td>WIN-DS~1|win-dshow</td><td/><td>0</td><td/></row>
 		<row><td>WIN_MF</td><td>OBS_PLUGINS</td><td>win-mf</td><td/><td>0</td><td/></row>
 		<row><td>WIN_WASAPI</td><td>OBS_PLUGINS</td><td>WIN-WA~1|win-wasapi</td><td/><td>0</td><td/></row>
 		<row><td>WindowsFolder</td><td>TARGETDIR</td><td>.:Windows</td><td/><td>0</td><td/></row>
 		<row><td>WindowsVolume</td><td>TARGETDIR</td><td>.:WinRoot</td><td/><td>0</td><td/></row>
+		<row><td>XPSKINRES</td><td>ACTIVEMEETING</td><td>XPSKIN~1|XPSkinRes</td><td/><td>0</td><td/></row>
+		<row><td>XPSTYLE</td><td>XPSKINRES</td><td>xpstyle</td><td/><td>0</td><td/></row>
+		<row><td>_</td><td>TEMPDIR</td><td>0</td><td/><td>0</td><td/></row>
+		<row><td>_3</td><td>TEMPDIR</td><td>53</td><td/><td>0</td><td/></row>
 		<row><td>_4BIT</td><td>BIN</td><td>64bit</td><td/><td>0</td><td/></row>
 		<row><td>_4BIT1</td><td>OBS_PLUGINS1</td><td>64bit</td><td/><td>0</td><td/></row>
+		<row><td>_6</td><td>TEMPDIR</td><td>76</td><td/><td>0</td><td/></row>
+		<row><td>_7</td><td>TEMPDIR</td><td>37</td><td/><td>0</td><td/></row>
 		<row><td>company_name1</td><td>ProgramMenuFolder</td><td>北京航~1|北京航天云教育科技有限公司</td><td/><td>1</td><td/></row>
 		<row><td>product_name</td><td>company_name1</td><td>航天云~1|航天云课联网</td><td/><td>1</td><td/></row>
 	</table>
@@ -2154,31 +2353,74 @@
 	<table name="FeatureComponents">
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>AlwaysInstall</td><td>ACPlayer.exe</td></row>
+		<row><td>AlwaysInstall</td><td>ActiveAuto.exe</td></row>
+		<row><td>AlwaysInstall</td><td>ActiveLoader.exe</td></row>
+		<row><td>AlwaysInstall</td><td>ActiveLoader.exe1</td></row>
+		<row><td>AlwaysInstall</td><td>ActiveMeeting.exe</td></row>
 		<row><td>AlwaysInstall</td><td>AeroEduClass.exe</td></row>
 		<row><td>AlwaysInstall</td><td>AeroEduLib.dll</td></row>
 		<row><td>AlwaysInstall</td><td>AeroEduLib.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>AeroEduLib.dll2</td></row>
+		<row><td>AlwaysInstall</td><td>BWClientDll.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Booth_Camera.exe</td></row>
+		<row><td>AlwaysInstall</td><td>BugReport.exe</td></row>
+		<row><td>AlwaysInstall</td><td>CEXTH.dll</td></row>
+		<row><td>AlwaysInstall</td><td>CPTH.dll</td></row>
+		<row><td>AlwaysInstall</td><td>CWTH.dll</td></row>
 		<row><td>AlwaysInstall</td><td>CefSharp.BrowserSubprocess.Core.dll</td></row>
 		<row><td>AlwaysInstall</td><td>CefSharp.BrowserSubprocess.exe</td></row>
 		<row><td>AlwaysInstall</td><td>CefSharp.Core.dll</td></row>
 		<row><td>AlwaysInstall</td><td>CefSharp.WinForms.dll</td></row>
 		<row><td>AlwaysInstall</td><td>CefSharp.dll</td></row>
+		<row><td>AlwaysInstall</td><td>ColorSpace.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Component.exe</td></row>
+		<row><td>AlwaysInstall</td><td>Copier.exe</td></row>
+		<row><td>AlwaysInstall</td><td>CourseManager.exe</td></row>
 		<row><td>AlwaysInstall</td><td>D3Dcompiler_47.dll</td></row>
+		<row><td>AlwaysInstall</td><td>DBSClient.exe</td></row>
 		<row><td>AlwaysInstall</td><td>DMSkin.dll</td></row>
 		<row><td>AlwaysInstall</td><td>DMSkin.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>DMSkin.dll2</td></row>
 		<row><td>AlwaysInstall</td><td>DevComponents.DotNetBar2.dll</td></row>
 		<row><td>AlwaysInstall</td><td>DevComponents.DotNetBar2.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>DevComponents.Instrumentation.dll</td></row>
+		<row><td>AlwaysInstall</td><td>DirectShowSource.dll</td></row>
+		<row><td>AlwaysInstall</td><td>DirectShowSource.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>DllDeinterlace.dll</td></row>
 		<row><td>AlwaysInstall</td><td>DllDeinterlace.dll1</td></row>
+		<row><td>AlwaysInstall</td><td>FileCom.dll</td></row>
+		<row><td>AlwaysInstall</td><td>G7xDll.dll</td></row>
 		<row><td>AlwaysInstall</td><td>H264Play.dll</td></row>
 		<row><td>AlwaysInstall</td><td>H264Play.dll1</td></row>
+		<row><td>AlwaysInstall</td><td>HookSys.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IAAudioLib.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IACSmy.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IACUsage.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IACap.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IAExpat.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IAEysp.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IAJ2K.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IAJCmp.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IALA.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IALCmp.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IALmn.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IAMediaAVS.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IAMiscEx.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IANet.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IANet3.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IAPOL.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IARGB256.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IAUNIDRV.DLL</td></row>
+		<row><td>AlwaysInstall</td><td>IAUNIDRVUI.DLL</td></row>
+		<row><td>AlwaysInstall</td><td>IAUNIDRV_64.DLL</td></row>
+		<row><td>AlwaysInstall</td><td>IAunidrvui_64.dll</td></row>
+		<row><td>AlwaysInstall</td><td>IDE_ID.vxd</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT10</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT100</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT101</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT11</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT12</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT13</td></row>
@@ -2226,31 +2468,95 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT51</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT52</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT53</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT54</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT55</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT56</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT57</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT58</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT59</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT6</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT60</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT61</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT62</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT63</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT64</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT65</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT66</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT67</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT68</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT69</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT7</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT70</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT71</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT72</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT73</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT74</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT75</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT76</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT77</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT78</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT79</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT8</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT80</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT81</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT82</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT83</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT84</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT85</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT86</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT87</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT88</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT89</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT9</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT90</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT91</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT92</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT93</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT94</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT95</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT96</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT97</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT98</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT99</td></row>
+		<row><td>AlwaysInstall</td><td>InstallVPrinter.exe</td></row>
+		<row><td>AlwaysInstall</td><td>Mono.Security.dll</td></row>
 		<row><td>AlwaysInstall</td><td>NetSdk.dll</td></row>
+		<row><td>AlwaysInstall</td><td>NetSdk.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>NewComponent1</td></row>
 		<row><td>AlwaysInstall</td><td>NewComponent2</td></row>
 		<row><td>AlwaysInstall</td><td>NewComponent3</td></row>
 		<row><td>AlwaysInstall</td><td>NewComponent4</td></row>
 		<row><td>AlwaysInstall</td><td>NewComponent5</td></row>
 		<row><td>AlwaysInstall</td><td>NewComponent6</td></row>
+		<row><td>AlwaysInstall</td><td>NewComponent7</td></row>
+		<row><td>AlwaysInstall</td><td>NewComponent8</td></row>
 		<row><td>AlwaysInstall</td><td>Newtonsoft.Json.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Newtonsoft.Json.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>Newtonsoft.Json.dll2</td></row>
 		<row><td>AlwaysInstall</td><td>Newtonsoft.Json.dll3</td></row>
+		<row><td>AlwaysInstall</td><td>Npgsql.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Qt5Core.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Qt5Gui.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Qt5Sql.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Qt5Svg.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Qt5Widgets.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Record_Player.exe</td></row>
+		<row><td>AlwaysInstall</td><td>Rockey.dll</td></row>
+		<row><td>AlwaysInstall</td><td>RockeyVisaP.dll</td></row>
 		<row><td>AlwaysInstall</td><td>SDL2.dll</td></row>
 		<row><td>AlwaysInstall</td><td>SDL2.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>StreamReader.dll</td></row>
 		<row><td>AlwaysInstall</td><td>StreamReader.dll1</td></row>
+		<row><td>AlwaysInstall</td><td>StreamReader.dll2</td></row>
+		<row><td>AlwaysInstall</td><td>Sysset.exe</td></row>
+		<row><td>AlwaysInstall</td><td>UNIDRV.HLP</td></row>
+		<row><td>AlwaysInstall</td><td>UNIDRV_64.HLP</td></row>
+		<row><td>AlwaysInstall</td><td>UNIRES.DLL</td></row>
+		<row><td>AlwaysInstall</td><td>UNIRES_64.DLL</td></row>
+		<row><td>AlwaysInstall</td><td>Z264Core.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Z264Dec.dll</td></row>
+		<row><td>AlwaysInstall</td><td>_64dec.dll</td></row>
+		<row><td>AlwaysInstall</td><td>_64dec16.ax</td></row>
 		<row><td>AlwaysInstall</td><td>avcodec_57.dll</td></row>
 		<row><td>AlwaysInstall</td><td>avcodec_57.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>avcodec_57.dll2</td></row>
@@ -2263,6 +2569,7 @@
 		<row><td>AlwaysInstall</td><td>avformat_57.dll</td></row>
 		<row><td>AlwaysInstall</td><td>avformat_57.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>avformat_57.dll2</td></row>
+		<row><td>AlwaysInstall</td><td>avisynth.dll</td></row>
 		<row><td>AlwaysInstall</td><td>avutil_55.dll</td></row>
 		<row><td>AlwaysInstall</td><td>avutil_55.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>avutil_55.dll2</td></row>
@@ -2278,20 +2585,32 @@
 		<row><td>AlwaysInstall</td><td>d3dcompiler_47.dll</td></row>
 		<row><td>AlwaysInstall</td><td>d_framework.dll</td></row>
 		<row><td>AlwaysInstall</td><td>d_framework.dll1</td></row>
+		<row><td>AlwaysInstall</td><td>devil.dll</td></row>
 		<row><td>AlwaysInstall</td><td>ffmpeg_mux64.exe</td></row>
 		<row><td>AlwaysInstall</td><td>get_graphics_offsets64.exe</td></row>
 		<row><td>AlwaysInstall</td><td>graphics_hook64.dll</td></row>
 		<row><td>AlwaysInstall</td><td>hi_h264dec_v.dll</td></row>
 		<row><td>AlwaysInstall</td><td>hi_h264dec_v.dll1</td></row>
+		<row><td>AlwaysInstall</td><td>iA264Dec.dll</td></row>
+		<row><td>AlwaysInstall</td><td>iAAVSEnv.dll</td></row>
+		<row><td>AlwaysInstall</td><td>iAAudioAgent.exe</td></row>
+		<row><td>AlwaysInstall</td><td>iAAudioDMOCap.dll</td></row>
+		<row><td>AlwaysInstall</td><td>iADxCap.dll</td></row>
+		<row><td>AlwaysInstall</td><td>iADxSnd.dll</td></row>
+		<row><td>AlwaysInstall</td><td>iAVideoLib.dll</td></row>
+		<row><td>AlwaysInstall</td><td>iAYUVEff.dll</td></row>
+		<row><td>AlwaysInstall</td><td>iacodec.dll</td></row>
 		<row><td>AlwaysInstall</td><td>icudt54.dll</td></row>
 		<row><td>AlwaysInstall</td><td>icuin54.dll</td></row>
 		<row><td>AlwaysInstall</td><td>icuuc54.dll</td></row>
 		<row><td>AlwaysInstall</td><td>image_source.dll</td></row>
 		<row><td>AlwaysInstall</td><td>inject_helper64.exe</td></row>
+		<row><td>AlwaysInstall</td><td>lame_enc.dll</td></row>
 		<row><td>AlwaysInstall</td><td>libEGL.dll</td></row>
 		<row><td>AlwaysInstall</td><td>libEGL.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>libGLESv2.dll</td></row>
 		<row><td>AlwaysInstall</td><td>libGLESv2.dll1</td></row>
+		<row><td>AlwaysInstall</td><td>libavcodec.dll</td></row>
 		<row><td>AlwaysInstall</td><td>libcef.dll</td></row>
 		<row><td>AlwaysInstall</td><td>libcurl.dll</td></row>
 		<row><td>AlwaysInstall</td><td>libeay32.dll</td></row>
@@ -2327,11 +2646,14 @@
 		<row><td>AlwaysInstall</td><td>obs_transitions.dll</td></row>
 		<row><td>AlwaysInstall</td><td>obs_x264.dll</td></row>
 		<row><td>AlwaysInstall</td><td>obsglad.dll</td></row>
+		<row><td>AlwaysInstall</td><td>oemuni.dll</td></row>
+		<row><td>AlwaysInstall</td><td>oemuni_64.dll</td></row>
 		<row><td>AlwaysInstall</td><td>opencv_core248.dll</td></row>
 		<row><td>AlwaysInstall</td><td>opencv_highgui248.dll</td></row>
 		<row><td>AlwaysInstall</td><td>opengl32sw.dll</td></row>
 		<row><td>AlwaysInstall</td><td>postproc_54.dll</td></row>
 		<row><td>AlwaysInstall</td><td>postproc_54.dll1</td></row>
+		<row><td>AlwaysInstall</td><td>pptt.dll</td></row>
 		<row><td>AlwaysInstall</td><td>qdds.dll</td></row>
 		<row><td>AlwaysInstall</td><td>qgif.dll</td></row>
 		<row><td>AlwaysInstall</td><td>qicns.dll</td></row>
@@ -2359,7 +2681,11 @@
 		<row><td>AlwaysInstall</td><td>swscale_4.dll</td></row>
 		<row><td>AlwaysInstall</td><td>swscale_4.dll1</td></row>
 		<row><td>AlwaysInstall</td><td>swscale_4.dll2</td></row>
+		<row><td>AlwaysInstall</td><td>taskkill.exe</td></row>
 		<row><td>AlwaysInstall</td><td>text_freetype2.dll</td></row>
+		<row><td>AlwaysInstall</td><td>unins000.exe</td></row>
+		<row><td>AlwaysInstall</td><td>vprproc.dll</td></row>
+		<row><td>AlwaysInstall</td><td>vprproc_64.dll</td></row>
 		<row><td>AlwaysInstall</td><td>w32_pthreads.dll</td></row>
 		<row><td>AlwaysInstall</td><td>widevinecdmadapter.dll</td></row>
 		<row><td>AlwaysInstall</td><td>win_capture.dll</td></row>
@@ -2367,6 +2693,7 @@
 		<row><td>AlwaysInstall</td><td>win_dshow.dll</td></row>
 		<row><td>AlwaysInstall</td><td>win_mf.dll</td></row>
 		<row><td>AlwaysInstall</td><td>win_wasapi.dll</td></row>
+		<row><td>AlwaysInstall</td><td>wordtt.dll</td></row>
 		<row><td>AlwaysInstall</td><td>zlib.dll</td></row>
 	</table>
 
@@ -2382,801 +2709,1138 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>File.config</td><td>ISX_DEFAULTCOMPONENT53</td><td>航天云~1.CON|航天云态度表达.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\航天云态度表达\bin\Release\航天云态度表达.exe.config</td><td>1</td><td/></row>
-		<row><td>File.exe</td><td>Component.exe</td><td>航天云~1.EXE|航天云态度表达.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\航天云态度表达\bin\Release\航天云态度表达.exe</td><td>1</td><td/></row>
-		<row><td>File.htm</td><td>ISX_DEFAULTCOMPONENT3</td><td>教师带~1.HTM|教师带声音.htm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\Template\教师带声音.htm</td><td>1</td><td/></row>
-		<row><td>File.htm1</td><td>ISX_DEFAULTCOMPONENT3</td><td>屏幕带~1.HTM|屏幕带声音.htm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\Template\屏幕带声音.htm</td><td>1</td><td/></row>
-		<row><td>File.htm2</td><td>ISX_DEFAULTCOMPONENT3</td><td>学生带~1.HTM|学生带声音.htm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\Template\学生带声音.htm</td><td>1</td><td/></row>
-		<row><td>_gitignore</td><td>ISX_DEFAULTCOMPONENT5</td><td>GITIGN~1|.gitignore</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\.gitignore</td><td>1</td><td/></row>
-		<row><td>_gitignore1</td><td>ISX_DEFAULTCOMPONENT7</td><td>GITIGN~1|.gitignore</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\.gitignore</td><td>1</td><td/></row>
-		<row><td>_gitignore2</td><td>ISX_DEFAULTCOMPONENT13</td><td>GITIGN~1|.gitignore</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\.gitignore</td><td>1</td><td/></row>
-		<row><td>aeroedu.db</td><td>ISX_DEFAULTCOMPONENT7</td><td>aeroedu.db</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\aeroedu.db</td><td>1</td><td/></row>
-		<row><td>aeroeduclass.exe</td><td>AeroEduClass.exe</td><td>AEROED~1.EXE|AeroEduClass.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>1</td><td/></row>
-		<row><td>aeroeduclass.exe.config</td><td>ISX_DEFAULTCOMPONENT2</td><td>AEROED~1.CON|AeroEduClass.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe.config</td><td>1</td><td/></row>
-		<row><td>aeroedulib.dll</td><td>AeroEduLib.dll</td><td>AEROED~1.DLL|AeroEduLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduLib.dll</td><td>1</td><td/></row>
-		<row><td>aeroedulib.dll1</td><td>AeroEduLib.dll1</td><td>AEROED~1.DLL|AeroEduLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\AeroEduLib.dll</td><td>1</td><td/></row>
-		<row><td>aeroedulib.dll2</td><td>AeroEduLib.dll2</td><td>AEROED~1.DLL|AeroEduLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\AeroEduLib.dll</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>ar_sa.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ar-SA.ini</td><td>1</td><td/></row>
-		<row><td>avcodec_57.dll</td><td>avcodec_57.dll</td><td>AVCODE~1.DLL|avcodec-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\avcodec-57.dll</td><td>1</td><td/></row>
-		<row><td>avcodec_57.dll1</td><td>avcodec_57.dll1</td><td>AVCODE~1.DLL|avcodec-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\avcodec-57.dll</td><td>1</td><td/></row>
-		<row><td>avcodec_57.dll2</td><td>avcodec_57.dll2</td><td>AVCODE~1.DLL|avcodec-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\avcodec-57.dll</td><td>1</td><td/></row>
-		<row><td>avdevice_57.dll</td><td>avdevice_57.dll</td><td>AVDEVI~1.DLL|avdevice-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\avdevice-57.dll</td><td>1</td><td/></row>
-		<row><td>avdevice_57.dll1</td><td>avdevice_57.dll1</td><td>AVDEVI~1.DLL|avdevice-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\avdevice-57.dll</td><td>1</td><td/></row>
-		<row><td>avdevice_57.dll2</td><td>avdevice_57.dll2</td><td>AVDEVI~1.DLL|avdevice-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\avdevice-57.dll</td><td>1</td><td/></row>
-		<row><td>avfilter_6.dll</td><td>avfilter_6.dll</td><td>AVFILT~1.DLL|avfilter-6.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\avfilter-6.dll</td><td>1</td><td/></row>
-		<row><td>avfilter_6.dll1</td><td>avfilter_6.dll1</td><td>AVFILT~1.DLL|avfilter-6.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\avfilter-6.dll</td><td>1</td><td/></row>
-		<row><td>avfilter_6.dll2</td><td>avfilter_6.dll2</td><td>AVFILT~1.DLL|avfilter-6.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\avfilter-6.dll</td><td>1</td><td/></row>
-		<row><td>avformat_57.dll</td><td>avformat_57.dll</td><td>AVFORM~1.DLL|avformat-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\avformat-57.dll</td><td>1</td><td/></row>
-		<row><td>avformat_57.dll1</td><td>avformat_57.dll1</td><td>AVFORM~1.DLL|avformat-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\avformat-57.dll</td><td>1</td><td/></row>
-		<row><td>avformat_57.dll2</td><td>avformat_57.dll2</td><td>AVFORM~1.DLL|avformat-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\avformat-57.dll</td><td>1</td><td/></row>
-		<row><td>avutil_55.dll</td><td>avutil_55.dll</td><td>AVUTIL~1.DLL|avutil-55.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\avutil-55.dll</td><td>1</td><td/></row>
-		<row><td>avutil_55.dll1</td><td>avutil_55.dll1</td><td>AVUTIL~1.DLL|avutil-55.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\avutil-55.dll</td><td>1</td><td/></row>
-		<row><td>avutil_55.dll2</td><td>avutil_55.dll2</td><td>AVUTIL~1.DLL|avutil-55.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\avutil-55.dll</td><td>1</td><td/></row>
-		<row><td>bg_bg.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\bg-BG.ini</td><td>1</td><td/></row>
-		<row><td>bg_bg.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\bg-BG.ini</td><td>1</td><td/></row>
-		<row><td>bg_bg.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\bg-BG.ini</td><td>1</td><td/></row>
-		<row><td>bg_bg.ini3</td><td>ISX_DEFAULTCOMPONENT31</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\bg-BG.ini</td><td>1</td><td/></row>
-		<row><td>bg_bg.ini4</td><td>ISX_DEFAULTCOMPONENT39</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\bg-BG.ini</td><td>1</td><td/></row>
-		<row><td>bg_bg.ini5</td><td>ISX_DEFAULTCOMPONENT41</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\bg-BG.ini</td><td>1</td><td/></row>
-		<row><td>bg_bg.ini6</td><td>ISX_DEFAULTCOMPONENT45</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\bg-BG.ini</td><td>1</td><td/></row>
-		<row><td>bg_bg.ini7</td><td>ISX_DEFAULTCOMPONENT48</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\bg-BG.ini</td><td>1</td><td/></row>
-		<row><td>bicubic_scale.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>BICUBI~1.EFF|bicubic_scale.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\bicubic_scale.effect</td><td>1</td><td/></row>
-		<row><td>bilinear_lowres_scale.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>BILINE~1.EFF|bilinear_lowres_scale.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\bilinear_lowres_scale.effect</td><td>1</td><td/></row>
-		<row><td>blend_add_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>BLEND_~1.EFF|blend_add_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\blend_add_filter.effect</td><td>1</td><td/></row>
-		<row><td>blend_mul_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>BLEND_~1.EFF|blend_mul_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\blend_mul_filter.effect</td><td>1</td><td/></row>
-		<row><td>blend_sub_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>BLEND_~1.EFF|blend_sub_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\blend_sub_filter.effect</td><td>1</td><td/></row>
-		<row><td>booth.dll</td><td>booth.dll</td><td>booth.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\booth.dll</td><td>1</td><td/></row>
-		<row><td>booth_camera.exe</td><td>Booth_Camera.exe</td><td>BOOTHC~1.EXE|Booth Camera.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\Booth Camera.exe</td><td>1</td><td/></row>
-		<row><td>ca_es.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>ca_es.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ca-ES.ini</td><td>1</td><td/></row>
-		<row><td>cef.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>cef.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\cef.pak</td><td>1</td><td/></row>
-		<row><td>cef_100_percent.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEF_10~1.PAK|cef_100_percent.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\cef_100_percent.pak</td><td>1</td><td/></row>
-		<row><td>cef_200_percent.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEF_20~1.PAK|cef_200_percent.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\cef_200_percent.pak</td><td>1</td><td/></row>
-		<row><td>cef_extensions.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEF_EX~1.PAK|cef_extensions.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\cef_extensions.pak</td><td>1</td><td/></row>
-		<row><td>cefsharp.browsersubprocess.c</td><td>CefSharp.BrowserSubprocess.Core.dll</td><td>CEFSHA~1.DLL|CefSharp.BrowserSubprocess.Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.BrowserSubprocess.Core.dll</td><td>1</td><td/></row>
-		<row><td>cefsharp.browsersubprocess.e</td><td>CefSharp.BrowserSubprocess.exe</td><td>CEFSHA~1.EXE|CefSharp.BrowserSubprocess.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.BrowserSubprocess.exe</td><td>1</td><td/></row>
-		<row><td>cefsharp.core.dll</td><td>CefSharp.Core.dll</td><td>CEFSHA~1.DLL|CefSharp.Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.Core.dll</td><td>1</td><td/></row>
-		<row><td>cefsharp.core.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEFSHA~1.XML|CefSharp.Core.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.Core.xml</td><td>1</td><td/></row>
-		<row><td>cefsharp.dll</td><td>CefSharp.dll</td><td>CefSharp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.dll</td><td>1</td><td/></row>
-		<row><td>cefsharp.winforms.dll</td><td>CefSharp.WinForms.dll</td><td>CEFSHA~1.DLL|CefSharp.WinForms.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.WinForms.dll</td><td>1</td><td/></row>
-		<row><td>cefsharp.winforms.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEFSHA~1.XML|CefSharp.WinForms.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.WinForms.xml</td><td>1</td><td/></row>
-		<row><td>cefsharp.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>CefSharp.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.xml</td><td>1</td><td/></row>
-		<row><td>chroma_key_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>CHROMA~1.EFF|chroma_key_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\chroma_key_filter.effect</td><td>1</td><td/></row>
-		<row><td>cogwheel.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>cogwheel.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Dark\cogwheel.png</td><td>1</td><td/></row>
-		<row><td>color_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>COLOR_~1.EFF|color_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\color_filter.effect</td><td>1</td><td/></row>
-		<row><td>color_key_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>COLOR_~1.EFF|color_key_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\color_key_filter.effect</td><td>1</td><td/></row>
-		<row><td>config.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>Config.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\Config.xml</td><td>1</td><td/></row>
-		<row><td>config.xml1</td><td>ISX_DEFAULTCOMPONENT</td><td>Config.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\Config.xml</td><td>1</td><td/></row>
-		<row><td>config.xml2</td><td>ISX_DEFAULTCOMPONENT1</td><td>Config.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\Config.xml</td><td>1</td><td/></row>
-		<row><td>coreaudio_encoder.dll</td><td>coreaudio_encoder.dll</td><td>COREAU~1.DLL|coreaudio-encoder.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\coreaudio-encoder.dll</td><td>1</td><td/></row>
-		<row><td>crop_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>CROP_F~1.EFF|crop_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\crop_filter.effect</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_cz.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\cs-CZ.ini</td><td>1</td><td/></row>
-		<row><td>cs_framework.dll</td><td>cs_framework.dll</td><td>CS_FRA~1.DLL|cs_framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\cs_framework.dll</td><td>1</td><td/></row>
-		<row><td>cs_framework.dll1</td><td>cs_framework.dll1</td><td>CS_FRA~1.DLL|cs_framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\cs_framework.dll</td><td>1</td><td/></row>
-		<row><td>cs_logic.dll</td><td>cs_logic.dll</td><td>cs_logic.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\cs_logic.dll</td><td>1</td><td/></row>
-		<row><td>cs_logic.dll1</td><td>cs_logic.dll1</td><td>cs_logic.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\cs_logic.dll</td><td>1</td><td/></row>
-		<row><td>cs_xc.dll</td><td>cs_xc.dll</td><td>cs_xc.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\cs_xc.dll</td><td>1</td><td/></row>
-		<row><td>cs_xc.dll1</td><td>cs_xc.dll1</td><td>cs_xc.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\cs_xc.dll</td><td>1</td><td/></row>
-		<row><td>d3dcompiler_43.dll</td><td>d3dcompiler_43.dll</td><td>D3DCOM~1.DLL|d3dcompiler_43.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\d3dcompiler_43.dll</td><td>1</td><td/></row>
-		<row><td>d3dcompiler_47.dll</td><td>d3dcompiler_47.dll</td><td>D3DCOM~1.DLL|d3dcompiler_47.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\d3dcompiler_47.dll</td><td>1</td><td/></row>
-		<row><td>d3dcompiler_47.dll1</td><td>D3Dcompiler_47.dll</td><td>D3DCOM~1.DLL|D3Dcompiler_47.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\D3Dcompiler_47.dll</td><td>1</td><td/></row>
-		<row><td>d_framework.dll</td><td>d_framework.dll</td><td>D_FRAM~1.DLL|d_framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\d_framework.dll</td><td>1</td><td/></row>
-		<row><td>d_framework.dll1</td><td>d_framework.dll1</td><td>D_FRAM~1.DLL|d_framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\d_framework.dll</td><td>1</td><td/></row>
-		<row><td>da_dk.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini10</td><td>ISX_DEFAULTCOMPONENT39</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini11</td><td>ISX_DEFAULTCOMPONENT41</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini12</td><td>ISX_DEFAULTCOMPONENT43</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini13</td><td>ISX_DEFAULTCOMPONENT45</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini14</td><td>ISX_DEFAULTCOMPONENT48</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini5</td><td>ISX_DEFAULTCOMPONENT29</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini6</td><td>ISX_DEFAULTCOMPONENT31</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini7</td><td>ISX_DEFAULTCOMPONENT33</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini8</td><td>ISX_DEFAULTCOMPONENT35</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>da_dk.ini9</td><td>ISX_DEFAULTCOMPONENT37</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\da-DK.ini</td><td>1</td><td/></row>
-		<row><td>dark.qss</td><td>ISX_DEFAULTCOMPONENT49</td><td>Dark.qss</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Dark.qss</td><td>1</td><td/></row>
-		<row><td>de_de.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>de_de.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\de-DE.ini</td><td>1</td><td/></row>
-		<row><td>default.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEFAUL~1.EFF|default.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\default.effect</td><td>1</td><td/></row>
-		<row><td>default.qss</td><td>ISX_DEFAULTCOMPONENT49</td><td>Default.qss</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Default.qss</td><td>1</td><td/></row>
-		<row><td>default_rect.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEFAUL~1.EFF|default_rect.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\default_rect.effect</td><td>1</td><td/></row>
-		<row><td>deinterlace_base.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_base.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\deinterlace_base.effect</td><td>1</td><td/></row>
-		<row><td>deinterlace_blend.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_blend.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\deinterlace_blend.effect</td><td>1</td><td/></row>
-		<row><td>deinterlace_blend_2x.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_blend_2x.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\deinterlace_blend_2x.effect</td><td>1</td><td/></row>
-		<row><td>deinterlace_discard.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_discard.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\deinterlace_discard.effect</td><td>1</td><td/></row>
-		<row><td>deinterlace_discard_2x.effec</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_discard_2x.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\deinterlace_discard_2x.effect</td><td>1</td><td/></row>
-		<row><td>deinterlace_linear.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_linear.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\deinterlace_linear.effect</td><td>1</td><td/></row>
-		<row><td>deinterlace_linear_2x.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_linear_2x.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\deinterlace_linear_2x.effect</td><td>1</td><td/></row>
-		<row><td>deinterlace_yadif.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_yadif.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\deinterlace_yadif.effect</td><td>1</td><td/></row>
-		<row><td>deinterlace_yadif_2x.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_yadif_2x.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\deinterlace_yadif_2x.effect</td><td>1</td><td/></row>
-		<row><td>devcomponents.dotnetbar2.dll</td><td>DevComponents.DotNetBar2.dll</td><td>DEVCOM~1.DLL|DevComponents.DotNetBar2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\DevComponents.DotNetBar2.dll</td><td>1</td><td/></row>
-		<row><td>devcomponents.dotnetbar2.dll1</td><td>DevComponents.DotNetBar2.dll1</td><td>DEVCOM~1.DLL|DevComponents.DotNetBar2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\DevComponents.DotNetBar2.dll</td><td>1</td><td/></row>
-		<row><td>devcomponents.dotnetbar2.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>DEVCOM~1.XML|DevComponents.DotNetBar2.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\DevComponents.DotNetBar2.xml</td><td>1</td><td/></row>
-		<row><td>devcomponents.instrumentatio</td><td>DevComponents.Instrumentation.dll</td><td>DEVCOM~1.DLL|DevComponents.Instrumentation.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\DevComponents.Instrumentation.dll</td><td>1</td><td/></row>
-		<row><td>devtools_resources.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>DEVTOO~1.PAK|devtools_resources.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\devtools_resources.pak</td><td>1</td><td/></row>
-		<row><td>dlldeinterlace.dll</td><td>DllDeinterlace.dll</td><td>DLLDEI~1.DLL|DllDeinterlace.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\DllDeinterlace.dll</td><td>1</td><td/></row>
-		<row><td>dlldeinterlace.dll1</td><td>DllDeinterlace.dll1</td><td>DLLDEI~1.DLL|DllDeinterlace.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\DllDeinterlace.dll</td><td>1</td><td/></row>
-		<row><td>dmskin.dll</td><td>DMSkin.dll</td><td>DMSkin.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\DMSkin.dll</td><td>1</td><td/></row>
-		<row><td>dmskin.dll1</td><td>DMSkin.dll1</td><td>DMSkin.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\DMSkin.dll</td><td>1</td><td/></row>
-		<row><td>dmskin.dll2</td><td>DMSkin.dll2</td><td>DMSkin.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\航天云态度表达\bin\Release\DMSkin.dll</td><td>1</td><td/></row>
-		<row><td>down_arrow.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>DOWN_A~1.PNG|down_arrow.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Dark\down_arrow.png</td><td>1</td><td/></row>
-		<row><td>el_gr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini10</td><td>ISX_DEFAULTCOMPONENT39</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini11</td><td>ISX_DEFAULTCOMPONENT41</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini12</td><td>ISX_DEFAULTCOMPONENT43</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini13</td><td>ISX_DEFAULTCOMPONENT45</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini14</td><td>ISX_DEFAULTCOMPONENT48</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini5</td><td>ISX_DEFAULTCOMPONENT29</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini6</td><td>ISX_DEFAULTCOMPONENT31</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini7</td><td>ISX_DEFAULTCOMPONENT33</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini8</td><td>ISX_DEFAULTCOMPONENT35</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>el_gr.ini9</td><td>ISX_DEFAULTCOMPONENT37</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\el-GR.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>en_us.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\en-US.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>es_es.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\es-ES.ini</td><td>1</td><td/></row>
-		<row><td>et_ee.ini</td><td>ISX_DEFAULTCOMPONENT31</td><td>et-EE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\et-EE.ini</td><td>1</td><td/></row>
-		<row><td>et_ee.ini1</td><td>ISX_DEFAULTCOMPONENT45</td><td>et-EE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\et-EE.ini</td><td>1</td><td/></row>
-		<row><td>et_ee.ini2</td><td>ISX_DEFAULTCOMPONENT48</td><td>et-EE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\et-EE.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>eu_es.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\eu-ES.ini</td><td>1</td><td/></row>
-		<row><td>fade_to_color_transition.eff</td><td>ISX_DEFAULTCOMPONENT28</td><td>FADE_T~1.EFF|fade_to_color_transition.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\fade_to_color_transition.effect</td><td>1</td><td/></row>
-		<row><td>fade_transition.effect</td><td>ISX_DEFAULTCOMPONENT28</td><td>FADE_T~1.EFF|fade_transition.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\fade_transition.effect</td><td>1</td><td/></row>
-		<row><td>ffmpeg_mux64.exe</td><td>ffmpeg_mux64.exe</td><td>FFMPEG~1.EXE|ffmpeg-mux64.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\ffmpeg-mux64.exe</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>fi_fi.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\fi-FI.ini</td><td>1</td><td/></row>
-		<row><td>format_conversion.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>FORMAT~1.EFF|format_conversion.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\format_conversion.effect</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>fr_fr.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\fr-FR.ini</td><td>1</td><td/></row>
-		<row><td>get_graphics_offsets64.exe</td><td>get_graphics_offsets64.exe</td><td>GET-GR~1.EXE|get-graphics-offsets64.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\get-graphics-offsets64.exe</td><td>1</td><td/></row>
-		<row><td>gl_es.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gl_es.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\gl-ES.ini</td><td>1</td><td/></row>
-		<row><td>gplv2.txt</td><td>ISX_DEFAULTCOMPONENT47</td><td>gplv2.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\license\gplv2.txt</td><td>1</td><td/></row>
-		<row><td>graphics_hook64.dll</td><td>graphics_hook64.dll</td><td>GRAPHI~1.DLL|graphics-hook64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\graphics-hook64.dll</td><td>1</td><td/></row>
-		<row><td>h264play.dll</td><td>H264Play.dll</td><td>H264Play.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\H264Play.dll</td><td>1</td><td/></row>
-		<row><td>h264play.dll1</td><td>H264Play.dll1</td><td>H264Play.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\H264Play.dll</td><td>1</td><td/></row>
-		<row><td>he_il.ini</td><td>ISX_DEFAULTCOMPONENT19</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>he_il.ini1</td><td>ISX_DEFAULTCOMPONENT21</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>he_il.ini2</td><td>ISX_DEFAULTCOMPONENT23</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>he_il.ini3</td><td>ISX_DEFAULTCOMPONENT25</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>he_il.ini4</td><td>ISX_DEFAULTCOMPONENT29</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>he_il.ini5</td><td>ISX_DEFAULTCOMPONENT31</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>he_il.ini6</td><td>ISX_DEFAULTCOMPONENT33</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>he_il.ini7</td><td>ISX_DEFAULTCOMPONENT35</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>he_il.ini8</td><td>ISX_DEFAULTCOMPONENT39</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>he_il.ini9</td><td>ISX_DEFAULTCOMPONENT48</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\he-IL.ini</td><td>1</td><td/></row>
-		<row><td>hi_h264dec_v.dll</td><td>hi_h264dec_v.dll</td><td>HI_H26~1.DLL|hi_h264dec_v.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\hi_h264dec_v.dll</td><td>1</td><td/></row>
-		<row><td>hi_h264dec_v.dll1</td><td>hi_h264dec_v.dll1</td><td>HI_H26~1.DLL|hi_h264dec_v.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\hi_h264dec_v.dll</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hr_hr.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\hr-HR.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>hu_hu.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\hu-HU.ini</td><td>1</td><td/></row>
-		<row><td>icudt54.dll</td><td>icudt54.dll</td><td>icudt54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\icudt54.dll</td><td>1</td><td/></row>
-		<row><td>icudtl.dat</td><td>ISX_DEFAULTCOMPONENT2</td><td>icudtl.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\icudtl.dat</td><td>1</td><td/></row>
-		<row><td>icuin54.dll</td><td>icuin54.dll</td><td>icuin54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\icuin54.dll</td><td>1</td><td/></row>
-		<row><td>icuuc54.dll</td><td>icuuc54.dll</td><td>icuuc54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\icuuc54.dll</td><td>1</td><td/></row>
-		<row><td>image_source.dll</td><td>image_source.dll</td><td>IMAGE-~1.DLL|image-source.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\image-source.dll</td><td>1</td><td/></row>
-		<row><td>inject_helper64.exe</td><td>inject_helper64.exe</td><td>INJECT~1.EXE|inject-helper64.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\inject-helper64.exe</td><td>1</td><td/></row>
-		<row><td>it_it.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>it_it.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\it-IT.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>ja_jp.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ja-JP.ini</td><td>1</td><td/></row>
-		<row><td>jquery_1.7.2.js</td><td>ISX_DEFAULTCOMPONENT3</td><td>JQUERY~1.JS|jquery-1.7.2.js</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\Template\jquery-1.7.2.js</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>ko_kr.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ko-KR.ini</td><td>1</td><td/></row>
-		<row><td>lanczos_scale.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>LANCZO~1.EFF|lanczos_scale.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\lanczos_scale.effect</td><td>1</td><td/></row>
-		<row><td>libcef.dll</td><td>libcef.dll</td><td>libcef.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\libcef.dll</td><td>1</td><td/></row>
-		<row><td>libcurl.dll</td><td>libcurl.dll</td><td>libcurl.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libcurl.dll</td><td>1</td><td/></row>
-		<row><td>libeay32.dll</td><td>libeay32.dll</td><td>libeay32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\libeay32.dll</td><td>1</td><td/></row>
-		<row><td>libeay32.dll1</td><td>libeay32.dll1</td><td>libeay32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\libeay32.dll</td><td>1</td><td/></row>
-		<row><td>libegl.dll</td><td>libEGL.dll</td><td>libEGL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\libEGL.dll</td><td>1</td><td/></row>
-		<row><td>libegl.dll1</td><td>libEGL.dll1</td><td>libEGL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libEGL.dll</td><td>1</td><td/></row>
-		<row><td>libglesv2.dll</td><td>libGLESv2.dll</td><td>LIBGLE~1.DLL|libGLESv2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\libGLESv2.dll</td><td>1</td><td/></row>
-		<row><td>libglesv2.dll1</td><td>libGLESv2.dll1</td><td>LIBGLE~1.DLL|libGLESv2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libGLESv2.dll</td><td>1</td><td/></row>
-		<row><td>libobs_d3d11.dll</td><td>libobs_d3d11.dll</td><td>LIBOBS~1.DLL|libobs-d3d11.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libobs-d3d11.dll</td><td>1</td><td/></row>
-		<row><td>libobs_opengl.dll</td><td>libobs_opengl.dll</td><td>LIBOBS~1.DLL|libobs-opengl.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libobs-opengl.dll</td><td>1</td><td/></row>
-		<row><td>libogg_0.dll</td><td>libogg_0.dll</td><td>libogg-0.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libogg-0.dll</td><td>1</td><td/></row>
-		<row><td>libopus_0.dll</td><td>libopus_0.dll</td><td>LIBOPU~1.DLL|libopus-0.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libopus-0.dll</td><td>1</td><td/></row>
-		<row><td>libportaudio_2.dll.dll</td><td>libportaudio_2.dll.dll</td><td>LIBPOR~1.DLL|libportaudio-2.dll.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\libportaudio-2.dll.dll</td><td>1</td><td/></row>
-		<row><td>libportaudio_2.dll.dll1</td><td>libportaudio_2.dll.dll1</td><td>LIBPOR~1.DLL|libportaudio-2.dll.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\libportaudio-2.dll.dll</td><td>1</td><td/></row>
-		<row><td>libvorbis_0.dll</td><td>libvorbis_0.dll</td><td>LIBVOR~1.DLL|libvorbis-0.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libvorbis-0.dll</td><td>1</td><td/></row>
-		<row><td>libvorbisenc_2.dll</td><td>libvorbisenc_2.dll</td><td>LIBVOR~1.DLL|libvorbisenc-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libvorbisenc-2.dll</td><td>1</td><td/></row>
-		<row><td>libvorbisfile_3.dll</td><td>libvorbisfile_3.dll</td><td>LIBVOR~1.DLL|libvorbisfile-3.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libvorbisfile-3.dll</td><td>1</td><td/></row>
-		<row><td>libx264_146.dll</td><td>libx264_146.dll</td><td>LIBX26~1.DLL|libx264-146.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\libx264-146.dll</td><td>1</td><td/></row>
-		<row><td>libx264_146.dll1</td><td>libx264_146.dll1</td><td>LIBX26~1.DLL|libx264-146.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\libx264-146.dll</td><td>1</td><td/></row>
-		<row><td>libx264_148.dll</td><td>libx264_148.dll</td><td>LIBX26~1.DLL|libx264-148.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\libx264-148.dll</td><td>1</td><td/></row>
-		<row><td>license.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>License.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\License.xml</td><td>1</td><td/></row>
-		<row><td>license.xml1</td><td>ISX_DEFAULTCOMPONENT</td><td>License.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\License.xml</td><td>1</td><td/></row>
-		<row><td>license.xml2</td><td>ISX_DEFAULTCOMPONENT1</td><td>License.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\License.xml</td><td>1</td><td/></row>
-		<row><td>locale.ini</td><td>ISX_DEFAULTCOMPONENT46</td><td>locale.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale.ini</td><td>1</td><td/></row>
-		<row><td>logo.png</td><td>ISX_DEFAULTCOMPONENT13</td><td>logo.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\logo.png</td><td>1</td><td/></row>
-		<row><td>lt_lt.ini</td><td>ISX_DEFAULTCOMPONENT48</td><td>lt-LT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\lt-LT.ini</td><td>1</td><td/></row>
-		<row><td>m_captureaudiodevice.dll</td><td>m_captureAudioDevice.dll</td><td>M_CAPT~1.DLL|m_captureAudioDevice.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\m_captureAudioDevice.dll</td><td>1</td><td/></row>
-		<row><td>m_captureaudiodevice.dll1</td><td>m_captureAudioDevice.dll1</td><td>M_CAPT~1.DLL|m_captureAudioDevice.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\m_captureAudioDevice.dll</td><td>1</td><td/></row>
-		<row><td>m_capturedesk.dll</td><td>m_captureDesk.dll</td><td>M_CAPT~1.DLL|m_captureDesk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\m_captureDesk.dll</td><td>1</td><td/></row>
-		<row><td>m_capturedesk.dll1</td><td>m_captureDesk.dll1</td><td>M_CAPT~1.DLL|m_captureDesk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\m_captureDesk.dll</td><td>1</td><td/></row>
-		<row><td>m_recorder.dll</td><td>m_recorder.dll</td><td>M_RECO~1.DLL|m_recorder.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\m_recorder.dll</td><td>1</td><td/></row>
-		<row><td>m_recorder.dll1</td><td>m_recorder.dll1</td><td>M_RECO~1.DLL|m_recorder.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\m_recorder.dll</td><td>1</td><td/></row>
-		<row><td>m_rtsp.dll</td><td>m_rtsp.dll</td><td>m_rtsp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\m_rtsp.dll</td><td>1</td><td/></row>
-		<row><td>m_rtsp.dll1</td><td>m_rtsp.dll1</td><td>m_rtsp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\m_rtsp.dll</td><td>1</td><td/></row>
-		<row><td>m_transferdesk.dll</td><td>m_transferDesk.dll</td><td>M_TRAN~1.DLL|m_transferDesk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\m_transferDesk.dll</td><td>1</td><td/></row>
-		<row><td>m_transferdesk.dll1</td><td>m_transferDesk.dll1</td><td>M_TRAN~1.DLL|m_transferDesk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\m_transferDesk.dll</td><td>1</td><td/></row>
-		<row><td>mask_alpha_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>MASK_A~1.EFF|mask_alpha_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\mask_alpha_filter.effect</td><td>1</td><td/></row>
-		<row><td>mask_color_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>MASK_C~1.EFF|mask_color_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\mask_color_filter.effect</td><td>1</td><td/></row>
-		<row><td>minus.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>minus.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Dark\minus.png</td><td>1</td><td/></row>
-		<row><td>ms_my.ini</td><td>ISX_DEFAULTCOMPONENT48</td><td>ms-MY.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\ms-MY.ini</td><td>1</td><td/></row>
-		<row><td>mute.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>mute.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Dark\mute.png</td><td>1</td><td/></row>
-		<row><td>natives_blob.bin</td><td>ISX_DEFAULTCOMPONENT2</td><td>NATIVE~1.BIN|natives_blob.bin</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\natives_blob.bin</td><td>1</td><td/></row>
-		<row><td>nb_no.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>nb_no.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\nb-NO.ini</td><td>1</td><td/></row>
-		<row><td>netsdk.dll</td><td>NetSdk.dll</td><td>NetSdk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\NetSdk.dll</td><td>1</td><td/></row>
-		<row><td>newtonsoft.json.dll</td><td>Newtonsoft.Json.dll</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
-		<row><td>newtonsoft.json.dll1</td><td>Newtonsoft.Json.dll1</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
-		<row><td>newtonsoft.json.dll2</td><td>Newtonsoft.Json.dll2</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
-		<row><td>newtonsoft.json.dll3</td><td>Newtonsoft.Json.dll3</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\航天云态度表达\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>nl_nl.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\nl-NL.ini</td><td>1</td><td/></row>
-		<row><td>obs.dll</td><td>obs.dll</td><td>obs.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\obs.dll</td><td>1</td><td/></row>
-		<row><td>obs64.exe</td><td>obs64.exe</td><td>obs64.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\obs64.exe</td><td>1</td><td/></row>
-		<row><td>obs64.lnk</td><td>ISX_DEFAULTCOMPONENT7</td><td>obs64.lnk</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\obs64.lnk</td><td>1</td><td/></row>
-		<row><td>obs_ffmpeg.dll</td><td>obs_ffmpeg.dll</td><td>OBS-FF~1.DLL|obs-ffmpeg.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\obs-ffmpeg.dll</td><td>1</td><td/></row>
-		<row><td>obs_filters.dll</td><td>obs_filters.dll</td><td>OBS-FI~1.DLL|obs-filters.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\obs-filters.dll</td><td>1</td><td/></row>
-		<row><td>obs_outputs.dll</td><td>obs_outputs.dll</td><td>OBS-OU~1.DLL|obs-outputs.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\obs-outputs.dll</td><td>1</td><td/></row>
-		<row><td>obs_qsv11.dll</td><td>obs_qsv11.dll</td><td>OBS-QS~1.DLL|obs-qsv11.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\obs-qsv11.dll</td><td>1</td><td/></row>
-		<row><td>obs_transitions.dll</td><td>obs_transitions.dll</td><td>OBS-TR~1.DLL|obs-transitions.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\obs-transitions.dll</td><td>1</td><td/></row>
-		<row><td>obs_x264.dll</td><td>obs_x264.dll</td><td>obs-x264.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\obs-x264.dll</td><td>1</td><td/></row>
-		<row><td>obsglad.dll</td><td>obsglad.dll</td><td>obsglad.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\obsglad.dll</td><td>1</td><td/></row>
-		<row><td>opaque.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>OPAQUE~1.EFF|opaque.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\opaque.effect</td><td>1</td><td/></row>
-		<row><td>opencv_core248.dll</td><td>opencv_core248.dll</td><td>OPENCV~1.DLL|opencv_core248.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\opencv_core248.dll</td><td>1</td><td/></row>
-		<row><td>opencv_highgui248.dll</td><td>opencv_highgui248.dll</td><td>OPENCV~1.DLL|opencv_highgui248.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\opencv_highgui248.dll</td><td>1</td><td/></row>
-		<row><td>opengl32sw.dll</td><td>opengl32sw.dll</td><td>OPENGL~1.DLL|opengl32sw.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\opengl32sw.dll</td><td>1</td><td/></row>
-		<row><td>package.json</td><td>ISX_DEFAULTCOMPONENT32</td><td>PACKAG~1.JSO|package.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\package.json</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>pl_pl.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\pl-PL.ini</td><td>1</td><td/></row>
-		<row><td>play.htm</td><td>ISX_DEFAULTCOMPONENT3</td><td>Play.htm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\Template\Play.htm</td><td>1</td><td/></row>
-		<row><td>plus.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>plus.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Dark\plus.png</td><td>1</td><td/></row>
-		<row><td>postproc_54.dll</td><td>postproc_54.dll</td><td>POSTPR~1.DLL|postproc-54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\postproc-54.dll</td><td>1</td><td/></row>
-		<row><td>postproc_54.dll1</td><td>postproc_54.dll1</td><td>POSTPR~1.DLL|postproc-54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\postproc-54.dll</td><td>1</td><td/></row>
-		<row><td>premultiplied_alpha.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>PREMUL~1.EFF|premultiplied_alpha.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\premultiplied_alpha.effect</td><td>1</td><td/></row>
-		<row><td>pt_br.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_br.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\pt-BR.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>pt_pt.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\pt-PT.ini</td><td>1</td><td/></row>
-		<row><td>qdds.dll</td><td>qdds.dll</td><td>qdds.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qdds.dll</td><td>1</td><td/></row>
-		<row><td>qgif.dll</td><td>qgif.dll</td><td>qgif.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qgif.dll</td><td>1</td><td/></row>
-		<row><td>qicns.dll</td><td>qicns.dll</td><td>qicns.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qicns.dll</td><td>1</td><td/></row>
-		<row><td>qico.dll</td><td>qico.dll</td><td>qico.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qico.dll</td><td>1</td><td/></row>
-		<row><td>qjp2.dll</td><td>qjp2.dll</td><td>qjp2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qjp2.dll</td><td>1</td><td/></row>
-		<row><td>qjpeg.dll</td><td>qjpeg.dll</td><td>qjpeg.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qjpeg.dll</td><td>1</td><td/></row>
-		<row><td>qmng.dll</td><td>qmng.dll</td><td>qmng.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qmng.dll</td><td>1</td><td/></row>
-		<row><td>qsqlite.dll</td><td>qsqlite.dll</td><td>qsqlite.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\sqldrivers\qsqlite.dll</td><td>1</td><td/></row>
-		<row><td>qsqlmysql.dll</td><td>qsqlmysql.dll</td><td>QSQLMY~1.DLL|qsqlmysql.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\sqldrivers\qsqlmysql.dll</td><td>1</td><td/></row>
-		<row><td>qsqlodbc.dll</td><td>qsqlodbc.dll</td><td>qsqlodbc.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\sqldrivers\qsqlodbc.dll</td><td>1</td><td/></row>
-		<row><td>qsqlpsql.dll</td><td>qsqlpsql.dll</td><td>qsqlpsql.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\sqldrivers\qsqlpsql.dll</td><td>1</td><td/></row>
-		<row><td>qsvg.dll</td><td>qsvg.dll</td><td>qsvg.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qsvg.dll</td><td>1</td><td/></row>
-		<row><td>qsvgicon.dll</td><td>qsvgicon.dll</td><td>qsvgicon.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\iconengines\qsvgicon.dll</td><td>1</td><td/></row>
-		<row><td>qt5core.dll</td><td>Qt5Core.dll</td><td>Qt5Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\Qt5Core.dll</td><td>1</td><td/></row>
-		<row><td>qt5gui.dll</td><td>Qt5Gui.dll</td><td>Qt5Gui.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\Qt5Gui.dll</td><td>1</td><td/></row>
-		<row><td>qt5sql.dll</td><td>Qt5Sql.dll</td><td>Qt5Sql.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\Qt5Sql.dll</td><td>1</td><td/></row>
-		<row><td>qt5svg.dll</td><td>Qt5Svg.dll</td><td>Qt5Svg.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\Qt5Svg.dll</td><td>1</td><td/></row>
-		<row><td>qt5widgets.dll</td><td>Qt5Widgets.dll</td><td>QT5WID~1.DLL|Qt5Widgets.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\Qt5Widgets.dll</td><td>1</td><td/></row>
-		<row><td>qt_ca.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_ca.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_ca.qm</td><td>1</td><td/></row>
-		<row><td>qt_cs.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_cs.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_cs.qm</td><td>1</td><td/></row>
-		<row><td>qt_de.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_de.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_de.qm</td><td>1</td><td/></row>
-		<row><td>qt_en.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_en.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_en.qm</td><td>1</td><td/></row>
-		<row><td>qt_fi.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_fi.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_fi.qm</td><td>1</td><td/></row>
-		<row><td>qt_fr.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_fr.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_fr.qm</td><td>1</td><td/></row>
-		<row><td>qt_he.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_he.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_he.qm</td><td>1</td><td/></row>
-		<row><td>qt_hu.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_hu.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_hu.qm</td><td>1</td><td/></row>
-		<row><td>qt_it.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_it.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_it.qm</td><td>1</td><td/></row>
-		<row><td>qt_ja.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_ja.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_ja.qm</td><td>1</td><td/></row>
-		<row><td>qt_ko.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_ko.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_ko.qm</td><td>1</td><td/></row>
-		<row><td>qt_lv.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_lv.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_lv.qm</td><td>1</td><td/></row>
-		<row><td>qt_ru.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_ru.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_ru.qm</td><td>1</td><td/></row>
-		<row><td>qt_sk.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_sk.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_sk.qm</td><td>1</td><td/></row>
-		<row><td>qt_uk.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_uk.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\translations\qt_uk.qm</td><td>1</td><td/></row>
-		<row><td>qtga.dll</td><td>qtga.dll</td><td>qtga.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qtga.dll</td><td>1</td><td/></row>
-		<row><td>qtiff.dll</td><td>qtiff.dll</td><td>qtiff.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qtiff.dll</td><td>1</td><td/></row>
-		<row><td>qwbmp.dll</td><td>qwbmp.dll</td><td>qwbmp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qwbmp.dll</td><td>1</td><td/></row>
-		<row><td>qwebp.dll</td><td>qwebp.dll</td><td>qwebp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\imageformats\qwebp.dll</td><td>1</td><td/></row>
-		<row><td>qwindows.dll</td><td>qwindows.dll</td><td>qwindows.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\platforms\qwindows.dll</td><td>1</td><td/></row>
-		<row><td>record_player.exe</td><td>Record_Player.exe</td><td>RECORD~1.EXE|Record Player.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\Record Player.exe</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>ro_ro.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ro-RO.ini</td><td>1</td><td/></row>
-		<row><td>rtmp_services.dll</td><td>rtmp_services.dll</td><td>RTMP-S~1.DLL|rtmp-services.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\rtmp-services.dll</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>ru_ru.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ru-RU.ini</td><td>1</td><td/></row>
-		<row><td>sdl2.dll</td><td>SDL2.dll</td><td>SDL2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\SDL2.dll</td><td>1</td><td/></row>
-		<row><td>sdl2.dll1</td><td>SDL2.dll1</td><td>SDL2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\SDL2.dll</td><td>1</td><td/></row>
-		<row><td>services.json</td><td>ISX_DEFAULTCOMPONENT32</td><td>SERVIC~1.JSO|services.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\services.json</td><td>1</td><td/></row>
-		<row><td>sharpness.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>SHARPN~1.EFF|sharpness.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\sharpness.effect</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini10</td><td>ISX_DEFAULTCOMPONENT41</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini11</td><td>ISX_DEFAULTCOMPONENT43</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini12</td><td>ISX_DEFAULTCOMPONENT45</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini13</td><td>ISX_DEFAULTCOMPONENT48</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini5</td><td>ISX_DEFAULTCOMPONENT31</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini6</td><td>ISX_DEFAULTCOMPONENT33</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini7</td><td>ISX_DEFAULTCOMPONENT35</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini8</td><td>ISX_DEFAULTCOMPONENT37</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sk_sk.ini9</td><td>ISX_DEFAULTCOMPONENT39</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sk-SK.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini</td><td>ISX_DEFAULTCOMPONENT19</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini1</td><td>ISX_DEFAULTCOMPONENT21</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini10</td><td>ISX_DEFAULTCOMPONENT45</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini11</td><td>ISX_DEFAULTCOMPONENT48</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini2</td><td>ISX_DEFAULTCOMPONENT23</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini3</td><td>ISX_DEFAULTCOMPONENT25</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini4</td><td>ISX_DEFAULTCOMPONENT31</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini5</td><td>ISX_DEFAULTCOMPONENT33</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini6</td><td>ISX_DEFAULTCOMPONENT35</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini7</td><td>ISX_DEFAULTCOMPONENT37</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini8</td><td>ISX_DEFAULTCOMPONENT39</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>sl_si.ini9</td><td>ISX_DEFAULTCOMPONENT41</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sl-SI.ini</td><td>1</td><td/></row>
-		<row><td>slide_transition.effect</td><td>ISX_DEFAULTCOMPONENT28</td><td>SLIDE_~1.EFF|slide_transition.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\slide_transition.effect</td><td>1</td><td/></row>
-		<row><td>snapshot_blob.bin</td><td>ISX_DEFAULTCOMPONENT2</td><td>SNAPSH~1.BIN|snapshot_blob.bin</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\snapshot_blob.bin</td><td>1</td><td/></row>
-		<row><td>solid.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>SOLID~1.EFF|solid.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\libobs\solid.effect</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_cs.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sr-CS.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>sr_sp.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sr-SP.ini</td><td>1</td><td/></row>
-		<row><td>ssleay32.dll</td><td>ssleay32.dll</td><td>ssleay32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\ssleay32.dll</td><td>1</td><td/></row>
-		<row><td>ssleay32.dll1</td><td>ssleay32.dll1</td><td>ssleay32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\ssleay32.dll</td><td>1</td><td/></row>
-		<row><td>streamreader.dll</td><td>StreamReader.dll</td><td>STREAM~1.DLL|StreamReader.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\StreamReader.dll</td><td>1</td><td/></row>
-		<row><td>streamreader.dll1</td><td>StreamReader.dll1</td><td>STREAM~1.DLL|StreamReader.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\StreamReader.dll</td><td>1</td><td/></row>
-		<row><td>sv_se.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>sv_se.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sv-SE.ini</td><td>1</td><td/></row>
-		<row><td>swipe_transition.effect</td><td>ISX_DEFAULTCOMPONENT28</td><td>SWIPE_~1.EFF|swipe_transition.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\swipe_transition.effect</td><td>1</td><td/></row>
-		<row><td>swresample_2.dll</td><td>swresample_2.dll</td><td>SWRESA~1.DLL|swresample-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\swresample-2.dll</td><td>1</td><td/></row>
-		<row><td>swresample_2.dll1</td><td>swresample_2.dll1</td><td>SWRESA~1.DLL|swresample-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\swresample-2.dll</td><td>1</td><td/></row>
-		<row><td>swresample_2.dll2</td><td>swresample_2.dll2</td><td>SWRESA~1.DLL|swresample-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\swresample-2.dll</td><td>1</td><td/></row>
-		<row><td>swscale_4.dll</td><td>swscale_4.dll</td><td>SWSCAL~1.DLL|swscale-4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\swscale-4.dll</td><td>1</td><td/></row>
-		<row><td>swscale_4.dll1</td><td>swscale_4.dll1</td><td>SWSCAL~1.DLL|swscale-4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\lubo2012\bin\Release\swscale-4.dll</td><td>1</td><td/></row>
-		<row><td>swscale_4.dll2</td><td>swscale_4.dll2</td><td>SWSCAL~1.DLL|swscale-4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\swscale-4.dll</td><td>1</td><td/></row>
-		<row><td>ta_in.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ta-IN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ta-IN.ini</td><td>1</td><td/></row>
-		<row><td>ta_in.ini1</td><td>ISX_DEFAULTCOMPONENT43</td><td>ta-IN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ta-IN.ini</td><td>1</td><td/></row>
-		<row><td>ta_in.ini2</td><td>ISX_DEFAULTCOMPONENT45</td><td>ta-IN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ta-IN.ini</td><td>1</td><td/></row>
-		<row><td>ta_in.ini3</td><td>ISX_DEFAULTCOMPONENT48</td><td>ta-IN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\ta-IN.ini</td><td>1</td><td/></row>
-		<row><td>text_default.effect</td><td>ISX_DEFAULTCOMPONENT34</td><td>TEXT_D~1.EFF|text_default.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\text_default.effect</td><td>1</td><td/></row>
-		<row><td>text_freetype2.dll</td><td>text_freetype2.dll</td><td>TEXT-F~1.DLL|text-freetype2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\text-freetype2.dll</td><td>1</td><td/></row>
-		<row><td>th_th.ini</td><td>ISX_DEFAULTCOMPONENT19</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>th_th.ini1</td><td>ISX_DEFAULTCOMPONENT21</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>th_th.ini2</td><td>ISX_DEFAULTCOMPONENT25</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>th_th.ini3</td><td>ISX_DEFAULTCOMPONENT31</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>th_th.ini4</td><td>ISX_DEFAULTCOMPONENT33</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>th_th.ini5</td><td>ISX_DEFAULTCOMPONENT35</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>th_th.ini6</td><td>ISX_DEFAULTCOMPONENT37</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>th_th.ini7</td><td>ISX_DEFAULTCOMPONENT41</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>th_th.ini8</td><td>ISX_DEFAULTCOMPONENT45</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>th_th.ini9</td><td>ISX_DEFAULTCOMPONENT48</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\th-TH.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>tr_tr.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\tr-TR.ini</td><td>1</td><td/></row>
-		<row><td>uk_ua.ini</td><td>ISX_DEFAULTCOMPONENT25</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\uk-UA.ini</td><td>1</td><td/></row>
-		<row><td>uk_ua.ini1</td><td>ISX_DEFAULTCOMPONENT31</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\uk-UA.ini</td><td>1</td><td/></row>
-		<row><td>uk_ua.ini2</td><td>ISX_DEFAULTCOMPONENT33</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\uk-UA.ini</td><td>1</td><td/></row>
-		<row><td>uk_ua.ini3</td><td>ISX_DEFAULTCOMPONENT37</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\uk-UA.ini</td><td>1</td><td/></row>
-		<row><td>uk_ua.ini4</td><td>ISX_DEFAULTCOMPONENT48</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\uk-UA.ini</td><td>1</td><td/></row>
-		<row><td>unmute.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>unmute.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Dark\unmute.png</td><td>1</td><td/></row>
-		<row><td>up_arrow.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>up_arrow.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Dark\up_arrow.png</td><td>1</td><td/></row>
-		<row><td>updown.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>updown.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\themes\Dark\updown.png</td><td>1</td><td/></row>
-		<row><td>userinfo.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>UserInfo.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera\bin\Release\UserInfo.xml</td><td>1</td><td/></row>
-		<row><td>vi_vn.ini</td><td>ISX_DEFAULTCOMPONENT48</td><td>vi-VN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\vi-VN.ini</td><td>1</td><td/></row>
-		<row><td>w32_pthreads.dll</td><td>w32_pthreads.dll</td><td>W32-PT~1.DLL|w32-pthreads.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\w32-pthreads.dll</td><td>1</td><td/></row>
-		<row><td>widevinecdmadapter.dll</td><td>widevinecdmadapter.dll</td><td>WIDEVI~1.DLL|widevinecdmadapter.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\widevinecdmadapter.dll</td><td>1</td><td/></row>
-		<row><td>win_capture.dll</td><td>win_capture.dll</td><td>WIN-CA~1.DLL|win-capture.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\win-capture.dll</td><td>1</td><td/></row>
-		<row><td>win_decklink.dll</td><td>win_decklink.dll</td><td>WIN-DE~1.DLL|win-decklink.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\win-decklink.dll</td><td>1</td><td/></row>
-		<row><td>win_dshow.dll</td><td>win_dshow.dll</td><td>WIN-DS~1.DLL|win-dshow.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\win-dshow.dll</td><td>1</td><td/></row>
-		<row><td>win_mf.dll</td><td>win_mf.dll</td><td>win-mf.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\win-mf.dll</td><td>1</td><td/></row>
-		<row><td>win_wasapi.dll</td><td>win_wasapi.dll</td><td>WIN-WA~1.DLL|win-wasapi.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\obs-plugins\64bit\win-wasapi.dll</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_cn.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\zh-CN.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-studio\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zh_tw.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\zh-TW.ini</td><td>1</td><td/></row>
-		<row><td>zlib.dll</td><td>zlib.dll</td><td>zlib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\obsbin\bin\64bit\zlib.dll</td><td>1</td><td/></row>
+		<row><td>File.bak</td><td>ISX_DEFAULTCOMPONENT59</td><td>场3JSO~1.BAK|场3.json.bak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\scenes\场3.json.bak</td><td>1</td><td/></row>
+		<row><td>File.bak1</td><td>ISX_DEFAULTCOMPONENT59</td><td>场场2J~1.BAK|场场2.json.bak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\scenes\场场2.json.bak</td><td>1</td><td/></row>
+		<row><td>File.bak2</td><td>ISX_DEFAULTCOMPONENT59</td><td>未命名~1.BAK|未命名.json.bak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\scenes\未命名.json.bak</td><td>1</td><td/></row>
+		<row><td>File.bak3</td><td>ISX_DEFAULTCOMPONENT59</td><td>远程观~1.BAK|远程观课.json.bak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\scenes\远程观课.json.bak</td><td>1</td><td/></row>
+		<row><td>File.config</td><td>ISX_DEFAULTCOMPONENT53</td><td>航天云~1.CON|航天云态度表达.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\航天云态度表达\bin\Release\航天云态度表达.exe.config</td><td>1</td><td/></row>
+		<row><td>File.exe</td><td>Component.exe</td><td>航天云~1.EXE|航天云态度表达.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\航天云态度表达\bin\Release\航天云态度表达.exe</td><td>1</td><td/></row>
+		<row><td>File.htm</td><td>ISX_DEFAULTCOMPONENT3</td><td>教师带~1.HTM|教师带声音.htm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\Template\教师带声音.htm</td><td>1</td><td/></row>
+		<row><td>File.htm1</td><td>ISX_DEFAULTCOMPONENT3</td><td>屏幕带~1.HTM|屏幕带声音.htm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\Template\屏幕带声音.htm</td><td>1</td><td/></row>
+		<row><td>File.htm2</td><td>ISX_DEFAULTCOMPONENT3</td><td>学生带~1.HTM|学生带声音.htm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\Template\学生带声音.htm</td><td>1</td><td/></row>
+		<row><td>File.json</td><td>ISX_DEFAULTCOMPONENT59</td><td>场3~1.JSO|场3.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\scenes\场3.json</td><td>1</td><td/></row>
+		<row><td>File.json1</td><td>ISX_DEFAULTCOMPONENT59</td><td>场场2~1.JSO|场场2.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\scenes\场场2.json</td><td>1</td><td/></row>
+		<row><td>File.json2</td><td>ISX_DEFAULTCOMPONENT59</td><td>未命名~1.JSO|未命名.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\scenes\未命名.json</td><td>1</td><td/></row>
+		<row><td>File.json3</td><td>ISX_DEFAULTCOMPONENT59</td><td>远程观~1.JSO|远程观课.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\scenes\远程观课.json</td><td>1</td><td/></row>
+		<row><td>_016_08_10_16_14_28.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-10 16-14-28.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-10 16-14-28.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_12_17_32_33.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-12 17-32-33.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-12 17-32-33.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_12_17_34_24.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-12 17-34-24.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-12 17-34-24.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_12_17_37_48.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-12 17-37-48.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-12 17-37-48.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_12_17_37_48.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-12 17-37-48.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-12 17-37-48.txt</td><td>1</td><td/></row>
+		<row><td>_016_08_12_17_38_26.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-12 17-38-26.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-12 17-38-26.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_12_17_38_26.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-12 17-38-26.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-12 17-38-26.txt</td><td>1</td><td/></row>
+		<row><td>_016_08_12_18_02_13.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-12 18-02-13.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-12 18-02-13.txt</td><td>1</td><td/></row>
+		<row><td>_016_08_15_14_09_03.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-15 14-09-03.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-15 14-09-03.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_15_14_09_03.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-15 14-09-03.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-15 14-09-03.txt</td><td>1</td><td/></row>
+		<row><td>_016_08_15_14_45_59.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-15 14-45-59.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-15 14-45-59.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_15_14_45_59.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-15 14-45-59.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-15 14-45-59.txt</td><td>1</td><td/></row>
+		<row><td>_016_08_16_11_03_10.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-16 11-03-10.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-16 11-03-10.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_16_11_03_10.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-16 11-03-10.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-16 11-03-10.txt</td><td>1</td><td/></row>
+		<row><td>_016_08_25_13_20_37.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-25 13-20-37.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-25 13-20-37.txt</td><td>1</td><td/></row>
+		<row><td>_016_08_25_13_33_52.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-25 13-33-52.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-25 13-33-52.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_25_13_33_52.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-25 13-33-52.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-25 13-33-52.txt</td><td>1</td><td/></row>
+		<row><td>_016_08_25_13_34_18.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-25 13-34-18.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-25 13-34-18.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_25_13_34_18.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-25 13-34-18.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-25 13-34-18.txt</td><td>1</td><td/></row>
+		<row><td>_016_08_25_14_16_48.csv.gz</td><td>ISX_DEFAULTCOMPONENT67</td><td>2016-0~1.GZ|2016-08-25 14-16-48.csv.gz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\profiler_data\2016-08-25 14-16-48.csv.gz</td><td>1</td><td/></row>
+		<row><td>_016_08_25_14_16_48.txt</td><td>ISX_DEFAULTCOMPONENT61</td><td>2016-0~1.TXT|2016-08-25 14-16-48.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\logs\2016-08-25 14-16-48.txt</td><td>1</td><td/></row>
+		<row><td>_024.ini</td><td>ISX_DEFAULTCOMPONENT79</td><td>1024.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\1024.ini</td><td>1</td><td/></row>
+		<row><td>_024.ini1</td><td>ISX_DEFAULTCOMPONENT82</td><td>1024.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\1024.ini</td><td>1</td><td/></row>
+		<row><td>_024t.ini</td><td>ISX_DEFAULTCOMPONENT79</td><td>1024T.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\1024T.ini</td><td>1</td><td/></row>
+		<row><td>_024t.ini1</td><td>ISX_DEFAULTCOMPONENT82</td><td>1024T.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\1024T.ini</td><td>1</td><td/></row>
+		<row><td>_1.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>01.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\01.bmp</td><td>1</td><td/></row>
+		<row><td>_2.ini</td><td>ISX_DEFAULTCOMPONENT66</td><td>32.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\plugin_config\win-capture\32.ini</td><td>1</td><td/></row>
+		<row><td>_280.ini</td><td>ISX_DEFAULTCOMPONENT79</td><td>1280.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\1280.ini</td><td>1</td><td/></row>
+		<row><td>_280t.ini</td><td>ISX_DEFAULTCOMPONENT79</td><td>1280T.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\1280T.ini</td><td>1</td><td/></row>
+		<row><td>_4.ini</td><td>ISX_DEFAULTCOMPONENT66</td><td>64.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\plugin_config\win-capture\64.ini</td><td>1</td><td/></row>
+		<row><td>_64dec.dll</td><td>_64dec.dll</td><td>264dec.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\264dec.dll</td><td>1</td><td/></row>
+		<row><td>_64dec16.ax</td><td>_64dec16.ax</td><td>264dec16.ax</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\264dec16.ax</td><td>1</td><td/></row>
+		<row><td>_gitignore</td><td>ISX_DEFAULTCOMPONENT5</td><td>GITIGN~1|.gitignore</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\.gitignore</td><td>1</td><td/></row>
+		<row><td>_gitignore1</td><td>ISX_DEFAULTCOMPONENT7</td><td>GITIGN~1|.gitignore</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\.gitignore</td><td>1</td><td/></row>
+		<row><td>_gitignore2</td><td>ISX_DEFAULTCOMPONENT13</td><td>GITIGN~1|.gitignore</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\.gitignore</td><td>1</td><td/></row>
+		<row><td>acmtclt.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>ACMtClt.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\ACMtClt.dat</td><td>1</td><td/></row>
+		<row><td>acplayer.exe</td><td>ACPlayer.exe</td><td>ACPlayer.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\ACPlayer.exe</td><td>1</td><td/></row>
+		<row><td>acplayer_chinesegb.ini</td><td>ISX_DEFAULTCOMPONENT76</td><td>ACPLAY~1.INI|ACPlayer_ChineseGB.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Language\ACPlayer_ChineseGB.ini</td><td>1</td><td/></row>
+		<row><td>activeauto.exe</td><td>ActiveAuto.exe</td><td>ACTIVE~1.EXE|ActiveAuto.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\ActiveAuto.exe</td><td>1</td><td/></row>
+		<row><td>activeloader.exe</td><td>ActiveLoader.exe</td><td>ACTIVE~1.EXE|ActiveLoader.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Common Files\iActive\ActiveLoader.exe</td><td>1</td><td/></row>
+		<row><td>activeloader.exe1</td><td>ActiveLoader.exe1</td><td>ACTIVE~1.EXE|ActiveLoader.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\ActiveLoader.exe</td><td>1</td><td/></row>
+		<row><td>activeloader.ini</td><td>ISX_DEFAULTCOMPONENT69</td><td>ACTIVE~1.INI|ActiveLoader.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Common Files\iActive\ActiveLoader.ini</td><td>1</td><td/></row>
+		<row><td>activemeeting.exe</td><td>ActiveMeeting.exe</td><td>ACTIVE~1.EXE|ActiveMeeting.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\ActiveMeeting.exe</td><td>1</td><td/></row>
+		<row><td>activeplayerc.jpg</td><td>ISX_DEFAULTCOMPONENT87</td><td>ACTIVE~1.JPG|Activeplayerc.JPG</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlaySkin\Normal\Activeplayerc.JPG</td><td>1</td><td/></row>
+		<row><td>activeplayerh.jpg</td><td>ISX_DEFAULTCOMPONENT87</td><td>ACTIVE~1.JPG|ActiveplayerH.JPG</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlaySkin\Normal\ActiveplayerH.JPG</td><td>1</td><td/></row>
+		<row><td>activeplaythumb1.bmp</td><td>ISX_DEFAULTCOMPONENT87</td><td>ACTIVE~1.BMP|ActivePlayThumb1.BMP</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlaySkin\Normal\ActivePlayThumb1.BMP</td><td>1</td><td/></row>
+		<row><td>activeplaythumb2.bmp</td><td>ISX_DEFAULTCOMPONENT87</td><td>ACTIVE~1.BMP|ActivePlayThumb2.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlaySkin\Normal\ActivePlayThumb2.bmp</td><td>1</td><td/></row>
+		<row><td>aeroedu.db</td><td>ISX_DEFAULTCOMPONENT7</td><td>aeroedu.db</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\aeroedu.db</td><td>1</td><td/></row>
+		<row><td>aeroeduclass.exe</td><td>AeroEduClass.exe</td><td>AEROED~1.EXE|AeroEduClass.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>1</td><td/></row>
+		<row><td>aeroeduclass.exe.config</td><td>ISX_DEFAULTCOMPONENT2</td><td>AEROED~1.CON|AeroEduClass.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe.config</td><td>1</td><td/></row>
+		<row><td>aeroedulib.dll</td><td>AeroEduLib.dll</td><td>AEROED~1.DLL|AeroEduLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduLib.dll</td><td>1</td><td/></row>
+		<row><td>aeroedulib.dll1</td><td>AeroEduLib.dll1</td><td>AEROED~1.DLL|AeroEduLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\AeroEduLib.dll</td><td>1</td><td/></row>
+		<row><td>aeroedulib.dll2</td><td>AeroEduLib.dll2</td><td>AEROED~1.DLL|AeroEduLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\AeroEduLib.dll</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>ar_sa.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ar-SA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ar-SA.ini</td><td>1</td><td/></row>
+		<row><td>arrayback.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>ARRAYB~1.IAP|ArrayBack.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\ArrayBack.iap</td><td>1</td><td/></row>
+		<row><td>auto.ini</td><td>ISX_DEFAULTCOMPONENT72</td><td>Auto.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Auto.ini</td><td>1</td><td/></row>
+		<row><td>avcodec_57.dll</td><td>avcodec_57.dll</td><td>AVCODE~1.DLL|avcodec-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\avcodec-57.dll</td><td>1</td><td/></row>
+		<row><td>avcodec_57.dll1</td><td>avcodec_57.dll1</td><td>AVCODE~1.DLL|avcodec-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\avcodec-57.dll</td><td>1</td><td/></row>
+		<row><td>avcodec_57.dll2</td><td>avcodec_57.dll2</td><td>AVCODE~1.DLL|avcodec-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\avcodec-57.dll</td><td>1</td><td/></row>
+		<row><td>avdevice_57.dll</td><td>avdevice_57.dll</td><td>AVDEVI~1.DLL|avdevice-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\avdevice-57.dll</td><td>1</td><td/></row>
+		<row><td>avdevice_57.dll1</td><td>avdevice_57.dll1</td><td>AVDEVI~1.DLL|avdevice-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\avdevice-57.dll</td><td>1</td><td/></row>
+		<row><td>avdevice_57.dll2</td><td>avdevice_57.dll2</td><td>AVDEVI~1.DLL|avdevice-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\avdevice-57.dll</td><td>1</td><td/></row>
+		<row><td>avfilter_6.dll</td><td>avfilter_6.dll</td><td>AVFILT~1.DLL|avfilter-6.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\avfilter-6.dll</td><td>1</td><td/></row>
+		<row><td>avfilter_6.dll1</td><td>avfilter_6.dll1</td><td>AVFILT~1.DLL|avfilter-6.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\avfilter-6.dll</td><td>1</td><td/></row>
+		<row><td>avfilter_6.dll2</td><td>avfilter_6.dll2</td><td>AVFILT~1.DLL|avfilter-6.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\avfilter-6.dll</td><td>1</td><td/></row>
+		<row><td>avformat_57.dll</td><td>avformat_57.dll</td><td>AVFORM~1.DLL|avformat-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\avformat-57.dll</td><td>1</td><td/></row>
+		<row><td>avformat_57.dll1</td><td>avformat_57.dll1</td><td>AVFORM~1.DLL|avformat-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\avformat-57.dll</td><td>1</td><td/></row>
+		<row><td>avformat_57.dll2</td><td>avformat_57.dll2</td><td>AVFORM~1.DLL|avformat-57.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\avformat-57.dll</td><td>1</td><td/></row>
+		<row><td>avisynth.dll</td><td>avisynth.dll</td><td>avisynth.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\avisynth.dll</td><td>1</td><td/></row>
+		<row><td>avutil_55.dll</td><td>avutil_55.dll</td><td>AVUTIL~1.DLL|avutil-55.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\avutil-55.dll</td><td>1</td><td/></row>
+		<row><td>avutil_55.dll1</td><td>avutil_55.dll1</td><td>AVUTIL~1.DLL|avutil-55.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\avutil-55.dll</td><td>1</td><td/></row>
+		<row><td>avutil_55.dll2</td><td>avutil_55.dll2</td><td>AVUTIL~1.DLL|avutil-55.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\avutil-55.dll</td><td>1</td><td/></row>
+		<row><td>basic.ini</td><td>ISX_DEFAULTCOMPONENT57</td><td>basic.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\profiles\characters_only\basic.ini</td><td>1</td><td/></row>
+		<row><td>basic.ini1</td><td>ISX_DEFAULTCOMPONENT58</td><td>basic.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\profiles\未命名\basic.ini</td><td>1</td><td/></row>
+		<row><td>bg1.jpg</td><td>ISX_DEFAULTCOMPONENT72</td><td>bg1.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\bg1.jpg</td><td>1</td><td/></row>
+		<row><td>bg_bg.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\bg-BG.ini</td><td>1</td><td/></row>
+		<row><td>bg_bg.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\bg-BG.ini</td><td>1</td><td/></row>
+		<row><td>bg_bg.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\bg-BG.ini</td><td>1</td><td/></row>
+		<row><td>bg_bg.ini3</td><td>ISX_DEFAULTCOMPONENT31</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\bg-BG.ini</td><td>1</td><td/></row>
+		<row><td>bg_bg.ini4</td><td>ISX_DEFAULTCOMPONENT39</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\bg-BG.ini</td><td>1</td><td/></row>
+		<row><td>bg_bg.ini5</td><td>ISX_DEFAULTCOMPONENT41</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\bg-BG.ini</td><td>1</td><td/></row>
+		<row><td>bg_bg.ini6</td><td>ISX_DEFAULTCOMPONENT45</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\bg-BG.ini</td><td>1</td><td/></row>
+		<row><td>bg_bg.ini7</td><td>ISX_DEFAULTCOMPONENT48</td><td>bg-BG.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\bg-BG.ini</td><td>1</td><td/></row>
+		<row><td>bicubic_scale.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>BICUBI~1.EFF|bicubic_scale.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\bicubic_scale.effect</td><td>1</td><td/></row>
+		<row><td>bilinear_lowres_scale.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>BILINE~1.EFF|bilinear_lowres_scale.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\bilinear_lowres_scale.effect</td><td>1</td><td/></row>
+		<row><td>blend_add_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>BLEND_~1.EFF|blend_add_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\blend_add_filter.effect</td><td>1</td><td/></row>
+		<row><td>blend_mul_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>BLEND_~1.EFF|blend_mul_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\blend_mul_filter.effect</td><td>1</td><td/></row>
+		<row><td>blend_sub_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>BLEND_~1.EFF|blend_sub_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\blend_sub_filter.effect</td><td>1</td><td/></row>
+		<row><td>booth.dll</td><td>booth.dll</td><td>booth.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\booth.dll</td><td>1</td><td/></row>
+		<row><td>booth_camera.exe</td><td>Booth_Camera.exe</td><td>BOOTHC~1.EXE|Booth Camera.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\Booth Camera.exe</td><td>1</td><td/></row>
+		<row><td>bottom.bmp</td><td>ISX_DEFAULTCOMPONENT101</td><td>bottom.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\bottom.bmp</td><td>1</td><td/></row>
+		<row><td>bugreport.exe</td><td>BugReport.exe</td><td>BUGREP~1.EXE|BugReport.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\BugReport.exe</td><td>1</td><td/></row>
+		<row><td>bugreport.ini</td><td>ISX_DEFAULTCOMPONENT72</td><td>BUGREP~1.INI|BugReport.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\BugReport.ini</td><td>1</td><td/></row>
+		<row><td>bugreport_chinesegb.ini</td><td>ISX_DEFAULTCOMPONENT76</td><td>BUGREP~1.INI|BugReport_ChineseGB.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Language\BugReport_ChineseGB.ini</td><td>1</td><td/></row>
+		<row><td>bwclientdll.dll</td><td>BWClientDll.dll</td><td>BWCLIE~1.DLL|BWClientDll.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\BWClientDll.dll</td><td>1</td><td/></row>
+		<row><td>ca_es.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>ca_es.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ca-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ca-ES.ini</td><td>1</td><td/></row>
+		<row><td>cef.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>cef.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\cef.pak</td><td>1</td><td/></row>
+		<row><td>cef_100_percent.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEF_10~1.PAK|cef_100_percent.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\cef_100_percent.pak</td><td>1</td><td/></row>
+		<row><td>cef_200_percent.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEF_20~1.PAK|cef_200_percent.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\cef_200_percent.pak</td><td>1</td><td/></row>
+		<row><td>cef_extensions.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEF_EX~1.PAK|cef_extensions.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\cef_extensions.pak</td><td>1</td><td/></row>
+		<row><td>cefsharp.browsersubprocess.c</td><td>CefSharp.BrowserSubprocess.Core.dll</td><td>CEFSHA~1.DLL|CefSharp.BrowserSubprocess.Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.BrowserSubprocess.Core.dll</td><td>1</td><td/></row>
+		<row><td>cefsharp.browsersubprocess.e</td><td>CefSharp.BrowserSubprocess.exe</td><td>CEFSHA~1.EXE|CefSharp.BrowserSubprocess.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.BrowserSubprocess.exe</td><td>1</td><td/></row>
+		<row><td>cefsharp.core.dll</td><td>CefSharp.Core.dll</td><td>CEFSHA~1.DLL|CefSharp.Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.Core.dll</td><td>1</td><td/></row>
+		<row><td>cefsharp.core.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEFSHA~1.XML|CefSharp.Core.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.Core.xml</td><td>1</td><td/></row>
+		<row><td>cefsharp.dll</td><td>CefSharp.dll</td><td>CefSharp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.dll</td><td>1</td><td/></row>
+		<row><td>cefsharp.winforms.dll</td><td>CefSharp.WinForms.dll</td><td>CEFSHA~1.DLL|CefSharp.WinForms.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.WinForms.dll</td><td>1</td><td/></row>
+		<row><td>cefsharp.winforms.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>CEFSHA~1.XML|CefSharp.WinForms.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.WinForms.xml</td><td>1</td><td/></row>
+		<row><td>cefsharp.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>CefSharp.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\CefSharp.xml</td><td>1</td><td/></row>
+		<row><td>centerclient.vdi</td><td>ISX_DEFAULTCOMPONENT72</td><td>CENTER~1.VDI|CenterClient.vdi</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\CenterClient.vdi</td><td>1</td><td/></row>
+		<row><td>cexth.dll</td><td>CEXTH.dll</td><td>CEXTH.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\CEXTH.dll</td><td>1</td><td/></row>
+		<row><td>chroma_key_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>CHROMA~1.EFF|chroma_key_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\chroma_key_filter.effect</td><td>1</td><td/></row>
+		<row><td>class_chinesegb.ini</td><td>ISX_DEFAULTCOMPONENT76</td><td>CLASS_~1.INI|Class_ChineseGB.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Language\Class_ChineseGB.ini</td><td>1</td><td/></row>
+		<row><td>close.bmp</td><td>ISX_DEFAULTCOMPONENT101</td><td>close.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\close.bmp</td><td>1</td><td/></row>
+		<row><td>cogwheel.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>cogwheel.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Dark\cogwheel.png</td><td>1</td><td/></row>
+		<row><td>color_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>COLOR_~1.EFF|color_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\color_filter.effect</td><td>1</td><td/></row>
+		<row><td>color_key_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>COLOR_~1.EFF|color_key_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\color_key_filter.effect</td><td>1</td><td/></row>
+		<row><td>colorspace.dll</td><td>ColorSpace.dll</td><td>COLORS~1.DLL|ColorSpace.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\ColorSpace.dll</td><td>1</td><td/></row>
+		<row><td>config.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>Config.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\Config.xml</td><td>1</td><td/></row>
+		<row><td>config.xml1</td><td>ISX_DEFAULTCOMPONENT</td><td>Config.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\Config.xml</td><td>1</td><td/></row>
+		<row><td>config.xml2</td><td>ISX_DEFAULTCOMPONENT1</td><td>Config.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\Config.xml</td><td>1</td><td/></row>
+		<row><td>copier.exe</td><td>Copier.exe</td><td>Copier.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\Copier.exe</td><td>1</td><td/></row>
+		<row><td>copier.ini</td><td>ISX_DEFAULTCOMPONENT99</td><td>Copier.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\Copier.ini</td><td>1</td><td/></row>
+		<row><td>coreaudio_encoder.dll</td><td>coreaudio_encoder.dll</td><td>COREAU~1.DLL|coreaudio-encoder.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\coreaudio-encoder.dll</td><td>1</td><td/></row>
+		<row><td>coursemanage.ini</td><td>ISX_DEFAULTCOMPONENT76</td><td>COURSE~1.INI|CourseManage.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Language\CourseManage.ini</td><td>1</td><td/></row>
+		<row><td>coursemanager.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>COURSE~1.DAT|CourseManager.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\CourseManager.dat</td><td>1</td><td/></row>
+		<row><td>coursemanager.exe</td><td>CourseManager.exe</td><td>COURSE~1.EXE|CourseManager.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\CourseManager.exe</td><td>1</td><td/></row>
+		<row><td>coursetreeicon.bmp</td><td>ISX_DEFAULTCOMPONENT79</td><td>COURSE~1.BMP|CourseTreeIcon.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\CourseTreeIcon.bmp</td><td>1</td><td/></row>
+		<row><td>cpf.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>cpf.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\cpf.dat</td><td>1</td><td/></row>
+		<row><td>cpth.dll</td><td>CPTH.dll</td><td>CPTH.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\CPTH.dll</td><td>1</td><td/></row>
+		<row><td>crop_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>CROP_F~1.EFF|crop_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\crop_filter.effect</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_cz.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>cs-CZ.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\cs-CZ.ini</td><td>1</td><td/></row>
+		<row><td>cs_framework.dll</td><td>cs_framework.dll</td><td>CS_FRA~1.DLL|cs_framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\cs_framework.dll</td><td>1</td><td/></row>
+		<row><td>cs_framework.dll1</td><td>cs_framework.dll1</td><td>CS_FRA~1.DLL|cs_framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\cs_framework.dll</td><td>1</td><td/></row>
+		<row><td>cs_logic.dll</td><td>cs_logic.dll</td><td>cs_logic.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\cs_logic.dll</td><td>1</td><td/></row>
+		<row><td>cs_logic.dll1</td><td>cs_logic.dll1</td><td>cs_logic.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\cs_logic.dll</td><td>1</td><td/></row>
+		<row><td>cs_xc.dll</td><td>cs_xc.dll</td><td>cs_xc.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\cs_xc.dll</td><td>1</td><td/></row>
+		<row><td>cs_xc.dll1</td><td>cs_xc.dll1</td><td>cs_xc.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\cs_xc.dll</td><td>1</td><td/></row>
+		<row><td>cwth.dll</td><td>CWTH.dll</td><td>CWTH.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\CWTH.dll</td><td>1</td><td/></row>
+		<row><td>d3dcompiler_43.dll</td><td>d3dcompiler_43.dll</td><td>D3DCOM~1.DLL|d3dcompiler_43.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\d3dcompiler_43.dll</td><td>1</td><td/></row>
+		<row><td>d3dcompiler_47.dll</td><td>d3dcompiler_47.dll</td><td>D3DCOM~1.DLL|d3dcompiler_47.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\d3dcompiler_47.dll</td><td>1</td><td/></row>
+		<row><td>d3dcompiler_47.dll1</td><td>D3Dcompiler_47.dll</td><td>D3DCOM~1.DLL|D3Dcompiler_47.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\D3Dcompiler_47.dll</td><td>1</td><td/></row>
+		<row><td>d_framework.dll</td><td>d_framework.dll</td><td>D_FRAM~1.DLL|d_framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\d_framework.dll</td><td>1</td><td/></row>
+		<row><td>d_framework.dll1</td><td>d_framework.dll1</td><td>D_FRAM~1.DLL|d_framework.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\d_framework.dll</td><td>1</td><td/></row>
+		<row><td>da_dk.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini10</td><td>ISX_DEFAULTCOMPONENT39</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini11</td><td>ISX_DEFAULTCOMPONENT41</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini12</td><td>ISX_DEFAULTCOMPONENT43</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini13</td><td>ISX_DEFAULTCOMPONENT45</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini14</td><td>ISX_DEFAULTCOMPONENT48</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini5</td><td>ISX_DEFAULTCOMPONENT29</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini6</td><td>ISX_DEFAULTCOMPONENT31</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini7</td><td>ISX_DEFAULTCOMPONENT33</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini8</td><td>ISX_DEFAULTCOMPONENT35</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>da_dk.ini9</td><td>ISX_DEFAULTCOMPONENT37</td><td>da-DK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\da-DK.ini</td><td>1</td><td/></row>
+		<row><td>dark.qss</td><td>ISX_DEFAULTCOMPONENT49</td><td>Dark.qss</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Dark.qss</td><td>1</td><td/></row>
+		<row><td>dbsclient.exe</td><td>DBSClient.exe</td><td>DBSCLI~1.EXE|DBSClient.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\DBSClient.exe</td><td>1</td><td/></row>
+		<row><td>dbsclientupate.ini</td><td>ISX_DEFAULTCOMPONENT72</td><td>DBSCLI~1.INI|DBSClientUpate.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\DBSClientUpate.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>de_de.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>de-DE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\de-DE.ini</td><td>1</td><td/></row>
+		<row><td>default.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEFAUL~1.EFF|default.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\default.effect</td><td>1</td><td/></row>
+		<row><td>default.qss</td><td>ISX_DEFAULTCOMPONENT49</td><td>Default.qss</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Default.qss</td><td>1</td><td/></row>
+		<row><td>default_rect.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEFAUL~1.EFF|default_rect.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\default_rect.effect</td><td>1</td><td/></row>
+		<row><td>deinterlace_base.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_base.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\deinterlace_base.effect</td><td>1</td><td/></row>
+		<row><td>deinterlace_blend.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_blend.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\deinterlace_blend.effect</td><td>1</td><td/></row>
+		<row><td>deinterlace_blend_2x.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_blend_2x.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\deinterlace_blend_2x.effect</td><td>1</td><td/></row>
+		<row><td>deinterlace_discard.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_discard.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\deinterlace_discard.effect</td><td>1</td><td/></row>
+		<row><td>deinterlace_discard_2x.effec</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_discard_2x.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\deinterlace_discard_2x.effect</td><td>1</td><td/></row>
+		<row><td>deinterlace_linear.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_linear.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\deinterlace_linear.effect</td><td>1</td><td/></row>
+		<row><td>deinterlace_linear_2x.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_linear_2x.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\deinterlace_linear_2x.effect</td><td>1</td><td/></row>
+		<row><td>deinterlace_yadif.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_yadif.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\deinterlace_yadif.effect</td><td>1</td><td/></row>
+		<row><td>deinterlace_yadif_2x.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>DEINTE~1.EFF|deinterlace_yadif_2x.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\deinterlace_yadif_2x.effect</td><td>1</td><td/></row>
+		<row><td>designer.dgr</td><td>ISX_DEFAULTCOMPONENT79</td><td>Designer.dgr</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Designer.dgr</td><td>1</td><td/></row>
+		<row><td>designer.dgr1</td><td>ISX_DEFAULTCOMPONENT82</td><td>Designer.dgr</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Designer.dgr</td><td>1</td><td/></row>
+		<row><td>devcomponents.dotnetbar2.dll</td><td>DevComponents.DotNetBar2.dll</td><td>DEVCOM~1.DLL|DevComponents.DotNetBar2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\DevComponents.DotNetBar2.dll</td><td>1</td><td/></row>
+		<row><td>devcomponents.dotnetbar2.dll1</td><td>DevComponents.DotNetBar2.dll1</td><td>DEVCOM~1.DLL|DevComponents.DotNetBar2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\DevComponents.DotNetBar2.dll</td><td>1</td><td/></row>
+		<row><td>devcomponents.dotnetbar2.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>DEVCOM~1.XML|DevComponents.DotNetBar2.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\DevComponents.DotNetBar2.xml</td><td>1</td><td/></row>
+		<row><td>devcomponents.instrumentatio</td><td>DevComponents.Instrumentation.dll</td><td>DEVCOM~1.DLL|DevComponents.Instrumentation.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\DevComponents.Instrumentation.dll</td><td>1</td><td/></row>
+		<row><td>devil.dll</td><td>devil.dll</td><td>devil.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\devil.dll</td><td>1</td><td/></row>
+		<row><td>devtools_resources.pak</td><td>ISX_DEFAULTCOMPONENT2</td><td>DEVTOO~1.PAK|devtools_resources.pak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\devtools_resources.pak</td><td>1</td><td/></row>
+		<row><td>directshowsource.dll</td><td>DirectShowSource.dll</td><td>DIRECT~1.DLL|DirectShowSource.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\avisynth-plugin\DirectShowSource.dll</td><td>1</td><td/></row>
+		<row><td>directshowsource.dll1</td><td>DirectShowSource.dll1</td><td>DIRECT~1.DLL|DirectShowSource.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\DirectShowSource.dll</td><td>1</td><td/></row>
+		<row><td>dlldeinterlace.dll</td><td>DllDeinterlace.dll</td><td>DLLDEI~1.DLL|DllDeinterlace.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\DllDeinterlace.dll</td><td>1</td><td/></row>
+		<row><td>dlldeinterlace.dll1</td><td>DllDeinterlace.dll1</td><td>DLLDEI~1.DLL|DllDeinterlace.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\DllDeinterlace.dll</td><td>1</td><td/></row>
+		<row><td>dmskin.dll</td><td>DMSkin.dll</td><td>DMSkin.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\DMSkin.dll</td><td>1</td><td/></row>
+		<row><td>dmskin.dll1</td><td>DMSkin.dll1</td><td>DMSkin.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\DMSkin.dll</td><td>1</td><td/></row>
+		<row><td>dmskin.dll2</td><td>DMSkin.dll2</td><td>DMSkin.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\航天云态度表达\bin\Release\DMSkin.dll</td><td>1</td><td/></row>
+		<row><td>down_arrow.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>DOWN_A~1.PNG|down_arrow.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Dark\down_arrow.png</td><td>1</td><td/></row>
+		<row><td>downback.dat</td><td>ISX_DEFAULTCOMPONENT90</td><td>downback.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\TempDir\downback.dat</td><td>1</td><td/></row>
+		<row><td>drag.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>Drag.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\Drag.iap</td><td>1</td><td/></row>
+		<row><td>drag.iap1</td><td>ISX_DEFAULTCOMPONENT84</td><td>Drag.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\Drag.iap</td><td>1</td><td/></row>
+		<row><td>drag3.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>Drag3.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\Drag3.iap</td><td>1</td><td/></row>
+		<row><td>el_gr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini10</td><td>ISX_DEFAULTCOMPONENT39</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini11</td><td>ISX_DEFAULTCOMPONENT41</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini12</td><td>ISX_DEFAULTCOMPONENT43</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini13</td><td>ISX_DEFAULTCOMPONENT45</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini14</td><td>ISX_DEFAULTCOMPONENT48</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini5</td><td>ISX_DEFAULTCOMPONENT29</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini6</td><td>ISX_DEFAULTCOMPONENT31</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini7</td><td>ISX_DEFAULTCOMPONENT33</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini8</td><td>ISX_DEFAULTCOMPONENT35</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>el_gr.ini9</td><td>ISX_DEFAULTCOMPONENT37</td><td>el-GR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\el-GR.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>en_us.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>en-US.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\en-US.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>es_es.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>es-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\es-ES.ini</td><td>1</td><td/></row>
+		<row><td>et_ee.ini</td><td>ISX_DEFAULTCOMPONENT31</td><td>et-EE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\et-EE.ini</td><td>1</td><td/></row>
+		<row><td>et_ee.ini1</td><td>ISX_DEFAULTCOMPONENT45</td><td>et-EE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\et-EE.ini</td><td>1</td><td/></row>
+		<row><td>et_ee.ini2</td><td>ISX_DEFAULTCOMPONENT48</td><td>et-EE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\et-EE.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>eu_es.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>eu-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\eu-ES.ini</td><td>1</td><td/></row>
+		<row><td>fade_to_color_transition.eff</td><td>ISX_DEFAULTCOMPONENT28</td><td>FADE_T~1.EFF|fade_to_color_transition.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\fade_to_color_transition.effect</td><td>1</td><td/></row>
+		<row><td>fade_transition.effect</td><td>ISX_DEFAULTCOMPONENT28</td><td>FADE_T~1.EFF|fade_transition.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\fade_transition.effect</td><td>1</td><td/></row>
+		<row><td>ffmpeg_mux64.exe</td><td>ffmpeg_mux64.exe</td><td>FFMPEG~1.EXE|ffmpeg-mux64.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\ffmpeg-mux64.exe</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>fi_fi.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>fi-FI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\fi-FI.ini</td><td>1</td><td/></row>
+		<row><td>filecom.dll</td><td>FileCom.dll</td><td>FileCom.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\FileCom.dll</td><td>1</td><td/></row>
+		<row><td>font_data.bin</td><td>ISX_DEFAULTCOMPONENT65</td><td>FONT_D~1.BIN|font_data.bin</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\plugin_config\text-freetype2\font_data.bin</td><td>1</td><td/></row>
+		<row><td>format_conversion.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>FORMAT~1.EFF|format_conversion.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\format_conversion.effect</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>fr_fr.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>fr-FR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\fr-FR.ini</td><td>1</td><td/></row>
+		<row><td>g7xdll.dll</td><td>G7xDll.dll</td><td>G7xDll.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\G7xDll.dll</td><td>1</td><td/></row>
+		<row><td>get_graphics_offsets64.exe</td><td>get_graphics_offsets64.exe</td><td>GET-GR~1.EXE|get-graphics-offsets64.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\get-graphics-offsets64.exe</td><td>1</td><td/></row>
+		<row><td>gl_es.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>gl_es.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>gl-ES.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\gl-ES.ini</td><td>1</td><td/></row>
+		<row><td>global.ini</td><td>ISX_DEFAULTCOMPONENT54</td><td>global.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\global.ini</td><td>1</td><td/></row>
+		<row><td>gplv2.txt</td><td>ISX_DEFAULTCOMPONENT47</td><td>gplv2.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\license\gplv2.txt</td><td>1</td><td/></row>
+		<row><td>graphics_hook64.dll</td><td>graphics_hook64.dll</td><td>GRAPHI~1.DLL|graphics-hook64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\graphics-hook64.dll</td><td>1</td><td/></row>
+		<row><td>h264play.dll</td><td>H264Play.dll</td><td>H264Play.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\H264Play.dll</td><td>1</td><td/></row>
+		<row><td>h264play.dll1</td><td>H264Play.dll1</td><td>H264Play.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\H264Play.dll</td><td>1</td><td/></row>
+		<row><td>hangup.wav</td><td>ISX_DEFAULTCOMPONENT89</td><td>HANGUP.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\sound\HANGUP.wav</td><td>1</td><td/></row>
+		<row><td>he_il.ini</td><td>ISX_DEFAULTCOMPONENT19</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>he_il.ini1</td><td>ISX_DEFAULTCOMPONENT21</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>he_il.ini2</td><td>ISX_DEFAULTCOMPONENT23</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>he_il.ini3</td><td>ISX_DEFAULTCOMPONENT25</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>he_il.ini4</td><td>ISX_DEFAULTCOMPONENT29</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>he_il.ini5</td><td>ISX_DEFAULTCOMPONENT31</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>he_il.ini6</td><td>ISX_DEFAULTCOMPONENT33</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>he_il.ini7</td><td>ISX_DEFAULTCOMPONENT35</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>he_il.ini8</td><td>ISX_DEFAULTCOMPONENT39</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>he_il.ini9</td><td>ISX_DEFAULTCOMPONENT48</td><td>he-IL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\he-IL.ini</td><td>1</td><td/></row>
+		<row><td>hi_h264dec_v.dll</td><td>hi_h264dec_v.dll</td><td>HI_H26~1.DLL|hi_h264dec_v.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\hi_h264dec_v.dll</td><td>1</td><td/></row>
+		<row><td>hi_h264dec_v.dll1</td><td>hi_h264dec_v.dll1</td><td>HI_H26~1.DLL|hi_h264dec_v.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\hi_h264dec_v.dll</td><td>1</td><td/></row>
+		<row><td>hooksys.dll</td><td>HookSys.dll</td><td>HookSys.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\HookSys.dll</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hr_hr.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>hr-HR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\hr-HR.ini</td><td>1</td><td/></row>
+		<row><td>hsbchannel.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBCHA~1.BMP|HSBChannel.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBChannel.bmp</td><td>1</td><td/></row>
+		<row><td>hsbchannel.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBCHA~1.BMP|HSBChannel.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBChannel.bmp</td><td>1</td><td/></row>
+		<row><td>hsblarrowc.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBLAR~1.BMP|HSBLArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBLArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>hsblarrowc.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBLAR~1.BMP|HSBLArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBLArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>hsblarrowd.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBLAR~1.BMP|HSBLArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBLArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>hsblarrowd.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBLAR~1.BMP|HSBLArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBLArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>hsblarrowh.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBLAR~1.BMP|HSBLArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBLArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>hsblarrowh.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBLAR~1.BMP|HSBLArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBLArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>hsbrarrowc.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBRAR~1.BMP|HSBRArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBRArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>hsbrarrowc.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBRAR~1.BMP|HSBRArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBRArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>hsbrarrowd.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBRAR~1.BMP|HSBRArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBRArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>hsbrarrowd.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBRAR~1.BMP|HSBRArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBRArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>hsbrarrowd1.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBRAR~1.BMP|HSBRArrowD1.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBRArrowD1.bmp</td><td>1</td><td/></row>
+		<row><td>hsbrarrowh.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBRAR~1.BMP|HSBRArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBRArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>hsbrarrowh.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBRAR~1.BMP|HSBRArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBRArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>hsbthumbc.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBTHU~1.BMP|HSBThumbC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBThumbC.bmp</td><td>1</td><td/></row>
+		<row><td>hsbthumbc.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBTHU~1.BMP|HSBThumbC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBThumbC.bmp</td><td>1</td><td/></row>
+		<row><td>hsbthumbd.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBTHU~1.BMP|HSBThumbD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBThumbD.bmp</td><td>1</td><td/></row>
+		<row><td>hsbthumbd.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBTHU~1.BMP|HSBThumbD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBThumbD.bmp</td><td>1</td><td/></row>
+		<row><td>hsbthumbh.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>HSBTHU~1.BMP|HSBThumbH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\HSBThumbH.bmp</td><td>1</td><td/></row>
+		<row><td>hsbthumbh.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>HSBTHU~1.BMP|HSBThumbH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\HSBThumbH.bmp</td><td>1</td><td/></row>
+		<row><td>htf.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>htf.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\htf.dat</td><td>1</td><td/></row>
+		<row><td>hty40.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>hty40.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\hty40.dat</td><td>1</td><td/></row>
+		<row><td>hty40_rcvfile.dat</td><td>ISX_DEFAULTCOMPONENT90</td><td>HTY40_~1.DAT|hty40_RcvFile.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\TempDir\hty40_RcvFile.dat</td><td>1</td><td/></row>
+		<row><td>hty41.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>hty41.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\hty41.dat</td><td>1</td><td/></row>
+		<row><td>hty41_rcvfile.dat</td><td>ISX_DEFAULTCOMPONENT90</td><td>HTY41_~1.DAT|hty41_RcvFile.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\TempDir\hty41_RcvFile.dat</td><td>1</td><td/></row>
+		<row><td>hty42.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>hty42.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\hty42.dat</td><td>1</td><td/></row>
+		<row><td>hty42_rcvfile.dat</td><td>ISX_DEFAULTCOMPONENT90</td><td>HTY42_~1.DAT|hty42_RcvFile.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\TempDir\hty42_RcvFile.dat</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>hu_hu.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>hu-HU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\hu-HU.ini</td><td>1</td><td/></row>
+		<row><td>ia264dec.dll</td><td>iA264Dec.dll</td><td>iA264Dec.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iA264Dec.dll</td><td>1</td><td/></row>
+		<row><td>iaagent.ini</td><td>ISX_DEFAULTCOMPONENT72</td><td>iAAgent.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iAAgent.ini</td><td>1</td><td/></row>
+		<row><td>iaaudioagent.exe</td><td>iAAudioAgent.exe</td><td>IAAUDI~1.EXE|iAAudioAgent.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iAAudioAgent.exe</td><td>1</td><td/></row>
+		<row><td>iaaudiodmocap.dll</td><td>iAAudioDMOCap.dll</td><td>IAAUDI~1.DLL|iAAudioDMOCap.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iAAudioDMOCap.dll</td><td>1</td><td/></row>
+		<row><td>iaaudiolib.dll</td><td>IAAudioLib.dll</td><td>IAAUDI~1.DLL|IAAudioLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IAAudioLib.dll</td><td>1</td><td/></row>
+		<row><td>iaavsenv.dll</td><td>iAAVSEnv.dll</td><td>iAAVSEnv.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iAAVSEnv.dll</td><td>1</td><td/></row>
+		<row><td>iacap.dll</td><td>IACap.dll</td><td>IACap.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IACap.dll</td><td>1</td><td/></row>
+		<row><td>iacodec.dll</td><td>iacodec.dll</td><td>iacodec.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iacodec.dll</td><td>1</td><td/></row>
+		<row><td>iacsmy.dll</td><td>IACSmy.dll</td><td>IACSmy.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IACSmy.dll</td><td>1</td><td/></row>
+		<row><td>iacusage.dll</td><td>IACUsage.dll</td><td>IACUsage.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IACUsage.dll</td><td>1</td><td/></row>
+		<row><td>iadxcap.dll</td><td>iADxCap.dll</td><td>iADxCap.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iADxCap.dll</td><td>1</td><td/></row>
+		<row><td>iadxsnd.dll</td><td>iADxSnd.dll</td><td>iADxSnd.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iADxSnd.dll</td><td>1</td><td/></row>
+		<row><td>iaexpat.dll</td><td>IAExpat.dll</td><td>IAExpat.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IAExpat.dll</td><td>1</td><td/></row>
+		<row><td>iaeysp.dll</td><td>IAEysp.dll</td><td>IAEysp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IAEysp.dll</td><td>1</td><td/></row>
+		<row><td>iaipcamconfig.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>IAIPCA~1.DAT|IAIPCamConfig.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IAIPCamConfig.dat</td><td>1</td><td/></row>
+		<row><td>iaj2k.dll</td><td>IAJ2K.dll</td><td>IAJ2K.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IAJ2K.dll</td><td>1</td><td/></row>
+		<row><td>iajcmp.dll</td><td>IAJCmp.dll</td><td>IAJCmp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IAJCmp.dll</td><td>1</td><td/></row>
+		<row><td>iala.dll</td><td>IALA.dll</td><td>IALA.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IALA.dll</td><td>1</td><td/></row>
+		<row><td>ialcmp.dll</td><td>IALCmp.dll</td><td>IALCmp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IALCmp.dll</td><td>1</td><td/></row>
+		<row><td>ialmn.dll</td><td>IALmn.dll</td><td>IALmn.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IALmn.dll</td><td>1</td><td/></row>
+		<row><td>iamediaavs.dll</td><td>IAMediaAVS.dll</td><td>IAMEDI~1.DLL|IAMediaAVS.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IAMediaAVS.dll</td><td>1</td><td/></row>
+		<row><td>iameeting20160901171515.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160901171515.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160901171515.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160901171539.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160901171539.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160901171539.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160914103301.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160914103301.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160914103301.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160914103521.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160914103521.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160914103521.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160914103534.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160914103534.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160914103534.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160914103543.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160914103543.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160914103543.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160914103559.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160914103559.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160914103559.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917182616.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917182616.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917182616.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917183816.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917183816.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917183816.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917183857.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917183857.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917183857.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917184042.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917184042.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917184042.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917184052.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917184052.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917184052.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917184252.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917184252.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917184252.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917184318.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917184318.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917184318.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917184329.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917184329.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917184329.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917184538.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917184538.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917184538.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917184550.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917184550.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917184550.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917184817.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917184817.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917184817.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917185029.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917185029.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917185029.acz</td><td>1</td><td/></row>
+		<row><td>iameeting20160917190000.acz</td><td>ISX_DEFAULTCOMPONENT77</td><td>IAMEET~1.ACZ|IAMeeting20160917190000.acz</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Log\IAMeeting20160917190000.acz</td><td>1</td><td/></row>
+		<row><td>iamiscex.dll</td><td>IAMiscEx.dll</td><td>IAMiscEx.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IAMiscEx.dll</td><td>1</td><td/></row>
+		<row><td>ianet.dll</td><td>IANet.dll</td><td>IANet.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IANet.dll</td><td>1</td><td/></row>
+		<row><td>ianet3.dll</td><td>IANet3.dll</td><td>IANet3.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IANet3.dll</td><td>1</td><td/></row>
+		<row><td>iaoem.gpd</td><td>ISX_DEFAULTCOMPONENT99</td><td>IAOEM.gpd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\IAOEM.gpd</td><td>1</td><td/></row>
+		<row><td>iaoem_64.gpd</td><td>ISX_DEFAULTCOMPONENT99</td><td>IAOEM_64.gpd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\IAOEM_64.gpd</td><td>1</td><td/></row>
+		<row><td>iapol.dll</td><td>IAPOL.dll</td><td>IAPOL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IAPOL.dll</td><td>1</td><td/></row>
+		<row><td>iargb256.dll</td><td>IARGB256.dll</td><td>IARGB256.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IARGB256.dll</td><td>1</td><td/></row>
+		<row><td>iasipconfig.ini</td><td>ISX_DEFAULTCOMPONENT72</td><td>IASIPC~1.INI|IASipConfig.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IASipConfig.ini</td><td>1</td><td/></row>
+		<row><td>iaunidrv.dll</td><td>IAUNIDRV.DLL</td><td>IAUNIDRV.DLL</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\IAUNIDRV.DLL</td><td>1</td><td/></row>
+		<row><td>iaunidrv_64.dll</td><td>IAUNIDRV_64.DLL</td><td>IAUNID~1.DLL|IAUNIDRV_64.DLL</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\IAUNIDRV_64.DLL</td><td>1</td><td/></row>
+		<row><td>iaunidrvui.dll</td><td>IAUNIDRVUI.DLL</td><td>IAUNID~1.DLL|IAUNIDRVUI.DLL</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\IAUNIDRVUI.DLL</td><td>1</td><td/></row>
+		<row><td>iaunidrvui_64.dll</td><td>IAunidrvui_64.dll</td><td>IAUNID~1.DLL|IAunidrvui_64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\IAunidrvui_64.dll</td><td>1</td><td/></row>
+		<row><td>iavideolib.dll</td><td>iAVideoLib.dll</td><td>IAVIDE~1.DLL|iAVideoLib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iAVideoLib.dll</td><td>1</td><td/></row>
+		<row><td>iayuveff.dll</td><td>iAYUVEff.dll</td><td>iAYUVEff.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\iAYUVEff.dll</td><td>1</td><td/></row>
+		<row><td>icudt54.dll</td><td>icudt54.dll</td><td>icudt54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\icudt54.dll</td><td>1</td><td/></row>
+		<row><td>icudtl.dat</td><td>ISX_DEFAULTCOMPONENT2</td><td>icudtl.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\icudtl.dat</td><td>1</td><td/></row>
+		<row><td>icuin54.dll</td><td>icuin54.dll</td><td>icuin54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\icuin54.dll</td><td>1</td><td/></row>
+		<row><td>icuuc54.dll</td><td>icuuc54.dll</td><td>icuuc54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\icuuc54.dll</td><td>1</td><td/></row>
+		<row><td>ide_id.vxd</td><td>IDE_ID.vxd</td><td>IDE_ID.vxd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\IDE_ID.vxd</td><td>1</td><td/></row>
+		<row><td>image3.jpg</td><td>ISX_DEFAULTCOMPONENT72</td><td>image3.jpg</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\image3.jpg</td><td>1</td><td/></row>
+		<row><td>image_source.dll</td><td>image_source.dll</td><td>IMAGE-~1.DLL|image-source.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\image-source.dll</td><td>1</td><td/></row>
+		<row><td>inject_helper64.exe</td><td>inject_helper64.exe</td><td>INJECT~1.EXE|inject-helper64.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\inject-helper64.exe</td><td>1</td><td/></row>
+		<row><td>installvprinter.exe</td><td>InstallVPrinter.exe</td><td>INSTAL~1.EXE|InstallVPrinter.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\InstallVPrinter.exe</td><td>1</td><td/></row>
+		<row><td>installvprinter.ini</td><td>ISX_DEFAULTCOMPONENT99</td><td>INSTAL~1.INI|InstallVPrinter.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\InstallVPrinter.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>it_it.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>it-IT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\it-IT.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>ja_jp.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ja-JP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ja-JP.ini</td><td>1</td><td/></row>
+		<row><td>jj.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>jj.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\jj.dat</td><td>1</td><td/></row>
+		<row><td>jj_rcvfile.dat</td><td>ISX_DEFAULTCOMPONENT90</td><td>JJ_RCV~1.DAT|jj_RcvFile.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\TempDir\jj_RcvFile.dat</td><td>1</td><td/></row>
+		<row><td>jquery_1.7.2.js</td><td>ISX_DEFAULTCOMPONENT3</td><td>JQUERY~1.JS|jquery-1.7.2.js</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\Template\jquery-1.7.2.js</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>ko_kr.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ko-KR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ko-KR.ini</td><td>1</td><td/></row>
+		<row><td>lame_enc.dll</td><td>lame_enc.dll</td><td>lame_enc.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\lame_enc.dll</td><td>1</td><td/></row>
+		<row><td>lanczos_scale.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>LANCZO~1.EFF|lanczos_scale.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\lanczos_scale.effect</td><td>1</td><td/></row>
+		<row><td>language.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>Language.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Language.dat</td><td>1</td><td/></row>
+		<row><td>left.bmp</td><td>ISX_DEFAULTCOMPONENT101</td><td>left.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\left.bmp</td><td>1</td><td/></row>
+		<row><td>lf.bmp</td><td>ISX_DEFAULTCOMPONENT78</td><td>lf.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\lf.bmp</td><td>1</td><td/></row>
+		<row><td>libavcodec.dll</td><td>libavcodec.dll</td><td>LIBAVC~1.DLL|libavcodec.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\libavcodec.dll</td><td>1</td><td/></row>
+		<row><td>libcef.dll</td><td>libcef.dll</td><td>libcef.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\libcef.dll</td><td>1</td><td/></row>
+		<row><td>libcurl.dll</td><td>libcurl.dll</td><td>libcurl.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libcurl.dll</td><td>1</td><td/></row>
+		<row><td>libeay32.dll</td><td>libeay32.dll</td><td>libeay32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\libeay32.dll</td><td>1</td><td/></row>
+		<row><td>libeay32.dll1</td><td>libeay32.dll1</td><td>libeay32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\libeay32.dll</td><td>1</td><td/></row>
+		<row><td>libegl.dll</td><td>libEGL.dll</td><td>libEGL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\libEGL.dll</td><td>1</td><td/></row>
+		<row><td>libegl.dll1</td><td>libEGL.dll1</td><td>libEGL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libEGL.dll</td><td>1</td><td/></row>
+		<row><td>libglesv2.dll</td><td>libGLESv2.dll</td><td>LIBGLE~1.DLL|libGLESv2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\libGLESv2.dll</td><td>1</td><td/></row>
+		<row><td>libglesv2.dll1</td><td>libGLESv2.dll1</td><td>LIBGLE~1.DLL|libGLESv2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libGLESv2.dll</td><td>1</td><td/></row>
+		<row><td>libobs_d3d11.dll</td><td>libobs_d3d11.dll</td><td>LIBOBS~1.DLL|libobs-d3d11.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libobs-d3d11.dll</td><td>1</td><td/></row>
+		<row><td>libobs_opengl.dll</td><td>libobs_opengl.dll</td><td>LIBOBS~1.DLL|libobs-opengl.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libobs-opengl.dll</td><td>1</td><td/></row>
+		<row><td>libogg_0.dll</td><td>libogg_0.dll</td><td>libogg-0.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libogg-0.dll</td><td>1</td><td/></row>
+		<row><td>libopus_0.dll</td><td>libopus_0.dll</td><td>LIBOPU~1.DLL|libopus-0.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libopus-0.dll</td><td>1</td><td/></row>
+		<row><td>libportaudio_2.dll.dll</td><td>libportaudio_2.dll.dll</td><td>LIBPOR~1.DLL|libportaudio-2.dll.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\libportaudio-2.dll.dll</td><td>1</td><td/></row>
+		<row><td>libportaudio_2.dll.dll1</td><td>libportaudio_2.dll.dll1</td><td>LIBPOR~1.DLL|libportaudio-2.dll.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\libportaudio-2.dll.dll</td><td>1</td><td/></row>
+		<row><td>libvorbis_0.dll</td><td>libvorbis_0.dll</td><td>LIBVOR~1.DLL|libvorbis-0.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libvorbis-0.dll</td><td>1</td><td/></row>
+		<row><td>libvorbisenc_2.dll</td><td>libvorbisenc_2.dll</td><td>LIBVOR~1.DLL|libvorbisenc-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libvorbisenc-2.dll</td><td>1</td><td/></row>
+		<row><td>libvorbisfile_3.dll</td><td>libvorbisfile_3.dll</td><td>LIBVOR~1.DLL|libvorbisfile-3.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libvorbisfile-3.dll</td><td>1</td><td/></row>
+		<row><td>libx264_146.dll</td><td>libx264_146.dll</td><td>LIBX26~1.DLL|libx264-146.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\libx264-146.dll</td><td>1</td><td/></row>
+		<row><td>libx264_146.dll1</td><td>libx264_146.dll1</td><td>LIBX26~1.DLL|libx264-146.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\libx264-146.dll</td><td>1</td><td/></row>
+		<row><td>libx264_148.dll</td><td>libx264_148.dll</td><td>LIBX26~1.DLL|libx264-148.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\libx264-148.dll</td><td>1</td><td/></row>
+		<row><td>license.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>License.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\License.xml</td><td>1</td><td/></row>
+		<row><td>license.xml1</td><td>ISX_DEFAULTCOMPONENT</td><td>License.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\License.xml</td><td>1</td><td/></row>
+		<row><td>license.xml2</td><td>ISX_DEFAULTCOMPONENT1</td><td>License.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\License.xml</td><td>1</td><td/></row>
+		<row><td>liveupdate_chinesegb.ini</td><td>ISX_DEFAULTCOMPONENT76</td><td>LIVEUP~1.INI|LiveUpdate_ChineseGB.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Language\LiveUpdate_ChineseGB.ini</td><td>1</td><td/></row>
+		<row><td>ln.bmp</td><td>ISX_DEFAULTCOMPONENT78</td><td>Ln.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Ln.bmp</td><td>1</td><td/></row>
+		<row><td>lo.bmp</td><td>ISX_DEFAULTCOMPONENT78</td><td>lo.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\lo.bmp</td><td>1</td><td/></row>
+		<row><td>locale.ini</td><td>ISX_DEFAULTCOMPONENT46</td><td>locale.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale.ini</td><td>1</td><td/></row>
+		<row><td>logo.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>LOGO.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\LOGO.iap</td><td>1</td><td/></row>
+		<row><td>logo.png</td><td>ISX_DEFAULTCOMPONENT13</td><td>logo.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\logo.png</td><td>1</td><td/></row>
+		<row><td>lt_lt.ini</td><td>ISX_DEFAULTCOMPONENT48</td><td>lt-LT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\lt-LT.ini</td><td>1</td><td/></row>
+		<row><td>m_captureaudiodevice.dll</td><td>m_captureAudioDevice.dll</td><td>M_CAPT~1.DLL|m_captureAudioDevice.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\m_captureAudioDevice.dll</td><td>1</td><td/></row>
+		<row><td>m_captureaudiodevice.dll1</td><td>m_captureAudioDevice.dll1</td><td>M_CAPT~1.DLL|m_captureAudioDevice.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\m_captureAudioDevice.dll</td><td>1</td><td/></row>
+		<row><td>m_capturedesk.dll</td><td>m_captureDesk.dll</td><td>M_CAPT~1.DLL|m_captureDesk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\m_captureDesk.dll</td><td>1</td><td/></row>
+		<row><td>m_capturedesk.dll1</td><td>m_captureDesk.dll1</td><td>M_CAPT~1.DLL|m_captureDesk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\m_captureDesk.dll</td><td>1</td><td/></row>
+		<row><td>m_recorder.dll</td><td>m_recorder.dll</td><td>M_RECO~1.DLL|m_recorder.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\m_recorder.dll</td><td>1</td><td/></row>
+		<row><td>m_recorder.dll1</td><td>m_recorder.dll1</td><td>M_RECO~1.DLL|m_recorder.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\m_recorder.dll</td><td>1</td><td/></row>
+		<row><td>m_rtsp.dll</td><td>m_rtsp.dll</td><td>m_rtsp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\m_rtsp.dll</td><td>1</td><td/></row>
+		<row><td>m_rtsp.dll1</td><td>m_rtsp.dll1</td><td>m_rtsp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\m_rtsp.dll</td><td>1</td><td/></row>
+		<row><td>m_transferdesk.dll</td><td>m_transferDesk.dll</td><td>M_TRAN~1.DLL|m_transferDesk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\m_transferDesk.dll</td><td>1</td><td/></row>
+		<row><td>m_transferdesk.dll1</td><td>m_transferDesk.dll1</td><td>M_TRAN~1.DLL|m_transferDesk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\m_transferDesk.dll</td><td>1</td><td/></row>
+		<row><td>mains_checkc.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>MAINS_~1.IAP|MainS_CheckC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\MainS_CheckC.iap</td><td>1</td><td/></row>
+		<row><td>mains_disable.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>MAINS_~1.IAP|MainS_Disable.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\MainS_Disable.iap</td><td>1</td><td/></row>
+		<row><td>mains_normalc.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>MAINS_~1.IAP|MainS_NormalC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\MainS_NormalC.iap</td><td>1</td><td/></row>
+		<row><td>mains_normalh.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>MAINS_~1.IAP|MainS_NormalH.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\MainS_NormalH.iap</td><td>1</td><td/></row>
+		<row><td>mainsc.iap</td><td>ISX_DEFAULTCOMPONENT84</td><td>MainSC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\MainSC.iap</td><td>1</td><td/></row>
+		<row><td>mainsc_c.iap</td><td>ISX_DEFAULTCOMPONENT84</td><td>MainSC-C.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\MainSC-C.iap</td><td>1</td><td/></row>
+		<row><td>mainsc_h.iap</td><td>ISX_DEFAULTCOMPONENT84</td><td>MainSC-H.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\MainSC-H.iap</td><td>1</td><td/></row>
+		<row><td>mainsd.iap</td><td>ISX_DEFAULTCOMPONENT84</td><td>MainSD.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\MainSD.iap</td><td>1</td><td/></row>
+		<row><td>mainsh.iap</td><td>ISX_DEFAULTCOMPONENT84</td><td>MainSH.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\MainSH.iap</td><td>1</td><td/></row>
+		<row><td>maint_checkc.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>MAINT_~1.IAP|MainT_CheckC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\MainT_CheckC.iap</td><td>1</td><td/></row>
+		<row><td>maint_disable.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>MAINT_~1.IAP|MainT_Disable.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\MainT_Disable.iap</td><td>1</td><td/></row>
+		<row><td>maint_normalc.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>MAINT_~1.IAP|MainT_NormalC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\MainT_NormalC.iap</td><td>1</td><td/></row>
+		<row><td>maint_normalh.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>MAINT_~1.IAP|MainT_NormalH.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\MainT_NormalH.iap</td><td>1</td><td/></row>
+		<row><td>maintc.iap</td><td>ISX_DEFAULTCOMPONENT84</td><td>MainTC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\MainTC.iap</td><td>1</td><td/></row>
+		<row><td>maintc_c.iap</td><td>ISX_DEFAULTCOMPONENT84</td><td>MainTC-C.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\MainTC-C.iap</td><td>1</td><td/></row>
+		<row><td>maintd.iap</td><td>ISX_DEFAULTCOMPONENT84</td><td>MainTD.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\MainTD.iap</td><td>1</td><td/></row>
+		<row><td>mainth.iap</td><td>ISX_DEFAULTCOMPONENT84</td><td>MainTH.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\MainTH.iap</td><td>1</td><td/></row>
+		<row><td>manager.ini</td><td>ISX_DEFAULTCOMPONENT72</td><td>Manager.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Manager.ini</td><td>1</td><td/></row>
+		<row><td>mask_alpha_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>MASK_A~1.EFF|mask_alpha_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\mask_alpha_filter.effect</td><td>1</td><td/></row>
+		<row><td>mask_color_filter.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>MASK_C~1.EFF|mask_color_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\mask_color_filter.effect</td><td>1</td><td/></row>
+		<row><td>max.bmp</td><td>ISX_DEFAULTCOMPONENT101</td><td>max.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\max.bmp</td><td>1</td><td/></row>
+		<row><td>message.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>message.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\message.iap</td><td>1</td><td/></row>
+		<row><td>message.iap1</td><td>ISX_DEFAULTCOMPONENT84</td><td>message.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\message.iap</td><td>1</td><td/></row>
+		<row><td>meta.json</td><td>ISX_DEFAULTCOMPONENT64</td><td>META~1.JSO|meta.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\plugin_config\rtmp-services\meta.json</td><td>1</td><td/></row>
+		<row><td>min.bmp</td><td>ISX_DEFAULTCOMPONENT101</td><td>min.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\min.bmp</td><td>1</td><td/></row>
+		<row><td>minus.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>minus.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Dark\minus.png</td><td>1</td><td/></row>
+		<row><td>mono.security.dll</td><td>Mono.Security.dll</td><td>MONOSE~1.DLL|Mono.Security.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\Mono.Security.dll</td><td>1</td><td/></row>
+		<row><td>mpg4head.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>mpg4head.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\mpg4head.dat</td><td>1</td><td/></row>
+		<row><td>ms_my.ini</td><td>ISX_DEFAULTCOMPONENT48</td><td>ms-MY.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\ms-MY.ini</td><td>1</td><td/></row>
+		<row><td>mt_chinesegb.ini</td><td>ISX_DEFAULTCOMPONENT76</td><td>MT_CHI~1.INI|MT_ChineseGB.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Language\MT_ChineseGB.ini</td><td>1</td><td/></row>
+		<row><td>mute.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>mute.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Dark\mute.png</td><td>1</td><td/></row>
+		<row><td>natives_blob.bin</td><td>ISX_DEFAULTCOMPONENT2</td><td>NATIVE~1.BIN|natives_blob.bin</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\natives_blob.bin</td><td>1</td><td/></row>
+		<row><td>nb_no.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>nb_no.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>nb-NO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\nb-NO.ini</td><td>1</td><td/></row>
+		<row><td>netcfg.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>NetCfg.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\NetCfg.dat</td><td>1</td><td/></row>
+		<row><td>netsdk.dll</td><td>NetSdk.dll</td><td>NetSdk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\NetSdk.dll</td><td>1</td><td/></row>
+		<row><td>netsdk.dll1</td><td>NetSdk.dll1</td><td>NetSdk.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\NetSdk.dll</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.dll</td><td>Newtonsoft.Json.dll</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.dll1</td><td>Newtonsoft.Json.dll1</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.dll2</td><td>Newtonsoft.Json.dll2</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.dll3</td><td>Newtonsoft.Json.dll3</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\航天云态度表达\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>nl_nl.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>nl-NL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\nl-NL.ini</td><td>1</td><td/></row>
+		<row><td>npgsql.dll</td><td>Npgsql.dll</td><td>Npgsql.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\Npgsql.dll</td><td>1</td><td/></row>
+		<row><td>obs.dll</td><td>obs.dll</td><td>obs.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\obs.dll</td><td>1</td><td/></row>
+		<row><td>obs64.exe</td><td>obs64.exe</td><td>obs64.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\obs64.exe</td><td>1</td><td/></row>
+		<row><td>obs64.lnk</td><td>ISX_DEFAULTCOMPONENT7</td><td>obs64.lnk</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\obs64.lnk</td><td>1</td><td/></row>
+		<row><td>obs_ffmpeg.dll</td><td>obs_ffmpeg.dll</td><td>OBS-FF~1.DLL|obs-ffmpeg.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\obs-ffmpeg.dll</td><td>1</td><td/></row>
+		<row><td>obs_filters.dll</td><td>obs_filters.dll</td><td>OBS-FI~1.DLL|obs-filters.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\obs-filters.dll</td><td>1</td><td/></row>
+		<row><td>obs_outputs.dll</td><td>obs_outputs.dll</td><td>OBS-OU~1.DLL|obs-outputs.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\obs-outputs.dll</td><td>1</td><td/></row>
+		<row><td>obs_qsv11.dll</td><td>obs_qsv11.dll</td><td>OBS-QS~1.DLL|obs-qsv11.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\obs-qsv11.dll</td><td>1</td><td/></row>
+		<row><td>obs_transitions.dll</td><td>obs_transitions.dll</td><td>OBS-TR~1.DLL|obs-transitions.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\obs-transitions.dll</td><td>1</td><td/></row>
+		<row><td>obs_x264.dll</td><td>obs_x264.dll</td><td>obs-x264.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\obs-x264.dll</td><td>1</td><td/></row>
+		<row><td>obsglad.dll</td><td>obsglad.dll</td><td>obsglad.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\obsglad.dll</td><td>1</td><td/></row>
+		<row><td>oem.bud</td><td>ISX_DEFAULTCOMPONENT99</td><td>oem.BUD</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\oem.BUD</td><td>1</td><td/></row>
+		<row><td>oem_64.bud</td><td>ISX_DEFAULTCOMPONENT99</td><td>oem_64.BUD</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\oem_64.BUD</td><td>1</td><td/></row>
+		<row><td>oemuni.dll</td><td>oemuni.dll</td><td>oemuni.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\oemuni.dll</td><td>1</td><td/></row>
+		<row><td>oemuni.ini</td><td>ISX_DEFAULTCOMPONENT99</td><td>oemuni.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\oemuni.ini</td><td>1</td><td/></row>
+		<row><td>oemuni_64.dll</td><td>oemuni_64.dll</td><td>OEMUNI~1.DLL|oemuni_64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\oemuni_64.dll</td><td>1</td><td/></row>
+		<row><td>oemuni_64.ini</td><td>ISX_DEFAULTCOMPONENT99</td><td>OEMUNI~1.INI|oemuni_64.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\oemuni_64.ini</td><td>1</td><td/></row>
+		<row><td>opaque.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>OPAQUE~1.EFF|opaque.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\opaque.effect</td><td>1</td><td/></row>
+		<row><td>opencv_core248.dll</td><td>opencv_core248.dll</td><td>OPENCV~1.DLL|opencv_core248.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\opencv_core248.dll</td><td>1</td><td/></row>
+		<row><td>opencv_highgui248.dll</td><td>opencv_highgui248.dll</td><td>OPENCV~1.DLL|opencv_highgui248.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\opencv_highgui248.dll</td><td>1</td><td/></row>
+		<row><td>opengl32sw.dll</td><td>opengl32sw.dll</td><td>OPENGL~1.DLL|opengl32sw.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\opengl32sw.dll</td><td>1</td><td/></row>
+		<row><td>package.json</td><td>ISX_DEFAULTCOMPONENT32</td><td>PACKAG~1.JSO|package.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\package.json</td><td>1</td><td/></row>
+		<row><td>package.json1</td><td>ISX_DEFAULTCOMPONENT64</td><td>PACKAG~1.JSO|package.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\plugin_config\rtmp-services\package.json</td><td>1</td><td/></row>
+		<row><td>panc.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>panC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\panC.iap</td><td>1</td><td/></row>
+		<row><td>panc.iap1</td><td>ISX_DEFAULTCOMPONENT84</td><td>panC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\panC.iap</td><td>1</td><td/></row>
+		<row><td>pancontrol.ini</td><td>ISX_DEFAULTCOMPONENT79</td><td>PANCON~1.INI|PanControl.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\PanControl.ini</td><td>1</td><td/></row>
+		<row><td>pancontrol.ini1</td><td>ISX_DEFAULTCOMPONENT82</td><td>PANCON~1.INI|PanControl.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\PanControl.ini</td><td>1</td><td/></row>
+		<row><td>panh.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>panH.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\panH.iap</td><td>1</td><td/></row>
+		<row><td>panh.iap1</td><td>ISX_DEFAULTCOMPONENT84</td><td>panH.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\panH.iap</td><td>1</td><td/></row>
+		<row><td>pelco_d.ini</td><td>ISX_DEFAULTCOMPONENT85</td><td>PELCO-d.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PanConfig\PELCO-d.ini</td><td>1</td><td/></row>
+		<row><td>pelco_d_1_.ini</td><td>ISX_DEFAULTCOMPONENT85</td><td>PELCO-~1.INI|PELCO-d(1).ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PanConfig\PELCO-d(1).ini</td><td>1</td><td/></row>
+		<row><td>pelco_p_1_.ini</td><td>ISX_DEFAULTCOMPONENT85</td><td>PELCO-~1.INI|Pelco-P(1).ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PanConfig\Pelco-P(1).ini</td><td>1</td><td/></row>
+		<row><td>pelco_p_2_.ini</td><td>ISX_DEFAULTCOMPONENT85</td><td>PELCO-~1.INI|Pelco-P(2).ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PanConfig\Pelco-P(2).ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>pl_pl.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>pl-PL.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\pl-PL.ini</td><td>1</td><td/></row>
+		<row><td>play.htm</td><td>ISX_DEFAULTCOMPONENT3</td><td>Play.htm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\Template\Play.htm</td><td>1</td><td/></row>
+		<row><td>player.ini</td><td>ISX_DEFAULTCOMPONENT72</td><td>Player.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Player.ini</td><td>1</td><td/></row>
+		<row><td>playerdefault.anc</td><td>ISX_DEFAULTCOMPONENT72</td><td>PLAYER~1.ANC|PlayerDefault.anc</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlayerDefault.anc</td><td>1</td><td/></row>
+		<row><td>playlist.amu</td><td>ISX_DEFAULTCOMPONENT72</td><td>PlayList.amu</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlayList.amu</td><td>1</td><td/></row>
+		<row><td>plus.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>plus.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Dark\plus.png</td><td>1</td><td/></row>
+		<row><td>postproc_54.dll</td><td>postproc_54.dll</td><td>POSTPR~1.DLL|postproc-54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\postproc-54.dll</td><td>1</td><td/></row>
+		<row><td>postproc_54.dll1</td><td>postproc_54.dll1</td><td>POSTPR~1.DLL|postproc-54.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\postproc-54.dll</td><td>1</td><td/></row>
+		<row><td>pptt.dll</td><td>pptt.dll</td><td>pptt.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\pptt.dll</td><td>1</td><td/></row>
+		<row><td>premultiplied_alpha.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>PREMUL~1.EFF|premultiplied_alpha.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\premultiplied_alpha.effect</td><td>1</td><td/></row>
+		<row><td>pt_br.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_br.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>pt-BR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\pt-BR.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>pt_pt.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>pt-PT.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\pt-PT.ini</td><td>1</td><td/></row>
+		<row><td>qdds.dll</td><td>qdds.dll</td><td>qdds.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qdds.dll</td><td>1</td><td/></row>
+		<row><td>qgif.dll</td><td>qgif.dll</td><td>qgif.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qgif.dll</td><td>1</td><td/></row>
+		<row><td>qicns.dll</td><td>qicns.dll</td><td>qicns.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qicns.dll</td><td>1</td><td/></row>
+		<row><td>qico.dll</td><td>qico.dll</td><td>qico.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qico.dll</td><td>1</td><td/></row>
+		<row><td>qjp2.dll</td><td>qjp2.dll</td><td>qjp2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qjp2.dll</td><td>1</td><td/></row>
+		<row><td>qjpeg.dll</td><td>qjpeg.dll</td><td>qjpeg.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qjpeg.dll</td><td>1</td><td/></row>
+		<row><td>qmng.dll</td><td>qmng.dll</td><td>qmng.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qmng.dll</td><td>1</td><td/></row>
+		<row><td>qsqlite.dll</td><td>qsqlite.dll</td><td>qsqlite.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\sqldrivers\qsqlite.dll</td><td>1</td><td/></row>
+		<row><td>qsqlmysql.dll</td><td>qsqlmysql.dll</td><td>QSQLMY~1.DLL|qsqlmysql.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\sqldrivers\qsqlmysql.dll</td><td>1</td><td/></row>
+		<row><td>qsqlodbc.dll</td><td>qsqlodbc.dll</td><td>qsqlodbc.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\sqldrivers\qsqlodbc.dll</td><td>1</td><td/></row>
+		<row><td>qsqlpsql.dll</td><td>qsqlpsql.dll</td><td>qsqlpsql.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\sqldrivers\qsqlpsql.dll</td><td>1</td><td/></row>
+		<row><td>qsvg.dll</td><td>qsvg.dll</td><td>qsvg.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qsvg.dll</td><td>1</td><td/></row>
+		<row><td>qsvgicon.dll</td><td>qsvgicon.dll</td><td>qsvgicon.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\iconengines\qsvgicon.dll</td><td>1</td><td/></row>
+		<row><td>qt5core.dll</td><td>Qt5Core.dll</td><td>Qt5Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\Qt5Core.dll</td><td>1</td><td/></row>
+		<row><td>qt5gui.dll</td><td>Qt5Gui.dll</td><td>Qt5Gui.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\Qt5Gui.dll</td><td>1</td><td/></row>
+		<row><td>qt5sql.dll</td><td>Qt5Sql.dll</td><td>Qt5Sql.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\Qt5Sql.dll</td><td>1</td><td/></row>
+		<row><td>qt5svg.dll</td><td>Qt5Svg.dll</td><td>Qt5Svg.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\Qt5Svg.dll</td><td>1</td><td/></row>
+		<row><td>qt5widgets.dll</td><td>Qt5Widgets.dll</td><td>QT5WID~1.DLL|Qt5Widgets.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\Qt5Widgets.dll</td><td>1</td><td/></row>
+		<row><td>qt_ca.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_ca.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_ca.qm</td><td>1</td><td/></row>
+		<row><td>qt_cs.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_cs.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_cs.qm</td><td>1</td><td/></row>
+		<row><td>qt_de.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_de.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_de.qm</td><td>1</td><td/></row>
+		<row><td>qt_en.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_en.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_en.qm</td><td>1</td><td/></row>
+		<row><td>qt_fi.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_fi.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_fi.qm</td><td>1</td><td/></row>
+		<row><td>qt_fr.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_fr.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_fr.qm</td><td>1</td><td/></row>
+		<row><td>qt_he.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_he.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_he.qm</td><td>1</td><td/></row>
+		<row><td>qt_hu.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_hu.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_hu.qm</td><td>1</td><td/></row>
+		<row><td>qt_it.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_it.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_it.qm</td><td>1</td><td/></row>
+		<row><td>qt_ja.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_ja.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_ja.qm</td><td>1</td><td/></row>
+		<row><td>qt_ko.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_ko.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_ko.qm</td><td>1</td><td/></row>
+		<row><td>qt_lv.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_lv.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_lv.qm</td><td>1</td><td/></row>
+		<row><td>qt_ru.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_ru.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_ru.qm</td><td>1</td><td/></row>
+		<row><td>qt_sk.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_sk.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_sk.qm</td><td>1</td><td/></row>
+		<row><td>qt_uk.qm</td><td>ISX_DEFAULTCOMPONENT12</td><td>qt_uk.qm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\translations\qt_uk.qm</td><td>1</td><td/></row>
+		<row><td>qtga.dll</td><td>qtga.dll</td><td>qtga.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qtga.dll</td><td>1</td><td/></row>
+		<row><td>qtiff.dll</td><td>qtiff.dll</td><td>qtiff.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qtiff.dll</td><td>1</td><td/></row>
+		<row><td>qwbmp.dll</td><td>qwbmp.dll</td><td>qwbmp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qwbmp.dll</td><td>1</td><td/></row>
+		<row><td>qwebp.dll</td><td>qwebp.dll</td><td>qwebp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\imageformats\qwebp.dll</td><td>1</td><td/></row>
+		<row><td>qwindows.dll</td><td>qwindows.dll</td><td>qwindows.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\platforms\qwindows.dll</td><td>1</td><td/></row>
+		<row><td>read.txt</td><td>ISX_DEFAULTCOMPONENT72</td><td>read.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\read.txt</td><td>1</td><td/></row>
+		<row><td>record_player.exe</td><td>Record_Player.exe</td><td>RECORD~1.EXE|Record Player.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\Record Player.exe</td><td>1</td><td/></row>
+		<row><td>rer.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>rer.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\rer.dat</td><td>1</td><td/></row>
+		<row><td>rer_rcvfile.dat</td><td>ISX_DEFAULTCOMPONENT90</td><td>RER_RC~1.DAT|rer_RcvFile.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\TempDir\rer_RcvFile.dat</td><td>1</td><td/></row>
+		<row><td>restore.bmp</td><td>ISX_DEFAULTCOMPONENT101</td><td>restore.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\restore.bmp</td><td>1</td><td/></row>
+		<row><td>right.bmp</td><td>ISX_DEFAULTCOMPONENT101</td><td>right.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\right.bmp</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>ro_ro.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ro-RO.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ro-RO.ini</td><td>1</td><td/></row>
+		<row><td>rockey.dll</td><td>Rockey.dll</td><td>Rockey.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Rockey.dll</td><td>1</td><td/></row>
+		<row><td>rockeyvisap.dll</td><td>RockeyVisaP.dll</td><td>ROCKEY~1.DLL|RockeyVisaP.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\RockeyVisaP.dll</td><td>1</td><td/></row>
+		<row><td>rtmp_services.dll</td><td>rtmp_services.dll</td><td>RTMP-S~1.DLL|rtmp-services.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\rtmp-services.dll</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>ru_ru.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>ru-RU.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\ru-RU.ini</td><td>1</td><td/></row>
+		<row><td>rwer.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>rwer.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\rwer.dat</td><td>1</td><td/></row>
+		<row><td>rwer_rcvfile.dat</td><td>ISX_DEFAULTCOMPONENT90</td><td>RWER_R~1.DAT|rwer_RcvFile.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\TempDir\rwer_RcvFile.dat</td><td>1</td><td/></row>
+		<row><td>samplevoc.rec</td><td>ISX_DEFAULTCOMPONENT72</td><td>SAMPLE~1.REC|sampleVoc.rec</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\sampleVoc.rec</td><td>1</td><td/></row>
+		<row><td>sbbottom.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>SBBottom.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\SBBottom.bmp</td><td>1</td><td/></row>
+		<row><td>sbbottom.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>SBBottom.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\SBBottom.bmp</td><td>1</td><td/></row>
+		<row><td>screensplash.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>SCREEN~1.IAP|ScreenSplash.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\ScreenSplash.iap</td><td>1</td><td/></row>
+		<row><td>sdl2.dll</td><td>SDL2.dll</td><td>SDL2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\SDL2.dll</td><td>1</td><td/></row>
+		<row><td>sdl2.dll1</td><td>SDL2.dll1</td><td>SDL2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\SDL2.dll</td><td>1</td><td/></row>
+		<row><td>service.json</td><td>ISX_DEFAULTCOMPONENT57</td><td>SERVIC~1.JSO|service.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\profiles\characters_only\service.json</td><td>1</td><td/></row>
+		<row><td>service.json.bak</td><td>ISX_DEFAULTCOMPONENT57</td><td>SERVIC~1.BAK|service.json.bak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\profiles\characters_only\service.json.bak</td><td>1</td><td/></row>
+		<row><td>service.json.bak1</td><td>ISX_DEFAULTCOMPONENT58</td><td>SERVIC~1.BAK|service.json.bak</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\profiles\未命名\service.json.bak</td><td>1</td><td/></row>
+		<row><td>service.json1</td><td>ISX_DEFAULTCOMPONENT58</td><td>SERVIC~1.JSO|service.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\basic\profiles\未命名\service.json</td><td>1</td><td/></row>
+		<row><td>services.json</td><td>ISX_DEFAULTCOMPONENT32</td><td>SERVIC~1.JSO|services.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\services.json</td><td>1</td><td/></row>
+		<row><td>services.json1</td><td>ISX_DEFAULTCOMPONENT64</td><td>SERVIC~1.JSO|services.json</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\plugin_config\rtmp-services\services.json</td><td>1</td><td/></row>
+		<row><td>sharpness.effect</td><td>ISX_DEFAULTCOMPONENT22</td><td>SHARPN~1.EFF|sharpness.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\sharpness.effect</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini10</td><td>ISX_DEFAULTCOMPONENT41</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini11</td><td>ISX_DEFAULTCOMPONENT43</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini12</td><td>ISX_DEFAULTCOMPONENT45</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini13</td><td>ISX_DEFAULTCOMPONENT48</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini5</td><td>ISX_DEFAULTCOMPONENT31</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini6</td><td>ISX_DEFAULTCOMPONENT33</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini7</td><td>ISX_DEFAULTCOMPONENT35</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini8</td><td>ISX_DEFAULTCOMPONENT37</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>sk_sk.ini9</td><td>ISX_DEFAULTCOMPONENT39</td><td>sk-SK.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sk-SK.ini</td><td>1</td><td/></row>
+		<row><td>skin.dat</td><td>ISX_DEFAULTCOMPONENT87</td><td>skin.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlaySkin\Normal\skin.dat</td><td>1</td><td/></row>
+		<row><td>sl_si.ini</td><td>ISX_DEFAULTCOMPONENT19</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini1</td><td>ISX_DEFAULTCOMPONENT21</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini10</td><td>ISX_DEFAULTCOMPONENT45</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini11</td><td>ISX_DEFAULTCOMPONENT48</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini2</td><td>ISX_DEFAULTCOMPONENT23</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini3</td><td>ISX_DEFAULTCOMPONENT25</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini4</td><td>ISX_DEFAULTCOMPONENT31</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini5</td><td>ISX_DEFAULTCOMPONENT33</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini6</td><td>ISX_DEFAULTCOMPONENT35</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini7</td><td>ISX_DEFAULTCOMPONENT37</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini8</td><td>ISX_DEFAULTCOMPONENT39</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>sl_si.ini9</td><td>ISX_DEFAULTCOMPONENT41</td><td>sl-SI.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sl-SI.ini</td><td>1</td><td/></row>
+		<row><td>slide_transition.effect</td><td>ISX_DEFAULTCOMPONENT28</td><td>SLIDE_~1.EFF|slide_transition.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\slide_transition.effect</td><td>1</td><td/></row>
+		<row><td>smallicon.bmp</td><td>ISX_DEFAULTCOMPONENT79</td><td>SMALLI~1.BMP|SmallIcon.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\SmallIcon.bmp</td><td>1</td><td/></row>
+		<row><td>smallicon.bmp1</td><td>ISX_DEFAULTCOMPONENT82</td><td>SMALLI~1.BMP|SmallIcon.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\SmallIcon.bmp</td><td>1</td><td/></row>
+		<row><td>snapshot_blob.bin</td><td>ISX_DEFAULTCOMPONENT2</td><td>SNAPSH~1.BIN|snapshot_blob.bin</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\snapshot_blob.bin</td><td>1</td><td/></row>
+		<row><td>solid.effect</td><td>ISX_DEFAULTCOMPONENT14</td><td>SOLID~1.EFF|solid.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\libobs\solid.effect</td><td>1</td><td/></row>
+		<row><td>sonyd100.ini</td><td>ISX_DEFAULTCOMPONENT85</td><td>SonyD100.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PanConfig\SonyD100.ini</td><td>1</td><td/></row>
+		<row><td>splash.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>splash.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\splash.iap</td><td>1</td><td/></row>
+		<row><td>splash.iap1</td><td>ISX_DEFAULTCOMPONENT84</td><td>splash.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\splash.iap</td><td>1</td><td/></row>
+		<row><td>splash.jpg</td><td>ISX_DEFAULTCOMPONENT87</td><td>Splash.JPG</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlaySkin\Normal\Splash.JPG</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_cs.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>sr-CS.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sr-CS.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>sr_sp.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>sr-SP.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sr-SP.ini</td><td>1</td><td/></row>
+		<row><td>ssleay32.dll</td><td>ssleay32.dll</td><td>ssleay32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\ssleay32.dll</td><td>1</td><td/></row>
+		<row><td>ssleay32.dll1</td><td>ssleay32.dll1</td><td>ssleay32.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\ssleay32.dll</td><td>1</td><td/></row>
+		<row><td>startclass.wav</td><td>ISX_DEFAULTCOMPONENT89</td><td>STARTC~1.WAV|StartClass.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\sound\StartClass.wav</td><td>1</td><td/></row>
+		<row><td>startpage1.htm</td><td>ISX_DEFAULTCOMPONENT72</td><td>STARTP~1.HTM|StartPage1.htm</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\StartPage1.htm</td><td>1</td><td/></row>
+		<row><td>startvoice.wav</td><td>ISX_DEFAULTCOMPONENT89</td><td>STARTV~1.WAV|StartVoice.wav</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\sound\StartVoice.wav</td><td>1</td><td/></row>
+		<row><td>statusicon.bmp</td><td>ISX_DEFAULTCOMPONENT79</td><td>STATUS~1.BMP|StatusIcon.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\StatusIcon.bmp</td><td>1</td><td/></row>
+		<row><td>statusicon.bmp1</td><td>ISX_DEFAULTCOMPONENT82</td><td>STATUS~1.BMP|StatusIcon.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\StatusIcon.bmp</td><td>1</td><td/></row>
+		<row><td>stdnames.gpd</td><td>ISX_DEFAULTCOMPONENT99</td><td>stdnames.gpd</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\stdnames.gpd</td><td>1</td><td/></row>
+		<row><td>stdnames_64.gpd</td><td>ISX_DEFAULTCOMPONENT99</td><td>STDNAM~1.GPD|STDNAMES_64.GPD</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\STDNAMES_64.GPD</td><td>1</td><td/></row>
+		<row><td>streamreader.dll</td><td>StreamReader.dll</td><td>STREAM~1.DLL|StreamReader.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\StreamReader.dll</td><td>1</td><td/></row>
+		<row><td>streamreader.dll1</td><td>StreamReader.dll1</td><td>STREAM~1.DLL|StreamReader.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\StreamReader.dll</td><td>1</td><td/></row>
+		<row><td>streamreader.dll2</td><td>StreamReader.dll2</td><td>STREAM~1.DLL|StreamReader.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\StreamReader.dll</td><td>1</td><td/></row>
+		<row><td>sv_se.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>sv_se.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>sv-SE.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\sv-SE.ini</td><td>1</td><td/></row>
+		<row><td>swipe_transition.effect</td><td>ISX_DEFAULTCOMPONENT28</td><td>SWIPE_~1.EFF|swipe_transition.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\swipe_transition.effect</td><td>1</td><td/></row>
+		<row><td>swresample_2.dll</td><td>swresample_2.dll</td><td>SWRESA~1.DLL|swresample-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\swresample-2.dll</td><td>1</td><td/></row>
+		<row><td>swresample_2.dll1</td><td>swresample_2.dll1</td><td>SWRESA~1.DLL|swresample-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\swresample-2.dll</td><td>1</td><td/></row>
+		<row><td>swresample_2.dll2</td><td>swresample_2.dll2</td><td>SWRESA~1.DLL|swresample-2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\swresample-2.dll</td><td>1</td><td/></row>
+		<row><td>swscale_4.dll</td><td>swscale_4.dll</td><td>SWSCAL~1.DLL|swscale-4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\swscale-4.dll</td><td>1</td><td/></row>
+		<row><td>swscale_4.dll1</td><td>swscale_4.dll1</td><td>SWSCAL~1.DLL|swscale-4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\lubo2012\bin\Release\swscale-4.dll</td><td>1</td><td/></row>
+		<row><td>swscale_4.dll2</td><td>swscale_4.dll2</td><td>SWSCAL~1.DLL|swscale-4.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\swscale-4.dll</td><td>1</td><td/></row>
+		<row><td>sysdetect_chinesegb.ini</td><td>ISX_DEFAULTCOMPONENT76</td><td>SYSDET~1.INI|SysDetect_ChineseGB.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Language\SysDetect_ChineseGB.ini</td><td>1</td><td/></row>
+		<row><td>sysset.exe</td><td>Sysset.exe</td><td>Sysset.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Sysset.exe</td><td>1</td><td/></row>
+		<row><td>ta_in.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>ta-IN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\ta-IN.ini</td><td>1</td><td/></row>
+		<row><td>ta_in.ini1</td><td>ISX_DEFAULTCOMPONENT43</td><td>ta-IN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\ta-IN.ini</td><td>1</td><td/></row>
+		<row><td>ta_in.ini2</td><td>ISX_DEFAULTCOMPONENT45</td><td>ta-IN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\ta-IN.ini</td><td>1</td><td/></row>
+		<row><td>ta_in.ini3</td><td>ISX_DEFAULTCOMPONENT48</td><td>ta-IN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\ta-IN.ini</td><td>1</td><td/></row>
+		<row><td>tac20p.ini</td><td>ISX_DEFAULTCOMPONENT85</td><td>TAC20P.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PanConfig\TAC20P.ini</td><td>1</td><td/></row>
+		<row><td>taskkill.exe</td><td>taskkill.exe</td><td>taskkill.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\taskkill.exe</td><td>1</td><td/></row>
+		<row><td>text_default.effect</td><td>ISX_DEFAULTCOMPONENT34</td><td>TEXT_D~1.EFF|text_default.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\text_default.effect</td><td>1</td><td/></row>
+		<row><td>text_freetype2.dll</td><td>text_freetype2.dll</td><td>TEXT-F~1.DLL|text-freetype2.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\text-freetype2.dll</td><td>1</td><td/></row>
+		<row><td>th_th.ini</td><td>ISX_DEFAULTCOMPONENT19</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>th_th.ini1</td><td>ISX_DEFAULTCOMPONENT21</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>th_th.ini2</td><td>ISX_DEFAULTCOMPONENT25</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>th_th.ini3</td><td>ISX_DEFAULTCOMPONENT31</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>th_th.ini4</td><td>ISX_DEFAULTCOMPONENT33</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>th_th.ini5</td><td>ISX_DEFAULTCOMPONENT35</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>th_th.ini6</td><td>ISX_DEFAULTCOMPONENT37</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>th_th.ini7</td><td>ISX_DEFAULTCOMPONENT41</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>th_th.ini8</td><td>ISX_DEFAULTCOMPONENT45</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>th_th.ini9</td><td>ISX_DEFAULTCOMPONENT48</td><td>th-TH.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\th-TH.ini</td><td>1</td><td/></row>
+		<row><td>theme.ini</td><td>ISX_DEFAULTCOMPONENT101</td><td>theme.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\theme.ini</td><td>1</td><td/></row>
+		<row><td>top.bmp</td><td>ISX_DEFAULTCOMPONENT101</td><td>top.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\top.bmp</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>tr_tr.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>tr-TR.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\tr-TR.ini</td><td>1</td><td/></row>
+		<row><td>ui.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>ui.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\ui.iap</td><td>1</td><td/></row>
+		<row><td>ui.iap1</td><td>ISX_DEFAULTCOMPONENT84</td><td>ui.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\ui.iap</td><td>1</td><td/></row>
+		<row><td>uk_ua.ini</td><td>ISX_DEFAULTCOMPONENT25</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\uk-UA.ini</td><td>1</td><td/></row>
+		<row><td>uk_ua.ini1</td><td>ISX_DEFAULTCOMPONENT31</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\uk-UA.ini</td><td>1</td><td/></row>
+		<row><td>uk_ua.ini2</td><td>ISX_DEFAULTCOMPONENT33</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\uk-UA.ini</td><td>1</td><td/></row>
+		<row><td>uk_ua.ini3</td><td>ISX_DEFAULTCOMPONENT37</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\uk-UA.ini</td><td>1</td><td/></row>
+		<row><td>uk_ua.ini4</td><td>ISX_DEFAULTCOMPONENT48</td><td>uk-UA.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\uk-UA.ini</td><td>1</td><td/></row>
+		<row><td>unidrv.hlp</td><td>UNIDRV.HLP</td><td>UNIDRV.HLP</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\UNIDRV.HLP</td><td>1</td><td/></row>
+		<row><td>unidrv_64.hlp</td><td>UNIDRV_64.HLP</td><td>UNIDRV~1.HLP|UNIDRV_64.HLP</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\UNIDRV_64.HLP</td><td>1</td><td/></row>
+		<row><td>unins000.dat</td><td>ISX_DEFAULTCOMPONENT72</td><td>unins000.dat</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\unins000.dat</td><td>1</td><td/></row>
+		<row><td>unins000.exe</td><td>unins000.exe</td><td>unins000.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\unins000.exe</td><td>1</td><td/></row>
+		<row><td>unires.dll</td><td>UNIRES.DLL</td><td>UNIRES.DLL</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\UNIRES.DLL</td><td>1</td><td/></row>
+		<row><td>unires_64.dll</td><td>UNIRES_64.DLL</td><td>UNIRES~1.DLL|UNIRES_64.DLL</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\UNIRES_64.DLL</td><td>1</td><td/></row>
+		<row><td>unmute.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>unmute.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Dark\unmute.png</td><td>1</td><td/></row>
+		<row><td>up_arrow.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>up_arrow.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Dark\up_arrow.png</td><td>1</td><td/></row>
+		<row><td>update.ini</td><td>ISX_DEFAULTCOMPONENT72</td><td>Update.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Update.ini</td><td>1</td><td/></row>
+		<row><td>updown.png</td><td>ISX_DEFAULTCOMPONENT50</td><td>updown.png</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\themes\Dark\updown.png</td><td>1</td><td/></row>
+		<row><td>userinfo.xml</td><td>ISX_DEFAULTCOMPONENT</td><td>UserInfo.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera\bin\Release\UserInfo.xml</td><td>1</td><td/></row>
+		<row><td>vi_vn.ini</td><td>ISX_DEFAULTCOMPONENT48</td><td>vi-VN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\vi-VN.ini</td><td>1</td><td/></row>
+		<row><td>video.bmp</td><td>ISX_DEFAULTCOMPONENT87</td><td>video.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlaySkin\Normal\video.bmp</td><td>1</td><td/></row>
+		<row><td>video.bmp1</td><td>ISX_DEFAULTCOMPONENT72</td><td>video.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\video.bmp</td><td>1</td><td/></row>
+		<row><td>video.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>video.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\video.iap</td><td>1</td><td/></row>
+		<row><td>videobarc.jpg</td><td>ISX_DEFAULTCOMPONENT87</td><td>VIDEOB~1.JPG|VideobarC.JPG</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlaySkin\Normal\VideobarC.JPG</td><td>1</td><td/></row>
+		<row><td>videobarh.jpg</td><td>ISX_DEFAULTCOMPONENT87</td><td>VIDEOB~1.JPG|VideobarH.JPG</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PlaySkin\Normal\VideobarH.JPG</td><td>1</td><td/></row>
+		<row><td>videobmp.bmp</td><td>ISX_DEFAULTCOMPONENT72</td><td>VideoBmp.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VideoBmp.bmp</td><td>1</td><td/></row>
+		<row><td>videoc.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>VideoC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\VideoC.iap</td><td>1</td><td/></row>
+		<row><td>videoc.iap1</td><td>ISX_DEFAULTCOMPONENT84</td><td>VideoC.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\VideoC.iap</td><td>1</td><td/></row>
+		<row><td>videoh.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>VideoH.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\VideoH.iap</td><td>1</td><td/></row>
+		<row><td>videoh.iap1</td><td>ISX_DEFAULTCOMPONENT84</td><td>VideoH.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\Skin\VideoH.iap</td><td>1</td><td/></row>
+		<row><td>videosplash.iap</td><td>ISX_DEFAULTCOMPONENT81</td><td>VIDEOS~1.IAP|VideoSplash.iap</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\Skin\VideoSplash.iap</td><td>1</td><td/></row>
+		<row><td>visited_links</td><td>ISX_DEFAULTCOMPONENT63</td><td>VISITE~1|Visited Links</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obs-studio\plugin_config\obs-browser\Visited Links</td><td>1</td><td/></row>
+		<row><td>vprproc.dll</td><td>vprproc.dll</td><td>vprproc.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\vprproc.dll</td><td>1</td><td/></row>
+		<row><td>vprproc_64.dll</td><td>vprproc_64.dll</td><td>VPRPRO~1.DLL|vprproc_64.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\VirtualPrinter\vprproc_64.dll</td><td>1</td><td/></row>
+		<row><td>vsbbottom.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBBOT~1.BMP|VSBBottom.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBBottom.bmp</td><td>1</td><td/></row>
+		<row><td>vsbbottom.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBBOT~1.BMP|VSBBottom.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBBottom.bmp</td><td>1</td><td/></row>
+		<row><td>vsbchannel.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBCHA~1.BMP|VSBChannel.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBChannel.bmp</td><td>1</td><td/></row>
+		<row><td>vsbchannel.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBCHA~1.BMP|VSBChannel.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBChannel.bmp</td><td>1</td><td/></row>
+		<row><td>vsbdarrowc.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBDAR~1.BMP|VSBDArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBDArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>vsbdarrowc.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBDAR~1.BMP|VSBDArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBDArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>vsbdarrowd.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBDAR~1.BMP|VSBDArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBDArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>vsbdarrowd.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBDAR~1.BMP|VSBDArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBDArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>vsbdarrowh.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBDAR~1.BMP|VSBDArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBDArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>vsbdarrowh.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBDAR~1.BMP|VSBDArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBDArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>vsblarrowc.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBLAR~1.BMP|vSBLArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\vSBLArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>vsblarrowd.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBLAR~1.BMP|VSBLArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBLArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>vsblarrowh.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBLAR~1.BMP|VSBLArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBLArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>vsbrarrowc.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBRAR~1.BMP|VSBRArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBRArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>vsbrarrowd.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBRAR~1.BMP|VSBRArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBRArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>vsbrarrowh.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBRAR~1.BMP|VSBRArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBRArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>vsbthumbc.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBTHU~1.BMP|VSBThumbC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBThumbC.bmp</td><td>1</td><td/></row>
+		<row><td>vsbthumbc.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBTHU~1.BMP|VSBThumbC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBThumbC.bmp</td><td>1</td><td/></row>
+		<row><td>vsbthumbd.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBTHU~1.BMP|VSBThumbD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBThumbD.bmp</td><td>1</td><td/></row>
+		<row><td>vsbthumbd.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBTHU~1.BMP|VSBThumbD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBThumbD.bmp</td><td>1</td><td/></row>
+		<row><td>vsbthumbh.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBTHU~1.BMP|VSBThumbH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBThumbH.bmp</td><td>1</td><td/></row>
+		<row><td>vsbthumbh.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBTHU~1.BMP|VSBThumbH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBThumbH.bmp</td><td>1</td><td/></row>
+		<row><td>vsbuarrowc.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBUAR~1.BMP|VSBUArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBUArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>vsbuarrowc.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBUAR~1.BMP|VSBUArrowC.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBUArrowC.bmp</td><td>1</td><td/></row>
+		<row><td>vsbuarrowd.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBUAR~1.BMP|VSBUArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBUArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>vsbuarrowd.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBUAR~1.BMP|VSBUArrowD.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBUArrowD.bmp</td><td>1</td><td/></row>
+		<row><td>vsbuarrowh.bmp</td><td>ISX_DEFAULTCOMPONENT80</td><td>VSBUAR~1.BMP|VSBUArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\MtNormal\scrollskin\VSBUArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>vsbuarrowh.bmp1</td><td>ISX_DEFAULTCOMPONENT83</td><td>VSBUAR~1.BMP|VSBUArrowH.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Mtskin\Normal\scrollskin\VSBUArrowH.bmp</td><td>1</td><td/></row>
+		<row><td>w32_pthreads.dll</td><td>w32_pthreads.dll</td><td>W32-PT~1.DLL|w32-pthreads.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\w32-pthreads.dll</td><td>1</td><td/></row>
+		<row><td>widevinecdmadapter.dll</td><td>widevinecdmadapter.dll</td><td>WIDEVI~1.DLL|widevinecdmadapter.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\widevinecdmadapter.dll</td><td>1</td><td/></row>
+		<row><td>win_capture.dll</td><td>win_capture.dll</td><td>WIN-CA~1.DLL|win-capture.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\win-capture.dll</td><td>1</td><td/></row>
+		<row><td>win_decklink.dll</td><td>win_decklink.dll</td><td>WIN-DE~1.DLL|win-decklink.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\win-decklink.dll</td><td>1</td><td/></row>
+		<row><td>win_dshow.dll</td><td>win_dshow.dll</td><td>WIN-DS~1.DLL|win-dshow.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\win-dshow.dll</td><td>1</td><td/></row>
+		<row><td>win_mf.dll</td><td>win_mf.dll</td><td>win-mf.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\win-mf.dll</td><td>1</td><td/></row>
+		<row><td>win_wasapi.dll</td><td>win_wasapi.dll</td><td>WIN-WA~1.DLL|win-wasapi.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\obs-plugins\64bit\win-wasapi.dll</td><td>1</td><td/></row>
+		<row><td>wordtt.dll</td><td>wordtt.dll</td><td>wordtt.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\wordtt.dll</td><td>1</td><td/></row>
+		<row><td>yaan.ini</td><td>ISX_DEFAULTCOMPONENT85</td><td>yaan.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PanConfig\yaan.ini</td><td>1</td><td/></row>
+		<row><td>yaan_12.ini</td><td>ISX_DEFAULTCOMPONENT85</td><td>yaan_12.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\PanConfig\yaan_12.ini</td><td>1</td><td/></row>
+		<row><td>z264core.dll</td><td>Z264Core.dll</td><td>Z264Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Z264Core.dll</td><td>1</td><td/></row>
+		<row><td>z264dec.dll</td><td>Z264Dec.dll</td><td>Z264Dec.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\Z264Dec.dll</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_cn.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>zh-CN.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\zh-CN.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini</td><td>ISX_DEFAULTCOMPONENT17</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\coreaudio-encoder\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini1</td><td>ISX_DEFAULTCOMPONENT19</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\image-source\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini10</td><td>ISX_DEFAULTCOMPONENT37</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-capture\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini11</td><td>ISX_DEFAULTCOMPONENT39</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-decklink\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini12</td><td>ISX_DEFAULTCOMPONENT41</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-dshow\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini13</td><td>ISX_DEFAULTCOMPONENT43</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-mf\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini14</td><td>ISX_DEFAULTCOMPONENT45</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\win-wasapi\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini15</td><td>ISX_DEFAULTCOMPONENT48</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-studio\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini2</td><td>ISX_DEFAULTCOMPONENT21</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-ffmpeg\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini3</td><td>ISX_DEFAULTCOMPONENT23</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-filters\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini4</td><td>ISX_DEFAULTCOMPONENT25</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-outputs\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini5</td><td>ISX_DEFAULTCOMPONENT27</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-qsv11\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini6</td><td>ISX_DEFAULTCOMPONENT29</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-transitions\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini7</td><td>ISX_DEFAULTCOMPONENT31</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\obs-x264\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini8</td><td>ISX_DEFAULTCOMPONENT33</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\rtmp-services\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zh_tw.ini9</td><td>ISX_DEFAULTCOMPONENT35</td><td>zh-TW.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\data\obs-plugins\text-freetype2\locale\zh-TW.ini</td><td>1</td><td/></row>
+		<row><td>zlib.dll</td><td>zlib.dll</td><td>zlib.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin\bin\64bit\zlib.dll</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -3320,31 +3984,74 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>AeroEduClass.exe</td><td/><td/><td>_A038157F_0971_43B7_AB24_955D0FA93D09_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>AeroEduLib.dll</td><td/><td/><td>_312E20F5_0669_433F_8EE3_D76F57D4B9DF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>AeroEduLib.dll1</td><td/><td/><td>_C72B0D17_113E_4591_B7DC_3C78BAD509B0_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>AeroEduLib.dll2</td><td/><td/><td>_C0351D12_79AB_4D8C_A0E6_9E6C6F194F55_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Booth_Camera.exe</td><td/><td/><td>_5A6667BE_2DED_4201_8905_5D2CAD3D8491_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CefSharp.BrowserSubprocess.Core.dll</td><td/><td/><td>_887BD243_75C8_42A0_98A3_3CAD8C398508_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CefSharp.BrowserSubprocess.exe</td><td/><td/><td>_0DC0EB47_C06A_43EC_A650_3CA84D2C7028_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CefSharp.Core.dll</td><td/><td/><td>_10495E1F_34BB_4FF9_954F_DBDBF0742A6D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CefSharp.WinForms.dll</td><td/><td/><td>_4840FB8F_9CB4_47B1_9F1F_489FDA55DC8B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>CefSharp.dll</td><td/><td/><td>_B2479B67_EC4A_435A_8026_9B1213A5BCDF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Component.exe</td><td/><td/><td>_8FA64853_A513_406A_990D_EC4BB0C0F132_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>D3Dcompiler_47.dll</td><td/><td/><td>_B82921B4_B761_4F62_B81B_2D094CE73A7C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>DMSkin.dll</td><td/><td/><td>_7366785A_1DA4_4118_8994_4CDD895B937A_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>DMSkin.dll1</td><td/><td/><td>_5433EB7A_0BE1_4959_AF4F_AE2EAC2C97AA_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>DMSkin.dll2</td><td/><td/><td>_11CF2943_3BE2_4461_8836_6AD92463E223_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>DevComponents.DotNetBar2.dll</td><td/><td/><td>_64B0C282_C452_48FE_98C0_0D3BBBAABB3D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>DevComponents.DotNetBar2.dll1</td><td/><td/><td>_3A4112FE_3F27_41A6_9617_557AA19677F9_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>DevComponents.Instrumentation.dll</td><td/><td/><td>_FFC69667_EC88_401E_A4A3_12CA650FAB71_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>DllDeinterlace.dll</td><td/><td/><td>_8CE84158_B06A_455D_8BCF_F0197489242E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>DllDeinterlace.dll1</td><td/><td/><td>_F873F98E_5BBF_41CC_A492_9FC2A54B32EC_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>H264Play.dll</td><td/><td/><td>_C8FC2674_3023_40B0_B1E5_79073FF6580A_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>H264Play.dll1</td><td/><td/><td>_C0CABBC7_F6EB_4D46_A4D5_54F3385F3254_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ACPlayer.exe</td><td/><td/><td>_3B9AFCCB_F8CF_4BDF_87A9_7205EB242C16_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ActiveAuto.exe</td><td/><td/><td>_CE34465E_3F5E_4C2B_977A_2D5E18AE67A4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ActiveLoader.exe</td><td/><td/><td>_48548EED_F8EC_4023_87EA_018773B8EE52_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ActiveLoader.exe1</td><td/><td/><td>_66E9020D_40B8_4AF3_8835_E70FAC0D56B9_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ActiveMeeting.exe</td><td/><td/><td>_D1A72388_49AD_44BC_8480_BC6DEE1AA5F7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AeroEduClass.exe</td><td/><td/><td>_C3BBC120_C6CD_4BBC_BBC8_697E72B65FEA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AeroEduLib.dll</td><td/><td/><td>_156D1692_BD24_4AD3_A60B_12DB94B6AB2E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AeroEduLib.dll1</td><td/><td/><td>_7C941977_7D15_41F9_BC5B_8C190DA50E3D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>AeroEduLib.dll2</td><td/><td/><td>_3BCF35E3_FCE2_446E_A1F8_F47982A41F89_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>BWClientDll.dll</td><td/><td/><td>_1C117B88_8890_4C9F_B16E_CE4C8E10686C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Booth_Camera.exe</td><td/><td/><td>_87B68919_21C7_4445_9B5B_87058C758831_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>BugReport.exe</td><td/><td/><td>_A7BC6EFE_8B5A_4B39_9813_B233433F637F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CEXTH.dll</td><td/><td/><td>_926E6BF2_5481_4C7A_BBD9_CDB59AEAF94B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CPTH.dll</td><td/><td/><td>_0B187A0D_EFA3_4004_8947_8F8187D1CB56_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CWTH.dll</td><td/><td/><td>_E5607069_13B3_4829_8510_1E113518DF80_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CefSharp.BrowserSubprocess.Core.dll</td><td/><td/><td>_42B625C1_8762_448A_89B4_310CFFC2385D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CefSharp.BrowserSubprocess.exe</td><td/><td/><td>_177525E8_E857_4FD7_A153_0127E9BF48FF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CefSharp.Core.dll</td><td/><td/><td>_B31D7FD0_B85D_45B2_9347_4C7DF2654469_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CefSharp.WinForms.dll</td><td/><td/><td>_FEC199D6_46B8_40A1_A0CD_41EE312354D6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CefSharp.dll</td><td/><td/><td>_4DCC1FD3_D98D_4048_8EC8_5832CD5FD1F8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ColorSpace.dll</td><td/><td/><td>_C6CD868C_B036_4785_8E80_0E35C1831095_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Component.exe</td><td/><td/><td>_77E20DEF_005D_4ADA_BFAE_6DCE36AB74FA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Copier.exe</td><td/><td/><td>_DD221CCC_992D_474E_8919_04D96E63CFB8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>CourseManager.exe</td><td/><td/><td>_A8C3AAE4_E7B8_4692_BD37_34098893D85E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>D3Dcompiler_47.dll</td><td/><td/><td>_8A446078_F216_4583_A9B6_35DF2503F211_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DBSClient.exe</td><td/><td/><td>_F610F04A_79EC_4B1B_A85D_D8D1F8AF8DA0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DMSkin.dll</td><td/><td/><td>_E62A64CE_4FE1_4CA8_9307_941010AB3D84_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DMSkin.dll1</td><td/><td/><td>_B7C83246_1FBE_4B47_8DFE_E34BE27DAD4D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DMSkin.dll2</td><td/><td/><td>_132ABD07_8881_4F7A_AB09_AD3071CB4ECC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DevComponents.DotNetBar2.dll</td><td/><td/><td>_3A80B792_D3DF_485B_8F87_1B50D40AF4DC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DevComponents.DotNetBar2.dll1</td><td/><td/><td>_CDF559F9_50E0_493E_967B_7D0091661441_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DevComponents.Instrumentation.dll</td><td/><td/><td>_CB459309_7532_4B74_9C05_7C341F6A040B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DirectShowSource.dll</td><td/><td/><td>_09504A38_019B_49F9_96BC_E7D53A5CB441_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DirectShowSource.dll1</td><td/><td/><td>_49FDEBBE_802D_4650_B999_EE9C57F9AF76_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DllDeinterlace.dll</td><td/><td/><td>_20D3ABC6_1299_4D57_A2E8_A47D0D81BBBD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DllDeinterlace.dll1</td><td/><td/><td>_0A3DD725_CBBF_4066_8B28_CF49BFEFB32B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>FileCom.dll</td><td/><td/><td>_67C9C7B8_8113_4B34_8CCC_6C15437B6A03_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>G7xDll.dll</td><td/><td/><td>_BB4774C0_424D_40A9_BB60_419F3284A249_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>H264Play.dll</td><td/><td/><td>_FEEC1CA7_E09C_4330_911C_A77C50645A6B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>H264Play.dll1</td><td/><td/><td>_4C9879FD_1DD7_453A_87C5_EBEBDC398A29_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>HookSys.dll</td><td/><td/><td>_E9E53FAA_F1D8_4D85_92BA_167D6206765C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAAudioLib.dll</td><td/><td/><td>_E3FD1F39_13CF_4AEB_903A_C4E4D38D39B3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IACSmy.dll</td><td/><td/><td>_D8AB3A1C_9CFB_49C7_8A43_3D1CA80C789A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IACUsage.dll</td><td/><td/><td>_8B8B4382_3682_4C42_BD85_E188B1728BDD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IACap.dll</td><td/><td/><td>_8DB89A8D_BFDE_4BD2_A31B_A072194F2D7A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAExpat.dll</td><td/><td/><td>_EE36358C_281A_45B0_A44F_9309F98395B6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAEysp.dll</td><td/><td/><td>_962CF230_839D_4B5E_B250_794CD0D00EC8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAJ2K.dll</td><td/><td/><td>_F0627732_2DD3_4D57_9E42_B84106E4FC7D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAJCmp.dll</td><td/><td/><td>_841650F1_CA59_4B30_B00F_FA33C22F02F3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IALA.dll</td><td/><td/><td>_CCC71610_9FDC_4F39_809D_8463237153B6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IALCmp.dll</td><td/><td/><td>_152453BA_BCAD_4D0A_BAC1_8F7206ED22B5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IALmn.dll</td><td/><td/><td>_D9B9C406_01C8_4DB1_986F_A17C2CAEEE37_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAMediaAVS.dll</td><td/><td/><td>_2E213E99_C6FF_46F4_9A45_6B1FA5B52E4D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAMiscEx.dll</td><td/><td/><td>_7C180E04_2065_467F_AF85_7A8D53246086_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IANet.dll</td><td/><td/><td>_706C87C8_42EA_4065_834F_2EB95740820F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IANet3.dll</td><td/><td/><td>_ADAE98F8_C81A_453B_8D26_27958F46E308_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAPOL.dll</td><td/><td/><td>_5DD6873A_2ED9_47E2_85C1_A78D460B4D28_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IARGB256.dll</td><td/><td/><td>_134113E3_641B_4D56_BA25_C99C0762BAB6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAUNIDRV.DLL</td><td/><td/><td>_1D068CA0_5578_4483_9CBC_4D798048C700_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAUNIDRVUI.DLL</td><td/><td/><td>_F68F3573_0F1C_4F65_8A3C_FB569C750DB5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAUNIDRV_64.DLL</td><td/><td/><td>_A2369769_2ECE_4647_8F9B_8F07BC49AEBD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IAunidrvui_64.dll</td><td/><td/><td>_885F9DE6_10B8_4BBD_975E_1F02A75D6A54_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>IDE_ID.vxd</td><td/><td/><td>_973A4FA9_5C6D_4F95_B54D_88FB99ACE783_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_E290057C_3DB4_4814_BDF9_8160ED709F2F_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_1AC4139C_F531_4E33_89DD_9C185991EDA3_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT10</td><td/><td/><td>_90A34137_F63A_4007_9477_B9BCD5FA9F5F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT100</td><td/><td/><td>_B8E5A76A_ECA6_48AB_99EB_2E66689601E8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT101</td><td/><td/><td>_908BA67D_F0F9_4D3B_8FBC_16B9736C0722_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT11</td><td/><td/><td>_934CD119_D5EA_4E27_B672_01BE39BDA865_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT12</td><td/><td/><td>_E56A97D4_E814_40B2_B3E5_A4C9BEAE375C_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT13</td><td/><td/><td>_1E2C62E6_155B_44E3_BF11_3D78B713BE02_FILTER</td><td/><td/><td/><td/></row>
@@ -3392,148 +4099,233 @@
 		<row><td>ISX_DEFAULTCOMPONENT51</td><td/><td/><td>_7CA6AA3D_79D4_4419_B7C8_3FB487825430_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT52</td><td/><td/><td>_194FD98B_222F_4BC9_A10C_84D3F8C3843E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT53</td><td/><td/><td>_DFA3E3CB_6225_454C_9558_65C6722276B1_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT54</td><td/><td/><td>_A50F9F63_BF32_4A4E_A5BE_C50F37677A58_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT55</td><td/><td/><td>_5C214CCC_CF64_47FC_A0FE_F1FB89F1DBB9_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT56</td><td/><td/><td>_CA2F7B90_0583_40A8_A47D_D85DC1AD8394_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT57</td><td/><td/><td>_164A3BB7_423A_4860_B17D_FD814FA5D359_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT58</td><td/><td/><td>_1A070F22_88A3_498B_BDAD_BBA47D65C0A8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT59</td><td/><td/><td>_F535DB46_1312_4099_843B_F4FC12F9D0CE_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT6</td><td/><td/><td>_23E5497D_94EC_4D96_B420_62181A09385D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT60</td><td/><td/><td>_2A7B493A_4127_4EDD_84EC_F24B7F28E64B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT61</td><td/><td/><td>_C2333A66_4907_4713_8508_9837D00526E6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT62</td><td/><td/><td>_57D1CB33_95C3_4E82_8A9E_990ABCFB9D53_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT63</td><td/><td/><td>_270637F5_D52B_43CA_B37F_CC401FB383B8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT64</td><td/><td/><td>_8D684240_A0DA_43B5_AFED_C11F8730A2BE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT65</td><td/><td/><td>_CD4A83C9_551D_491F_890E_B53BBAA6254A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT66</td><td/><td/><td>_24CC785B_6D0A_404A_A8B5_A1F3FF825B96_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT67</td><td/><td/><td>_BA85E75F_DF38_42A7_882A_1C724AD6E2AD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT68</td><td/><td/><td>_802D1258_7209_488F_A9D7_27B16AB3C285_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT69</td><td/><td/><td>_BEFA73C1_8859_49BA_A71B_5483645D186C_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT7</td><td/><td/><td>_FF24B36C_2745_42B4_B3AA_5578006F7B31_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT70</td><td/><td/><td>_D33219F8_7C71_46D1_82C4_7366CE65A092_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT71</td><td/><td/><td>_6523A704_A59F_4399_9A93_56144D3F6790_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT72</td><td/><td/><td>_0854973B_C856_4A72_B1C3_BE069F905BD7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT73</td><td/><td/><td>_DB4DE65D_A4A8_46ED_88B2_343C1C7EB1ED_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT74</td><td/><td/><td>_506908D0_A974_41A2_8DDF_DBFE4BBBF50A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT75</td><td/><td/><td>_FC7047B7_024D_4891_8660_1C3F84B405D7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT76</td><td/><td/><td>_E6D24ACA_CBEE_40B8_834D_75403352898B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT77</td><td/><td/><td>_8405A4A2_57B1_4FD5_8519_70F99AAF7756_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT78</td><td/><td/><td>_86F7EC2D_D0F6_47DB_84F7_0B6E2A0F0766_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT79</td><td/><td/><td>_CF42F14F_E5DB_4CF9_9853_EC272E805B36_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_962DA566_144A_4765_BBF0_0CB52674D4BB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT80</td><td/><td/><td>_FA1E251A_17EC_4D74_BD8B_E7DC9A78DA3B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT81</td><td/><td/><td>_94F95654_B803_480F_B1DB_E904D5CF1579_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT82</td><td/><td/><td>_878A91C5_3713_4765_9964_A97A1802110D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT83</td><td/><td/><td>_26B60624_705A_4F36_AF3E_C0DA2DDD9983_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT84</td><td/><td/><td>_438D194C_CA50_41A9_9B5F_8B43FB45D6DD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT85</td><td/><td/><td>_417E8C03_8273_4CD9_BE17_56BB5EFF8D38_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT86</td><td/><td/><td>_C87B7ED0_C974_4285_81D7_00FECF9D6528_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT87</td><td/><td/><td>_AB4CA4E9_17E0_4F90_9F66_0B15F7598145_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT88</td><td/><td/><td>_C8DD1E5B_578B_4FB4_A56A_84C9EC25583D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT89</td><td/><td/><td>_0B61D4AD_E115_4F67_8CB5_C75E778D22F5_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td/><td/><td>_7B123EB6_C1F5_43E2_BF30_42BD4759D1D1_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>NetSdk.dll</td><td/><td/><td>_28A5B349_F716_418F_947D_4CDD822E7D10_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT90</td><td/><td/><td>_6D89222E_8C99_45C4_BB3D_20B7B18CCDFF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT91</td><td/><td/><td>_CB9F789D_2897_476B_A75B_F160C5AFE0CD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT92</td><td/><td/><td>_13F4B15C_D8B6_4C79_A5E0_39FDC003A58F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT93</td><td/><td/><td>_2E410F3F_0AB6_4F5C_8C27_8005598635D3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT94</td><td/><td/><td>_A283C58A_A5BD_4E85_B5A2_3D009C39FBD7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT95</td><td/><td/><td>_6CA3F8F3_11E5_4A9C_BF9E_7B6178381D0D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT96</td><td/><td/><td>_93C6CF81_FABE_407A_A742_034C5A8177E6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT97</td><td/><td/><td>_BA7FD6C0_A0A3_4B23_A523_098F74F89185_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT98</td><td/><td/><td>_19375F2F_DAA4_401F_8F53_8DCF8A7248D5_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT99</td><td/><td/><td>_F0237535_ACA4_4F51_84A1_AA04D592D58C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>InstallVPrinter.exe</td><td/><td/><td>_61852F4F_0151_4A9E_8F8C_E4B303C0DC68_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Mono.Security.dll</td><td/><td/><td>_F0F04941_FC96_4D3D_93CC_3F3B88B9A817_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NetSdk.dll</td><td/><td/><td>_A485CF08_C59E_4541_86E9_0FAC3F505B44_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NetSdk.dll1</td><td/><td/><td>_A4FCF5E3_E1FC_4BDE_98A4_9632564C5708_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>NewComponent1</td><td/><td/><td>_9E9713AE_758C_46E8_9CE8_9E9F64B2E197_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>NewComponent2</td><td/><td/><td>_7EFF6AFC_DA13_43EF_B370_5D58277AC39B_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>NewComponent3</td><td/><td/><td>_F0DF4D70_5701_4210_80BE_642EBAD1A0CD_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>NewComponent4</td><td/><td/><td>_32AF480B_200E_4CD8_A77E_CEF3138AE28A_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>NewComponent5</td><td/><td/><td>_C2256537_32D3_4CD7_97E4_83820351FA18_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>NewComponent6</td><td/><td/><td>_3ED6CC90_4A60_4FAE_BCC9_66313F02A02B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Newtonsoft.Json.dll</td><td/><td/><td>_25EB4655_E56D_481A_8278_9076FF3ECA60_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Newtonsoft.Json.dll1</td><td/><td/><td>_D7F9F4E5_161C_4F85_8AAA_512C3DDA5DF5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Newtonsoft.Json.dll2</td><td/><td/><td>_6CAE1D44_528D_447B_A989_358A2044A8CC_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Newtonsoft.Json.dll3</td><td/><td/><td>_5BFB6445_55CE_4A3D_B944_7961BCC73CAF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Qt5Core.dll</td><td/><td/><td>_BCE71DFD_9875_4E78_8E0E_2832C34E4042_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Qt5Gui.dll</td><td/><td/><td>_1999CDFA_5420_4D81_A684_FD4D469C57A3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Qt5Sql.dll</td><td/><td/><td>_440A5FEF_ABB1_40F3_ACD2_4E8FBF412818_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Qt5Svg.dll</td><td/><td/><td>_7A1A0677_6259_4B39_AA2C_692C1B99419B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Qt5Widgets.dll</td><td/><td/><td>_DDC1CD91_94D2_4088_A6A1_58DE41D9C6F9_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Record_Player.exe</td><td/><td/><td>_E7D026C8_3D05_48DA_90D7_213780B65F82_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SDL2.dll</td><td/><td/><td>_70BCF03E_095A_497D_9E84_D53E89764AE9_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SDL2.dll1</td><td/><td/><td>_659E1B4C_194F_43A0_ADCE_9B66889C1392_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>StreamReader.dll</td><td/><td/><td>_4A2943C0_4235_4B58_8432_E7ACF73F6D26_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>StreamReader.dll1</td><td/><td/><td>_83A97D39_3858_4114_87D6_2DA57BFCBEF4_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avcodec_57.dll</td><td/><td/><td>_3D65F228_B4E7_4948_B32F_55642CE49413_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avcodec_57.dll1</td><td/><td/><td>_8B49A30F_BB42_4174_AD75_234AAA43966F_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avcodec_57.dll2</td><td/><td/><td>_60445F18_6C11_4E07_A002_63EF7E56B663_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avdevice_57.dll</td><td/><td/><td>_FCCD5A57_E23D_4077_AC85_8EA89C5C047E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avdevice_57.dll1</td><td/><td/><td>_503919CC_E93D_4E26_AAD6_7F9E95F9B503_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avdevice_57.dll2</td><td/><td/><td>_479098E0_2A2D_4BD3_B218_92982A57BF81_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avfilter_6.dll</td><td/><td/><td>_ABC212A2_C686_491D_AF52_8C2F2780D125_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avfilter_6.dll1</td><td/><td/><td>_7DB2730F_FC99_48DC_84F6_E57155077267_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avfilter_6.dll2</td><td/><td/><td>_F790F110_B389_4E04_94B1_E82316D4BDDE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avformat_57.dll</td><td/><td/><td>_80D6611A_C214_4634_A732_8A2E35D0C114_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avformat_57.dll1</td><td/><td/><td>_3425110C_A04B_4388_BD7D_F56A6E954762_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avformat_57.dll2</td><td/><td/><td>_F4234F03_6BB8_4AA5_9D78_E59EF374CF36_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avutil_55.dll</td><td/><td/><td>_B009C991_D906_403E_B8BA_E91FFA0A4DC2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avutil_55.dll1</td><td/><td/><td>_E92BC83E_45CC_45EE_899A_855D32EFD228_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>avutil_55.dll2</td><td/><td/><td>_CE66675A_8C6F_45FE_8A2C_E0D6D4479736_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>booth.dll</td><td/><td/><td>_F1C90A5E_0B5F_49B3_BA7A_AF6205F38F5C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>coreaudio_encoder.dll</td><td/><td/><td>_8188EA10_62F5_4638_B729_DC49121F4EA2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>cs_framework.dll</td><td/><td/><td>_D654488D_D27D_4A1B_8F77_DB4807086BB5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>cs_framework.dll1</td><td/><td/><td>_08D43014_944C_48F1_9140_496574D2C5D2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>cs_logic.dll</td><td/><td/><td>_EA8E1355_E0EE_4110_8037_470B2212E77B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>cs_logic.dll1</td><td/><td/><td>_47B15836_90EC_40B7_A538_D72829408B55_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>cs_xc.dll</td><td/><td/><td>_B0F6B8C1_D4B7_4940_B011_C8AFA95D96E5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>cs_xc.dll1</td><td/><td/><td>_74AB7791_956B_41CC_9E70_269CB5E0DE2C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>d3dcompiler_43.dll</td><td/><td/><td>_C9B39FC8_7473_47FD_A235_90D2102D6DDA_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>d3dcompiler_47.dll</td><td/><td/><td>_6F14BDF8_7804_48C1_B1FB_BF52394E7224_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>d_framework.dll</td><td/><td/><td>_5F474FA5_0BFA_4008_AE50_C7109D5CFE56_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>d_framework.dll1</td><td/><td/><td>_93E8285D_2243_4739_A8E4_A5A2064C3E94_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ffmpeg_mux64.exe</td><td/><td/><td>_6C632A0C_D903_4553_8125_9E7DA39F9C39_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>get_graphics_offsets64.exe</td><td/><td/><td>_BA9E1CDA_3941_4106_89DF_41232787ABCE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>graphics_hook64.dll</td><td/><td/><td>_8918C2FC_2BA6_42C5_B3F4_38EF49C9E12E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>hi_h264dec_v.dll</td><td/><td/><td>_182DA7E9_EFE3_41A5_8450_19DADACE50F3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>hi_h264dec_v.dll1</td><td/><td/><td>_7E1907CE_C79B_4EB2_9F80_297F33C4C2B3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>icudt54.dll</td><td/><td/><td>_676A565E_EBD5_4B9F_B5DA_BD71924243BA_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>icuin54.dll</td><td/><td/><td>_1CD13D1F_20EF_462A_BCB6_B7F159A60BBA_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>icuuc54.dll</td><td/><td/><td>_CFEC086D_B403_4805_9433_5B20489509EB_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>image_source.dll</td><td/><td/><td>_ECC2266D_3173_44A8_9E97_6596449F7C84_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>inject_helper64.exe</td><td/><td/><td>_3D426F83_6A96_4BB6_9EC1_969B0E95BD59_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libEGL.dll</td><td/><td/><td>_D792AC64_59A7_4E02_87E4_43B0C7636596_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libEGL.dll1</td><td/><td/><td>_B0EDE7F3_9658_4882_9E8C_1324A7DFE3F7_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libGLESv2.dll</td><td/><td/><td>_A6B77C31_D407_4A0F_817A_BC34CCAE8C4D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libGLESv2.dll1</td><td/><td/><td>_955569A5_C3D9_49DA_9A03_DFB0243A46D6_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libcef.dll</td><td/><td/><td>_11997D9B_E486_469A_9E61_9E87FDEA22CF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libcurl.dll</td><td/><td/><td>_5F57EE9B_2CE5_4787_9A50_F673BD10DC09_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libeay32.dll</td><td/><td/><td>_193C3361_9262_4308_82F5_C1C81BB2468C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libeay32.dll1</td><td/><td/><td>_C11A96FF_BD0F_4E23_A57F_F8A6562A1918_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libobs_d3d11.dll</td><td/><td/><td>_12458D64_C342_4FA6_B1BF_52CE7A36E89D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libobs_opengl.dll</td><td/><td/><td>_E3FA6EAC_93C6_47AA_AB28_AA6B4A032CF0_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libogg_0.dll</td><td/><td/><td>_D27FF567_54B7_4241_8048_506476D83CF2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libopus_0.dll</td><td/><td/><td>_78EA3931_F449_485F_A390_CA606DFDF89B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libportaudio_2.dll.dll</td><td/><td/><td>_C810F54B_03A7_4DDF_A379_9214D47F7D38_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libportaudio_2.dll.dll1</td><td/><td/><td>_94E1C501_7A04_407D_A47D_2A930653BCBD_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libvorbis_0.dll</td><td/><td/><td>_54B05D20_69B6_4B31_B28E_036C09A69E31_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libvorbisenc_2.dll</td><td/><td/><td>_B3BB4844_237C_4D8F_A8FA_436BE6FDB662_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libvorbisfile_3.dll</td><td/><td/><td>_F8110FA8_AFBB_40B3_985D_0CEC3DCE3C31_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libx264_146.dll</td><td/><td/><td>_14E94B21_6CAB_4F00_9C31_D6EDC833B039_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libx264_146.dll1</td><td/><td/><td>_6587A2A1_FDD4_4B80_B6CD_122BB403F676_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>libx264_148.dll</td><td/><td/><td>_DA42F7AE_A22C_48F5_8AB7_3D3006239896_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_captureAudioDevice.dll</td><td/><td/><td>_DB620C7B_6080_4434_B276_BD7233244CE5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_captureAudioDevice.dll1</td><td/><td/><td>_2C726FD7_EBBA_422C_A5DE_CABAF4030ABC_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_captureDesk.dll</td><td/><td/><td>_47B329ED_0562_42B6_89F5_CA2E43F510D2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_captureDesk.dll1</td><td/><td/><td>_493F99B1_FD64_4F2C_8C75_2CDB098A855C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_recorder.dll</td><td/><td/><td>_F84CBABA_B845_4CAC_B494_F3F2BC964EA5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_recorder.dll1</td><td/><td/><td>_58B4ADCE_A4BE_4CBA_8051_CAF0A3F59628_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_rtsp.dll</td><td/><td/><td>_EADAD936_75C0_4159_8BC5_CA3E702935F9_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_rtsp.dll1</td><td/><td/><td>_C1D31EC9_A4C9_4956_88DF_5F405B0FB921_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_transferDesk.dll</td><td/><td/><td>_329B401E_79D4_4CDE_B0C0_9B578A7441EF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>m_transferDesk.dll1</td><td/><td/><td>_5B1B398C_D629_4319_9DB2_ABDB9EDD3E19_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>obs.dll</td><td/><td/><td>_B07240BD_F09B_44FB_A470_2AC5F1081CFC_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>obs64.exe</td><td/><td/><td>_9C5ECF5E_6AEF_4A42_A61F_9EE8E2982B7C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>obs_ffmpeg.dll</td><td/><td/><td>_ECA65F9C_878A_4633_8BE3_AF3559C5AC69_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>obs_filters.dll</td><td/><td/><td>_DCAE8F10_3556_4038_97B1_655073F416CF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>obs_outputs.dll</td><td/><td/><td>_E992DC14_C9A0_4E83_93B4_A626B1712371_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>obs_qsv11.dll</td><td/><td/><td>_C5256C8E_D2DF_4E21_BCC6_0790F7AFF3AF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>obs_transitions.dll</td><td/><td/><td>_CABEEB47_48E1_4CC8_915D_F162FBD69981_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>obs_x264.dll</td><td/><td/><td>_9972BE93_B298_4206_8392_B068BC1CF6A5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>obsglad.dll</td><td/><td/><td>_5397089E_4E85_4CB2_9309_38A06E066397_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>opencv_core248.dll</td><td/><td/><td>_F8175583_0D14_43DC_B999_70DE11DA3FF6_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>opencv_highgui248.dll</td><td/><td/><td>_9AA67FE3_304E_431D_A7C5_F01A2B6E1CFB_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>opengl32sw.dll</td><td/><td/><td>_BA105DF6_EF76_4DA9_BC1C_3AB963B2D1A6_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>postproc_54.dll</td><td/><td/><td>_68C559C6_A83E_4536_97D8_934375A6E549_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>postproc_54.dll1</td><td/><td/><td>_034D83E5_09CC_442D_9C52_E040ECA544F2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qdds.dll</td><td/><td/><td>_56202861_18BF_4726_B81C_A25FD86CE931_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qgif.dll</td><td/><td/><td>_82AD98C8_DFB8_4BAC_80C7_2F55D7C4C806_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qicns.dll</td><td/><td/><td>_3176C852_CFA1_4936_B2E9_3650FFF7E547_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qico.dll</td><td/><td/><td>_C82EC34F_F5B0_40E9_8163_FBE217DDF83E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qjp2.dll</td><td/><td/><td>_303F22D3_133C_45F9_B6E0_6BD9CB2F039D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qjpeg.dll</td><td/><td/><td>_C1856DD7_1EAD_45C0_A5BC_E53F5CAA52D5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qmng.dll</td><td/><td/><td>_CE26C73A_6D21_4CF2_82ED_BF584D54FB30_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qsqlite.dll</td><td/><td/><td>_E4A7A6F2_71F9_4D6B_8721_1F109D6585EB_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qsqlmysql.dll</td><td/><td/><td>_51E312F2_B111_40D1_8D56_DB85347DB4AF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qsqlodbc.dll</td><td/><td/><td>_6C791B05_9536_452D_9E3F_4FD1AF1EC652_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qsqlpsql.dll</td><td/><td/><td>_C7C586D1_9655_4672_9108_3CAD3E45FE66_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qsvg.dll</td><td/><td/><td>_12945A34_C54F_4A35_BE82_ED325F665B37_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qsvgicon.dll</td><td/><td/><td>_3754B7C5_749B_49DA_9573_A0AC124FAC1D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qtga.dll</td><td/><td/><td>_D892A014_83BA_4E61_98D2_725EB5FE1732_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qtiff.dll</td><td/><td/><td>_D70E7BDC_0D04_4457_928F_1848BC9F5A33_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qwbmp.dll</td><td/><td/><td>_0468FD04_70A7_4F59_9E74_235DE44D0335_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qwebp.dll</td><td/><td/><td>_3ED90840_89B5_41A5_A76F_01F26C5EC80F_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>qwindows.dll</td><td/><td/><td>_1157E7AD_8E69_48BA_86F0_B492C1A2CC8F_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>rtmp_services.dll</td><td/><td/><td>_2118FC44_0F20_4F3A_BAE3_A1A27E254F9C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ssleay32.dll</td><td/><td/><td>_6F65643C_CE12_4561_8A7F_03CC1380709E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ssleay32.dll1</td><td/><td/><td>_BD4211C6_EC76_4AB7_99AD_7FA50F83A3DA_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>swresample_2.dll</td><td/><td/><td>_326564C6_5BC4_4C0E_A89E_B147F93BD42A_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>swresample_2.dll1</td><td/><td/><td>_14E78493_47C3_4EA2_845B_FC0076B321AD_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>swresample_2.dll2</td><td/><td/><td>_9B7DA4D9_8ECB_4085_8191_E95E586F3822_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>swscale_4.dll</td><td/><td/><td>_2CFB3167_92B2_4B03_9A56_43BBB194A022_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>swscale_4.dll1</td><td/><td/><td>_6C77F150_B2FF_4824_8BE1_B822494CFB0B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>swscale_4.dll2</td><td/><td/><td>_5FCA0E08_3D7D_4D93_AD79_C0B8BC9C9CC2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>text_freetype2.dll</td><td/><td/><td>_EFDAFCF5_81C3_436E_B763_A6B63664D978_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>w32_pthreads.dll</td><td/><td/><td>_A00FFA8C_887C_4F69_8512_A5C4DE7F4A34_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>widevinecdmadapter.dll</td><td/><td/><td>_2EEF98EE_0AD7_446F_86D6_5934234A3B07_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>win_capture.dll</td><td/><td/><td>_192FA0AE_1234_4966_AC63_4FF850AD2BD9_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>win_decklink.dll</td><td/><td/><td>_65BF5AA3_FD61_4404_B3C8_005E6C1DAEAD_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>win_dshow.dll</td><td/><td/><td>_1A0751E9_0C5B_48D5_8A01_C104972CC8FB_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>win_mf.dll</td><td/><td/><td>_C193C4FE_BB85_41C5_889F_72A6098097D2_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>win_wasapi.dll</td><td/><td/><td>_454E73E0_51D1_4788_A612_82DE6CFC1142_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>zlib.dll</td><td/><td/><td>_D0BB33A1_DF57_4CAE_A631_4CFEDDCAC08A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NewComponent7</td><td/><td/><td>_D78DEA6C_2D9B_4CC3_8BB3_A526A267CF38_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>NewComponent8</td><td/><td/><td>_9D04598C_21F5_4AC2_8CBD_1F40C29E68B2_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Newtonsoft.Json.dll</td><td/><td/><td>_F46B87FC_E5B5_4BED_B9A1_25C6C2A7B291_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Newtonsoft.Json.dll1</td><td/><td/><td>_40799974_D6EE_4447_984E_E7E8D140D3FC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Newtonsoft.Json.dll2</td><td/><td/><td>_F6C0C3E7_BAE9_44B2_B3D0_B4B0428A204F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Newtonsoft.Json.dll3</td><td/><td/><td>_52D138FF_0EB5_494F_9E02_AB6D46046F19_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Npgsql.dll</td><td/><td/><td>_A53C429D_F2E2_42E4_9E3B_FCA9F41A6656_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Qt5Core.dll</td><td/><td/><td>_0264F9D7_1589_42E1_9012_9F15842BA56A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Qt5Gui.dll</td><td/><td/><td>_3F3101B1_4250_4A83_A718_09A78F3C6F00_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Qt5Sql.dll</td><td/><td/><td>_99E88162_DAA3_4EE3_A68D_5C02EA35B103_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Qt5Svg.dll</td><td/><td/><td>_2C44FAD3_550B_4B8E_9675_696DF30F3E8F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Qt5Widgets.dll</td><td/><td/><td>_ECF5B561_B1C5_47DB_8F54_B90BA1744CFB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Record_Player.exe</td><td/><td/><td>_A1A629E8_1372_407A_8CC3_0A57E65F2557_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Rockey.dll</td><td/><td/><td>_37290839_A803_4DDC_B978_607D6E38AA44_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>RockeyVisaP.dll</td><td/><td/><td>_EF5F1561_6046_4440_BA6F_D56D4E7D8023_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SDL2.dll</td><td/><td/><td>_175ADA03_8D1D_4257_A421_C2200A11D219_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SDL2.dll1</td><td/><td/><td>_8091E3C7_C6FF_42F9_979E_938C8B41798D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>StreamReader.dll</td><td/><td/><td>_53B448D8_6C09_45BD_A58F_BBCDE343139D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>StreamReader.dll1</td><td/><td/><td>_A2EFA620_50AB_477D_89CB_058DC3177BE4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>StreamReader.dll2</td><td/><td/><td>_9E2DDA24_E3B8_4B15_8151_0000DEC2F9B7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Sysset.exe</td><td/><td/><td>_CF8B918D_D36B_489F_8B07_2F25D693869D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>UNIDRV.HLP</td><td/><td/><td>_93C26FD5_43A4_4312_9163_1251A9AE5F01_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>UNIDRV_64.HLP</td><td/><td/><td>_85B86E55_68C4_4A4E_BCC8_22CF59782335_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>UNIRES.DLL</td><td/><td/><td>_D5376726_AE6F_4B1D_B704_91531EF6CD11_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>UNIRES_64.DLL</td><td/><td/><td>_385A79AD_00F2_4E4D_A72E_D647E1201181_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Z264Core.dll</td><td/><td/><td>_C26B869F_48E9_44CB_BC71_F5C86F1E00E2_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Z264Dec.dll</td><td/><td/><td>_8E14A24A_A45D_49AF_812C_7BE1B149182A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>_64dec.dll</td><td/><td/><td>_2ADBD65A_65BB_4BCE_AAE8_43F0B4062F18_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>_64dec16.ax</td><td/><td/><td>_01A87341_8A97_4AE1_9EA9_B65C0DFE377A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avcodec_57.dll</td><td/><td/><td>_BFADF87B_E581_49C3_86D8_DE29D059C01C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avcodec_57.dll1</td><td/><td/><td>_13FE169D_19CD_45AF_9FA6_4BFECB6CEF87_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avcodec_57.dll2</td><td/><td/><td>_0B4C3BC2_E1A4_4FC7_AB63_5F82046CE68D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avdevice_57.dll</td><td/><td/><td>_F0883AD7_4522_4590_8834_26A1F7D48B15_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avdevice_57.dll1</td><td/><td/><td>_CB03687F_1AE6_4911_9D66_7FD0BE53B5D0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avdevice_57.dll2</td><td/><td/><td>_9DC156AC_7978_4CA6_BCFB_5B009F3E8FB4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avfilter_6.dll</td><td/><td/><td>_EB60A3C3_C061_4318_848D_F9EDD5201D0A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avfilter_6.dll1</td><td/><td/><td>_2ADBD0A7_DFF2_4AC0_ADAC_84B2DA16802A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avfilter_6.dll2</td><td/><td/><td>_49E49D00_0C65_4A54_8357_20AFB32D9962_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avformat_57.dll</td><td/><td/><td>_1387710C_FEDC_4CAF_A1D6_C73866E690E1_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avformat_57.dll1</td><td/><td/><td>_D4A8D5B0_47C2_4A47_894E_FDD53023977E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avformat_57.dll2</td><td/><td/><td>_6AE7302C_4F6F_4356_9955_1F0FE3694FEF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avisynth.dll</td><td/><td/><td>_6F9A2793_BD83_4EB6_83A9_116154E720E8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avutil_55.dll</td><td/><td/><td>_16C1D37C_4453_4BAA_950A_67F4564AAE2D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avutil_55.dll1</td><td/><td/><td>_48EEEB11_BCE2_4E62_895B_714D5EE5D203_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>avutil_55.dll2</td><td/><td/><td>_9A5D4BB9_B6A9_4261_9631_EC74137BD279_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>booth.dll</td><td/><td/><td>_0B21AB78_C503_4E8F_BB11_B02EC47B1387_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>coreaudio_encoder.dll</td><td/><td/><td>_C1CBDF64_E92F_42C5_B70F_11A318474771_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>cs_framework.dll</td><td/><td/><td>_21CC54DE_246E_474E_ADCE_56652A9292A0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>cs_framework.dll1</td><td/><td/><td>_13BADF55_CF84_4206_957A_F9A80BE7F0DC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>cs_logic.dll</td><td/><td/><td>_386B5063_3576_4551_9CBC_CF5DEB7BAD03_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>cs_logic.dll1</td><td/><td/><td>_B30EDF80_0C43_4A5E_A540_94C8581EE2C4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>cs_xc.dll</td><td/><td/><td>_5A01632E_B5A1_49B7_9E37_D3927AD5FF1C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>cs_xc.dll1</td><td/><td/><td>_2D5C5610_00AA_4B64_9501_FCBAF617A9D7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>d3dcompiler_43.dll</td><td/><td/><td>_FD6D1E41_94F5_49D9_AC14_C9E2A4B81D71_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>d3dcompiler_47.dll</td><td/><td/><td>_E471761B_5C4C_47BC_A5A1_9F0D442C90BA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>d_framework.dll</td><td/><td/><td>_8DC9A48D_C3E7_41EA_AA17_A982304EBC4F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>d_framework.dll1</td><td/><td/><td>_4EC56CE4_4E5A_4C59_906A_AD880FED42FA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>devil.dll</td><td/><td/><td>_CF7EB463_32F8_4256_A25E_38A80344D36C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ffmpeg_mux64.exe</td><td/><td/><td>_A8D2DD47_7C4F_4560_BAF9_B1BF6439A312_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>get_graphics_offsets64.exe</td><td/><td/><td>_42D9F790_7206_4087_A5AB_9BED6DC9F7CA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>graphics_hook64.dll</td><td/><td/><td>_54A6D547_0E29_4638_8C2B_3D1DE3A7C447_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>hi_h264dec_v.dll</td><td/><td/><td>_0789D844_6A1D_47E5_99E1_0CE430AD49CE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>hi_h264dec_v.dll1</td><td/><td/><td>_F3C54E51_BE6D_42EB_B097_CCCFFFD9ABEC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>iA264Dec.dll</td><td/><td/><td>_F8041F30_F1AC_411C_9F63_39383CC07B78_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>iAAVSEnv.dll</td><td/><td/><td>_7BF5068F_FA34_4265_98BF_0D12007C4A76_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>iAAudioAgent.exe</td><td/><td/><td>_76BEF714_E8EB_4375_A3FE_4AAD41D32957_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>iAAudioDMOCap.dll</td><td/><td/><td>_986B3639_A525_4A63_948E_CAD91F8AABD6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>iADxCap.dll</td><td/><td/><td>_E0A5BEA7_28B7_4984_B842_9F5950C6D1F7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>iADxSnd.dll</td><td/><td/><td>_CC7E800E_0352_44A5_B8F8_AB5B9EAFBAEB_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>iAVideoLib.dll</td><td/><td/><td>_9556338B_A1D9_4F01_B30B_9B489161EE91_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>iAYUVEff.dll</td><td/><td/><td>_BDD3F85B_48FC_4A7C_A35D_1C6304841090_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>iacodec.dll</td><td/><td/><td>_6D46CA93_F491_4347_ACBF_C456510BE52B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>icudt54.dll</td><td/><td/><td>_C0011C1D_7BA4_480C_A84C_8E8CD8735010_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>icuin54.dll</td><td/><td/><td>_9DB911F7_2444_45AF_9DCC_6F48B9E3AB98_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>icuuc54.dll</td><td/><td/><td>_80F4A791_17F5_477D_B67E_90FD4BD79460_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>image_source.dll</td><td/><td/><td>_ECC3325C_B157_4997_B7DC_C283E09FB17D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>inject_helper64.exe</td><td/><td/><td>_4EB107D5_BC82_46F1_BAE1_0DB5E8012022_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>lame_enc.dll</td><td/><td/><td>_51466424_9971_4F99_91CF_16BCC62CC3BD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libEGL.dll</td><td/><td/><td>_10CB44BF_B49A_41B6_AEA4_C0C0B2A67190_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libEGL.dll1</td><td/><td/><td>_54BC5955_B1AB_4EFA_A77A_058F2ADC4D36_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libGLESv2.dll</td><td/><td/><td>_A58CE740_FC8B_47FE_B241_F20549D6C43B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libGLESv2.dll1</td><td/><td/><td>_A99FA6B5_E935_4FE4_B2B2_FEB986E2EEBF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libavcodec.dll</td><td/><td/><td>_D78E6575_E21D_4827_9206_36D48AD61648_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libcef.dll</td><td/><td/><td>_5A38EC47_6D69_4EAD_BB45_45EBD0254ECD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libcurl.dll</td><td/><td/><td>_F840AD52_4BFD_49A9_A1C2_6E28557B5F45_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libeay32.dll</td><td/><td/><td>_77D97023_DCE5_45F6_85D3_CD65DEC26A0A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libeay32.dll1</td><td/><td/><td>_3CFD2495_D12C_40D7_93A3_BF143AB2C064_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libobs_d3d11.dll</td><td/><td/><td>_2AE71E92_817E_47CB_8F71_C5A576D99300_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libobs_opengl.dll</td><td/><td/><td>_B2E21A59_1351_44BD_8ED0_22FF6AEBA159_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libogg_0.dll</td><td/><td/><td>_A4C2E905_DDE4_42BB_A0D3_9EFBA985319A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libopus_0.dll</td><td/><td/><td>_34C6841D_98DE_40CA_9FA8_AC869A40A66D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libportaudio_2.dll.dll</td><td/><td/><td>_1BF7AD7D_D524_4A61_8340_618D03C9CB2B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libportaudio_2.dll.dll1</td><td/><td/><td>_0FC45D21_2B3A_4E09_880C_90CAEADE52F2_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libvorbis_0.dll</td><td/><td/><td>_209B6C2D_F48D_4C88_898D_2905FE8BA115_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libvorbisenc_2.dll</td><td/><td/><td>_1D0ECF5D_34CB_4FD5_9895_46E90B5D84FD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libvorbisfile_3.dll</td><td/><td/><td>_791A3D35_6A41_4164_B401_65FF0C9DC4C8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libx264_146.dll</td><td/><td/><td>_DA769E35_E531_4EEF_8171_310A67201E37_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libx264_146.dll1</td><td/><td/><td>_B7607770_F9C6_42F0_BF1F_4635B5DAAF46_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>libx264_148.dll</td><td/><td/><td>_E975AC9A_F0DF_44E8_8708_8FC8435786D3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_captureAudioDevice.dll</td><td/><td/><td>_B5EA4CB9_3583_4F53_85D8_526B9EC5183F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_captureAudioDevice.dll1</td><td/><td/><td>_3738C305_A19B_4ECB_940F_4E1582A46312_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_captureDesk.dll</td><td/><td/><td>_BC8772BB_1CEE_4A9E_9BB7_D46D2D649AE0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_captureDesk.dll1</td><td/><td/><td>_90D26D5B_3016_4803_8391_3290C51FD06A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_recorder.dll</td><td/><td/><td>_C3F4C69F_524B_41EC_99C3_7A39285E37D8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_recorder.dll1</td><td/><td/><td>_2852CAB0_8830_4E61_BF97_2E6F383B039C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_rtsp.dll</td><td/><td/><td>_48C1CFE8_D5C2_4F39_9D96_FE2C37B6FB02_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_rtsp.dll1</td><td/><td/><td>_2DA8BB18_FF6A_4F59_BFA2_9388404C8BA0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_transferDesk.dll</td><td/><td/><td>_6E0F7A03_C2C7_4F12_827F_1F277D1AED92_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>m_transferDesk.dll1</td><td/><td/><td>_5CDAEC75_268F_4E4C_9A2C_528C17667C25_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>obs.dll</td><td/><td/><td>_6F85E53A_ABDD_4D0F_B2CC_63D05E3D5BFC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>obs64.exe</td><td/><td/><td>_48792131_9699_4093_8B77_62FF1F42A935_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>obs_ffmpeg.dll</td><td/><td/><td>_02A6E530_DABB_489C_AAEF_841C306A228C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>obs_filters.dll</td><td/><td/><td>_BD334E1B_A588_41D0_996F_5528A3CC5343_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>obs_outputs.dll</td><td/><td/><td>_E3535CD5_A987_4399_AD17_7786DFECC065_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>obs_qsv11.dll</td><td/><td/><td>_775AEC95_2BD2_43DF_823E_6CB5957EE4B7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>obs_transitions.dll</td><td/><td/><td>_D0E72A30_FC39_4926_BF42_AD76E3AEC821_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>obs_x264.dll</td><td/><td/><td>_256EFDD2_4FDB_427C_BB7A_D26E36C7FBE9_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>obsglad.dll</td><td/><td/><td>_AC6C6E38_E37F_4584_84A7_5DB3C4EA0644_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>oemuni.dll</td><td/><td/><td>_85B9CB34_18AF_4424_B73F_4DFD8C2CC20A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>oemuni_64.dll</td><td/><td/><td>_10F74F8A_123B_4D91_8650_F7DDACA32A53_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>opencv_core248.dll</td><td/><td/><td>_754CEDF4_D3F1_49AB_AFB5_22C9F24D8CBA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>opencv_highgui248.dll</td><td/><td/><td>_7581F8C0_7909_441B_831C_ACA9CBE4749E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>opengl32sw.dll</td><td/><td/><td>_0ACA1B06_CAAF_4836_81BA_4190631C5F47_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>postproc_54.dll</td><td/><td/><td>_D329D00D_4C97_46E9_AB5E_0ECF4CBED5A7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>postproc_54.dll1</td><td/><td/><td>_94D974CA_1A0A_4162_B725_3EF8ADF1E9A8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>pptt.dll</td><td/><td/><td>_B4097762_E9BF_49E1_999B_B917270ABF05_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qdds.dll</td><td/><td/><td>_D344595F_15F9_4939_BE88_5868B639870C_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qgif.dll</td><td/><td/><td>_33B398A7_51C8_4367_A3CA_4407E36A1EA7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qicns.dll</td><td/><td/><td>_72676D18_6D92_4151_8BDE_FC138F4549DC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qico.dll</td><td/><td/><td>_82CF3CFD_0042_41E5_B520_276889FF4C45_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qjp2.dll</td><td/><td/><td>_95E71CFA_FEB9_472F_91F0_6A5E6B014621_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qjpeg.dll</td><td/><td/><td>_0FC116F0_BF0C_498D_85C1_7E2337D14D57_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qmng.dll</td><td/><td/><td>_AD89862C_762A_4B62_BD39_D09E6A346503_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qsqlite.dll</td><td/><td/><td>_FE3F0386_E023_4EF0_9AA6_4117A8A5A37D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qsqlmysql.dll</td><td/><td/><td>_21045282_C95A_4EB4_A95C_D457BD4CF680_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qsqlodbc.dll</td><td/><td/><td>_46BA1663_4600_467F_8680_84FA5C16C6CE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qsqlpsql.dll</td><td/><td/><td>_BBAF4838_27D0_4025_9F47_1A81CCD782E6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qsvg.dll</td><td/><td/><td>_6E8847F4_DDF0_4C83_80D2_FAE004CA85A2_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qsvgicon.dll</td><td/><td/><td>_81E38C4D_40CB_4A96_846A_A761B0DCFBD0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qtga.dll</td><td/><td/><td>_0A17FF00_764A_4E67_9596_51D2109057D3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qtiff.dll</td><td/><td/><td>_2E3CEDAF_3B75_4D10_9AC1_F842FEF69342_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qwbmp.dll</td><td/><td/><td>_16EC98BB_F4E2_486D_A632_8AFA57DF6BE7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qwebp.dll</td><td/><td/><td>_A2A089CD_AE19_4B54_AE1D_343927BC646D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>qwindows.dll</td><td/><td/><td>_BB357D08_D9AB_4F62_8F8B_3519E7C31F78_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>rtmp_services.dll</td><td/><td/><td>_35D69584_C569_4F3F_B5A9_EB38173FC61B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ssleay32.dll</td><td/><td/><td>_1A188C2D_FA50_4E73_87D7_F0C993A1ECCE_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ssleay32.dll1</td><td/><td/><td>_88AEC439_4523_4117_BC4F_0D714DF760F1_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>swresample_2.dll</td><td/><td/><td>_65B6830B_109B_423B_8B8A_188B4CA6D00F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>swresample_2.dll1</td><td/><td/><td>_64AD0ABF_082D_4337_B202_5C88B0971697_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>swresample_2.dll2</td><td/><td/><td>_66AE548F_A9A0_41B7_BAEC_B7C027606F50_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>swscale_4.dll</td><td/><td/><td>_8E1C14D3_D1B6_4827_9C69_DB1368DB12F2_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>swscale_4.dll1</td><td/><td/><td>_535CF1FF_9777_454A_A2AE_DB4CF58AFEA7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>swscale_4.dll2</td><td/><td/><td>_AB850AC0_3B4A_4EE0_8600_28CEFCA52240_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>taskkill.exe</td><td/><td/><td>_3109E0B5_01BD_4BB2_9DC3_DD6A232CAA1E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>text_freetype2.dll</td><td/><td/><td>_221BFF3E_8415_4E05_AE19_3153E389767A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>unins000.exe</td><td/><td/><td>_B3EFC2B5_E21C_4D24_904B_AFAE12DD9D1E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>vprproc.dll</td><td/><td/><td>_0A1A4574_2A62_4101_AEBA_963322F9A399_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>vprproc_64.dll</td><td/><td/><td>_561FC181_7218_4532_B256_2231AECA532F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>w32_pthreads.dll</td><td/><td/><td>_78358679_4D7E_44CF_AB6A_CF9C03DEEF0D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>widevinecdmadapter.dll</td><td/><td/><td>_FBE094B3_A7F6_4804_92BB_CA4FF45598AC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>win_capture.dll</td><td/><td/><td>_4ABF7EE7_E0D9_44D9_A913_EEE0DAB9BD09_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>win_decklink.dll</td><td/><td/><td>_50101AE7_B64A_4139_B66B_BEFBB833E667_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>win_dshow.dll</td><td/><td/><td>_CA58F4F7_F5DA_4B9A_B158_D41BA4314518_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>win_mf.dll</td><td/><td/><td>_2BCD58B4_CA3F_443B_8FB2_1B6389EE55A3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>win_wasapi.dll</td><td/><td/><td>_9A804651_02FA_45AE_9E21_77498FF3E582_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>wordtt.dll</td><td/><td/><td>_81D89BFF_CD28_4086_BFD4_E39CD9EAB0BC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>zlib.dll</td><td/><td/><td>_797CD69C_DCD8_4D08_8B1E_25C4B52730B0_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -4155,7 +4947,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>-568017045</td></row>
+		<row><td>COMPANY_NAME</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>1487266349</td></row>
 		<row><td>DN_AlwaysInstall</td><td>2052</td><td>始终安装</td><td>0</td><td/><td>1109705807</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>2052</td><td>系统颜色设置不足以运行 [ProductName]。</td><td>0</td><td/><td>1109705807</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION40CLIENT</td><td>1033</td><td>Microsoft .NET Framework 4.0 Client Package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>1109715729</td></row>
@@ -5023,10 +5815,62 @@
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME32</td><td>2052</td><td>LAUNCH~1.EXE|Launch CefSharp.BrowserSubprocess.exe</td><td>0</td><td/><td>1042557201</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME33</td><td>1033</td><td>卸载 航天云课联网</td><td>0</td><td/><td>1042551089</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME33</td><td>2052</td><td>卸载 航天云课联网</td><td>0</td><td/><td>1042551089</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME34</td><td>1033</td><td/><td>0</td><td/><td>1487250924</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME34</td><td>2052</td><td>LAUNCH~1.EXE|Launch 航天云态度表达.exe</td><td>0</td><td/><td>1487250924</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME35</td><td>1033</td><td/><td>0</td><td/><td>1487230476</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME35</td><td>2052</td><td>LAUNCH~1.EXE|Launch Booth Camera.exe</td><td>0</td><td/><td>1487230476</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME36</td><td>1033</td><td/><td>0</td><td/><td>1487253036</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME36</td><td>2052</td><td>LAUNCH~1.EXE|Launch obs64.exe</td><td>0</td><td/><td>1487253036</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME37</td><td>1033</td><td/><td>0</td><td/><td>1487259180</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME37</td><td>2052</td><td>LAUNCH~1.EXE|Launch ffmpeg-mux64.exe</td><td>0</td><td/><td>1487259180</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME38</td><td>1033</td><td/><td>0</td><td/><td>1487212108</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME38</td><td>2052</td><td>LAUNCH~1.EXE|Launch get-graphics-offsets64.exe</td><td>0</td><td/><td>1487212108</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME39</td><td>1033</td><td/><td>0</td><td/><td>1487212108</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME39</td><td>2052</td><td>LAUNCH~1.EXE|Launch inject-helper64.exe</td><td>0</td><td/><td>1487212108</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td/><td>0</td><td/><td>1109704976</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>2052</td><td>LAUNCH~1.EXE|Launch Booth Camera.exe</td><td>0</td><td/><td>1109704976</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME40</td><td>1033</td><td/><td>0</td><td/><td>1487226476</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME40</td><td>2052</td><td>LAUNCH~1.EXE|Launch Record Player.exe</td><td>0</td><td/><td>1487226476</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME41</td><td>1033</td><td/><td>0</td><td/><td>1487245004</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME41</td><td>2052</td><td>LAUNCH~1.EXE|Launch ActiveLoader.exe</td><td>0</td><td/><td>1487245004</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME42</td><td>1033</td><td/><td>0</td><td/><td>1487259340</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME42</td><td>2052</td><td>LAUNCH~1.EXE|Launch ACPlayer.exe</td><td>0</td><td/><td>1487259340</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME43</td><td>1033</td><td/><td>0</td><td/><td>1487259340</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME43</td><td>2052</td><td>LAUNCH~1.EXE|Launch ActiveAuto.exe</td><td>0</td><td/><td>1487259340</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME44</td><td>1033</td><td/><td>0</td><td/><td>1487259340</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME44</td><td>2052</td><td>LAUNCH~1.EXE|Launch ActiveLoader.exe</td><td>0</td><td/><td>1487259340</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME45</td><td>1033</td><td/><td>0</td><td/><td>1487259340</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME45</td><td>2052</td><td>LAUNCH~1.EXE|Launch ActiveMeeting.exe</td><td>0</td><td/><td>1487259340</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME46</td><td>1033</td><td/><td>0</td><td/><td>1487261388</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME46</td><td>2052</td><td>LAUNCH~1.EXE|Launch BugReport.exe</td><td>0</td><td/><td>1487261388</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME47</td><td>1033</td><td/><td>0</td><td/><td>1487261388</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME47</td><td>2052</td><td>LAUNCH~1.EXE|Launch CourseManager.exe</td><td>0</td><td/><td>1487261388</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME48</td><td>1033</td><td/><td>0</td><td/><td>1487261388</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME48</td><td>2052</td><td>LAUNCH~1.EXE|Launch DBSClient.exe</td><td>0</td><td/><td>1487261388</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME49</td><td>1033</td><td/><td>0</td><td/><td>1487261388</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME49</td><td>2052</td><td>LAUNCH~1.EXE|Launch iAAudioAgent.exe</td><td>0</td><td/><td>1487261388</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>1033</td><td>卸载</td><td>0</td><td/><td>1109691024</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME5</td><td>2052</td><td>卸载</td><td>0</td><td/><td>1109691024</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME50</td><td>1033</td><td/><td>0</td><td/><td>1487263436</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME50</td><td>2052</td><td>LAUNCH~1.EXE|Launch Sysset.exe</td><td>0</td><td/><td>1487263436</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME51</td><td>1033</td><td/><td>0</td><td/><td>1487263436</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME51</td><td>2052</td><td>LAUNCH~1.EXE|Launch taskkill.exe</td><td>0</td><td/><td>1487263436</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME52</td><td>1033</td><td/><td>0</td><td/><td>1487265484</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME52</td><td>2052</td><td>LAUNCH~1.EXE|Launch unins000.exe</td><td>0</td><td/><td>1487265484</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME53</td><td>1033</td><td/><td>0</td><td/><td>1487265484</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME53</td><td>2052</td><td>LAUNCH~1.EXE|Launch Copier.exe</td><td>0</td><td/><td>1487265484</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME54</td><td>1033</td><td/><td>0</td><td/><td>1487265484</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME54</td><td>2052</td><td>LAUNCH~1.EXE|Launch InstallVPrinter.exe</td><td>0</td><td/><td>1487265484</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME55</td><td>1033</td><td/><td>0</td><td/><td>1487257388</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME55</td><td>2052</td><td>航天云课联网</td><td>0</td><td/><td>1487236940</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME56</td><td>1033</td><td>卸载 航天云课联网</td><td>0</td><td/><td>1487251276</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME56</td><td>2052</td><td>卸载 航天云课联网</td><td>0</td><td/><td>1487251276</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME57</td><td>1033</td><td/><td>0</td><td/><td>1487247469</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME57</td><td>2052</td><td>航天云课联网</td><td>0</td><td/><td>1487229069</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME58</td><td>1033</td><td/><td>0</td><td/><td>1487247469</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME58</td><td>2052</td><td>LAUNCH~1.EXE|Launch CefSharp.BrowserSubprocess.exe</td><td>0</td><td/><td>1487247469</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME59</td><td>1033</td><td>卸载 航天云课联网</td><td>0</td><td/><td>1487231117</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME59</td><td>2052</td><td>卸载 航天云课联网</td><td>0</td><td/><td>1487231117</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>1033</td><td/><td>0</td><td/><td>1109674672</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>2052</td><td>航天云课联网</td><td>0</td><td/><td>1109689008</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME7</td><td>1033</td><td>卸载 航天云课联网</td><td>0</td><td/><td>1109697200</td></row>
@@ -5325,10 +6169,14 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>2052</td><td>对于运行 [ProductName] 处理器不足。</td><td>0</td><td/><td>1109705807</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>2052</td><td>对于运行 [ProductName] 内存量不足。</td><td>0</td><td/><td>1109705807</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>2052</td><td>对于运行 [ProductName] 屏幕分辨率不足。</td><td>0</td><td/><td>1109705807</td></row>
-		<row><td>ID_STRING1</td><td>2052</td><td>http://www.北京航天云教育科技有限公司.com</td><td>0</td><td/><td>-568017045</td></row>
+		<row><td>ID_STRING1</td><td>2052</td><td>http://www.aero-edu.com</td><td>0</td><td/><td>1487223150</td></row>
 		<row><td>ID_STRING10</td><td>1033</td><td>航天云课联网</td><td>0</td><td/><td>1042596113</td></row>
 		<row><td>ID_STRING10</td><td>2052</td><td>航天云课联网</td><td>0</td><td/><td>1042596113</td></row>
-		<row><td>ID_STRING2</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>-568017045</td></row>
+		<row><td>ID_STRING11</td><td>1033</td><td>LAUNCH~1.EXE|Launch AeroEduClass.exe</td><td>0</td><td/><td>1487269676</td></row>
+		<row><td>ID_STRING11</td><td>2052</td><td>LAUNCH~1.EXE|Launch AeroEduClass.exe</td><td>0</td><td/><td>1487269676</td></row>
+		<row><td>ID_STRING12</td><td>1033</td><td>LAUNCH~1.EXE|Launch AeroEduClass.exe</td><td>0</td><td/><td>1487261805</td></row>
+		<row><td>ID_STRING12</td><td>2052</td><td>LAUNCH~1.EXE|Launch AeroEduClass.exe</td><td>0</td><td/><td>1487261805</td></row>
+		<row><td>ID_STRING2</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>1487266349</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>1109658991</td></row>
 		<row><td>ID_STRING3</td><td>2052</td><td>Launch |Built</td><td>0</td><td/><td>1109658991</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>航天云课联网</td><td>0</td><td/><td>1109699248</td></row>
@@ -5451,11 +6299,15 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>AeroEduClass.exe1_9BDDD17C5D264A78B9A4D122B2B9688E.exe</td><td/><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>0</td></row>
+		<row><td>AeroEduClass.exe1_EB62DEA82AB74F12A55D15489DA017A7.exe</td><td/><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>0</td></row>
 		<row><td>AeroEduClass.exe1_F29E36C806DF4BD198EE19902B0F963F.exe</td><td/><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>0</td></row>
 		<row><td>AeroEduClass.exe_0D78470C40EF47B7AC756359748D358E.exe</td><td/><td>C:\TFS\航天云教育U3软件\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>0</td></row>
 		<row><td>AeroEduClass.exe_2ACC0B69ACB046AFADB00B2204D8CD31.exe</td><td/><td>C:\TFS\航天云教育U3软件\lubo_rtsp预览版-整合平台\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>0</td></row>
+		<row><td>AeroEduClass.exe_48E4F00475A44F1FB936D01479D90037.exe</td><td/><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>0</td></row>
+		<row><td>AeroEduClass.exe_626BF078FEF74B69B51C474781A8D789.exe</td><td/><td>C:\Code\AeroEduClass\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>0</td></row>
 		<row><td>Booth_Camera.exe_D374AA9CAA264AD3B7E5E1C86923B3D3.exe</td><td/><td>C:\TFS\航天云教育U3软件\lubo_rtsp预览版-整合平台\Booth Camera\bin\Release\Booth Camera.exe</td><td>0</td></row>
-		<row><td>Shortcut_D9E358ADB21D4D66A998D36D2506099C.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2013LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
+		<row><td>Shortcut_7796834179624D719F8E0EA6C2119964.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2013LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 		<row><td>_1277DA483225495291DAA0C8EB1C5EF8.exe</td><td/><td>C:\TFS\航天云教育U3软件\lubo_rtsp预览版-整合平台\AeroEduClass\bin\x86\Debug\AeroEduClass.exe</td><td>0</td></row>
 		<row><td>_1AB58DC55EE549AE82FA688B2ACA85E4.exe</td><td/><td>C:\TFS\航天云教育U3软件\lubo_rtsp预览版-整合平台\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>0</td></row>
 		<row><td>_304B3EA72EFC4A918D2817FB3E69C236.exe</td><td/><td>C:\TFS\航天云教育U3软件\lubo_rtsp预览版-整合平台\AeroEduClass\bin\x86\Release\AeroEduClass.exe</td><td>0</td></row>
@@ -5990,7 +6842,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{624BABE6-9FF5-437A-BD6C-AACFED74A22B}</td><td/></row>
 		<row><td>ProductName</td><td>航天云课联网</td><td/></row>
-		<row><td>ProductVersion</td><td>1.00.0000</td><td/></row>
+		<row><td>ProductVersion</td><td>1.01.0000</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -6069,7 +6921,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
 		<row><td>AeroEduClass.exe</td><td>AeroEduClass.exe</td><td/><td>product_name</td><td>2</td></row>
-		<row><td>Shortcut</td><td>NewComponent6</td><td/><td>product_name</td><td>2</td></row>
+		<row><td>Shortcut</td><td>NewComponent8</td><td/><td>product_name</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -6155,9 +7007,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>AeroEduClass.exe</td><td>product_name</td><td>##IDS_SHORTCUT_DISPLAY_NAME31##</td><td>AeroEduClass.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>AeroEduClass.exe_0D78470C40EF47B7AC756359748D358E.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>AeroEduClass.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME31##</td><td>AeroEduClass.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>AeroEduClass.exe1_F29E36C806DF4BD198EE19902B0F963F.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>Shortcut</td><td>product_name</td><td>##IDS_SHORTCUT_DISPLAY_NAME33##</td><td>NewComponent6</td><td>[SystemFolder]msiexec.exe</td><td>/x {624BABE6-9FF5-437A-BD6C-AACFED74A22B}</td><td/><td/><td>Shortcut_D9E358ADB21D4D66A998D36D2506099C.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>AeroEduClass.exe</td><td>product_name</td><td>##IDS_SHORTCUT_DISPLAY_NAME57##</td><td>AeroEduClass.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>AeroEduClass.exe_626BF078FEF74B69B51C474781A8D789.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>AeroEduClass.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME57##</td><td>AeroEduClass.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>AeroEduClass.exe1_9BDDD17C5D264A78B9A4D122B2B9688E.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>Shortcut</td><td>product_name</td><td>##IDS_SHORTCUT_DISPLAY_NAME59##</td><td>NewComponent8</td><td>[SystemFolder]msiexec.exe</td><td>/x {624BABE6-9FF5-437A-BD6C-AACFED74A22B}</td><td/><td/><td>Shortcut_7796834179624D719F8E0EA6C2119964.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

@@ -1,6 +1,6 @@
 ﻿using AeroEduLib;
 
-namespace AeroEduClass.NoGui
+namespace AeroEduClass.Lib
 {
     public class BLog
     {

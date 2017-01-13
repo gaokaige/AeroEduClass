@@ -1,6 +1,6 @@
 ﻿using CefSharp;
 
-namespace AeroEduClass.NoGui
+namespace AeroEduClass.Lib
 {
     public class AeroMenuHandler : IContextMenuHandler
     {

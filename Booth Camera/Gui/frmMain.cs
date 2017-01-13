@@ -1,5 +1,5 @@
 using AeroEduClass.Lib;
-using AeroEduClass.NoGui;
+using AeroEduClass.Lib;
 using AeroEduLib;
 using cs_framework;
 using System;

@@ -57,6 +57,7 @@
     <Compile Include="DosCommand.cs" />
     <Compile Include="FtpHelper.cs" />
     <Compile Include="GetSystemInfo.cs" />
+    <Compile Include="HttpDownloadHandler.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setting.cs" />

@@ -25,7 +25,14 @@ namespace 航天云态度表达.Gui
             this.MouseLeave += FrmFloat_MouseLeave;
             this.MouseUp += FrmFloat_MouseUp;
         }
-
+        private void frmFloat_Load(object sender, EventArgs e)
+        {
+            IrregularForm();
+            this.TopMost = true;// 窗体总在最前
+            // 位置
+            this.Location = new Point(Convert.ToInt32(Program.Frmfloat_X), Convert.ToInt32(Program.Frmfloat_Y));
+            //this.Location = new Point(932, 420);
+        }
         private void OpenAndClose()
         {
             if (!appActive)
@@ -75,14 +82,7 @@ namespace 航天云态度表达.Gui
             this.Cursor = System.Windows.Forms.Cursors.NoMove2D;
         }
 
-        private void frmFloat_Load(object sender, EventArgs e)
-        {
-            IrregularForm();
-            this.TopMost = true;// 窗体总在最前
-            // 位置
-            this.Location = new Point(Convert.ToInt32(Program.Frmfloat_X), Convert.ToInt32(Program.Frmfloat_Y));
-            //this.Location = new Point(932, 420);
-        }
+        
         #region 拖拽移动
         // 方法1
         private Point mPoint = new Point();
@@ -122,12 +122,12 @@ namespace 航天云态度表达.Gui
         //}
         #endregion
 
+        #region 显示不规则窗体
         /// <summary>
         /// 显示不规则窗体
         /// </summary>
         private void IrregularForm()
         {
-            #region 显示不规则窗体
             //从指定的位图中获取透明度大于 10 的区域；
             Bitmap img = (Bitmap)pictureBox1.Image;
             GraphicsPath grapth = BitmapUtil.GetNoneTransparentRegion(img, 10);
@@ -141,9 +141,9 @@ namespace 航天云态度表达.Gui
             this.FormBorderStyle = FormBorderStyle.None;
             this.Width = pictureBox1.Image.Width;
             this.Height = pictureBox1.Image.Height;
-            #endregion
         }
 
+        #endregion
         private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();

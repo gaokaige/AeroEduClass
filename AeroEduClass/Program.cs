@@ -1,5 +1,5 @@
-﻿using AeroEduClass.Gui;
-using AeroEduClass.NoGui;
+﻿using AeroEduClass.UI;
+using AeroEduClass.Lib;
 using AeroEduLib;
 using System;
 using System.Windows.Forms;
@@ -38,7 +38,11 @@ namespace AeroEduClass
                 }
                 else
                 {
+#if !DEBUG
                     Application.Run(new frmMain());
+#else
+                    Application.Run(new testform());
+#endif
                 }
             }
             else

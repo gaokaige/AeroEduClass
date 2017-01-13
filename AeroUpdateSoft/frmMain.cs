@@ -37,7 +37,7 @@ namespace AeroUpdateSoft
                         break;
                     }
                 }
-                catch (Exception exc)
+                catch
                 {
                     //Log.WriteLog("网络故障,稍后再试:" + exc.Message);
                     Thread.Sleep(10 * 1000);

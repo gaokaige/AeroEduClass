@@ -36,6 +36,9 @@ namespace 航天云态度表达.Gui
 
             mainLib.AddButtonStyle(btnStart, Resources.开始按钮, Resources.开始按钮, Resources.开始_按下);
             mainLib.AddButtonStyle(btnReset, Resources.删除, Resources.删除, Resources.关闭_选中);
+
+            lbStuName.Text = string.Empty;
+            lbStuNumber.Text = string.Empty;
         }
 
         void runStatus_OnResume()
@@ -83,7 +86,7 @@ namespace 航天云态度表达.Gui
             }
             else
             {
-                if (string.IsNullOrEmpty(lbStuName.Text) || lbStuName.Text == "学生姓名")
+                if (string.IsNullOrEmpty(lbStuName.Text))
                 {
                     btnStart.BackgroundImage = Resources.开始_不可选;
                     btnStart.Enabled = false;
@@ -199,7 +202,7 @@ namespace 航天云态度表达.Gui
 
         private void lbStuName_TextChanged(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(lbStuName.Text) && lbStuName.Text != "学生姓名")
+            if (!string.IsNullOrEmpty(lbStuName.Text))
             {
                 btnStart.BackgroundImage = Resources.开始按钮;
                 btnStart.Enabled = true;

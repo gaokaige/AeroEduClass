@@ -8,7 +8,7 @@ namespace AeroEduLib
     /// </summary>
     public class TypeDefinition
     {
-        public static DeviceType _DeviceType = DeviceType.U4;
+        public static DeviceType _DeviceType = DeviceType.U3;
         /// <summary>
         /// 联网WEB接收客户端传递消息的地址
         /// </summary>

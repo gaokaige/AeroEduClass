@@ -1,4 +1,4 @@
-﻿namespace AeroEduClass.Gui
+﻿namespace AeroEduClass.UI
 {
     partial class frmMain
     {

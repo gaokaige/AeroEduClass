@@ -59,15 +59,15 @@ namespace 航天云态度表达.UserControls
             SetChartStyle(seriesPraise, Color.Purple);
             chart1.Series.Add(seriesPraise);
 
-            Series objectSeries = new Series("反对");
-            objectSeries.IsValueShownAsLabel = showValueLael;
-            SetChartStyle(objectSeries, Color.Gray);
-            chart1.Series.Add(objectSeries);
-
             Series puzzleSeries = new Series("困惑");
             puzzleSeries.IsValueShownAsLabel = showValueLael;
             SetChartStyle(puzzleSeries, Color.DarkGreen);
             chart1.Series.Add(puzzleSeries);
+
+            Series objectSeries = new Series("反对");
+            objectSeries.IsValueShownAsLabel = showValueLael;
+            SetChartStyle(objectSeries, Color.Gray);
+            chart1.Series.Add(objectSeries);
 
             Series boringSeries = new Series("无聊");
             boringSeries.IsValueShownAsLabel = showValueLael;
@@ -108,10 +108,10 @@ namespace 航天云态度表达.UserControls
             DateTime timeStamp = DateTime.Now;
 
             chart1.Series["点赞"].Points.AddXY(timeStamp.ToOADate(), data.PraiseCount);
+            chart1.Series["困惑"].Points.AddXY(timeStamp.ToOADate(), data.PuzzleCount);
             chart1.Series["反对"].Points.AddXY(timeStamp.ToOADate(), data.ObjectCount);
             chart1.Series["无聊"].Points.AddXY(timeStamp.ToOADate(), data.BoringCount);
-            chart1.Series["困惑"].Points.AddXY(timeStamp.ToOADate(), data.PuzzleCount);
-
+            
             double removeBefore = timeStamp.AddSeconds((double)(20) * (-1)).ToOADate();
 
             chart1.ChartAreas[0].AxisX.Minimum = chart1.Series["点赞"].Points[0].XValue;

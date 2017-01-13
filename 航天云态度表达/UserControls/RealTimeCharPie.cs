@@ -45,8 +45,8 @@ namespace 航天云态度表达.UserControls
         public void AddData(AttitudeData data)
         {
             chart1.ResetAutoValues();
-            int[] yValues = { data.PraiseCount, data.ObjectCount, data.PuzzleCount, data.BoringCount };
-            string[] xValues = { "点赞", "反对", "无聊", "困扰"};
+            int[] yValues = { data.PraiseCount, data.PuzzleCount, data.ObjectCount, data.BoringCount };
+            string[] xValues = { "点赞", "困扰", "反对", "无聊"};
             chart1.Series["Default"].Points.DataBindXY(xValues, yValues);	
             chart1.Invalidate();
         }
