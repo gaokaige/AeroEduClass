@@ -121,7 +121,7 @@ namespace Booth_Camera
                 lbRecordTime.Text = "视频分析";
                 lbRecordTime.Refresh();
                 // 父目录名
-                dirName = DateTime.Now.ToString("yyyyMMdd");
+                dirName = DateTime.Now.ToString("yyyyMMddHHmmss");
                 Booth.fnStartRecord(dirName);
 
                 Thread.Sleep(6000);

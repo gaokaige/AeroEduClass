@@ -38,7 +38,7 @@ namespace AeroEduClass.UI
         /// <summary>
         ///  保存当前地址，刷新功能使用
         /// </summary>
-        private string currentUrl;
+        private string currentUrl = string.Empty;
         /// <summary>
         /// 归属对象
         /// </summary>
@@ -51,7 +51,7 @@ namespace AeroEduClass.UI
         /// 下载功能的主窗体
         /// </summary>
         frmDLMain frmdlmain;
-
+        string dlPageUrl = "http://aero-educloud.com/aeroteacher/resourcesManage.do";
         #endregion
         public frmMain()
         {
@@ -69,7 +69,7 @@ namespace AeroEduClass.UI
             ALog.ToDB("启动主程序");
             path = System.AppDomain.CurrentDomain.BaseDirectory + "Attitude\\Status\\";
             flagFileName = path + "pause.dat";
-            Log.ToFile(flagFileName);
+
             try
             {
                 if (!Directory.Exists(path))
@@ -86,6 +86,9 @@ namespace AeroEduClass.UI
             btnYcgk.Visible = config.UseYCGK;
             btnLive.Visible = config.UseYCBK;
             btnCCLive.Visible = config.UseCCLive;
+            // U4不使用电子白板
+            if (TypeDefinition._DeviceType == DeviceType.U4)
+                btnWhiteboard.Visible = false;
 
             if (CefSharpSettings.ShutdownOnExit)
             {
@@ -103,7 +106,7 @@ namespace AeroEduClass.UI
                 Dock = DockStyle.Fill,
             };
 #else
-            browser = new ChromiumWebBrowser("http://192.168.10.110:8080/aeroteacher/teaLogin.do")
+            browser = new ChromiumWebBrowser(@"c:\1.html")
             {
                 Dock = DockStyle.Fill,
             };
@@ -146,7 +149,16 @@ namespace AeroEduClass.UI
         private void aeroRequestHandler_OnLocationChanged(string jsonMsg)
         {
             // 隐藏下载图标
-            if (frmdlfloat != null) frmdlfloat.HideForm();
+            if (!jsonMsg.Contains(dlPageUrl))
+            {
+                if (frmdlfloat != null)
+                    frmdlfloat.InvokeOnUiThreadIfRequired(() => frmdlfloat.Hide());
+            }
+            else
+            {
+                if (frmdlfloat != null)
+                    frmdlfloat.InvokeOnUiThreadIfRequired(() => frmdlfloat.Show());
+            }
         }
         /// <summary>
         /// 退出主程序
@@ -194,7 +206,7 @@ namespace AeroEduClass.UI
             browser.Load(jsonMsg);
             if (frmdlmain == null) frmdlmain = new frmDLMain();
             if (frmdlfloat == null) frmdlfloat = new frmDLFloat(frmdlmain);
-            frmdlfloat.ShowForm();
+            frmdlfloat.Show();
         }
         /// <summary>
         /// 下载资源
@@ -620,6 +632,26 @@ namespace AeroEduClass.UI
                 ExitAttitude();
             // 退出课联网
             ALog.ToDB("退出课联网主程序");
+        }
+
+        private void frmMain_Resize(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                if (frmdlfloat != null)
+                {
+                    frmdlfloat.InvokeOnUiThreadIfRequired(() => frmdlfloat.MinSize());
+                }
+                if (frmdlmain != null)
+                    frmdlmain.InvokeOnUiThreadIfRequired(() => frmdlmain.Hide());
+            }
+            else
+            {
+                if (currentUrl.Contains(dlPageUrl) && frmdlfloat != null)
+                {
+                    frmdlfloat.InvokeOnUiThreadIfRequired(() => frmdlfloat.NormalSize());
+                }
+            }
         }
     }
 }

@@ -2,6 +2,7 @@
 using AeroEduClass.Properties;
 using AeroEduLib;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
@@ -20,8 +21,8 @@ namespace AeroEduClass.UI
 
         frmDownloadLib lib = new frmDownloadLib();
         int top = 50;
-
-
+        //List<Thread> threadPool = new List<Thread>();
+        Dictionary<string, bool> threadAliveDic = new Dictionary<string, bool>();
         public frmDLMain()
         {
             InitializeComponent();
@@ -40,7 +41,7 @@ namespace AeroEduClass.UI
         {
             // load top 50 lines
             LoadCompleteItem();
-            GetTaskCount();
+            //GetTaskCount();
             this.Location = new Point(720, 70);
         }
 
@@ -53,7 +54,8 @@ namespace AeroEduClass.UI
                     row["id"].ToString()
                     , PickImage(row["name"].ToString())
                     , row["name"].ToString()
-                    , row["path"].ToString());
+                    , row["path"].ToString()
+                    , row["createdate"].ToString());
             }
         }
 
@@ -62,7 +64,10 @@ namespace AeroEduClass.UI
             string id = Guid.NewGuid().ToString();
             Thread thr = new Thread(new ThreadStart(delegate { NewProcess(id, url, saveFileName); }));
             thr.IsBackground = false;
+            thr.Name = id;
             thr.Start();
+            //threadPool.Add(thr);
+            threadAliveDic.Add(id, true);
         }
 
         private void NewProcess(string id, string url, string saveFileName)
@@ -80,9 +85,8 @@ namespace AeroEduClass.UI
             else
             {
                 string showName = saveFileName.Substring(saveFileName.LastIndexOf("\\") + 1, saveFileName.Length - saveFileName.LastIndexOf("\\") - 1);
-                dgvDLing.Rows.Add(id, PickImage(saveFileName), showName, saveFileName, "0", "");
+                dgvDLing.Rows.Add(id, PickImage(saveFileName), showName, saveFileName, "0", "", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff"));
                 dgvDLing.ClearSelection();
-                GetTaskCount();
             }
         }
 
@@ -106,7 +110,7 @@ namespace AeroEduClass.UI
                 // 循环100次报一次进度吧
                 int times = 0;
                 t1 = DateTime.Now;
-                while (readL > 0)
+                while (readL > 0 && threadAliveDic[id])
                 {
                     totalDownloadedByte = readL + totalDownloadedByte;
                     fs.Write(buffer, 0, readL);
@@ -126,7 +130,6 @@ namespace AeroEduClass.UI
                     OnDownloadUpdate(id, "100", "");
                     OnDlComplete(id);
                 }
-
             }
             catch (Exception exc)
             {
@@ -136,6 +139,8 @@ namespace AeroEduClass.UI
             {
                 if (stream != null) stream.Close();
                 if (fs != null) fs.Close();
+                if (!threadAliveDic[id])
+                    File.Delete(saveFileName);
             }
         }
 
@@ -168,7 +173,6 @@ namespace AeroEduClass.UI
             else
             {
                 DoComplete(id);
-                GetTaskCount();
             }
         }
 
@@ -215,17 +219,6 @@ namespace AeroEduClass.UI
             dgvDLing.ClearSelection();
             dgvComplete.ClearSelection();
         }
-        /// <summary>
-        /// 统计下载项目数
-        /// </summary>
-        private void GetTaskCount()
-        {
-            int dlingCount = dgvDLing.Rows.Count;
-            tabPage1.Text = string.Format("正在下载（{0}）", dlingCount);
-
-            int dlCpCount = dgvComplete.Rows.Count;
-            tabPage2.Text = string.Format("已完成下载（{0}）", dlCpCount);
-        }
 
         private void DoComplete(string id)
         {
@@ -233,14 +226,13 @@ namespace AeroEduClass.UI
             {
                 if (row.Cells["clID"].Value.ToString() == id)
                 {
-                    dgvComplete.Rows.Add(id, row.Cells["clImage"].Value, row.Cells["clName"].Value, row.Cells["clPath"].Value);
+                    dgvComplete.Rows.Add(id, row.Cells["clImage"].Value, row.Cells["clName"].Value, row.Cells["clPath"].Value, row.Cells["cltime"].Value);
                     // insert postgresql
                     lib.SaveCompleteItems(row);
                     // delete row from dgvling
                     dgvDLing.Rows.Remove(row);
                 }
             }
-
         }
 
         private void frmDownload_FormClosed(object sender, FormClosedEventArgs e)
@@ -251,33 +243,93 @@ namespace AeroEduClass.UI
 
         private void dgvDLing_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex != 6)
+            if (e.ColumnIndex != dgvDLing.Columns["clDel"].Index)
                 return;
-            try
+            DialogResult dr = MessageBox.Show("是否删除当前下载任务？", "提示", MessageBoxButtons.YesNo);
+            if (dr == DialogResult.Yes)
             {
-
-            }
-            catch
-            {
-
+                try
+                {
+                    string id = dgvDLing.Rows[e.RowIndex].Cells["clid"].Value.ToString();
+                    StopDownloadThread(id);
+                    dgvDLing.Rows.RemoveAt(e.RowIndex);
+                }
+                catch (Exception exc)
+                {
+                    Log.ToFile("停止下载错误:" + exc.Message);
+                }
             }
         }
 
         private void dgvComplete_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex != 4)
-                return;
-            try
+            if (e.ColumnIndex == dgvComplete.Columns["clDel_c"].Index)
             {
-                string path = dgvComplete.Rows[e.RowIndex].Cells["clPath_c"].Value.ToString();
-                string dir = Path.GetDirectoryName(path);
-                System.Diagnostics.Process.Start("Explorer.exe", dir);
+                try
+                {
+                    string id = dgvComplete.Rows[e.RowIndex].Cells["clid_c"].Value.ToString();
+                    string path = dgvComplete.Rows[e.RowIndex].Cells["clPath_c"].Value.ToString();
+                    File.Delete(path);
+                    lib.DeleteRow(id);
+                    dgvComplete.Rows.RemoveAt(e.RowIndex);
+                }
+                catch(Exception exc)
+                {
+                    Log.ToFile("删除已下载列表项错误:" + exc.Message);
+                }
             }
-            catch
+            else if (e.ColumnIndex == dgvComplete.Columns["clOpen"].Index)
             {
-                MessageBox.Show("文件夹不存在");
+                try
+                {
+                    string path = dgvComplete.Rows[e.RowIndex].Cells["clPath_c"].Value.ToString();
+                    string dir = Path.GetDirectoryName(path);
+                    System.Diagnostics.Process.Start("Explorer.exe", dir);
+                }
+                catch
+                {
+                    MessageBox.Show("文件夹不存在");
+                }
             }
         }
+        /// <summary>
+        /// 停止一个下载线程
+        /// </summary>
+        /// <param name="name"></param>
+        public void StopDownloadThread(string id)
+        {
+            //Thread thr = threadPool.Find(b => b.Name == id);
+            //if (thr != null)
+            //    thr.Abort();
+            threadAliveDic[id] = false;
+        }
 
+        #region 统计下载的数量
+        
+        private void dgvDLing_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            tabPage1.Text = string.Format("正在下载（{0}）", dgvDLing.Rows.Count);
+            dgvDLing.Sort(dgvDLing.Columns["cltime"], System.ComponentModel.ListSortDirection.Descending);
+        }
+
+        private void dgvDLing_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
+        {
+            tabPage1.Text = string.Format("正在下载（{0}）", dgvDLing.Rows.Count);
+            dgvDLing.Sort(dgvDLing.Columns["cltime"], System.ComponentModel.ListSortDirection.Descending);
+        }
+
+        private void dgvComplete_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            tabPage2.Text = string.Format("已完成下载（{0}）", dgvComplete.Rows.Count);
+            dgvComplete.Sort(dgvComplete.Columns["cltime_c"], System.ComponentModel.ListSortDirection.Descending);
+        }
+
+        private void dgvComplete_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
+        {
+            tabPage2.Text = string.Format("已完成下载（{0}）", dgvComplete.Rows.Count);
+            dgvComplete.Sort(dgvComplete.Columns["cltime_c"], System.ComponentModel.ListSortDirection.Descending);
+        }
+
+        #endregion
     }
 }

@@ -23,13 +23,18 @@ namespace AeroEduClass.UI
             this.Location = new Point(930, 30);
         }
 
-        public void HideForm()
+        public void MinSize()
         {
+            appActive = false;
+            pictureBox1.Image = Resources.dlfloat;
+            IrregularForm();
             this.Hide();
         }
 
-        public void ShowForm()
+        public void NormalSize()
         {
+            pictureBox1.Image = Resources.dlfloat;
+            IrregularForm();
             this.Show();
         }
 

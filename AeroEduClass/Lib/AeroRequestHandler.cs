@@ -1,8 +1,6 @@
-﻿using AeroEduClass.UI;
-using CefSharp;
+﻿using CefSharp;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using System;
 
 namespace AeroEduClass.Lib
 {
@@ -32,9 +30,6 @@ namespace AeroEduClass.Lib
         public event ActionEventHandler OnDownload;
         bool IRequestHandler.OnBeforeBrowse(IWebBrowser browserControl, IBrowser browser, IFrame frame, IRequest request, bool isRedirect)
         {
-            OnLocationChanged(request.Url);
-            if (request.Url == "")
-                OnDownloadPage("");
             string action = string.Empty;
             JObject jo = null; JToken jtAction, jtFilePath, jUrl;
 
@@ -77,7 +72,7 @@ namespace AeroEduClass.Lib
                         OnEndQA(jsonStr);
                         return true;
                     case downloadFlag:
-                        OnDownloadPage(jsonStr);
+                        OnDownload(jsonStr);
                         return true;
                     case downloadPageFlag:
                         if (jo.TryGetValue("Url", out jUrl))
@@ -85,6 +80,7 @@ namespace AeroEduClass.Lib
                         return true;
                 }
             }
+            OnLocationChanged(request.Url);
             return false;
         }
 

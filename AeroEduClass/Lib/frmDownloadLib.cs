@@ -11,7 +11,7 @@ namespace AeroEduClass.Lib
         IDBHelper dbHelper = new PostgreHelper();
         string conn = Program._config.ConnectionString;
         #region 建表
-        
+
         /// <summary>
         /// 如果表不存在则创建
         /// </summary>
@@ -36,7 +36,7 @@ namespace AeroEduClass.Lib
         {
             string sql = string.Empty;
             switch (tableName)
-            { 
+            {
                 case "userdl":
                     sql = @"CREATE TABLE public.userdl
                         (
@@ -70,7 +70,7 @@ namespace AeroEduClass.Lib
             // if insert multi lines
             //('1', 'json1'),('2', 'json2'),('3', 'json3');";
             string id = row.Cells["clID"].Value.ToString();
-            JObject jo =new JObject();
+            JObject jo = new JObject();
             jo.Add("name", row.Cells["clName"].Value.ToString());
             jo.Add("path", row.Cells["clPath"].Value.ToString());
             sql += string.Format("('{0}','{1}');", id, jo.ToString());
@@ -80,11 +80,19 @@ namespace AeroEduClass.Lib
 
         internal DataSet LoadTopLines(int top)
         {
-            string sql = "select id, resource->>'name' as name,resource->>'path' as path from userdl order by createdate desc limit " + top + ";";
+            string sql = "select id, resource->>'name' as name,resource->>'path' as path,createdate from userdl order by createdate desc limit " + top + ";";
             DataSet ds = dbHelper.ExecuteQuery(conn, CommandType.Text, sql, null);
             return ds;
         }
-
+        /// <summary>
+        /// 删除一个已下载的资源
+        /// </summary>
+        /// <param name="id"></param>
+        internal void DeleteRow(string id)
+        {
+            string sql = "delete from userdl where id='" + id + "'";
+            dbHelper.ExecuteQuery(conn, CommandType.Text, sql, null);
+        }
         #endregion
     }
 }

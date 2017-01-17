@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDLMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dgvDLing = new System.Windows.Forms.DataGridView();
@@ -44,6 +44,7 @@
             this.clPath = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clprogress = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clSpeed = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cltime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clDel = new System.Windows.Forms.DataGridViewImageColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dgvComplete = new System.Windows.Forms.DataGridView();
@@ -51,7 +52,9 @@
             this.clImage_c = new System.Windows.Forms.DataGridViewImageColumn();
             this.clName_c = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clPath_c = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cltime_c = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clOpen = new System.Windows.Forms.DataGridViewImageColumn();
+            this.clDel_c = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.tabControl1.SuspendLayout();
@@ -103,18 +106,21 @@
             this.clPath,
             this.clprogress,
             this.clSpeed,
+            this.cltime,
             this.clDel});
             this.dgvDLing.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDLing.Location = new System.Drawing.Point(0, 0);
             this.dgvDLing.Margin = new System.Windows.Forms.Padding(0);
             this.dgvDLing.Name = "dgvDLing";
             this.dgvDLing.RowHeadersVisible = false;
-            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(5);
-            this.dgvDLing.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Padding = new System.Windows.Forms.Padding(5);
+            this.dgvDLing.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvDLing.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDLing.Size = new System.Drawing.Size(292, 264);
             this.dgvDLing.TabIndex = 1;
             this.dgvDLing.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDLing_CellClick);
+            this.dgvDLing.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dgvDLing_RowsAdded);
+            this.dgvDLing.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dgvDLing_RowsRemoved);
             // 
             // clID
             // 
@@ -166,12 +172,20 @@
             this.clSpeed.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.clSpeed.Width = 80;
             // 
+            // cltime
+            // 
+            this.cltime.HeaderText = "";
+            this.cltime.Name = "cltime";
+            this.cltime.ReadOnly = true;
+            this.cltime.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
+            this.cltime.Visible = false;
+            // 
             // clDel
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle1.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle1.NullValue")));
-            this.clDel.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle7.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle7.NullValue")));
+            this.clDel.DefaultCellStyle = dataGridViewCellStyle7;
             this.clDel.HeaderText = "";
             this.clDel.Image = global::AeroEduClass.Properties.Resources.del;
             this.clDel.Name = "clDel";
@@ -204,19 +218,23 @@
             this.clImage_c,
             this.clName_c,
             this.clPath_c,
-            this.clOpen});
+            this.cltime_c,
+            this.clOpen,
+            this.clDel_c});
             this.dgvComplete.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvComplete.Location = new System.Drawing.Point(0, 0);
             this.dgvComplete.Margin = new System.Windows.Forms.Padding(0);
             this.dgvComplete.MultiSelect = false;
             this.dgvComplete.Name = "dgvComplete";
             this.dgvComplete.RowHeadersVisible = false;
-            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(5);
-            this.dgvComplete.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(5);
+            this.dgvComplete.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dgvComplete.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvComplete.Size = new System.Drawing.Size(292, 264);
             this.dgvComplete.TabIndex = 2;
             this.dgvComplete.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvComplete_CellClick);
+            this.dgvComplete.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dgvComplete_RowsAdded);
+            this.dgvComplete.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dgvComplete_RowsRemoved);
             // 
             // clID_c
             // 
@@ -242,7 +260,7 @@
             this.clName_c.ReadOnly = true;
             this.clName_c.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.clName_c.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.clName_c.Width = 200;
+            this.clName_c.Width = 160;
             // 
             // clPath_c
             // 
@@ -252,24 +270,40 @@
             this.clPath_c.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.clPath_c.Visible = false;
             // 
+            // cltime_c
+            // 
+            this.cltime_c.HeaderText = "";
+            this.cltime_c.Name = "cltime_c";
+            this.cltime_c.ReadOnly = true;
+            this.cltime_c.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
+            this.cltime_c.Visible = false;
+            // 
             // clOpen
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle3.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle3.NullValue")));
-            this.clOpen.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle9.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle9.NullValue")));
+            this.clOpen.DefaultCellStyle = dataGridViewCellStyle9;
             this.clOpen.HeaderText = "";
             this.clOpen.Image = global::AeroEduClass.Properties.Resources.file;
             this.clOpen.Name = "clOpen";
             this.clOpen.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.clOpen.Width = 40;
             // 
+            // clDel_c
+            // 
+            this.clDel_c.HeaderText = "";
+            this.clDel_c.Image = global::AeroEduClass.Properties.Resources.del;
+            this.clDel_c.Name = "clDel_c";
+            this.clDel_c.ReadOnly = true;
+            this.clDel_c.Width = 40;
+            // 
             // dataGridViewImageColumn1
             // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle5.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle5.NullValue")));
-            this.dataGridViewImageColumn1.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle11.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle11.NullValue")));
+            this.dataGridViewImageColumn1.DefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridViewImageColumn1.HeaderText = "";
             this.dataGridViewImageColumn1.Image = global::AeroEduClass.Properties.Resources.file_n;
             this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
@@ -278,10 +312,10 @@
             // 
             // dataGridViewImageColumn2
             // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            dataGridViewCellStyle6.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle6.NullValue")));
-            this.dataGridViewImageColumn2.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            dataGridViewCellStyle12.NullValue = ((object)(resources.GetObject("dataGridViewCellStyle12.NullValue")));
+            this.dataGridViewImageColumn2.DefaultCellStyle = dataGridViewCellStyle12;
             this.dataGridViewImageColumn2.HeaderText = "";
             this.dataGridViewImageColumn2.Image = global::AeroEduClass.Properties.Resources.file;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
@@ -296,8 +330,13 @@
             this.ClientSize = new System.Drawing.Size(300, 290);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmDLMain";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "frmDownload";
+            this.TopMost = true;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmDownload_FormClosed);
             this.Load += new System.EventHandler(this.frmDownload_Load);
             this.tabControl1.ResumeLayout(false);
@@ -316,20 +355,23 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.DataGridView dgvDLing;
         private System.Windows.Forms.DataGridView dgvComplete;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn clID;
         private System.Windows.Forms.DataGridViewImageColumn clImage;
         private System.Windows.Forms.DataGridViewTextBoxColumn clName;
         private System.Windows.Forms.DataGridViewTextBoxColumn clPath;
         private System.Windows.Forms.DataGridViewTextBoxColumn clprogress;
         private System.Windows.Forms.DataGridViewTextBoxColumn clSpeed;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cltime;
         private System.Windows.Forms.DataGridViewImageColumn clDel;
         private System.Windows.Forms.DataGridViewTextBoxColumn clID_c;
         private System.Windows.Forms.DataGridViewImageColumn clImage_c;
         private System.Windows.Forms.DataGridViewTextBoxColumn clName_c;
         private System.Windows.Forms.DataGridViewTextBoxColumn clPath_c;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cltime_c;
         private System.Windows.Forms.DataGridViewImageColumn clOpen;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
-        private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
+        private System.Windows.Forms.DataGridViewImageColumn clDel_c;
 
     }
 }

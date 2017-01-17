@@ -400,6 +400,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
             this.Load += new System.EventHandler(this.frmMain_Load);
+            this.Resize += new System.EventHandler(this.frmMain_Resize);
             this.plBottom.ResumeLayout(false);
             this.plButtonList.ResumeLayout(false);
             this.plTools.ResumeLayout(false);

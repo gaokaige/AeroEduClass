@@ -49,8 +49,13 @@
             this.ClientSize = new System.Drawing.Size(172, 171);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmDLFloat";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "frmDLFloat";
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.frmDLFloat_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

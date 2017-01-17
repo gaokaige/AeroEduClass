@@ -76,7 +76,7 @@ namespace 航天云态度表达.Gui
             }
 
             mainLib.Reset();
-
+            aData = new AttitudeData(0, 0, 0, 0);
             rData.ClearKeyPress();
             rData.StartTime = mainLib.GetTimeStamp();
             rData.Date = DateTime.Now.ToString("yyyy-MM-dd");
