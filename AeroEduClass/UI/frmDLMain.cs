@@ -42,7 +42,7 @@ namespace AeroEduClass.UI
             // load top 50 lines
             LoadCompleteItem();
             //GetTaskCount();
-            this.Location = new Point(720, 70);
+            //this.Location = new Point(720, 70);
         }
 
         private void LoadCompleteItem()

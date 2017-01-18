@@ -32,7 +32,6 @@ namespace AeroEduClass.Lib
         {
             string action = string.Empty;
             JObject jo = null; JToken jtAction, jtFilePath, jUrl;
-
             if (request.Url.IndexOf(token) == 0)
             {
                 string jsonStr = request.Url.Replace(token, "");
@@ -72,11 +71,11 @@ namespace AeroEduClass.Lib
                         OnEndQA(jsonStr);
                         return true;
                     case downloadFlag:
-                        OnDownload(jsonStr);
+                        if (jo.TryGetValue("Url", out jUrl))
+                            OnDownload(jUrl.ToString());
                         return true;
                     case downloadPageFlag:
-                        if (jo.TryGetValue("Url", out jUrl))
-                            OnDownloadPage(jUrl.ToString());
+                        OnDownloadPage(Program._config.ResourcePage);
                         return true;
                 }
             }

@@ -40,6 +40,10 @@ namespace AeroEduClass.UI
         /// </summary>
         private string currentUrl = string.Empty;
         /// <summary>
+        /// 上一次的地址
+        /// </summary>
+        private string lastUrl = string.Empty;
+        /// <summary>
         /// 归属对象
         /// </summary>
         private Ascription ap;
@@ -51,7 +55,7 @@ namespace AeroEduClass.UI
         /// 下载功能的主窗体
         /// </summary>
         frmDLMain frmdlmain;
-        string dlPageUrl = "http://aero-educloud.com/aeroteacher/resourcesManage.do";
+        
         #endregion
         public frmMain()
         {
@@ -142,14 +146,20 @@ namespace AeroEduClass.UI
             browser.AddressChanged += browser_AddressChanged;
             browser.LoadingStateChanged += browser_LoadingStateChanged;
         }
+        private void FrmDLfloatShow()
+        {
+            
+            frmdlfloat.TopMost = true;
+            frmdlfloat.Show();
+        }
         /// <summary>
         /// 当有新的页面请求的时候
         /// </summary>
-        /// <param name="jsonMsg"></param>
-        private void aeroRequestHandler_OnLocationChanged(string jsonMsg)
+        /// <param name="url"></param>
+        private void aeroRequestHandler_OnLocationChanged(string url)
         {
             // 隐藏下载图标
-            if (!jsonMsg.Contains(dlPageUrl))
+            if (!url.Contains(config.ResourcePageName))
             {
                 if (frmdlfloat != null)
                     frmdlfloat.InvokeOnUiThreadIfRequired(() => frmdlfloat.Hide());
@@ -157,8 +167,22 @@ namespace AeroEduClass.UI
             else
             {
                 if (frmdlfloat != null)
-                    frmdlfloat.InvokeOnUiThreadIfRequired(() => frmdlfloat.Show());
+                    frmdlfloat.InvokeOnUiThreadIfRequired(() => FrmDLfloatShow());
+
             }
+
+            if (AeroEduLib.TypeDefinition._DeviceType == DeviceType.U3)
+            {
+                // 如果是从题库页面跳转的
+                if (lastUrl.Contains(config.QuestionsPersonal) || lastUrl.Contains(config.QuestionsPublic))
+                {
+                    // 清理答题器结果
+                    QAOperationLib.QAReset();
+                    // 继续态度表达
+                    aeroRequestHandler_OnEndQA("");
+                }
+            }
+            lastUrl = url;
         }
         /// <summary>
         /// 退出主程序
@@ -206,7 +230,8 @@ namespace AeroEduClass.UI
             browser.Load(jsonMsg);
             if (frmdlmain == null) frmdlmain = new frmDLMain();
             if (frmdlfloat == null) frmdlfloat = new frmDLFloat(frmdlmain);
-            frmdlfloat.Show();
+            FrmDLfloatShow();
+            frmdlfloat.Location = new Point(this.Location.X + 935, this.Location.Y + 30);
         }
         /// <summary>
         /// 下载资源
@@ -218,7 +243,7 @@ namespace AeroEduClass.UI
             string url = jsonMsg;
             string fileName = url.Substring(url.LastIndexOf("/") + 1, url.Length - url.LastIndexOf("/") - 1);
 
-            sfg.FileName = fileName;
+            sfg.FileName =System.Web.HttpUtility.UrlDecode(fileName);
 
             if (sfg.ShowDialog() == DialogResult.OK)
             {
@@ -647,7 +672,7 @@ namespace AeroEduClass.UI
             }
             else
             {
-                if (currentUrl.Contains(dlPageUrl) && frmdlfloat != null)
+                if (currentUrl.Contains(config.ResourcePage) && frmdlfloat != null)
                 {
                     frmdlfloat.InvokeOnUiThreadIfRequired(() => frmdlfloat.NormalSize());
                 }

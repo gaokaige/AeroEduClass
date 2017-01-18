@@ -30,8 +30,6 @@ namespace AeroEduLib
                 ServerAddress = "http://192.168.5.122:8080/assetsPost.json";
             return ServerAddress;
         }
-
-        //public const string LocalServer = "http://127.0.0.1:8089/assetsPost.json";//U3
     }
     /// <summary>
     /// 文件类型定义

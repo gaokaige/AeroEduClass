@@ -189,6 +189,42 @@ namespace AeroEduClass.Lib
             get { return _connectionString; }
             set { _connectionString = value; }
         }
+        string _questionsPersonal;
+        /// <summary>
+        /// 个人题库页面
+        /// </summary>
+        public string QuestionsPersonal
+        {
+            get { return _questionsPersonal; }
+            set { _questionsPersonal = value; }
+        }
+        string _questionsPublic;
+        /// <summary>
+        /// 公共题库页面
+        /// </summary>
+        public string QuestionsPublic
+        {
+            get { return _questionsPublic; }
+            set { _questionsPublic = value; }
+        }
+        string _resourcePageName;
+        /// <summary>
+        /// 资源下载页面相对路径
+        /// </summary>
+        public string ResourcePageName
+        {
+            get { return _resourcePageName; }
+            set { _resourcePageName = value; }
+        }
+        string _resourcePage;
+        /// <summary>
+        /// 资源下载页面
+        /// </summary>
+        public string ResourcePage
+        {
+            get { return _resourcePage; }
+            set { _resourcePage = value; }
+        }
         #endregion
         public Config()
         {
@@ -218,6 +254,11 @@ namespace AeroEduClass.Lib
                 _aeroBoardPath = xd.SelectSingleNode("/config/AeroBoardPath").InnerText;
                 _ascriptionFilePath = xd.SelectSingleNode("/config/AscriptionFilePath").InnerText;
                 _cCLiveServer = xd.SelectSingleNode("/config/CCLiveServer").InnerText;
+                _questionsPersonal = xd.SelectSingleNode("/config/QuestionsPersonal").InnerText;
+                _questionsPublic = xd.SelectSingleNode("/config/QuestionsPublic").InnerText;
+                _resourcePageName = "aeroteacher/resourcesManage.do";
+                _resourcePage = "http://" + _webServerIp + xd.SelectSingleNode("/config/ResourceDL").InnerText; ;
+
 
                 bool.TryParse(xd.SelectSingleNode("/config/UseUKe").InnerText, out _useUKe);
                 bool.TryParse(xd.SelectSingleNode("/config/UseAttitude").InnerText, out _useAttitude);

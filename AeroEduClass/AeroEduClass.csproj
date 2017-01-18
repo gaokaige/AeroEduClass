@@ -90,6 +90,7 @@
     <Compile Include="Lib\frmDownloadLib.cs" />
     <Compile Include="Lib\PostgreSQLDB\IDBHelper.cs" />
     <Compile Include="Lib\PostgreSQLDB\PostgreHelper.cs" />
+    <Compile Include="Lib\QAOperationLib.cs" />
     <Compile Include="UI\frmDLFloat.cs">
       <SubType>Form</SubType>
     </Compile>

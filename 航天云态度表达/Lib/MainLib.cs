@@ -66,7 +66,7 @@ namespace 航天云态度表达.Lib
                 {
                     retString = reader.ReadToEnd();
                 }
-                Log.ToFile(retString);
+                //Log.ToFile(retString);
                 return retString;
             }
             catch (Exception exc)

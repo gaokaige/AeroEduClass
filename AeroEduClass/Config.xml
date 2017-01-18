@@ -10,6 +10,12 @@
   <ActivePath>/html/ajax/index.html#page/getWdMeetingList</ActivePath>
   <!--直播页面地址-->
   <LiveServer>/html/ajax/index.html#page/videoStartCourse</LiveServer>
+  <!--个人题库页面-->
+  <QuestionsPersonal>/html/ajax/index.html#page/ownTopic</QuestionsPersonal>
+  <!--公共题库页面-->
+  <QuestionsPublic>/html/ajax/index.html#page/bookTest</QuestionsPublic>
+  <!--资源下载页面-->
+  <ResourceDL>/html/ajax/index.html#page/teaAeroResource</ResourceDL>
   <!--设备归属查询服务器-->
   <AscriptionServer>http://aero-educloud.com/CloudPlatform/findClassInfoByMac.do?macAddress=</AscriptionServer>
   <!--名博优课-->

@@ -20,7 +20,7 @@ namespace AeroEduClass.UI
         private void frmDLFloat_Load(object sender, EventArgs e)
         {
             IrregularForm();
-            this.Location = new Point(930, 30);
+            //this.Location = new Point(930, 30);
         }
 
         public void MinSize()
@@ -43,6 +43,7 @@ namespace AeroEduClass.UI
             if (!appActive)
             {
                 frmdlmain.Show();
+                frmdlmain.Location = new Point(this.Location.X - 210, this.Location.Y + 40);
                 pictureBox1.Image = Resources.dlfloat_o;
                 IrregularForm();
             }
