@@ -28,7 +28,7 @@ namespace 航天云态度表达.Gui
         private void frmFloat_Load(object sender, EventArgs e)
         {
             IrregularForm();
-            this.TopMost = true;// 窗体总在最前
+            //this.TopMost = true;// 窗体总在最前
             // 位置
             this.Location = new Point(Convert.ToInt32(Program.Frmfloat_X), Convert.ToInt32(Program.Frmfloat_Y));
             //this.Location = new Point(932, 420);

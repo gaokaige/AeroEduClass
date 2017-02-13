@@ -103,6 +103,7 @@ namespace AeroEduClass.UI
 
             celSet.CachePath = System.IO.Directory.GetCurrentDirectory() + @"\cache";
             //celSet.CefCommandLineArgs.Add("ppapi-flash-path", config.FlashPluginPath);// 安装flashplayer_ppapi可以解决flash播放问题
+            //celSet.CefCommandLineArgs.Add("enable-media-stream", "1"); //Enable WebRTC
             Cef.Initialize(celSet, true, false);
 #if !DEBUG
             browser = new ChromiumWebBrowser(config.LoginPageUrl)

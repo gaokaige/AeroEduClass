@@ -167,7 +167,6 @@
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "frmMenu";
-            this.TopMost = true;
             this.TransparencyKey = System.Drawing.Color.DimGray;
             this.Load += new System.EventHandler(this.frmMenu_Load);
             this.ResumeLayout(false);

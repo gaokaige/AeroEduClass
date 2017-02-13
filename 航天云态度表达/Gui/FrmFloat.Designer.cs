@@ -90,7 +90,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmFloat";
             this.Text = "航天云态度表达系统";
-            this.TopMost = true;
             this.Load += new System.EventHandler(this.frmFloat_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
