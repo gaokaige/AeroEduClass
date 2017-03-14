@@ -4947,7 +4947,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>1487266349</td></row>
+		<row><td>COMPANY_NAME</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>1906651438</td></row>
 		<row><td>DN_AlwaysInstall</td><td>2052</td><td>始终安装</td><td>0</td><td/><td>1109705807</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>2052</td><td>系统颜色设置不足以运行 [ProductName]。</td><td>0</td><td/><td>1109705807</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION40CLIENT</td><td>1033</td><td>Microsoft .NET Framework 4.0 Client Package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>1109715729</td></row>
@@ -6169,14 +6169,14 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>2052</td><td>对于运行 [ProductName] 处理器不足。</td><td>0</td><td/><td>1109705807</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>2052</td><td>对于运行 [ProductName] 内存量不足。</td><td>0</td><td/><td>1109705807</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>2052</td><td>对于运行 [ProductName] 屏幕分辨率不足。</td><td>0</td><td/><td>1109705807</td></row>
-		<row><td>ID_STRING1</td><td>2052</td><td>http://www.aero-edu.com</td><td>0</td><td/><td>1487223150</td></row>
+		<row><td>ID_STRING1</td><td>2052</td><td>http://www.北京航天云教育科技有限公司.com</td><td>0</td><td/><td>1906651438</td></row>
 		<row><td>ID_STRING10</td><td>1033</td><td>航天云课联网</td><td>0</td><td/><td>1042596113</td></row>
 		<row><td>ID_STRING10</td><td>2052</td><td>航天云课联网</td><td>0</td><td/><td>1042596113</td></row>
 		<row><td>ID_STRING11</td><td>1033</td><td>LAUNCH~1.EXE|Launch AeroEduClass.exe</td><td>0</td><td/><td>1487269676</td></row>
 		<row><td>ID_STRING11</td><td>2052</td><td>LAUNCH~1.EXE|Launch AeroEduClass.exe</td><td>0</td><td/><td>1487269676</td></row>
 		<row><td>ID_STRING12</td><td>1033</td><td>LAUNCH~1.EXE|Launch AeroEduClass.exe</td><td>0</td><td/><td>1487261805</td></row>
 		<row><td>ID_STRING12</td><td>2052</td><td>LAUNCH~1.EXE|Launch AeroEduClass.exe</td><td>0</td><td/><td>1487261805</td></row>
-		<row><td>ID_STRING2</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>1487266349</td></row>
+		<row><td>ID_STRING2</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>1906651438</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>1109658991</td></row>
 		<row><td>ID_STRING3</td><td>2052</td><td>Launch |Built</td><td>0</td><td/><td>1109658991</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>航天云课联网</td><td>0</td><td/><td>1109699248</td></row>

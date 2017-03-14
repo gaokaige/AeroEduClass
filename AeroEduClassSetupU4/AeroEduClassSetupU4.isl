@@ -350,7 +350,6 @@
 		<row><td>AeroEduLib.dll2</td><td>{2059549E-29AC-498B-8923-7F875CFDD8E0}</td><td>INSTALLDIR</td><td>2</td><td/><td>aeroedulib.dll2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>BWClientDll.dll</td><td>{12DFCF82-81B3-4733-AD18-E486775FC78E}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>bwclientdll.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>Booth_Camera.exe</td><td>{D480CF75-896B-46AF-96F4-CFE00CD67568}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>booth_camera.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Booth_Camera.vshost.exe</td><td>{F4674787-498C-4C65-AD49-1ACA87599178}</td><td>BOOTH_CAMERA</td><td>2</td><td/><td>booth_camera.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>BugReport.exe</td><td>{278A159D-2BD1-40CF-9373-7888C457D7AF}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>bugreport.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>CEXTH.dll</td><td>{5EC991AC-0125-4D4C-9CD2-5314452D060F}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>cexth.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>CPTH.dll</td><td>{7F2FA617-0204-4FF9-888D-5B3DD096D29D}</td><td>ACTIVEMEETING</td><td>2</td><td/><td>cpth.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -2322,7 +2321,6 @@
 		<row><td>AlwaysInstall</td><td>AeroEduLib.dll2</td></row>
 		<row><td>AlwaysInstall</td><td>BWClientDll.dll</td></row>
 		<row><td>AlwaysInstall</td><td>Booth_Camera.exe</td></row>
-		<row><td>AlwaysInstall</td><td>Booth_Camera.vshost.exe</td></row>
 		<row><td>AlwaysInstall</td><td>BugReport.exe</td></row>
 		<row><td>AlwaysInstall</td><td>CEXTH.dll</td></row>
 		<row><td>AlwaysInstall</td><td>CPTH.dll</td></row>
@@ -2743,7 +2741,6 @@
 		<row><td>blend_sub_filter.effect1</td><td>ISX_DEFAULTCOMPONENT116</td><td>BLEND_~1.EFF|blend_sub_filter.effect</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\obsbin_u4\data\obs-plugins\obs-filters\blend_sub_filter.effect</td><td>1</td><td/></row>
 		<row><td>booth.dll</td><td>booth.dll</td><td>booth.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera U4\bin\Release\booth.dll</td><td>1</td><td/></row>
 		<row><td>booth_camera.exe</td><td>Booth_Camera.exe</td><td>BOOTHC~1.EXE|Booth Camera.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\Booth Camera U4\bin\Release\Booth Camera.exe</td><td>1</td><td/></row>
-		<row><td>booth_camera.vshost.exe</td><td>Booth_Camera.vshost.exe</td><td>BOOTHC~1.EXE|Booth Camera.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\TFS\航天云教育U3软件\AeroEduClass\Booth Camera U4\bin\Release\Booth Camera.vshost.exe</td><td>1</td><td/></row>
 		<row><td>bottom.bmp</td><td>ISX_DEFAULTCOMPONENT33</td><td>bottom.bmp</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\XPSkinRes\xpstyle\bottom.bmp</td><td>1</td><td/></row>
 		<row><td>bugreport.exe</td><td>BugReport.exe</td><td>BUGREP~1.EXE|BugReport.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\BugReport.exe</td><td>1</td><td/></row>
 		<row><td>bugreport.ini</td><td>ISX_DEFAULTCOMPONENT4</td><td>BUGREP~1.INI|BugReport.ini</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Code\AeroEduClass\iActive\ActiveCenter\ActiveMeeting\BugReport.ini</td><td>1</td><td/></row>
@@ -3888,7 +3885,6 @@
 		<row><td>AeroEduLib.dll2</td><td/><td/><td>_4D029D50_E47C_4A25_9767_3DA7D56A5EAC_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>BWClientDll.dll</td><td/><td/><td>_6C8A7025_894E_42E0_ACB1_F6F32669FCE2_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>Booth_Camera.exe</td><td/><td/><td>_09944F5A_18C1_4763_BCA1_A92DB38C18DD_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Booth_Camera.vshost.exe</td><td/><td/><td>_353CCD6C_C307_4206_9A90_B1B8BF006B1D_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>BugReport.exe</td><td/><td/><td>_1284892B_757F_4BC3_ACD9_BC800370D8CB_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>CEXTH.dll</td><td/><td/><td>_23D1F128_1770_45C0_97A9_523181B9A3A7_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>CPTH.dll</td><td/><td/><td>_CDB81606_A042_41CE_9970_E5ED3BD4FB96_FILTER</td><td/><td/><td/><td/></row>
@@ -4804,7 +4800,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>-2136615730</td></row>
+		<row><td>COMPANY_NAME</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>1906668014</td></row>
 		<row><td>DN_AlwaysInstall</td><td>2052</td><td>始终安装</td><td>0</td><td/><td>-433820150</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>2052</td><td>系统颜色设置不足以运行 [ProductName]。</td><td>0</td><td/><td>-433820150</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>2052</td><td>操作系统不足以运行 [ProductName]。</td><td>0</td><td/><td>-433820150</td></row>
@@ -6010,8 +6006,8 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>2052</td><td>对于运行 [ProductName] 处理器不足。</td><td>0</td><td/><td>-433820150</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>2052</td><td>对于运行 [ProductName] 内存量不足。</td><td>0</td><td/><td>-433820150</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>2052</td><td>对于运行 [ProductName] 屏幕分辨率不足。</td><td>0</td><td/><td>-433820150</td></row>
-		<row><td>ID_STRING1</td><td>2052</td><td>http://www.北京航天云教育科技有限公司.com</td><td>0</td><td/><td>-2136615730</td></row>
-		<row><td>ID_STRING2</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>-2136615730</td></row>
+		<row><td>ID_STRING1</td><td>2052</td><td>http://www.北京航天云教育科技有限公司.com</td><td>0</td><td/><td>1906668014</td></row>
+		<row><td>ID_STRING2</td><td>2052</td><td>北京航天云教育科技有限公司</td><td>0</td><td/><td>1906668014</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>航天云课联网(U4)</td><td>0</td><td/><td>-433798933</td></row>
 		<row><td>ID_STRING3</td><td>2052</td><td>航天云课联网(U4)</td><td>0</td><td/><td>-433798933</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>U4</td><td>0</td><td/><td>-433811061</td></row>

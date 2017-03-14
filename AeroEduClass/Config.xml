@@ -31,15 +31,15 @@
   <!--本地查询文件，当网络获取不到归属时使用-->
   <AscriptionFilePath>D:\AeroEduPlatform\AeroEduPlatform.exe.config</AscriptionFilePath>
   <!--CCLive直播课程的服务器地址，请从界面上配置，禁止修改此处-->
-  <CCLiveServer></CCLiveServer>
+  <CCLiveServer>https://view.csslcloud.net/api/view/lecturer?roomid=E41AE2E3E8FBBC829C33DC5901307461&amp;userid=9A0FFF552B24A90F&amp;publishname=测试账号&amp;publishpassword=123</CCLiveServer>
   <!--是否在主界面上显示名博优课，true显示，false不显示-->
   <UseUKe>true</UseUKe>
   <!--是否在主界面上显示CCLive的直播课程，true显示，false不显示-->
   <UseCCLive>false</UseCCLive>
   <!--是否在主界面上显示远程观课，true显示，false不显示-->
-  <UseYCGK>true</UseYCGK>
+  <UseYCGK>false</UseYCGK>
   <!--是否在主界面上显示远程播课，true显示，false不显示-->
-  <UseYCBK>true</UseYCBK>
+  <UseYCBK>false</UseYCBK>
   <!--是否启用态度表达软件 true/false-->
   <UseAttitude>false</UseAttitude>
 </config>
