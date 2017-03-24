@@ -121,4 +121,232 @@
   <data name="kuang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kuang.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="保存" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\保存.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="错题目录_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\错题目录_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="错题目录_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\错题目录_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="错题目录_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\错题目录_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="个人设置-存储设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\个人设置-存储设置.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="个人设置-界面设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\个人设置-界面设置.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="画笔_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\画笔_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="画笔_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\画笔_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="画笔_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\画笔_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="科目_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\科目_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="科目_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\科目_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="科目_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\课目_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="录像_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\录像_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="录像_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\录像_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="录像_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\录像_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="拍照_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\拍照_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="拍照_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\拍照_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="拍照_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\拍照_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批注_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\批注_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批注_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\批注_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批注_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\批注_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批注目录_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\批注目录_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批注目录_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\批注目录_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批注目录_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\批注目录_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\设置_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\设置_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\设置_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="视频目录_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\视频目录_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="视频目录_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\视频目录_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="视频目录_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\视频目录_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩放_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\缩放_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩放_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\缩放_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩放_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\缩放_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="橡皮擦_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\橡皮擦_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="橡皮擦_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\橡皮擦_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="橡皮擦_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\橡皮擦_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增错题_不可选" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\新增错题_不可选.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增错题_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\新增错题_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="新增错题_选中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\新增错题_选中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="录像_停止" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\录像_停止.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="批注_结束" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\批注_结束.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12-18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12虚" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12虚.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5-18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8-18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="关于软件" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\关于软件.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="关闭icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\关闭icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="存储设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\存储设置.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="文件icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\文件icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="界面设置" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\界面设置.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="设置icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\设置icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="右" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\右.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="左" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\左.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="放大" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\放大.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="缩小" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\缩小.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存_激活" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\保存_激活.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="保存_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\保存_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="前进_激活" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\前进_激活.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="前进_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\前进_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="后退_激活" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\后退_激活.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="后退_默认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\后退_默认.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

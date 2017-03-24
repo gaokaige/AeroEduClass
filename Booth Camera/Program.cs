@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AeroEduClass.UI;
+using System;
 using System.Reflection;
 using System.Threading;
 using System.Windows.Forms;
@@ -36,7 +37,9 @@ namespace AeroEduClass
 
             if (noInstance)
             {
-                Application.Run(new frmMain());
+                //Application.Run(new frmMain());
+                //Application.Run(new FormTest());
+                Application.Run(new MainForm());
                 mutex.ReleaseMutex();
             }
             else

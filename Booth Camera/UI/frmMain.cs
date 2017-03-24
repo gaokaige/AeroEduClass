@@ -1,5 +1,4 @@
 using AeroEduClass.Lib;
-using AeroEduClass.Lib;
 using AeroEduLib;
 using cs_framework;
 using System;
@@ -157,8 +156,7 @@ namespace AeroEduClass
                 lbRecordTime.Text = "00:00:00";
                 timer1.Start();
                 btnComment.Enabled = false;
-                //btnNear.Enabled = false;
-                //btnFar.Enabled = false;
+                
                 imglist1.Enabled = false;
                 comboTree2.Enabled = false;
                 btnJoinErrCol.Enabled = false;
@@ -181,8 +179,7 @@ namespace AeroEduClass
                 Booth.fnOnRButtonDown();
                 recordSenconds = 0;
                 btnComment.Enabled = true;
-                //btnNear.Enabled = true;
-                //btnFar.Enabled = true;
+                
                 imglist1.Enabled = true;
                 comboTree2.Enabled = true;
                 btnJoinErrCol.Enabled = true;

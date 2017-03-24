@@ -11,7 +11,7 @@ namespace AeroEduLib
         /// <summary>
         /// 打包时请修改DeviceType.U3/DeviceType.U4
         /// </summary>
-        public static DeviceType _DeviceType = DeviceType.U3;
+        public static DeviceType _DeviceType = DeviceType.U4;
         /// <summary>
         /// 联网WEB接收客户端传递消息的地址
         /// </summary>

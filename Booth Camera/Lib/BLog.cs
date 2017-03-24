@@ -6,8 +6,10 @@ namespace AeroEduClass.Lib
     {
         public static void ToDB(string str)
         {
+#if !DEBUG
             str = "[" + AppType.实物展台 + "]" + str;
             AeroEduLib.Log.ToDB(str);
+#endif
         }
     }
 }

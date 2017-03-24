@@ -4,7 +4,6 @@ using lubo2012.Gui;
 using lubo2012.Lib;
 using System;
 using System.Drawing;
-using System.IO;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading;
@@ -12,8 +11,10 @@ using System.Windows.Forms;
 
 namespace lubo2012
 {
+
     public partial class frmMain : DevComponents.DotNetBar.RibbonForm
     {
+        cs_framework.CSAVFrameWork.CallbackDelegate callbackDelegate = null; 
         private CSAVFrameWork m_csAVFrm = new CSAVFrameWork();
         int nNetSenderId;
         DateTime t1, t2;
@@ -26,6 +27,8 @@ namespace lubo2012
             this.Height = 336;
             this.Text = "录播软件网络版 版本：1.1.1       北京航天云教育科技有限公司";
             OnTestNetConnectEvent += frmMain_OnTestNetConnectEvent;
+
+            callbackDelegate  = new cs_framework.CSAVFrameWork.CallbackDelegate(CallbackFunc);
         }
         private void frmMain_Load(object sender, EventArgs e)
         {
@@ -163,22 +166,31 @@ namespace lubo2012
             }
             else
             {
-                PopWatingForm();
-
-                //Thread th = new Thread(PopWatingForm);
-                //th.Start();
-
+                btnRecordControl.Enabled = false;
+                //PopWatingForm();
                 savePath = DateTime.Now.ToString("yyyyMMddHHmmss");
-                #region 即将删除
                 // 开始录制------------------------
                 //MinToIcon();
-                #endregion
                 nNetSenderId = m_csAVFrm.createNetSender("192.168.5.122", 8000, savePath);
                 m_csAVFrm.addPreviewerToNetSender(nNetSenderId, screenVideoPreviewerId);
-                m_csAVFrm.startNetSender(nNetSenderId);
-                // 缩小
-                this.WindowState = FormWindowState.Minimized;
+                // 回调 委托
+                
+                m_csAVFrm.startNetSender(nNetSenderId, callbackDelegate);
+            }
+        }
+       
+        private void CallbackFunc(int netSenderId, string param)
+        {
+            if (this.InvokeRequired)
+            {
+                this.BeginInvoke(callbackDelegate, new object[] { netSenderId, param });
+            }
+            else
+            {
+                //Thread.Sleep(4000);
+                btnRecordControl.Enabled = true;
                 isRecord = true;
+                //this.WindowState = FormWindowState.Minimized;
                 btnRecordControl.Image = Properties.Resources.stop;
                 btnRecordControl.Tooltip = "停止录制";
                 btnPlay.Enabled = false;
@@ -195,7 +207,6 @@ namespace lubo2012
         // 停止录制
         private void RecordStop()
         {
-            //Record.StopRecord();
             m_csAVFrm.stopNetSender(nNetSenderId);
             t2 = DateTime.Now;
             if (isRecord)
@@ -205,8 +216,9 @@ namespace lubo2012
                 btnRecordControl.Tooltip = "开始录制";
                 btnPlay.Enabled = true;
                 timer1.Stop();
-            
+
                 isRecord = false;
+#if !DEBUG
                 string path = @"http://192.168.5.122/project/record/" + savePath;
                 resource = new Resource();
                 resource.Apptype = AppType.录播;
@@ -225,6 +237,7 @@ namespace lubo2012
                 AppInterface.CreateNewResourceU4(resource);
 
                 RLog.ToDB("停止录像,生成新资源：" + path);
+#endif
             }
         }
         private void btnExit_Click(object sender, EventArgs e)
