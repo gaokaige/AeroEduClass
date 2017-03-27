@@ -37,9 +37,8 @@ namespace AeroEduClass
 
             if (noInstance)
             {
-                //Application.Run(new frmMain());
-                //Application.Run(new FormTest());
                 Application.Run(new MainForm());
+                //Application.Run(new frmMain());
                 mutex.ReleaseMutex();
             }
             else

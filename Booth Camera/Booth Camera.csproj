@@ -367,9 +367,6 @@
     <Content Include="光标 3.cur">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="更新说明.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AeroEduLib\AeroEduLib.csproj">

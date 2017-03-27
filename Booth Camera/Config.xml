@@ -11,7 +11,7 @@
   <!--批注保存的时间间隔-->
   <SaveCommentInterval>3</SaveCommentInterval>
   <!--允许保存批注的最大数量-->
-  <MaxCommentImageCount>50</MaxCommentImageCount>
+  <MaxCommentImageCount>100</MaxCommentImageCount>
   <!--学科-->
   <Subjects>语文|数学|英语|品德与生活|科学|音乐|美术|信息技术|综合实践</Subjects>
   <!--视频保存路径-->

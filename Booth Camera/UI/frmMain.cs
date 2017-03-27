@@ -724,18 +724,14 @@ namespace AeroEduClass
         // 变倍 -
         private void btnFar_Click(object sender, EventArgs e)
         {
-            Booth.fnZoomOut();
-            Thread.Sleep(500);
-            Booth.fnZoomOut();
+            Booth.fnZoomOut(5);
             NoticeShow("缩小画面");
             BLog.ToDB("缩小画面");
         }
         // 变倍 +
         private void btnNear_Click(object sender, EventArgs e)
         {
-            Booth.fnZoomIn();
-            Thread.Sleep(500);
-            Booth.fnZoomIn();
+            Booth.fnZoomIn(5);
             NoticeShow("放大画面");
             BLog.ToDB("放大画面");
         }

@@ -43,13 +43,13 @@ namespace AeroEduClass.Lib
         /// </summary>
         /// <returns></returns>
         [DllImport("booth.dll", EntryPoint = "fnZoomIn")]
-        public static extern bool fnZoomIn();
+        public static extern bool fnZoomIn(int step);
         /// <summary>
         ///  变倍 小
         /// </summary>
         /// <returns></returns>
         [DllImport("booth.dll", EntryPoint = "fnZoomOut")]
-        public static extern bool fnZoomOut();
+        public static extern bool fnZoomOut(int step);
         /// <summary>
         /// 变焦 -
         /// </summary>
