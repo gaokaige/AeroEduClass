@@ -888,19 +888,20 @@ namespace AeroEduClass.UI
         private void plCamera_MouseEnter(object sender, EventArgs e)
         {
             if (isEraser && !isLargeEraze)
+            {
                 switch (cbEraser.SelectedIndex)
                 {
                     case 0:
-                        this.Cursor = new Cursor(System.AppDomain.CurrentDomain.BaseDirectory + "光标 1.cur");
+                        this.Cursor = new Cursor(System.AppDomain.CurrentDomain.BaseDirectory + "橡皮小.cur");
                         break;
                     case 1:
-                        this.Cursor = new Cursor(System.AppDomain.CurrentDomain.BaseDirectory + "光标 2.cur");
+                        this.Cursor = new Cursor(System.AppDomain.CurrentDomain.BaseDirectory + "橡皮中.cur");
                         break;
                     case 2:
-                        this.Cursor = new Cursor(System.AppDomain.CurrentDomain.BaseDirectory + "光标 3.cur");
+                        this.Cursor = new Cursor(System.AppDomain.CurrentDomain.BaseDirectory + "橡皮大.cur");
                         break;
                 }
-
+            }
         }
 
         private void btnClear_Click(object sender, EventArgs e)

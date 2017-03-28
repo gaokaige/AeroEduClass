@@ -82,12 +82,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormTest.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormTest.Designer.cs">
-      <DependentUpon>FormTest.cs</DependentUpon>
-    </Compile>
     <Compile Include="Lib\Config.cs" />
     <Compile Include="UI\frmReg.cs">
       <SubType>Form</SubType>
@@ -130,9 +124,6 @@
     <Compile Include="UserControl\CommentImageList.Designer.cs">
       <DependentUpon>CommentImageList.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormTest.resx">
-      <DependentUpon>FormTest.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\frmReg.resx">
       <DependentUpon>frmReg.cs</DependentUpon>
     </EmbeddedResource>
@@ -358,15 +349,9 @@
     <Content Include="UserInfo.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="光标 1.cur">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="光标 2.cur">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="光标 3.cur">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <EmbeddedResource Include="橡皮小.cur" />
+    <EmbeddedResource Include="橡皮中.cur" />
+    <EmbeddedResource Include="橡皮大.cur" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AeroEduLib\AeroEduLib.csproj">
