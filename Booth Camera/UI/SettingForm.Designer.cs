@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.plBar = new System.Windows.Forms.Panel();
-            this.btnClose = new DMSkin.Controls.DMButtonClose();
             this.panel1 = new System.Windows.Forms.Panel();
             this.plAbout = new System.Windows.Forms.Panel();
             this.lbVer = new System.Windows.Forms.Label();
@@ -59,6 +58,7 @@
             this.btnAbout = new System.Windows.Forms.Button();
             this.btnPath = new System.Windows.Forms.Button();
             this.btnUI = new System.Windows.Forms.Button();
+            this.btnClose = new DMSkin.Controls.DMButtonCloseLight();
             this.plBar.SuspendLayout();
             this.panel1.SuspendLayout();
             this.plAbout.SuspendLayout();
@@ -70,6 +70,7 @@
             // plBar
             // 
             this.plBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(38)))), ((int)(((byte)(39)))));
+            this.plBar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.plBar.Controls.Add(this.btnClose);
             this.plBar.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.plBar.Location = new System.Drawing.Point(0, 470);
@@ -77,20 +78,10 @@
             this.plBar.Size = new System.Drawing.Size(800, 30);
             this.plBar.TabIndex = 0;
             // 
-            // btnClose
-            // 
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.Location = new System.Drawing.Point(770, 1);
-            this.btnClose.MaximumSize = new System.Drawing.Size(30, 27);
-            this.btnClose.MinimumSize = new System.Drawing.Size(30, 27);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(30, 27);
-            this.btnClose.TabIndex = 1;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(40)))), ((int)(((byte)(47)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.plAbout);
             this.panel1.Controls.Add(this.btnSave);
             this.panel1.Controls.Add(this.plPath);
@@ -111,7 +102,7 @@
             this.plAbout.Dock = System.Windows.Forms.DockStyle.Top;
             this.plAbout.Location = new System.Drawing.Point(140, 383);
             this.plAbout.Name = "plAbout";
-            this.plAbout.Size = new System.Drawing.Size(660, 166);
+            this.plAbout.Size = new System.Drawing.Size(658, 166);
             this.plAbout.TabIndex = 9;
             this.plAbout.Visible = false;
             // 
@@ -184,7 +175,7 @@
             this.plPath.Dock = System.Windows.Forms.DockStyle.Top;
             this.plPath.Location = new System.Drawing.Point(140, 147);
             this.plPath.Name = "plPath";
-            this.plPath.Size = new System.Drawing.Size(660, 236);
+            this.plPath.Size = new System.Drawing.Size(658, 236);
             this.plPath.TabIndex = 7;
             this.plPath.Visible = false;
             // 
@@ -285,7 +276,7 @@
             this.plUI.Dock = System.Windows.Forms.DockStyle.Top;
             this.plUI.Location = new System.Drawing.Point(140, 0);
             this.plUI.Name = "plUI";
-            this.plUI.Size = new System.Drawing.Size(660, 147);
+            this.plUI.Size = new System.Drawing.Size(658, 147);
             this.plUI.TabIndex = 6;
             // 
             // combSelectUI
@@ -377,7 +368,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(140, 470);
+            this.panel2.Size = new System.Drawing.Size(140, 468);
             this.panel2.TabIndex = 0;
             // 
             // btnAbout
@@ -427,6 +418,17 @@
             this.btnUI.UseVisualStyleBackColor = false;
             this.btnUI.Click += new System.EventHandler(this.btn_Click);
             // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Location = new System.Drawing.Point(768, 2);
+            this.btnClose.MaximumSize = new System.Drawing.Size(30, 27);
+            this.btnClose.MinimumSize = new System.Drawing.Size(30, 27);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(30, 27);
+            this.btnClose.TabIndex = 10;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // SettingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -458,7 +460,6 @@
         #endregion
 
         private System.Windows.Forms.Panel plBar;
-        private DMSkin.Controls.DMButtonClose btnClose;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private DevComponents.DotNetBar.Controls.ComboBoxEx combSelectUI;
@@ -488,5 +489,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lbVer;
+        private DMSkin.Controls.DMButtonCloseLight btnClose;
     }
 }

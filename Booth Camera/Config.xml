@@ -5,6 +5,8 @@
   <DefaultUI>0</DefaultUI>
   <!--显示中心点-->
   <ShowCenterPoint>1</ShowCenterPoint>
+  <!--摄像头IP-->
+  <CameraIP>192.168.5.3</CameraIP>
   <rtspSource>
     <rtspFormat>rtsp://192.168.5.3:8557/Onvif/Streaming/2?videoCodecType=H.264</rtspFormat>
   </rtspSource>
@@ -15,11 +17,11 @@
   <!--学科-->
   <Subjects>语文|数学|英语|品德与生活|科学|音乐|美术|信息技术|综合实践</Subjects>
   <!--视频保存路径-->
-  <VideoSavePath>D:\实物展台\视频</VideoSavePath>
+  <VideoSavePath>c:\实物展台\视频</VideoSavePath>
   <!--拍照保存路径-->
-  <PictureSavePath>D:\实物展台\图片</PictureSavePath>
+  <PictureSavePath>c:\实物展台\图片</PictureSavePath>
   <!--批注保存路径-->
-  <CommentSavePath>D:\实物展台\批注</CommentSavePath>
+  <CommentSavePath>c:\实物展台\批注</CommentSavePath>
   <!--错题保存路径-->
-  <ErrColSavePath>D:\实物展台\错题集</ErrColSavePath>
+  <ErrColSavePath>c:\实物展台\错题集</ErrColSavePath>
 </config>

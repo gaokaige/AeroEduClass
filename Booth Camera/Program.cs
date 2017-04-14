@@ -30,15 +30,14 @@ namespace AeroEduClass
             else
             {
 #if !DEBUG
-                MessageBox.Show("请从课联网平台启动本程序");
-                return;
+                //MessageBox.Show("请从课联网平台启动本程序");
+                //return;
 #endif
             }
 
             if (noInstance)
             {
                 Application.Run(new MainForm());
-                //Application.Run(new frmMain());
                 mutex.ReleaseMutex();
             }
             else

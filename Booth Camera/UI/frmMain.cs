@@ -69,7 +69,7 @@ namespace AeroEduClass
         private void Init()
         {
             LoadConfig();
-            Booth.fnInit(this.Handle, plCamera.Handle);
+            //Booth.fnInit(this.Handle, plCamera.Handle);
             Preview();
             BuildDir();
             DisablePenControl();

@@ -12,7 +12,9 @@ namespace AeroEduClass.Lib
         /// <param name="p1">视频1预览窗口</param>
         /// <returns></returns>
         [DllImport("booth.dll", EntryPoint = "fnInit")]
-        public static extern bool fnInit(IntPtr main, IntPtr p1);
+        //public static extern bool fnInit(IntPtr main, IntPtr p1);
+        public static extern void fnInit(string ip);
+
         /// <summary>
         /// 设置保存路径
         /// </summary>

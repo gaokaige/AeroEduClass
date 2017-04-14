@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lib\Config.cs" />
+    <Compile Include="Lib\XMSDK.cs" />
     <Compile Include="UI\frmReg.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +186,7 @@
     <Content Include="camera.ico" />
     <Content Include="Config.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="cs_framework.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -349,9 +351,15 @@
     <Content Include="UserInfo.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <EmbeddedResource Include="橡皮小.cur" />
-    <EmbeddedResource Include="橡皮中.cur" />
-    <EmbeddedResource Include="橡皮大.cur" />
+    <None Include="橡皮小.cur">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="橡皮中.cur">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="橡皮大.cur">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AeroEduLib\AeroEduLib.csproj">

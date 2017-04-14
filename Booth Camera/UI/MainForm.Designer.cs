@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.plTools = new System.Windows.Forms.Panel();
+            this.btnMinSize = new DMSkin.Controls.DMButtonMinLight();
+            this.btnExitApp = new DMSkin.Controls.DMButtonCloseLight();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSetting = new System.Windows.Forms.Button();
             this.btnOpenErr = new System.Windows.Forms.Button();
@@ -49,8 +51,6 @@
             this.btnSnapshot = new System.Windows.Forms.Button();
             this.btnZoom = new System.Windows.Forms.Button();
             this.cbSubject = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.btnExitApp = new DMSkin.Controls.DMButtonClose();
-            this.btnMinsize = new DMSkin.Controls.DMButtonMin();
             this.plEraser = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.cbEraser = new DevComponents.DotNetBar.Controls.ComboTree();
@@ -95,15 +95,35 @@
             // plTools
             // 
             this.plTools.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(53)))), ((int)(((byte)(67)))));
-            this.plTools.Controls.Add(this.panel1);
+            this.plTools.Controls.Add(this.btnMinSize);
             this.plTools.Controls.Add(this.btnExitApp);
-            this.plTools.Controls.Add(this.btnMinsize);
+            this.plTools.Controls.Add(this.panel1);
             this.plTools.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.plTools.Location = new System.Drawing.Point(0, 676);
             this.plTools.Name = "plTools";
             this.plTools.Size = new System.Drawing.Size(1024, 52);
             this.plTools.TabIndex = 0;
             this.plTools.MouseEnter += new System.EventHandler(this.plTools_MouseEnter);
+            // 
+            // btnMinSize
+            // 
+            this.btnMinSize.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinSize.Location = new System.Drawing.Point(957, 23);
+            this.btnMinSize.Name = "btnMinSize";
+            this.btnMinSize.Size = new System.Drawing.Size(30, 27);
+            this.btnMinSize.TabIndex = 4;
+            this.btnMinSize.Click += new System.EventHandler(this.btnMinsize_Click);
+            // 
+            // btnExitApp
+            // 
+            this.btnExitApp.BackColor = System.Drawing.Color.Transparent;
+            this.btnExitApp.Location = new System.Drawing.Point(992, 23);
+            this.btnExitApp.MaximumSize = new System.Drawing.Size(30, 27);
+            this.btnExitApp.MinimumSize = new System.Drawing.Size(30, 27);
+            this.btnExitApp.Name = "btnExitApp";
+            this.btnExitApp.Size = new System.Drawing.Size(30, 27);
+            this.btnExitApp.TabIndex = 3;
+            this.btnExitApp.Click += new System.EventHandler(this.btnExitApp_Click);
             // 
             // panel1
             // 
@@ -408,26 +428,6 @@
             this.cbSubject.Size = new System.Drawing.Size(100, 21);
             this.cbSubject.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.cbSubject.TabIndex = 0;
-            // 
-            // btnExitApp
-            // 
-            this.btnExitApp.BackColor = System.Drawing.Color.Transparent;
-            this.btnExitApp.Location = new System.Drawing.Point(992, 21);
-            this.btnExitApp.MaximumSize = new System.Drawing.Size(30, 27);
-            this.btnExitApp.MinimumSize = new System.Drawing.Size(30, 27);
-            this.btnExitApp.Name = "btnExitApp";
-            this.btnExitApp.Size = new System.Drawing.Size(30, 27);
-            this.btnExitApp.TabIndex = 0;
-            this.btnExitApp.Click += new System.EventHandler(this.btnExitApp_Click);
-            // 
-            // btnMinsize
-            // 
-            this.btnMinsize.BackColor = System.Drawing.Color.Transparent;
-            this.btnMinsize.Location = new System.Drawing.Point(957, 21);
-            this.btnMinsize.Name = "btnMinsize";
-            this.btnMinsize.Size = new System.Drawing.Size(30, 27);
-            this.btnMinsize.TabIndex = 1;
-            this.btnMinsize.Click += new System.EventHandler(this.btnMinsize_Click);
             // 
             // plEraser
             // 
@@ -812,10 +812,8 @@
         #endregion
 
         private System.Windows.Forms.Panel plTools;
-        private DMSkin.Controls.DMButtonClose btnExitApp;
         private System.Windows.Forms.Panel plCamera;
         private System.Windows.Forms.PictureBox pbCenterStar;
-        private DMSkin.Controls.DMButtonMin btnMinsize;
         private System.Windows.Forms.Panel plImageList;
         private System.Windows.Forms.Button btnRecord;
         private System.Windows.Forms.Button btnJoinErrCol;
@@ -863,5 +861,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;
+        private DMSkin.Controls.DMButtonCloseLight btnExitApp;
+        private DMSkin.Controls.DMButtonMinLight btnMinSize;
     }
 }

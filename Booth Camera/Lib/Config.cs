@@ -8,6 +8,8 @@ namespace AeroEduClass.Lib
 
         public int ShowCenterPoint { get; set; }
 
+        public string CameraIP { get; set; }
+
         public string VideoSavePath { get; set; }
 
         public string PictureSavePath { get; set; }
@@ -24,13 +26,14 @@ namespace AeroEduClass.Lib
 
         public string[] Subject { get; set; }
 
-        XmlDocument xd = new XmlDocument();
+        private XmlDocument xd = new XmlDocument();
 
         public Config()
         {
             xd.Load("Config.xml");
             DefaultUI = int.Parse(xd.SelectSingleNode("/config/DefaultUI").InnerText);
             ShowCenterPoint = int.Parse(xd.SelectSingleNode("/config/ShowCenterPoint").InnerText);
+            CameraIP = xd.SelectSingleNode("/config/CameraIP").InnerText;
             VideoSavePath = xd.SelectSingleNode("/config/VideoSavePath").InnerText;
             PictureSavePath = xd.SelectSingleNode("/config/PictureSavePath").InnerText;
             CommentSavePath = xd.SelectSingleNode("/config/CommentSavePath").InnerText;

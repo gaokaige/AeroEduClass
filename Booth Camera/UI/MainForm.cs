@@ -32,13 +32,13 @@ namespace AeroEduClass.UI
         Graphics gpReDraw = null;// 最小化时保存当前图像的画板
         Graphics gpEra = null;// 储存底图
         Graphics gpHistory = null;// 批注历史记录
-        Pen pen = null;
+        Pen pen = null;// 画笔
         Image img = null;// 当前图像
         Image imgEra = null;// 橡皮擦图像
         int penWidth = 2;//笔粗细
         int eraWidth = 18;//橡皮擦粗细
         Rectangle rect = Rectangle.Empty;
-        List<Bitmap> Progress = new List<Bitmap>();
+        List<Bitmap> Progress = new List<Bitmap>();//橡皮擦底图
         Stack<Bitmap> Backup = new Stack<Bitmap>();
         List<List<Bitmap>> lmgList = new List<List<Bitmap>>();
         List<Stack<Bitmap>> lmgStack = new List<Stack<Bitmap>>();
@@ -101,7 +101,8 @@ namespace AeroEduClass.UI
         // 初始化
         private void Init()
         {
-            Booth.fnInit(this.Handle, plCamera.Handle);
+            //Booth.fnInit(this.Handle, IntPtr.Zero);
+            Booth.fnInit(config.CameraIP);
             Preview();
             BuildDir();
             btnForward.Enabled = false;
@@ -139,7 +140,7 @@ namespace AeroEduClass.UI
             CSAVFrameWork.initialize();
             audioName = CSAVFrameWork.getAudioDefaultInputDeviceName();
             audioPreviewerId = m_csAVFrm.startPreview(IntPtr.Zero, emAVDType.emUSBMicroPhone, audioName);
-            videoPreviewerId = m_csAVFrm.startPreview(IntPtr.Zero, emAVDType.emRtsp, config.RTSPAddress);
+            videoPreviewerId = m_csAVFrm.startPreview(plCamera.Handle, emAVDType.emRtsp, config.RTSPAddress);
         }
         // 录像
         void RecordStart()
@@ -183,8 +184,8 @@ namespace AeroEduClass.UI
                 //lbRecordTime.Text = "00:00:00";
                 timer1.Start();
                 plImageList.Enabled = false;
-                btnSubject.Enabled = false;
-                btnJoinErrCol.Enabled = false;
+                //btnSubject.Enabled = false;
+                //btnJoinErrCol.Enabled = false;
                 btnOpenErr.Enabled = false;
                 btnSnapshot.Enabled = false;
                 btnOpendir.Enabled = false;
@@ -206,8 +207,6 @@ namespace AeroEduClass.UI
                 Booth.fnOnRButtonDown();
                 recordSenconds = 0;
                 plImageList.Enabled = true;
-                btnSubject.Enabled = true;
-                btnJoinErrCol.Enabled = true;
                 btnOpenErr.Enabled = true;
                 btnSnapshot.Enabled = true;
                 btnOpendir.Enabled = true;
@@ -220,6 +219,42 @@ namespace AeroEduClass.UI
         // 截图
         private void btnSnapshot_Click(object sender, EventArgs e)//考虑优化去掉
         {
+            BLog.ToDB("拍照");
+            if (commentImageList1.Count < config.MaxCommentImageCount)
+            {
+                string imgPath = string.Format(config.PictureSavePath + @"\{0}\{1}.PNG", DateTime.Now.ToString("yyyyMMdd"), DateTime.Now.ToString("yyyyMMddHHmmssfff"));
+
+                if (!Directory.Exists(config.PictureSavePath + "\\" + DateTime.Now.ToString("yyyyMMdd")))
+                    Directory.CreateDirectory(config.PictureSavePath + "\\" + DateTime.Now.ToString("yyyyMMdd"));
+                
+                ImageFromControl(ref gpHide);
+                img.Save(imgPath, System.Drawing.Imaging.ImageFormat.Png);
+
+                commentImageList1.AddPic(imgPath);
+                
+                List<Bitmap> temp1 = new List<Bitmap>();
+                foreach (Bitmap img2 in Progress)
+                    temp1.Add(img2);
+                Stack<Bitmap> temp2 = new Stack<Bitmap>();
+                foreach (Bitmap img2 in Backup)
+                    temp2.Push(img2);
+                lmgList.Add(temp1);
+                lmgStack.Add(temp2);
+
+                //ImageFromControl(ref gpHide);
+                ImageFromControl(ref gpEra, ref imgEra);
+                Progress.Add(new Bitmap(imgEra));
+
+                resource = new Resource();
+                resource.Apptype = AppType.实物展台;
+                resource.File = new FileInfo(imgPath);
+                AppInterface.CreateNewResource(resource);
+            }
+            else
+            {
+                MessageBox.Show(string.Format("浏览历史列表只能保存{0}个批注，请清空后再保存", config.MaxCommentImageCount));
+            }
+            /*
             string picPath = string.Format(config.PictureSavePath + @"\{0}\{1}.bmp", DateTime.Now.ToString("yyyyMMdd"), DateTime.Now.ToString("yyyyMMddHHmmssfff"));
 
             if (!Directory.Exists(config.PictureSavePath + "\\" + DateTime.Now.ToString("yyyyMMdd")))
@@ -238,6 +273,7 @@ namespace AeroEduClass.UI
                 }
                 catch { }
             }
+             */ 
         }
 
         // 录制计时器
@@ -257,11 +293,13 @@ namespace AeroEduClass.UI
         {
             img = null;
             imgEra = null;
-            Booth.fnOnRButtonDown();
-            plCamera.Refresh();
+            //Booth.fnOnRButtonDown();
+            m_csAVFrm.resumePreview(videoPreviewerId);
+            //plCamera.Refresh();
             ButtonEnable(true);
             btnPen.Enabled = true;
             btnEraser.Enabled = true;
+            btnSnapshot.Enabled = true;
             isDraw = false;
             isLargeEraze = false;
             isPen = false;
@@ -344,15 +382,19 @@ namespace AeroEduClass.UI
                     btnBackward.Visible = true;
                     btnExitComment.Visible = true;
                     btnSaveComment.Visible = true;
+                    //btnSubject.Enabled = true;
+                    //btnJoinErrCol.Enabled = true;
                     EnablePenControl();
                     EnableEraserControl();
                     DisableRecord();
                     btnZoom.Enabled = false;
+                    btnSnapshot.Enabled = false;
 
                     if (!isDraw)
                     {
                         isDraw = true;
-                        Booth.fnOnLButtonDown();
+                        //Booth.fnOnLButtonDown();
+                        m_csAVFrm.pausePreview(videoPreviewerId);
                         gpMain = plCamera.CreateGraphics();
                         gpMain.SmoothingMode = SmoothingMode.AntiAlias;  //使绘图质量最高，即消除锯齿
                         gpMain.InterpolationMode = InterpolationMode.HighQualityBicubic;
@@ -363,14 +405,15 @@ namespace AeroEduClass.UI
                         gpEra.CompositingQuality = CompositingQuality.HighQuality;
                         ImageFromControl(ref gpHide);
                         ImageFromControl(ref gpEra, ref imgEra);
-                        Progress.Add(new Bitmap(imgEra));
+                        Progress.Add(new Bitmap(imgEra));//保存底图
                     }
 
                     if (isDraw)
                     {
                         ppStart = new Point(e.X, e.Y);
                         pStart = new Point(e.X, e.Y);
-                        Booth.fnOnLButtonDown();
+                        //Booth.fnOnLButtonDown();
+                        m_csAVFrm.pausePreview(videoPreviewerId);
                         DrawStart(e.Location);
                         isMouseDown = true;
                     }
@@ -455,8 +498,10 @@ namespace AeroEduClass.UI
                 MessageBox.Show(string.Format("浏览历史列表只能保存{0}个批注，请清空后再保存", config.MaxCommentImageCount));
             }
         }
-        // 屏幕截图
-
+        /// <summary>
+        /// 获取当前窗体上的图相
+        /// </summary>
+        /// <param name="g"></param>
         private void ImageFromControl(ref Graphics g)//生成img文件
         {
             Bitmap bit = new Bitmap(plCamera.Width, plCamera.Height);//实例化一个和窗体一样大的bitmap
@@ -466,8 +511,12 @@ namespace AeroEduClass.UI
             g.CopyFromScreen(plCamera.PointToScreen(Point.Empty), Point.Empty, plCamera.Size);//只保存某个控件（这里是panel游戏区）
             img = bit;
         }
-
-        private void ImageFromControl(ref Graphics g, ref Image img)//生成img文件
+        /// <summary>
+        /// 获取当前窗体上的图相保存到img，同时保存gra
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="img"></param>
+        private void ImageFromControl(ref Graphics g, ref Image img)
         {
             Bitmap bit = new Bitmap(plCamera.Width, plCamera.Height);//实例化一个和窗体一样大的bitmap
             g = Graphics.FromImage(bit);
@@ -537,6 +586,8 @@ namespace AeroEduClass.UI
             btnExitComment.Visible = false;
             EnableRecord();
             btnZoom.Enabled = true;
+            //btnSubject.Enabled = false;
+            //btnJoinErrCol.Enabled = false;
             StopComment(null, null);
             Progress.Clear();
             Backup.Clear();
@@ -568,18 +619,28 @@ namespace AeroEduClass.UI
             else
                 isDraw = false;
 
+            if (!isDraw)
+            {
+                btnForward.Visible = true;
+                btnBackward.Visible = true;
+                btnExitComment.Visible = true;
+                btnSaveComment.Visible = true;
+            }
 
-            Booth.fnOnLButtonDown();
+            //Booth.fnOnLButtonDown();
+            m_csAVFrm.pausePreview(videoPreviewerId);
             //this.btnComment.Text = "结束批注";
             if (isPen)
             {
                 EnablePenControl();
-                DisableEraserControl();
+                //DisableEraserControl();
+                isEraser = false;
             }
             if (isEraser)
             {
                 EnableEraserControl();
-                DisablePenControl();
+                //DisablePenControl();
+                isPen = false;
             }
             btnRecord.Enabled = false;
             btnZoom.Enabled = false;
@@ -590,11 +651,12 @@ namespace AeroEduClass.UI
 
             Progress = new List<Bitmap>(lmgList[i]);
             Backup = new Stack<Bitmap>(lmgStack[i]);
-
-            gpEra = Graphics.FromImage(Progress[0]);
-            gpEra.CompositingQuality = CompositingQuality.HighQuality;//质量设为最高
-            imgEra = Progress[0];
-
+            if (Progress.Count > 0)
+            {
+                gpEra = Graphics.FromImage(Progress[0]);
+                gpEra.CompositingQuality = CompositingQuality.HighQuality;//质量设为最高
+                imgEra = Progress[0];
+            }
             gpMain.DrawImage(img, 0, 0, plCamera.Width, plCamera.Height);
 
             ImageFromControl(ref gpHide);
@@ -647,7 +709,16 @@ namespace AeroEduClass.UI
                 MessageBox.Show("请选择科目.");
                 return;
             }
-
+            if (!isDraw)
+            {
+                gpEra = plCamera.CreateGraphics();
+                gpEra.SmoothingMode = SmoothingMode.AntiAlias;
+                gpEra.InterpolationMode = InterpolationMode.HighQualityBicubic;
+                gpEra.CompositingQuality = CompositingQuality.HighQuality;
+                
+                ImageFromControl(ref gpEra, ref imgEra);
+                Progress.Add(new Bitmap(imgEra));
+            }
             if (commentImageList1.Count < config.MaxCommentImageCount)
             {
                 BLog.ToDB("加入错题集");
@@ -778,7 +849,7 @@ namespace AeroEduClass.UI
                 gpEra.CompositingQuality = CompositingQuality.HighQuality;
                 ImageFromControl(ref gpHide);
                 ImageFromControl(ref gpEra, ref imgEra);
-                Progress.Add(new Bitmap(imgEra));
+                Progress.Add(new Bitmap(imgEra));//保存底图
             }
             isPen = true;
             isDraw = true;
@@ -789,9 +860,13 @@ namespace AeroEduClass.UI
             btnBackward.Visible = true;
             btnExitComment.Visible = true;
             btnSaveComment.Visible = true;
-            Booth.fnOnLButtonDown();
+            //btnSubject.Enabled = true;
+            //btnJoinErrCol.Enabled = true;
+            //Booth.fnOnLButtonDown();
+            m_csAVFrm.pausePreview(videoPreviewerId);
             EnablePenControl();
             DisableRecord();
+            btnSnapshot.Enabled = false;
             btnRecord.Enabled = false;
             btnZoom.Enabled = false;
             NoticeShow("已经开始批注");
