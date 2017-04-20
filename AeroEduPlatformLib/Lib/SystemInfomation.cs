@@ -415,11 +415,13 @@ namespace AeroEduPlatformLib
                 //这边可以自行改条件
                 if (12 == entry.InstanceId && entry.Source == "Microsoft-Windows-Kernel-General")
                 {
-                    startupTimeList.Add(entry.TimeGenerated.ToString("yyyy-MM-dd HH:mm:ss.fff"), entry.TimeGenerated);
+                    if (!startupTimeList.ContainsKey(entry.TimeGenerated.ToString("yyyy-MM-dd HH:mm:ss.fff")))
+                        startupTimeList.Add(entry.TimeGenerated.ToString("yyyy-MM-dd HH:mm:ss.fff"), entry.TimeGenerated);
                 }
                 else if (13 == entry.InstanceId && entry.Source == "Microsoft-Windows-Kernel-General")
                 {
-                    shutdownTimeList.Add(entry.TimeGenerated.ToString("yyyy-MM-dd HH:mm:ss.fff"), entry.TimeGenerated);
+                    if (!shutdownTimeList.ContainsKey(entry.TimeGenerated.ToString("yyyy-MM-dd HH:mm:ss.fff")))
+                        shutdownTimeList.Add(entry.TimeGenerated.ToString("yyyy-MM-dd HH:mm:ss.fff"), entry.TimeGenerated);
                 }
             }
             t[0] = startupTimeList.GetKey(startupTimeList.Count - 2).ToString();

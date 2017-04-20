@@ -87,6 +87,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lib\RunContext.cs" />
+    <Compile Include="Lib\SplashScreenApplicationContext.cs" />
     <Compile Include="Lib\frmDownloadLib.cs" />
     <Compile Include="Lib\PostgreSQLDB\IDBHelper.cs" />
     <Compile Include="Lib\PostgreSQLDB\PostgreHelper.cs" />
@@ -134,6 +136,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="UI\frmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmSplashScreen.Designer.cs">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\testform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +174,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UI\frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\testform.resx">
       <DependentUpon>testform.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,7 +203,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="DMSkin.dll" />
+    <None Include="Images\logo.png" />
+    <None Include="Images\watch-5.gif" />
     <Content Include="License.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -30,8 +30,8 @@ namespace AeroEduClass
             else
             {
 #if !DEBUG
-                //MessageBox.Show("请从课联网平台启动本程序");
-                //return;
+                MessageBox.Show("请从课联网平台启动本程序");
+                return;
 #endif
             }
 

@@ -25,25 +25,7 @@ namespace AeroEduClass
             System.Threading.Mutex mutex = new System.Threading.Mutex(true, "Global\\" + System.Reflection.Assembly.GetExecutingAssembly().FullName, out noInstance);
             if (noInstance)
             {
-                if (GetSystemInfo.GetLoaclMac() == string.Empty)
-                {
-                    MessageBox.Show("未发现本地网卡，程序未能启动。");
-                    return;
-                }
-                string _license = Setting.GetLicense();
-                bool checkLicense = GetSystemInfo.CheckLicense(_license);
-                if (!checkLicense)
-                {
-                    Application.Run(new frmReg());// 注册窗口
-                }
-                else
-                {
-#if !DEBUG
-                    Application.Run(new frmMain());
-#else
-                    Application.Run(new testform());
-#endif
-                }
+                Application.Run(new RunContext());
             }
             else
             {

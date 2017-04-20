@@ -203,8 +203,6 @@ namespace AeroEduClass.UI
                 RecordStop();
                 isRecord = false;
                 timer1.Stop();
-
-                Booth.fnOnRButtonDown();
                 recordSenconds = 0;
                 plImageList.Enabled = true;
                 btnOpenErr.Enabled = true;
@@ -696,7 +694,7 @@ namespace AeroEduClass.UI
         {
             if (isRecord)
             {
-                Booth.fnStopRecord();
+                RecordStop();
             }
             CSAVFrameWork.uninitialize();
         }
